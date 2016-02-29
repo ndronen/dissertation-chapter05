@@ -61,7 +61,7 @@ target/
 # Ipython Notebook
 .ipynb_checkpoints
 
-# Virtualenv and other default things in bin.
+# Virtualenv things.
 bin/activate
 bin/activate.csh
 bin/activate.fish
@@ -85,6 +85,12 @@ bin/theano-cache
 bin/theano-nose
 bin/theano-test
 bin/wheel
+src/package*
+share
+include
+
 
 # Swap files
 *.swp
+
+
