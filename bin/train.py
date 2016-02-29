@@ -20,20 +20,18 @@ import modeling.parser
 
 def main(args):
     model_id = build_model_id(args)
+
     model_path = build_model_path(args, model_id)
+
     setup_model_dir(args, model_path)
 
     json_cfg = load_model_json(args, x_train=None, n_classes=None)
     config = ModelConfig(**json_cfg)
-    if args.verbose:
-    p    print("config " + str(config))
 
     sys.path.append(args.model_dir)
     import model
     from model import fit
 
-    if args.verbose:
-        print("fitting model")
     model.fit(config)
 
 if __name__ == '__main__':
