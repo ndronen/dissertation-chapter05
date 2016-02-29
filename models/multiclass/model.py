@@ -1,4 +1,4 @@
-from chapter05.dataset import HDF5FileDataset
+from modeling.dataset import HDF5FileDataset
 
 import sys
 sys.setrecursionlimit(5000)
