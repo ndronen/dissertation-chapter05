@@ -1,3 +1,4 @@
+virtualenv
 Cython==0.23.4
 h5py==2.5.0
 ipython==4.1.1
