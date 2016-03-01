@@ -1,9 +1,18 @@
 {
-    "n_word_dims": 0,
-    "n_filters": 0,
-    "filter_width": 0,
-    "n_fully_connected": 0,
-    "n_residual_blocks": 0,
+    "non_word_csv": "../chapter04/data/train.csv",
+
+    "model_input_width": 28,
+    "non_word_input_name": "non_word_input",
+    "real_word_input_name": "real_word_input",
+    "target_name": "binary_correction_target",
+
+    "n_embeddings": 255,
+    "n_embed_dims": 100,
+    "n_filters": 1000,
+    "filter_width": 6,
+    "n_fully_connected": 2,
+    "n_residual_blocks": 10,
+    "n_hidden": 200,
 
     "train_embeddings": true,
     "embedding_init": "uniform",
@@ -18,7 +27,6 @@
     "dropout_fc_p": 0.0,
 
     "patience": 1,
-    "batch_size": 128,
 
     "embedding_max_norm": 1000,
     "filter_max_norm": 1000,
