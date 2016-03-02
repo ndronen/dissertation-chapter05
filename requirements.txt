@@ -1,3 +1,5 @@
+progressbar
+jellyfish
 virtualenv
 pyenchant
 Cython==0.23.4
