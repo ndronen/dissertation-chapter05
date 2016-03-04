@@ -88,7 +88,6 @@ def build_model(config, n_classes):
         for layer_num in range(n_layers_per_residual_block):
             layer_name = 'h%s%02d' % (block_name, layer_num)
     
-            #l = build_dense_layer(config, n_hidden=config.n_hidden_residual)
             graph.add_node(Dense(config.n_hidden_residual, W_constraint=maxnorm(2)),
                     name=layer_name, input=prev_layer)
             prev_layer = layer_name
@@ -120,8 +119,6 @@ def build_model(config, n_classes):
             graph.add_node(BatchNormalization(), name='softmax_bn', input='softmax')
             prev_layer = 'softmax_bn'
         graph.add_node(Activation('softmax'), name='softmax_activation', input=prev_layer)
-        #graph.add_node(Dense(n_classes, activation='softmax', W_constraint=maxnorm(10)),
-        #graph.add_node(build_dense_layer(config, n_classes,
 
     graph.add_output(name='multiclass_correction_target', input='softmax_activation')
 
@@ -133,22 +130,6 @@ def build_model(config, n_classes):
 
     return graph
 
-"""
-class DenseWeightNormCallback(keras.callbacks.Callback):
-    def __init__(self, logger):
-        self.logger = logger
-
-    def on_epoch_end(self, epoch, logs={}):
-        for name,node in self.model.nodes.items():
-            if isinstance(node, Dense):
-                W = node.get_weights()[0]
-                colnorms = np.linalg.norm(W, axis=0, ord=2)
-                max_norm = '%.04f' % max(colnorms)
-                min_norm = '%.04f' % min(colnorms)
-                self.logger('%s: min norm %s max norm %s' % (
-                    name, min_norm, max_norm))
-        self.logger('\n')
-"""
 
 class MetricsCallback(keras.callbacks.Callback):
     def __init__(self, config, generator, n_samples, dictionary, target_map):
@@ -171,7 +152,6 @@ class MetricsCallback(keras.callbacks.Callback):
             try:
                 next_batch = next(g)
             except StopIteration:
-                #print('generator raised StopIteration - stopping loop')
                 break
 
             assert isinstance(next_batch, dict)
@@ -180,7 +160,6 @@ class MetricsCallback(keras.callbacks.Callback):
             # skip any that the dictionary doesn't have suggestions for.
             # This is to ensure that the evaluation occurs on even ground.
             non_words = next_batch['non_word']
-            #print('%d examples' % len(non_words))
             correct_words = next_batch['correct_word']
             failed = []
             for i,non_word in enumerate(non_words):
@@ -205,72 +184,42 @@ class MetricsCallback(keras.callbacks.Callback):
 
             # The gold standard.
             targets = next_batch[self.config.target_name]
-            #print('targets', targets)
             y.append(np.argmax(targets, axis=1))
 
             # The model's predictions.
-            #print('next_batch', next_batch)
             pred = self.model.predict(next_batch, verbose=0)[self.config.target_name]
             y_hat.append(np.argmax(pred, axis=1))
 
             counter += len(targets)
-            """
-            if counter >= self.n_samples:
-                print('%d >= %d - stopping loop' % (counter, self.n_samples))
-                break
-            """
+            #if counter >= self.n_samples:
+            #    print('%d >= %d - stopping loop' % (counter, self.n_samples))
+            #    break
 
         pbar.finish()
 
-        self.config.logger('\n%d dictionary lookups failed\n' % n_failed)
+        self.config.logger('\n%d dictionary lookups failed reporting results for %d examples\n' %
+                    (n_failed, len(y)))
 
-        #print("y", y[0:10])
-        #print("y_hat", y_hat[0:10])
-        #print("y_hat_dictionary", y_hat_dictionary[0:10])
-
-        self.config.logger('Results using %d examples' % len(y))
         self.config.logger('\n')
         self.config.logger('Dictionary')
         self.config.logger('accuracy %.04f F1 %0.4f' %
             (accuracy_score(y, y_hat_dictionary), f1_score(y, y_hat_dictionary, average='weighted')))
-        #self.config.logger('Dictionary confusion matrix')
-        #self.config.logger(confusion_matrix(y, y_hat_dictionary))
-
-        #print(y)
-        #print(y_hat)
-        #print(y_hat_dictionary)
 
         self.config.logger('\n')
         self.config.logger('ConvNet')
         self.config.logger('accuracy %.04f F1 %0.4f\n' %
             (accuracy_score(y, y_hat), f1_score(y, y_hat, average='weighted')))
-        #self.config.logger('ConvNet confusion matrix')
-        #self.config.logger(confusion_matrix(y, y_hat))
-
+        self.config.logger('\n')
 
 def build_callbacks(config, generator, n_samples, dictionary, target_map):
     callbacks = []
     mc = MetricsCallback(config, generator, n_samples, dictionary, target_map)
     wn = DenseWeightNormCallback(config)
-    callbacks.extend([mc, wn])
+    es = EarlyStoppingCallback(patience=config.patience, verbose=1)
+    callbacks.extend([mc, wn, es])
     return callbacks
 
 def fit(config, callbacks=[]):
-    """
-    train_data = HDF5FileDataset(
-            config.train_path,
-            config.data_name,
-            [config.target_name],
-            config.batch_size,
-            config.seed)
-
-    validation_data = HDF5FileDataset(
-            config.validation_path,
-            config.data_name,
-            [config.target_name],
-            config.batch_size,
-            config.seed)
-    """
     df = pd.read_csv(config.non_word_csv, sep='\t', encoding='utf8')
     vocabulary = df.real_word.unique().tolist()
     df = df[df.binary_target == 0]
@@ -352,14 +301,13 @@ def fit(config, callbacks=[]):
 
     config.logger('model has %d parameters' % graph.count_params())
 
-    #print(next(train_data.generate()))
-    #print(next(validation_data.generate()))
-
     callbacks = build_callbacks(config,
             validation_data,
             n_samples=config.n_val_samples,
             dictionary=fast_retriever,
             target_map=target_map)
+
+    verbose = 2 if 'background' in config.mode else 0
 
     graph.fit_generator(train_data.generate(train=True),
             samples_per_epoch=config.samples_per_epoch,
@@ -370,4 +318,4 @@ def fit(config, callbacks=[]):
             nb_val_samples=config.n_val_samples,
             callbacks=callbacks,
             class_weight=class_weight,
-            verbose=0 if 'background' in config.mode else 1)
+            verbose=verbose)
