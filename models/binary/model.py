@@ -285,6 +285,10 @@ def fit(config):
             ])
 
     df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
+    train_words = set(df_train.word)
+    other_words = set(df_other.word)
+    leaked_words = train_words.intersection(other_words)
+    df_other = df_other[~df_other.word.isin(leaked_words)]
     df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=config.seed)
 
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
