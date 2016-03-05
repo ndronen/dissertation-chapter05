@@ -215,8 +215,9 @@ def build_callbacks(config, generator, n_samples, dictionary, target_map):
     callbacks = []
     mc = MetricsCallback(config, generator, n_samples, dictionary, target_map)
     wn = DenseWeightNormCallback(config)
-    es = EarlyStoppingCallback(patience=config.patience, verbose=1)
-    callbacks.extend([mc, wn, es])
+    es = keras.callbacks.EarlyStopping(patience=config.patience, verbose=1)
+    cp = keras.callbacks.ModelCheckpoint(filepath=config.model_path + 'model.h5')
+    callbacks.extend([mc, wn, es, cp])
     return callbacks
 
 def fit(config, callbacks=[]):
@@ -239,6 +240,10 @@ def fit(config, callbacks=[]):
     #slow_retriever = EditDistanceRetriever(vocabulary)
 
     df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
+    train_words = set(df_train.word)
+    other_words = set(df_other.word)
+    leaked_words = train_words.intersection(other_words)
+    df_other = df_other[~df_other.word.isin(leaked_words)]
     df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=config.seed)
 
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
@@ -307,7 +312,7 @@ def fit(config, callbacks=[]):
             dictionary=fast_retriever,
             target_map=target_map)
 
-    verbose = 2 if 'background' in config.mode else 0
+    verbose = 2 if 'background' in config.mode else 1
 
     graph.fit_generator(train_data.generate(train=True),
             samples_per_epoch=config.samples_per_epoch,
