@@ -314,9 +314,11 @@ def fit(config):
     callbacks = build_callbacks(config, validation_generator,
             n_samples=config.n_val_samples)
 
+    verbose = 2 if 'background' in config.mode else 1
+
     graph.fit_generator(train_generator.generate(),
             samples_per_epoch=config.samples_per_epoch,
             nb_epoch=config.n_epoch,
             nb_worker=config.n_worker,
             callbacks=callbacks,
-            verbose=0 if 'background' in config.mode else 1)
+            verbose=verbose)
