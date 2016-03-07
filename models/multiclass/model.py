@@ -1,5 +1,5 @@
 from modeling.callbacks import DenseWeightNormCallback
-from chapter05.dataset import MulticlassModelDatasetGenerator
+from chapter05.dataset import MulticlassModelDatasetGenerator, ScheduledMulticlassModelDatasetGenerator, LengthIndexedPool
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.cross_validation import train_test_split
@@ -60,17 +60,21 @@ def build_model(config, n_classes):
 
     # Add some number of fully-connected layers without skip connections.
     prev_layer = 'non_word_noise'
+    last_dense_layer = None
     for i,n_hidden in enumerate(config.fully_connected):
         layer_name = 'dense%02d' %i
-        l = build_dense_layer(config, n_hidden=n_hidden)
+        #l = build_dense_layer(config, n_hidden=n_hidden)
+        l = Dense(n_hidden, init=config.dense_init, W_constraint=maxnorm(config.dense_max_norm))
         graph.add_node(l, name=layer_name, input=prev_layer)
         prev_layer = layer_name
         if config.batch_normalization:
             graph.add_node(BatchNormalization(), name=layer_name+'bn', input=prev_layer)
             prev_layer = layer_name+'bn'
+        graph.add_node(Activation('relu'), name=layer_name+'relu', input=prev_layer)
         if config.dropout_fc_p > 0.:
             graph.add_node(Dropout(config.dropout_fc_p), name=layer_name+'do', input=prev_layer)
             prev_layer = layer_name+'do'
+        last_dense_layer = layer_name
     
     # Add sequence of residual blocks.
     for i in range(config.n_residual_blocks):
@@ -88,8 +92,9 @@ def build_model(config, n_classes):
         for layer_num in range(n_layers_per_residual_block):
             layer_name = 'h%s%02d' % (block_name, layer_num)
     
-            graph.add_node(Dense(config.n_hidden_residual, W_constraint=maxnorm(2)),
-                    name=layer_name, input=prev_layer)
+            l = Dense(config.n_hidden_residual, init=config.dense_init,
+                    W_constraint=maxnorm(config.residual_max_norm))
+            graph.add_node(l, name=layer_name, input=prev_layer)
             prev_layer = layer_name
     
             if config.batch_normalization:
@@ -97,7 +102,6 @@ def build_model(config, n_classes):
                 prev_layer = layer_name+'bn'
     
             if i < n_layers_per_residual_block:
-                a = Activation('relu')
                 graph.add_node(Activation('relu'), name=layer_name+'relu', input=prev_layer)
                 prev_layer = layer_name+'relu'
                 if config.dropout_fc_p > 0.:
@@ -112,7 +116,8 @@ def build_model(config, n_classes):
         graph.add_node(build_hierarchical_softmax_layer(config),
             name='softmax', input=prev_layer)
     else:
-        graph.add_node(Dense(n_classes, W_constraint=maxnorm(10)),
+        graph.add_node(Dense(n_classes, init=config.dense_init,
+            W_constraint=maxnorm(config.softmax_max_norm)),
             name='softmax', input=prev_layer)
         prev_layer = 'softmax'
         if config.batch_normalization:
@@ -211,13 +216,53 @@ class MetricsCallback(keras.callbacks.Callback):
             (accuracy_score(y, y_hat), f1_score(y, y_hat, average='weighted')))
         self.config.logger('\n')
 
-def build_callbacks(config, generator, n_samples, dictionary, target_map):
+class CurriculumCallback(keras.callbacks.Callback):
+    # TODO: this needs a controller object that encapsulates the update policy.
+    def __init__(self, logger, pool, threshold, frequency, monitor):
+        self.__dict__.update(locals())
+        del self.self
+        self.first_epoch = None
+
+    def on_epoch_end(self, epoch, logs={}):
+        self.logger('epoch %d %s %0.4f' % (
+            epoch, self.monitor, logs[self.monitor]))
+
+        if logs[self.monitor] < self.threshold:
+            self.logger('crossed the %s threshold' % self.monitor)
+            if self.first_epoch is None:
+                self.first_epoch = epoch
+            if (self.first_epoch - epoch) % self.frequency == 0:
+                old_min_length = self.pool.min_length
+                self.pool.min_length -= 1
+                self.logger('changed curriculum pool minimum length from %d to %d\n\n' % (
+                    old_min_length, self.pool.min_length))
+            else:
+                self.logger('left curriculum pool minimum length at %d\n\n' %
+                        self.pool.min_length)
+        else:
+            self.logger('left curriculum pool minimum length at %d\n\n' %
+                    self.pool.min_length)
+
+
+def build_callbacks(config, generator, n_samples, dictionary, target_map, pool):
     callbacks = []
     mc = MetricsCallback(config, generator, n_samples, dictionary, target_map)
     wn = DenseWeightNormCallback(config)
     es = keras.callbacks.EarlyStopping(patience=config.patience, verbose=1)
-    cp = keras.callbacks.ModelCheckpoint(filepath=config.model_path + 'model.h5')
-    callbacks.extend([mc, wn, es, cp])
+    callbacks.extend([mc, wn, es])
+    if 'persistent' in config.mode:
+        cp = keras.callbacks.ModelCheckpoint(
+                filepath=config.model_path + 'model.h5',
+                save_best_only=True)
+        callbacks.append(cp)
+
+    if pool is not None:
+        cc = CurriculumCallback(config.logger, pool,
+                threshold=config.length_curriculum_change_threshold,
+                frequency=config.length_curriculum_change_frequency,
+                monitor=config.length_curriculum_monitor)
+        callbacks.append(cc)
+
     return callbacks
 
 def fit(config, callbacks=[]):
@@ -257,7 +302,21 @@ def fit(config, callbacks=[]):
         if word not in target_map:
             target_map[word] = noise_word_target
 
-    if config.use_contrasting_cases:
+    pool = None 
+
+    if config.use_length_curriculum:
+        pool = LengthIndexedPool(
+            df_train.word.tolist(),
+            df_train.real_word.tolist(),
+            train_targets,
+            min_length=config.initial_min_length,
+            max_length=config.initial_max_length)
+
+        train_data = ScheduledMulticlassModelDatasetGenerator(pool,
+                 model_input_width=config.model_input_width,
+                 n_classes=n_classes,
+                 batch_size=config.batch_size)
+    elif config.use_contrasting_cases:
         train_data = MulticlassModelDatasetGenerator(
             df_train.word.tolist(),
             df_train.real_word.tolist(),
@@ -274,7 +333,8 @@ def fit(config, callbacks=[]):
             train_targets,
             config.model_input_width,
             n_classes,
-            batch_size=config.batch_size)
+            batch_size=config.batch_size,
+            use_correct_word_as_non_word_example=config.use_correct_word_as_non_word_example)
 
     # Don't configure the validation data set to make noise examples.
     validation_data = MulticlassModelDatasetGenerator(
@@ -310,7 +370,8 @@ def fit(config, callbacks=[]):
             validation_data,
             n_samples=config.n_val_samples,
             dictionary=fast_retriever,
-            target_map=target_map)
+            target_map=target_map,
+            pool=pool)
 
     verbose = 2 if 'background' in config.mode else 1
 

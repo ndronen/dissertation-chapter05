@@ -492,13 +492,19 @@ class BinaryModelDatasetGenerator(DatasetGenerator):
                 'non_word_input': non_word_matrix[mask],
                 'candidate_word_input': candidate_word_matrix[mask],
                 'binary_correction_target': targets[mask],
-                'candidate_rank': log_normalize(np.arange(len(candidates))[mask])
+                'candidate_rank_first': log_normalize(np.arange(len(candidates))[mask]),
+                'candidate_rank_last': log_normalize(np.arange(len(candidates))[mask])
                 }
 
         sample_weight_dict = {
                 'binary_correction_target': sample_weights[mask],
-                'candidate_rank': sample_weights[mask]
+                'candidate_rank_first': 10*sample_weights[mask],
+                'candidate_rank_last': 2*sample_weights[mask]
                 }
+
+        sample_weights[sample_weights > 1] = sample_weights[sample_weights > 1]**2
+
+        #print('sample_weights %s' % ', '.join([str(x) for x in sample_weights]))
 
         non_words = None
         candidate_words = None
@@ -514,7 +520,8 @@ class BinaryModelDatasetGenerator(DatasetGenerator):
                 d = spelling.features.distance(
                         non_word, candidate_word, name)
                 target_values.append(d)
-            data_dict[name] = log_normalize(np.array(target_values))
+            data_dict[name+'_first'] = 10*log_normalize(np.array(target_values))
+            data_dict[name+'_last'] = 2*log_normalize(np.array(target_values))
 
             # We want the model to learn to predict the edit distance
             # equally well for all examples.
