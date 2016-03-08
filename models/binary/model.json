@@ -1,7 +1,7 @@
 {
     "description": "binary classification model that predicts whether a proposed correction for a spelling error is the true correction",
-    "min_frequency": 50,
-    "min_length": 6,
+    "min_frequency": 0,
+    "min_length": 3,
     "max_length": 25,
     "non_word_csv": "../chapter04/data/train.csv",
 
@@ -34,14 +34,14 @@
     "dropout_embedding_p": 0.0,
     "dropout_conv_p": 0.0,
     "dropout_fc_p": 0.0,
-    "gaussian_noise_sd": 0.01,
+    "gaussian_noise_sd": 0.0,
 
-    "mode": "persistent-background",
+    "mode": "transient",
     "patience": 5,
     "callback_monitor": "f1",
     "callback_monitor_mode": "max",
     "seed": 17,
-    "n_epoch": 100,
+    "n_epoch": 20,
     "samples_per_epoch": 10000,
     "n_worker": 128,
     "n_val_samples": 2000,
