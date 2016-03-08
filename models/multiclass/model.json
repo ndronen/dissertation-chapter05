@@ -28,7 +28,7 @@
     "embedding_init": "uniform",
     "batch_normalization": true,
 
-    "optimizer": "Adam",
+    "optimizer": "Adagrad",
     "clipnorm": 0,
     "loss": "categorical_crossentropy",
 
