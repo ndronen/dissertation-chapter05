@@ -1,4 +1,4 @@
-from chapter05.dataset import BinaryModelDatasetGenerator
+from chapter05.dataset import BinaryModelDatasetGenerator, BinaryModelRealWordDatasetGenerator
 
 import sys
 sys.setrecursionlimit(5000)
@@ -13,6 +13,7 @@ from keras.utils import np_utils
 from keras.layers.core import Dense, Dropout, Activation, Flatten, Layer
 from keras.layers.normalization import BatchNormalization
 from keras.layers.noise import GaussianNoise
+from keras.constraints import maxnorm
 import keras.callbacks
 from spelling.utils import build_progressbar
 
@@ -23,12 +24,7 @@ from modeling.builders import (build_embedding_layer,
     build_hierarchical_softmax_layer)
 from modeling.callbacks import DenseWeightNormCallback
 
-from spelling.dictionary import (
-        HashBucketRetriever,
-        AspellRetriever,
-        EditDistanceRetriever,
-        NearestNeighborsRetriever,
-        RetrieverCollection)
+import spelling.dictionary as spelldict
 import spelling.features
 
 from sklearn.metrics import confusion_matrix, f1_score, accuracy_score
@@ -46,6 +42,38 @@ def add_bn_relu(graph, config, prev_layer):
     graph.add_node(Activation('relu'), name=relu_name, input=prev_layer)
     return relu_name
 
+# Optionally add outputs to predict (1) jaro-winkler distance of
+# non-word and real word and (2) the rank of the real word in
+# a dictionary's ordered candidate list.
+def add_linear_output_mlp(graph, prev_layer, name, input_dim, n_hidden, batch_normalization, loss):
+    mlp = Sequential()
+    for i in range(3):
+        if i == 0:
+            mlp.add(Dense(n_hidden, input_shape=(input_dim,)))
+        else:
+            mlp.add(Dense(n_hidden))
+        if batch_normalization:
+            mlp.add(BatchNormalization())
+        #if i < 2:
+        mlp.add(Activation('tanh'))
+    mlp.add(Dense(1))
+    #if batch_normalization:
+    #    mlp.add(BatchNormalization())
+    graph.add_node(mlp, name=name+'_dense', input=prev_layer)
+    graph.add_output(name=name, input=name+'_dense')
+    loss[name] = "mean_squared_error"
+
+def add_linear_output_layer(graph, prev_layer, name, batch_normalization, loss):
+    graph.add_node(Dense(1), name=name+'_dense', input=prev_layer)
+    prev_layer = name+'_dense'
+    if batch_normalization:
+        graph.add_node(BatchNormalization(), 
+                name=name+'_bn', input=prev_layer)
+        prev_layer = name+'_bn'
+    #graph.add_node(Activation('tanh'), name=name+'_tanh', input=prev_layer)
+    graph.add_output(name=name, input=name+'_tanh')
+    loss[name] = "mean_squared_error"
+
 def build_model(config):
     np.random.seed(config.seed)
 
@@ -62,18 +90,20 @@ def build_model(config):
         inputs=[config.non_word_input_name, config.candidate_word_input_name],
         outputs=['non_word_embedding', 'candidate_word_embedding'])
 
+    # Add noise only to non-words.
+    graph.add_node(GaussianNoise(config.gaussian_noise_sd),
+            name='non_word_noise', input='non_word_embedding')
+
     graph.add_shared_node(
             build_convolutional_layer(config),
             name='conv',
-            inputs=['non_word_embedding', 'candidate_word_embedding'],
+            inputs=['non_word_noise', 'candidate_word_embedding'],
             outputs=['non_word_conv', 'candidate_word_conv'])
 
     non_word_prev_layer = add_bn_relu(graph, config, 'non_word_conv')
     graph.add_node(build_pooling_layer(config, input_width=config.model_input_width),
             name='non_word_pool', input=non_word_prev_layer)
     graph.add_node(Flatten(), name='non_word_flatten', input='non_word_pool')
-    # Add noise only to non-words.
-    graph.add_node(GaussianNoise(0.05), name='non_word_noise', input='non_word_flatten')
 
     candidate_word_prev_layer = add_bn_relu(graph, config, 'candidate_word_conv')
     graph.add_node(build_pooling_layer(config, input_width=config.model_input_width),
@@ -88,15 +118,17 @@ def build_model(config):
         l = build_dense_layer(config, n_hidden=n_hidden)
         if i == 0:
             graph.add_node(l, name=layer_name,
-                inputs=['non_word_noise', 'candidate_word_flatten'])
+                inputs=['non_word_flatten', 'candidate_word_flatten'], merge_mode=config.pool_merge_mode)
         else:
             graph.add_node(l, name=layer_name, input=prev_layer)
         prev_layer = layer_name
         if config.batch_normalization:
             graph.add_node(BatchNormalization(), name=layer_name+'bn', input=prev_layer)
             prev_layer = layer_name+'bn'
+        graph.add_node(Activation('relu'),
+                name=layer_name+'relu', input=prev_layer)
         if config.dropout_fc_p > 0.:
-            graph.add_node(Dropout(0.5), name=layer_name+'do', input=prev_layer)
+            graph.add_node(Dropout(config.dropout_fc_p), name=layer_name+'do', input=layer_name+'relu')
             prev_layer = layer_name+'do'
     
     # Add sequence of residual blocks.
@@ -135,7 +167,12 @@ def build_model(config):
         graph.add_node(Activation('relu'), name=block_name+'relu', input=block_name+'output')
         prev_layer = block_input_layer = block_name+'relu'
 
-    graph.add_node(Dense(2), name='softmax', input=prev_layer)
+    last_dense_layer = prev_layer
+
+    # Add softmax for binary prediction of whether the real word input
+    # is the true correction for the non-word input.
+    graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
+            name='softmax', input=last_dense_layer)
     prev_layer = 'softmax'
     if config.batch_normalization:
         graph.add_node(BatchNormalization(), 
@@ -143,14 +180,30 @@ def build_model(config):
         prev_layer = 'softmax_bn'
     graph.add_node(Activation('softmax'),
             name='softmax_activation', input=prev_layer)
-
     graph.add_output(name=config.target_name, input='softmax_activation')
+
+    lossdict = {}
+    lossdict[config.target_name] = config.loss
+
+    for distance_name in config.distance_targets:
+        add_linear_output_mlp(graph, 'dense00', distance_name+'_first',
+                config.fully_connected[-1], 10, config.batch_normalization, lossdict)
+        add_linear_output_mlp(graph, last_dense_layer, distance_name+'_last',
+                config.fully_connected[-1], 10, config.batch_normalization, lossdict)
+
+    if config.use_rank_target:
+        add_linear_output_mlp(graph, 'dense00', 'candidate_rank_first', 
+                config.fully_connected[-1], 10,
+                config.batch_normalization, lossdict)
+        add_linear_output_mlp(graph, last_dense_layer, 'candidate_rank_last', 
+                config.fully_connected[-1], 10,
+                config.batch_normalization, lossdict)
 
     load_weights(config, graph)
 
     optimizer = build_optimizer(config)
 
-    graph.compile(loss={config.target_name: config.loss}, optimizer=optimizer)
+    graph.compile(loss=lossdict, optimizer=optimizer)
 
     return graph
 
@@ -185,11 +238,14 @@ class MetricsCallback(keras.callbacks.Callback):
         correct = []
         y = []
         y_hat = []
+        y_hat_binary = []
         y_hat_dictionary = []
+        y_hat_dictionary_binary = []
         counter = 0
         pbar = build_progressbar(self.n_samples)
         print('\n')
         g = self.generator.generate(exhaustive=True)
+
         while True:
             pbar.update(counter)
             # Each call to next results in a batch of possible
@@ -214,10 +270,19 @@ class MetricsCallback(keras.callbacks.Callback):
             y_hat_tmp = [0] * len(targets)
             y_hat_tmp[np.argmax(pred[:, 1])] = 1
             y_hat.extend(y_hat_tmp)
+            if targets[:, 1][np.argmax(pred[:, 1])] == 1:
+                y_hat_binary.append(1)
+            else:
+                y_hat_binary.append(0)
 
             correct_word = d['correct_word'][0]
 
             y_hat_dictionary_tmp = []
+            if d['candidate_word'][0] == correct_word:
+                y_hat_dictionary_binary.append(1)
+            else:
+                y_hat_dictionary_binary.append(0)
+
             for i,c in enumerate(d['candidate_word']):
                 # The first word in the results returned by the dictionary
                 # is the dictionary's highest-scoring candidate for
@@ -241,14 +306,22 @@ class MetricsCallback(keras.callbacks.Callback):
         pbar.finish()
 
         self.config.logger('\n')
-        self.config.logger('Dictionary accuracy %.04f F1 %0.4f' % 
-                (accuracy_score(y, y_hat_dictionary), f1_score(y, y_hat_dictionary)))
+        self.config.logger('Dictionary binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
+                (
+                    sum(y_hat_dictionary_binary) / float(len(y_hat_dictionary_binary)),
+                    accuracy_score(y, y_hat_dictionary),
+                    f1_score(y, y_hat_dictionary))
+                )
         self.config.logger('Dictionary confusion matrix')
         self.config.logger(confusion_matrix(y, y_hat_dictionary))
 
         self.config.logger('\n')
-        self.config.logger('ConvNet accuracy %.04f F1 %0.4f' % 
-                (accuracy_score(y, y_hat), f1_score(y, y_hat)))
+        self.config.logger('ConvNet binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
+                (
+                    sum(y_hat_binary) / float(len(y_hat_binary)),
+                    accuracy_score(y, y_hat),
+                    f1_score(y, y_hat))
+                )
         self.config.logger('ConvNet confusion matrix')
         self.config.logger(confusion_matrix(y, y_hat))
 
@@ -256,8 +329,16 @@ class MetricsCallback(keras.callbacks.Callback):
 
 def build_callbacks(config, generator, n_samples):
     callbacks = []
-    callbacks.append(MetricsCallback(config, generator, n_samples))
-    callbacks.append(DenseWeightNormCallback(config))
+    mc = MetricsCallback(config, generator, n_samples)
+    wn = DenseWeightNormCallback(config)
+    es = keras.callbacks.EarlyStopping(patience=config.patience, verbose=1)
+    callbacks.extend([mc, wn, es])
+    if 'persistent' in config.mode:
+        cp = keras.callbacks.ModelCheckpoint(
+            filepath=config.model_path + 'model.h5',
+            save_best_only=True,
+            verbose=1)
+        callbacks.append(cp)
     return callbacks
 
 def fit(config):
@@ -268,44 +349,78 @@ def fit(config):
     frequencies = df.multiclass_correction_target.value_counts().to_dict()
     df['frequency'] = df.multiclass_correction_target.apply(lambda x: frequencies[x])
     df['len'] = df.word.apply(len)
-    mask = (df.frequency >= config.min_frequency) & (df.len >= config.min_length)
+    mask = (df.frequency >= config.min_frequency) & (df.len >= config.min_length) & (df.len <= config.max_length)
     df = df[mask]
     print(len(df), len(df.multiclass_correction_target.unique()))
 
-    # Retrivers
-    aspell_retriever = AspellRetriever()
-    #edit_distance_retriever = EditDistanceRetriever(df.real_word.unique())
-    #hash_bucket_retriever = HashBucketRetriever(df.real_word.unique(), spelling.features.metaphone)
-    #estimator = sklearn.neighbors.NearestNeighbors(n_neighbors=10, metric='hamming', algorithm='auto')
-    #nearest_neighbors_retriever = NearestNeighborsRetriever(df.real_word.unique(), estimator)
-    retriever = RetrieverCollection(retrievers=[
-            aspell_retriever
-            #, hash_bucket_retriever,
-            #edit_distance_retriever, nearest_neighbors_retriever
-            ])
+    # Retrievers
+    def build_retriever(vocabulary):
+        aspell_retriever = spelldict.AspellRetriever()
+        edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
+        retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
+        jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
+        return spelldict.SortingRetriever(retriever, jaro_sorter)
 
     df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
-    train_words = set(df_train.word)
-    other_words = set(df_other.word)
-    leaked_words = train_words.intersection(other_words)
+    if config.real_words_only:
+        train_words = set(df_train.real_word)
+        other_words = set(df_other.real_word)
+        leaked_words = train_words.intersection(other_words)
+    else:
+        train_words = set(df_train.word)
+        other_words = set(df_other.word)
+        leaked_words = train_words.intersection(other_words)
     df_other = df_other[~df_other.word.isin(leaked_words)]
     df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=config.seed)
 
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
-    
-    train_generator = BinaryModelDatasetGenerator(
-            df_train.word.tolist(),
-            df_train.real_word.tolist(),
-            retriever,
-            config.model_input_width,
-            config.sample_weight_exponent)
 
-    validation_generator = BinaryModelDatasetGenerator(
-            df_valid.head(config.n_val_samples).word.tolist(),
-            df_valid.head(config.n_val_samples).real_word.tolist(),
-            retriever,
-            config.model_input_width,
-            config.sample_weight_exponent)
+    vocabulary = df.real_word.unique().tolist()
+    print('vocabulary %d' % len(vocabulary))
+
+    if config.real_words_only:
+        train_generator = BinaryModelRealWordDatasetGenerator(
+                df_train.real_word.tolist(),
+                config.model_input_width,
+                distance_targets=config.distance_targets)
+
+        validation_generator = BinaryModelRealWordDatasetGenerator(
+                df_train.real_word.tolist(),
+                config.model_input_width,
+                distance_targets=config.distance_targets)
+
+        validation_loss_generator = BinaryModelRealWordDatasetGenerator(
+                df_train.real_word.tolist(),
+                config.model_input_width,
+                distance_targets=config.distance_targets)
+    else:
+        train_generator = BinaryModelDatasetGenerator(
+                df_train.word.tolist(),
+                df_train.real_word.tolist(),
+                build_retriever(vocabulary),
+                config.model_input_width,
+                config.sample_weight_exponent,
+                use_correct_word_as_non_word_example=config.use_correct_word_as_non_word_example,
+                distance_targets=config.distance_targets,
+                max_candidates=config.max_candidates)
+    
+        validation_generator = BinaryModelDatasetGenerator(
+                df_valid.head(config.n_val_samples).word.tolist(),
+                df_valid.head(config.n_val_samples).real_word.tolist(),
+                build_retriever(vocabulary),
+                config.model_input_width,
+                config.sample_weight_exponent,
+                distance_targets=config.distance_targets,
+                max_candidates=config.max_candidates)
+    
+        validation_loss_generator = BinaryModelDatasetGenerator(
+                df_valid.head(config.n_val_samples).word.tolist(),
+                df_valid.head(config.n_val_samples).real_word.tolist(),
+                build_retriever(vocabulary),
+                config.model_input_width,
+                config.sample_weight_exponent,
+                distance_targets=config.distance_targets,
+                max_candidates=config.max_candidates)
 
     graph = build_model(config)
 
@@ -320,5 +435,7 @@ def fit(config):
             samples_per_epoch=config.samples_per_epoch,
             nb_epoch=config.n_epoch,
             nb_worker=config.n_worker,
+            validation_data=validation_loss_generator.generate(),
+            nb_val_samples=config.n_val_samples,
             callbacks=callbacks,
             verbose=verbose)
