@@ -502,8 +502,7 @@ class BinaryModelDatasetGenerator(DatasetGenerator):
                 'candidate_rank_last': 2*sample_weights[mask]
                 }
 
-        sample_weights[sample_weights > 1] = sample_weights[sample_weights > 1]**2
-
+        #sample_weights[sample_weights > 1] = sample_weights[sample_weights > 1]**2
         #print('sample_weights %s' % ', '.join([str(x) for x in sample_weights]))
 
         non_words = None
