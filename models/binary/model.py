@@ -2,6 +2,7 @@ from chapter05.dataset import BinaryModelDatasetGenerator, BinaryModelRealWordDa
 
 import sys
 sys.setrecursionlimit(5000)
+import threading
 
 import numpy as np
 import pandas as pd
@@ -22,7 +23,7 @@ from modeling.builders import (build_embedding_layer,
     build_convolutional_layer, build_pooling_layer,
     build_dense_layer, build_optimizer, load_weights,
     build_hierarchical_softmax_layer)
-from modeling.callbacks import DenseWeightNormCallback
+import modeling.callbacks 
 
 import spelling.dictionary as spelldict
 import spelling.features
@@ -113,14 +114,15 @@ def build_model(config):
     # Add some number of fully-connected layers without skip connections.
     prev_layer = None
 
+    if config.pool_merge_mode == 'cos':
+        dot_axes = ([1], [1])
+    else:
+        dot_axes = -1
+
     for i,n_hidden in enumerate(config.fully_connected):
         layer_name = 'dense%02d' % i
         l = build_dense_layer(config, n_hidden=n_hidden)
         if i == 0:
-            if config.pool_merge_mode == 'cos':
-                dot_axes = ([1], [1])
-            else:
-                dot_axes = -1
             graph.add_node(l, name=layer_name,
                 inputs=['non_word_flatten', 'candidate_word_flatten'],
                 merge_mode=config.pool_merge_mode, dot_axes=dot_axes)
@@ -172,12 +174,20 @@ def build_model(config):
         graph.add_node(Activation('relu'), name=block_name+'relu', input=block_name+'output')
         prev_layer = block_input_layer = block_name+'relu'
 
+    # Save the name of the last dense layer for the distance and rank targets.
     last_dense_layer = prev_layer
 
     # Add softmax for binary prediction of whether the real word input
     # is the true correction for the non-word input.
-    graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
-            name='softmax', input=last_dense_layer)
+    if len(config.fully_connected) == 0:
+        graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
+                name='softmax',
+                inputs=['non_word_flatten', 'candidate_word_flatten'],
+                merge_mode=config.pool_merge_mode,
+                dot_axes=dot_axes)
+    else:
+        graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
+                name='softmax', input=prev_layer)
     prev_layer = 'softmax'
     if config.batch_normalization:
         graph.add_node(BatchNormalization(), 
@@ -235,7 +245,7 @@ class FakeGenerator(object):
             yield (d, sample_weights)
 
 class MetricsCallback(keras.callbacks.Callback):
-    def __init__(self, config, generator, n_samples):
+    def __init__(self, config, generator, n_samples, callbacks):
         self.__dict__.update(locals())
         del self.self
 
@@ -320,30 +330,53 @@ class MetricsCallback(keras.callbacks.Callback):
         self.config.logger('Dictionary confusion matrix')
         self.config.logger(confusion_matrix(y, y_hat_dictionary))
 
+        model_binary_accuracy = sum(y_hat_binary) / float(len(y_hat_binary))
+        model_accuracy = accuracy_score(y, y_hat)
+        model_f1 = f1_score(y, y_hat)
+
         self.config.logger('\n')
         self.config.logger('ConvNet binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
-                (
-                    sum(y_hat_binary) / float(len(y_hat_binary)),
-                    accuracy_score(y, y_hat),
-                    f1_score(y, y_hat))
-                )
+                (model_binary_accuracy, model_accuracy, model_f1))
         self.config.logger('ConvNet confusion matrix')
         self.config.logger(confusion_matrix(y, y_hat))
 
         self.config.logger('\n')
 
+        logs['f1'] = model_f1
+        for cb in self.callbacks:
+            cb.on_epoch_end(epoch, logs)
+
+
 def build_callbacks(config, generator, n_samples):
-    callbacks = []
-    mc = MetricsCallback(config, generator, n_samples)
-    wn = DenseWeightNormCallback(config)
-    es = keras.callbacks.EarlyStopping(patience=config.patience, verbose=1)
-    callbacks.extend([mc, wn, es])
+    # For this model, we want to monitor F1 for early stopping and
+    # model checkpointing.  The way to do that is for the metrics callback
+    # compute F1, put it in the logs dictionary that's passed to
+    # on_epoch_end, and to pass that to the early stopping and model
+    # checkpointing callbacks.
+    controller_callbacks = []
+    controller_callbacks.append(
+            keras.callbacks.EarlyStopping(
+                monitor=config.callback_monitor,
+                mode=config.callback_monitor_mode,
+                patience=config.patience,
+                verbose=1))
+
     if 'persistent' in config.mode:
-        cp = keras.callbacks.ModelCheckpoint(
-            filepath=config.model_path + 'model.h5',
-            save_best_only=True,
-            verbose=1)
-        callbacks.append(cp)
+        controller_callbacks.append(
+                keras.callbacks.ModelCheckpoint(
+                    monitor=config.callback_monitor,
+                    mode=config.callback_monitor_mode,
+                    filepath=config.model_path + 'model.h5',
+                    save_best_only=True,
+                    verbose=1))
+
+    controller = MetricsCallback(config, generator, n_samples,
+            callbacks=controller_callbacks)
+
+    callbacks = []
+    callbacks.append(controller)
+    callbacks.append(modeling.callbacks.DenseWeightNormCallback(config))
+
     return callbacks
 
 def fit(config):
@@ -358,15 +391,21 @@ def fit(config):
     df = df[mask]
     print(len(df), len(df.multiclass_correction_target.unique()))
 
+    retriever_lock = threading.Lock()
+
     # Retrievers
     def build_retriever(vocabulary):
-        aspell_retriever = spelldict.AspellRetriever()
-        edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
-        retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
-        jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
-        return spelldict.SortingRetriever(retriever, jaro_sorter)
+        with retriever_lock:
+            aspell_retriever = spelldict.AspellRetriever()
+            edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
+            retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
+            jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
+            return spelldict.SortingRetriever(retriever, jaro_sorter)
 
     df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
+
+    print('train %d other %d' % (len(df_train), len(df_other)))
+
     if config.real_words_only:
         train_words = set(df_train.real_word)
         other_words = set(df_other.real_word)
@@ -379,8 +418,11 @@ def fit(config):
     df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=config.seed)
 
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
+    training_freqs = df_train.real_word.value_counts()
+    print('least frequent word', training_freqs.tail(1))
 
     vocabulary = df.real_word.unique().tolist()
+
     print('vocabulary %d' % len(vocabulary))
 
     if config.real_words_only:
