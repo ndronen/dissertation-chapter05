@@ -117,8 +117,13 @@ def build_model(config):
         layer_name = 'dense%02d' % i
         l = build_dense_layer(config, n_hidden=n_hidden)
         if i == 0:
+            if config.pool_merge_mode == 'cos':
+                dot_axes = ([1], [1])
+            else:
+                dot_axes = -1
             graph.add_node(l, name=layer_name,
-                inputs=['non_word_flatten', 'candidate_word_flatten'], merge_mode=config.pool_merge_mode)
+                inputs=['non_word_flatten', 'candidate_word_flatten'],
+                merge_mode=config.pool_merge_mode, dot_axes=dot_axes)
         else:
             graph.add_node(l, name=layer_name, input=prev_layer)
         prev_layer = layer_name
