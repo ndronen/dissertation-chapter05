@@ -249,6 +249,11 @@ class MetricsCallback(keras.callbacks.Callback):
         self.__dict__.update(locals())
         del self.self
 
+    def _set_model(self, model):
+        self.model = model
+        for cb in self.callbacks:
+            cb._set_model(model)
+
     def on_epoch_end(self, epoch, logs={}):
         correct = []
         y = []
@@ -379,34 +384,34 @@ def build_callbacks(config, generator, n_samples):
 
     return callbacks
 
-def fit(config):
-    df = pd.read_csv(config.non_word_csv, sep='\t', encoding='utf8')
+retriever_lock = threading.Lock()
+
+# Retrievers
+def build_retriever(vocabulary):
+    with retriever_lock:
+        aspell_retriever = spelldict.AspellRetriever()
+        edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
+        retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
+        jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
+        return spelldict.SortingRetriever(retriever, jaro_sorter)
+
+def load_data(csv_path, min_frequency=0, min_length=0, max_length=sys.maxsize):
+    df = pd.read_csv(csv_path, sep='\t', encoding='utf8')
     df = df[df.binary_target == 0]
 
     # Select examples by frequency and length.
     frequencies = df.multiclass_correction_target.value_counts().to_dict()
     df['frequency'] = df.multiclass_correction_target.apply(lambda x: frequencies[x])
     df['len'] = df.word.apply(len)
-    mask = (df.frequency >= config.min_frequency) & (df.len >= config.min_length) & (df.len <= config.max_length)
-    df = df[mask]
-    print(len(df), len(df.multiclass_correction_target.unique()))
+    mask = (df.frequency >= min_frequency) & (df.len >= min_length) & (df.len <= max_length)
+    return df[mask]
 
-    retriever_lock = threading.Lock()
-
-    # Retrievers
-    def build_retriever(vocabulary):
-        with retriever_lock:
-            aspell_retriever = spelldict.AspellRetriever()
-            edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
-            retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
-            jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
-            return spelldict.SortingRetriever(retriever, jaro_sorter)
-
-    df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
+def split_data(df, random_state=17, real_words_only=False):
+    df_train, df_other = train_test_split(df, train_size=0.8, random_state=random_state)
 
     print('train %d other %d' % (len(df_train), len(df_other)))
 
-    if config.real_words_only:
+    if real_words_only:
         train_words = set(df_train.real_word)
         other_words = set(df_other.real_word)
         leaked_words = train_words.intersection(other_words)
@@ -415,15 +420,27 @@ def fit(config):
         other_words = set(df_other.word)
         leaked_words = train_words.intersection(other_words)
     df_other = df_other[~df_other.word.isin(leaked_words)]
-    df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=config.seed)
+    df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=random_state)
+
+    return df_train, df_valid, df_test
+
+
+def fit(config):
+    df = load_data(config.non_word_csv,
+            config.min_frequency,
+            config.min_length, config.max_length)
+
+    print(len(df), len(df.multiclass_correction_target.unique()))
+
+    vocabulary = df.real_word.unique().tolist()
+    print('vocabulary %d' % len(vocabulary))
+
+    df_train, df_valid, df_test = split_data(df,
+            random_state=config.seed, real_words_only=config.real_words_only)
 
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
     training_freqs = df_train.real_word.value_counts()
     print('least frequent word', training_freqs.tail(1))
-
-    vocabulary = df.real_word.unique().tolist()
-
-    print('vocabulary %d' % len(vocabulary))
 
     if config.real_words_only:
         train_generator = BinaryModelRealWordDatasetGenerator(
