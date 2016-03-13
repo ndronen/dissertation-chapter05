@@ -11,8 +11,6 @@ prepare_df <- function(df) {
   df
 }
 
-YLIM <- ylim(0.1, 1)
-
 plot_system_accuracy_at_k_by_length <- function(df, candidates, max_rank=10, min_length=1, max_length=15, by_system=FALSE) {
   df <- filter(df, (`Non-word length` >= min_length) & (`Non-word length` <= max_length))
   df <- filter(df, Candidates == candidates)
@@ -22,8 +20,6 @@ plot_system_accuracy_at_k_by_length <- function(df, candidates, max_rank=10, min
 
   p <- ggplot(data=df, aes(x=Rank, y=Accuracy, color=`Non-word length`))
   p <- p + scale_x_continuous(breaks=sort(unique(df$Rank)))
-
-  p <- p + YLIM
 
   if (by_system) {
     p <- p + geom_point(aes(shape=System), alpha=0.5)
@@ -36,6 +32,8 @@ plot_system_accuracy_at_k_by_length <- function(df, candidates, max_rank=10, min
   } else {
     p <- p + geom_line(alpha=0.5)
   }
+
+  p <- p + ylim(0.1, 1)
 
   p
 }
@@ -74,18 +72,15 @@ p <- plot_system_accuracy_at_k_by_length(
 ggsave("data/ranks-by-length-aspell-with-jaro-winkler.pdf", p)
 dev.off()
 
-# Then plot them together for words of length 4, 6, 8, 10.
-tmp <- filter(df, Candidates=="No near-miss" & `Non-word length` >= 4 & `Non-word length` <= 10 & Rank <= 10)
-df_aspell <- filter(tmp, System=="Aspell with Jaro-Winkler")
-df_convnet <- filter(tmp, System=="ConvNet (binary)")
-df_length <- data.frame(ymin=df_aspell$Accuracy, ymax=df_convnet$Accuracy)
-df_length$Rank <- df_aspell$Rank
-df_length$`Non-word length` <- factor(
-    df_aspell$`Non-word length`,
-    levels=mixedsort(unique(df_aspell$`Non-word length`)))
-print(df_length$`Non-word length`)
-print(levels(df_length$`Non-word length`))
-p <- plot_system_accuracy_at_k_difference(df_length, c(4,6,8,10))
-p <- p + labs(y="Accuracy")
+# Then plot the differences.
+df_aspell <- filter(df, System=="Aspell with Jaro-Winkler")
+df_convnet <- filter(df, System=="ConvNet (binary)")
+df_length <- df_aspell
+
+df_length$Accuracy <- df_convnet$Accuracy - df_aspell$Accuracy
+p <- plot_system_accuracy_at_k_by_length(df_length,
+  candidates="No near-miss")
+  # c(4,6,8,10))
+p <- p + ylim(-.25,.25)
 ggsave("data/ranks-by-length-difference.pdf", p)
 dev.off()
