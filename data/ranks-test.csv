@@ -1,0 +1,2117 @@
+	Algorithm	Rank	Accuracy	Non-word Length	Candidates	Mode
+0	Aspell with Jaro-Winkler	1	0.7575269247707891	-1	All	test
+1	Aspell with Jaro-Winkler	2	0.8492362973936021	-1	All	test
+2	Aspell with Jaro-Winkler	3	0.9259919125595548	-1	All	test
+3	Aspell with Jaro-Winkler	4	0.9544731152660447	-1	All	test
+4	Aspell with Jaro-Winkler	5	0.9707180606157665	-1	All	test
+5	Aspell with Jaro-Winkler	6	0.979591223926012	-1	All	test
+6	Aspell with Jaro-Winkler	7	0.985176362253273	-1	All	test
+7	Aspell with Jaro-Winkler	8	0.9888047003242983	-1	All	test
+8	Aspell with Jaro-Winkler	9	0.9911318412939905	-1	All	test
+9	Aspell with Jaro-Winkler	10	0.9926382271689955	-1	All	test
+10	Aspell with Jaro-Winkler	20	0.9955459022300517	-1	All	test
+11	Aspell with Jaro-Winkler	30	0.9955609160427593	-1	All	test
+12	Aspell with Jaro-Winkler	40	0.9955609160427593	-1	All	test
+13	Aspell with Jaro-Winkler	50	0.9955609160427593	-1	All	test
+14	Aspell with Jaro-Winkler	60	0.9955609160427593	-1	All	test
+15	Aspell with Jaro-Winkler	70	0.9955609160427593	-1	All	test
+16	Aspell with Jaro-Winkler	80	0.9955609160427593	-1	All	test
+17	Aspell with Jaro-Winkler	90	0.9955609160427593	-1	All	test
+18	Aspell with Jaro-Winkler	100	0.9955609160427593	-1	All	test
+19	Aspell with Jaro-Winkler	200	0.9955609160427593	-1	All	test
+20	Aspell with Jaro-Winkler	300	0.9955609160427593	-1	All	test
+21	Aspell with Jaro-Winkler	400	0.9955609160427593	-1	All	test
+22	Aspell with Jaro-Winkler	500	0.9955609160427593	-1	All	test
+23	ConvNet (binary)	1	0.8993463594322436	-1	All	test
+24	ConvNet (binary)	2	0.9645902984925226	-1	All	test
+25	ConvNet (binary)	3	0.9830433825148646	-1	All	test
+26	ConvNet (binary)	4	0.9906808672499049	-1	All	test
+27	ConvNet (binary)	5	0.9943494624732238	-1	All	test
+28	ConvNet (binary)	6	0.9962613361093872	-1	All	test
+29	ConvNet (binary)	7	0.9975225721206783	-1	All	test
+30	ConvNet (binary)	8	0.9982032391743909	-1	All	test
+31	ConvNet (binary)	9	0.9987487737983224	-1	All	test
+32	ConvNet (binary)	10	0.9990740926107585	-1	All	test
+33	ConvNet (binary)	20	0.9997647694740847	-1	All	test
+34	ConvNet (binary)	30	0.9997647694740847	-1	All	test
+35	ConvNet (binary)	40	0.9997647694740847	-1	All	test
+36	ConvNet (binary)	50	0.9997647694740847	-1	All	test
+37	ConvNet (binary)	60	0.9997647694740847	-1	All	test
+38	ConvNet (binary)	70	0.9997647694740847	-1	All	test
+39	ConvNet (binary)	80	0.9997647694740847	-1	All	test
+40	ConvNet (binary)	90	0.9997647694740847	-1	All	test
+41	ConvNet (binary)	100	0.9997647694740847	-1	All	test
+42	ConvNet (binary)	200	0.9997647694740847	-1	All	test
+43	ConvNet (binary)	300	0.9997647694740847	-1	All	test
+44	ConvNet (binary)	400	0.9997647694740847	-1	All	test
+45	ConvNet (binary)	500	0.9997647694740847	-1	All	test
+0	Aspell with Jaro-Winkler	1	0.21108179419525067	3	All	test
+1	Aspell with Jaro-Winkler	2	0.37467018469656993	3	All	test
+2	Aspell with Jaro-Winkler	3	0.5065963060686016	3	All	test
+3	Aspell with Jaro-Winkler	4	0.5936675461741425	3	All	test
+4	Aspell with Jaro-Winkler	5	0.6860158311345647	3	All	test
+5	Aspell with Jaro-Winkler	6	0.7467018469656992	3	All	test
+6	Aspell with Jaro-Winkler	7	0.7889182058047494	3	All	test
+7	Aspell with Jaro-Winkler	8	0.8284960422163589	3	All	test
+8	Aspell with Jaro-Winkler	9	0.8680738786279684	3	All	test
+9	Aspell with Jaro-Winkler	10	0.8970976253298153	3	All	test
+10	Aspell with Jaro-Winkler	20	0.9920844327176781	3	All	test
+11	Aspell with Jaro-Winkler	30	0.9920844327176781	3	All	test
+12	Aspell with Jaro-Winkler	40	0.9920844327176781	3	All	test
+13	Aspell with Jaro-Winkler	50	0.9920844327176781	3	All	test
+14	Aspell with Jaro-Winkler	60	0.9920844327176781	3	All	test
+15	Aspell with Jaro-Winkler	70	0.9920844327176781	3	All	test
+16	Aspell with Jaro-Winkler	80	0.9920844327176781	3	All	test
+17	Aspell with Jaro-Winkler	90	0.9920844327176781	3	All	test
+18	Aspell with Jaro-Winkler	100	0.9920844327176781	3	All	test
+19	Aspell with Jaro-Winkler	200	0.9920844327176781	3	All	test
+20	Aspell with Jaro-Winkler	300	0.9920844327176781	3	All	test
+21	Aspell with Jaro-Winkler	400	0.9920844327176781	3	All	test
+22	Aspell with Jaro-Winkler	500	0.9920844327176781	3	All	test
+23	ConvNet (binary)	1	0.19788918205804748	3	All	test
+24	ConvNet (binary)	2	0.37994722955145116	3	All	test
+25	ConvNet (binary)	3	0.5461741424802111	3	All	test
+26	ConvNet (binary)	4	0.6569920844327177	3	All	test
+27	ConvNet (binary)	5	0.7361477572559367	3	All	test
+28	ConvNet (binary)	6	0.8179419525065963	3	All	test
+29	ConvNet (binary)	7	0.8601583113456465	3	All	test
+30	ConvNet (binary)	8	0.8944591029023746	3	All	test
+31	ConvNet (binary)	9	0.920844327176781	3	All	test
+32	ConvNet (binary)	10	0.9340369393139841	3	All	test
+33	ConvNet (binary)	20	0.9973614775725593	3	All	test
+34	ConvNet (binary)	30	0.9973614775725593	3	All	test
+35	ConvNet (binary)	40	0.9973614775725593	3	All	test
+36	ConvNet (binary)	50	0.9973614775725593	3	All	test
+37	ConvNet (binary)	60	0.9973614775725593	3	All	test
+38	ConvNet (binary)	70	0.9973614775725593	3	All	test
+39	ConvNet (binary)	80	0.9973614775725593	3	All	test
+40	ConvNet (binary)	90	0.9973614775725593	3	All	test
+41	ConvNet (binary)	100	0.9973614775725593	3	All	test
+42	ConvNet (binary)	200	0.9973614775725593	3	All	test
+43	ConvNet (binary)	300	0.9973614775725593	3	All	test
+44	ConvNet (binary)	400	0.9973614775725593	3	All	test
+45	ConvNet (binary)	500	0.9973614775725593	3	All	test
+0	Aspell with Jaro-Winkler	1	0.2546583850931677	4	All	test
+1	Aspell with Jaro-Winkler	2	0.4018155757286192	4	All	test
+2	Aspell with Jaro-Winkler	3	0.5389393215480172	4	All	test
+3	Aspell with Jaro-Winkler	4	0.6588628762541806	4	All	test
+4	Aspell with Jaro-Winkler	5	0.727663640707119	4	All	test
+5	Aspell with Jaro-Winkler	6	0.7869087434304826	4	All	test
+6	Aspell with Jaro-Winkler	7	0.8342092689918776	4	All	test
+7	Aspell with Jaro-Winkler	8	0.8743430482560918	4	All	test
+8	Aspell with Jaro-Winkler	9	0.9120879120879121	4	All	test
+9	Aspell with Jaro-Winkler	10	0.9354992833253702	4	All	test
+10	Aspell with Jaro-Winkler	20	0.9976110845676063	4	All	test
+11	Aspell with Jaro-Winkler	30	0.9985666507405638	4	All	test
+12	Aspell with Jaro-Winkler	40	0.9985666507405638	4	All	test
+13	Aspell with Jaro-Winkler	50	0.9985666507405638	4	All	test
+14	Aspell with Jaro-Winkler	60	0.9985666507405638	4	All	test
+15	Aspell with Jaro-Winkler	70	0.9985666507405638	4	All	test
+16	Aspell with Jaro-Winkler	80	0.9985666507405638	4	All	test
+17	Aspell with Jaro-Winkler	90	0.9985666507405638	4	All	test
+18	Aspell with Jaro-Winkler	100	0.9985666507405638	4	All	test
+19	Aspell with Jaro-Winkler	200	0.9985666507405638	4	All	test
+20	Aspell with Jaro-Winkler	300	0.9985666507405638	4	All	test
+21	Aspell with Jaro-Winkler	400	0.9985666507405638	4	All	test
+22	Aspell with Jaro-Winkler	500	0.9985666507405638	4	All	test
+23	ConvNet (binary)	1	0.368546845124283	4	All	test
+24	ConvNet (binary)	2	0.5779158699808795	4	All	test
+25	ConvNet (binary)	3	0.7294455066921606	4	All	test
+26	ConvNet (binary)	4	0.8260038240917782	4	All	test
+27	ConvNet (binary)	5	0.8776290630975143	4	All	test
+28	ConvNet (binary)	6	0.9182600382409177	4	All	test
+29	ConvNet (binary)	7	0.9364244741873805	4	All	test
+30	ConvNet (binary)	8	0.9526768642447419	4	All	test
+31	ConvNet (binary)	9	0.9684512428298279	4	All	test
+32	ConvNet (binary)	10	0.9775334608030593	4	All	test
+33	ConvNet (binary)	20	1.0	4	All	test
+34	ConvNet (binary)	30	1.0	4	All	test
+35	ConvNet (binary)	40	1.0	4	All	test
+36	ConvNet (binary)	50	1.0	4	All	test
+37	ConvNet (binary)	60	1.0	4	All	test
+38	ConvNet (binary)	70	1.0	4	All	test
+39	ConvNet (binary)	80	1.0	4	All	test
+40	ConvNet (binary)	90	1.0	4	All	test
+41	ConvNet (binary)	100	1.0	4	All	test
+42	ConvNet (binary)	200	1.0	4	All	test
+43	ConvNet (binary)	300	1.0	4	All	test
+44	ConvNet (binary)	400	1.0	4	All	test
+45	ConvNet (binary)	500	1.0	4	All	test
+0	Aspell with Jaro-Winkler	1	0.40345911949685537	5	All	test
+1	Aspell with Jaro-Winkler	2	0.5570754716981132	5	All	test
+2	Aspell with Jaro-Winkler	3	0.7042452830188679	5	All	test
+3	Aspell with Jaro-Winkler	4	0.7888364779874214	5	All	test
+4	Aspell with Jaro-Winkler	5	0.8518867924528302	5	All	test
+5	Aspell with Jaro-Winkler	6	0.8921383647798742	5	All	test
+6	Aspell with Jaro-Winkler	7	0.9212264150943397	5	All	test
+7	Aspell with Jaro-Winkler	8	0.9419811320754717	5	All	test
+8	Aspell with Jaro-Winkler	9	0.9599056603773585	5	All	test
+9	Aspell with Jaro-Winkler	10	0.9727987421383648	5	All	test
+10	Aspell with Jaro-Winkler	20	0.994811320754717	5	All	test
+11	Aspell with Jaro-Winkler	30	0.9949685534591195	5	All	test
+12	Aspell with Jaro-Winkler	40	0.9949685534591195	5	All	test
+13	Aspell with Jaro-Winkler	50	0.9949685534591195	5	All	test
+14	Aspell with Jaro-Winkler	60	0.9949685534591195	5	All	test
+15	Aspell with Jaro-Winkler	70	0.9949685534591195	5	All	test
+16	Aspell with Jaro-Winkler	80	0.9949685534591195	5	All	test
+17	Aspell with Jaro-Winkler	90	0.9949685534591195	5	All	test
+18	Aspell with Jaro-Winkler	100	0.9949685534591195	5	All	test
+19	Aspell with Jaro-Winkler	200	0.9949685534591195	5	All	test
+20	Aspell with Jaro-Winkler	300	0.9949685534591195	5	All	test
+21	Aspell with Jaro-Winkler	400	0.9949685534591195	5	All	test
+22	Aspell with Jaro-Winkler	500	0.9949685534591195	5	All	test
+23	ConvNet (binary)	1	0.6064181217555451	5	All	test
+24	ConvNet (binary)	2	0.8066698128047821	5	All	test
+25	ConvNet (binary)	3	0.8853232656913639	5	All	test
+26	ConvNet (binary)	4	0.9276388233443448	5	All	test
+27	ConvNet (binary)	5	0.9540663835142362	5	All	test
+28	ConvNet (binary)	6	0.9664936290703162	5	All	test
+29	ConvNet (binary)	7	0.9762466572282523	5	All	test
+30	ConvNet (binary)	8	0.9833254679880447	5	All	test
+31	ConvNet (binary)	9	0.9889885165958786	5	All	test
+32	ConvNet (binary)	10	0.9929211892402077	5	All	test
+33	ConvNet (binary)	20	0.999056158565361	5	All	test
+34	ConvNet (binary)	30	0.999056158565361	5	All	test
+35	ConvNet (binary)	40	0.999056158565361	5	All	test
+36	ConvNet (binary)	50	0.999056158565361	5	All	test
+37	ConvNet (binary)	60	0.999056158565361	5	All	test
+38	ConvNet (binary)	70	0.999056158565361	5	All	test
+39	ConvNet (binary)	80	0.999056158565361	5	All	test
+40	ConvNet (binary)	90	0.999056158565361	5	All	test
+41	ConvNet (binary)	100	0.999056158565361	5	All	test
+42	ConvNet (binary)	200	0.999056158565361	5	All	test
+43	ConvNet (binary)	300	0.999056158565361	5	All	test
+44	ConvNet (binary)	400	0.999056158565361	5	All	test
+45	ConvNet (binary)	500	0.999056158565361	5	All	test
+0	Aspell with Jaro-Winkler	1	0.48839499226332816	6	All	test
+1	Aspell with Jaro-Winkler	2	0.6363764242509495	6	All	test
+2	Aspell with Jaro-Winkler	3	0.7754255169503447	6	All	test
+3	Aspell with Jaro-Winkler	4	0.8486425657617105	6	All	test
+4	Aspell with Jaro-Winkler	5	0.8949219299479533	6	All	test
+5	Aspell with Jaro-Winkler	6	0.9306512871008581	6	All	test
+6	Aspell with Jaro-Winkler	7	0.9537909691939794	6	All	test
+7	Aspell with Jaro-Winkler	8	0.969756646504431	6	All	test
+8	Aspell with Jaro-Winkler	9	0.9781263187508792	6	All	test
+9	Aspell with Jaro-Winkler	10	0.9838233225488817	6	All	test
+10	Aspell with Jaro-Winkler	20	0.9961316640877761	6	All	test
+11	Aspell with Jaro-Winkler	30	0.9961316640877761	6	All	test
+12	Aspell with Jaro-Winkler	40	0.9961316640877761	6	All	test
+13	Aspell with Jaro-Winkler	50	0.9961316640877761	6	All	test
+14	Aspell with Jaro-Winkler	60	0.9961316640877761	6	All	test
+15	Aspell with Jaro-Winkler	70	0.9961316640877761	6	All	test
+16	Aspell with Jaro-Winkler	80	0.9961316640877761	6	All	test
+17	Aspell with Jaro-Winkler	90	0.9961316640877761	6	All	test
+18	Aspell with Jaro-Winkler	100	0.9961316640877761	6	All	test
+19	Aspell with Jaro-Winkler	200	0.9961316640877761	6	All	test
+20	Aspell with Jaro-Winkler	300	0.9961316640877761	6	All	test
+21	Aspell with Jaro-Winkler	400	0.9961316640877761	6	All	test
+22	Aspell with Jaro-Winkler	500	0.9961316640877761	6	All	test
+23	ConvNet (binary)	1	0.7580894766460327	6	All	test
+24	ConvNet (binary)	2	0.8999718626899268	6	All	test
+25	ConvNet (binary)	3	0.9500562746201463	6	All	test
+26	ConvNet (binary)	4	0.9733398987056837	6	All	test
+27	ConvNet (binary)	5	0.9826252110298256	6	All	test
+28	ConvNet (binary)	6	0.9884637028700056	6	All	test
+29	ConvNet (binary)	7	0.9936691052335397	6	All	test
+30	ConvNet (binary)	8	0.9956387169386607	6	All	test
+31	ConvNet (binary)	9	0.9969048958919527	6	All	test
+32	ConvNet (binary)	10	0.997397298818233	6	All	test
+33	ConvNet (binary)	20	0.9990855374226224	6	All	test
+34	ConvNet (binary)	30	0.9990855374226224	6	All	test
+35	ConvNet (binary)	40	0.9990855374226224	6	All	test
+36	ConvNet (binary)	50	0.9990855374226224	6	All	test
+37	ConvNet (binary)	60	0.9990855374226224	6	All	test
+38	ConvNet (binary)	70	0.9990855374226224	6	All	test
+39	ConvNet (binary)	80	0.9990855374226224	6	All	test
+40	ConvNet (binary)	90	0.9990855374226224	6	All	test
+41	ConvNet (binary)	100	0.9990855374226224	6	All	test
+42	ConvNet (binary)	200	0.9990855374226224	6	All	test
+43	ConvNet (binary)	300	0.9990855374226224	6	All	test
+44	ConvNet (binary)	400	0.9990855374226224	6	All	test
+45	ConvNet (binary)	500	0.9990855374226224	6	All	test
+0	Aspell with Jaro-Winkler	1	0.6068877667076111	7	All	test
+1	Aspell with Jaro-Winkler	2	0.7401847049724762	7	All	test
+2	Aspell with Jaro-Winkler	3	0.8601974432464401	7	All	test
+3	Aspell with Jaro-Winkler	4	0.9164278240298439	7	All	test
+4	Aspell with Jaro-Winkler	5	0.9495018425003412	7	All	test
+5	Aspell with Jaro-Winkler	6	0.9682907965970611	7	All	test
+6	Aspell with Jaro-Winkler	7	0.9793003048086985	7	All	test
+7	Aspell with Jaro-Winkler	8	0.9858514171329785	7	All	test
+8	Aspell with Jaro-Winkler	9	0.9896728993221419	7	All	test
+9	Aspell with Jaro-Winkler	10	0.9921750602793321	7	All	test
+10	Aspell with Jaro-Winkler	20	0.9954506164414721	7	All	test
+11	Aspell with Jaro-Winkler	30	0.9954506164414721	7	All	test
+12	Aspell with Jaro-Winkler	40	0.9954506164414721	7	All	test
+13	Aspell with Jaro-Winkler	50	0.9954506164414721	7	All	test
+14	Aspell with Jaro-Winkler	60	0.9954506164414721	7	All	test
+15	Aspell with Jaro-Winkler	70	0.9954506164414721	7	All	test
+16	Aspell with Jaro-Winkler	80	0.9954506164414721	7	All	test
+17	Aspell with Jaro-Winkler	90	0.9954506164414721	7	All	test
+18	Aspell with Jaro-Winkler	100	0.9954506164414721	7	All	test
+19	Aspell with Jaro-Winkler	200	0.9954506164414721	7	All	test
+20	Aspell with Jaro-Winkler	300	0.9954506164414721	7	All	test
+21	Aspell with Jaro-Winkler	400	0.9954506164414721	7	All	test
+22	Aspell with Jaro-Winkler	500	0.9954506164414721	7	All	test
+23	ConvNet (binary)	1	0.8258792483734474	7	All	test
+24	ConvNet (binary)	2	0.940670640156513	7	All	test
+25	ConvNet (binary)	3	0.9745666317848856	7	All	test
+26	ConvNet (binary)	4	0.9865780972746713	7	All	test
+27	ConvNet (binary)	5	0.9931298057236453	7	All	test
+28	ConvNet (binary)	6	0.9959051822193913	7	All	test
+29	ConvNet (binary)	7	0.9978160971836754	7	All	test
+30	ConvNet (binary)	8	0.9984530688384367	7	All	test
+31	ConvNet (binary)	9	0.9988170526411575	7	All	test
+32	ConvNet (binary)	10	0.9991810364438782	7	All	test
+33	ConvNet (binary)	20	0.9993175303698986	7	All	test
+34	ConvNet (binary)	30	0.9993175303698986	7	All	test
+35	ConvNet (binary)	40	0.9993175303698986	7	All	test
+36	ConvNet (binary)	50	0.9993175303698986	7	All	test
+37	ConvNet (binary)	60	0.9993175303698986	7	All	test
+38	ConvNet (binary)	70	0.9993175303698986	7	All	test
+39	ConvNet (binary)	80	0.9993175303698986	7	All	test
+40	ConvNet (binary)	90	0.9993175303698986	7	All	test
+41	ConvNet (binary)	100	0.9993175303698986	7	All	test
+42	ConvNet (binary)	200	0.9993175303698986	7	All	test
+43	ConvNet (binary)	300	0.9993175303698986	7	All	test
+44	ConvNet (binary)	400	0.9993175303698986	7	All	test
+45	ConvNet (binary)	500	0.9993175303698986	7	All	test
+0	Aspell with Jaro-Winkler	1	0.6949308441779656	8	All	test
+1	Aspell with Jaro-Winkler	2	0.8091912516181781	8	All	test
+2	Aspell with Jaro-Winkler	3	0.9103358997070246	8	All	test
+3	Aspell with Jaro-Winkler	4	0.950432649724058	8	All	test
+4	Aspell with Jaro-Winkler	5	0.9731893438713634	8	All	test
+5	Aspell with Jaro-Winkler	6	0.9826599441302718	8	All	test
+6	Aspell with Jaro-Winkler	7	0.9885535191115351	8	All	test
+7	Aspell with Jaro-Winkler	8	0.9916195407780881	8	All	test
+8	Aspell with Jaro-Winkler	9	0.992982217074334	8	All	test
+9	Aspell with Jaro-Winkler	10	0.993697622129863	8	All	test
+10	Aspell with Jaro-Winkler	20	0.9945152279076106	8	All	test
+11	Aspell with Jaro-Winkler	30	0.9945152279076106	8	All	test
+12	Aspell with Jaro-Winkler	40	0.9945152279076106	8	All	test
+13	Aspell with Jaro-Winkler	50	0.9945152279076106	8	All	test
+14	Aspell with Jaro-Winkler	60	0.9945152279076106	8	All	test
+15	Aspell with Jaro-Winkler	70	0.9945152279076106	8	All	test
+16	Aspell with Jaro-Winkler	80	0.9945152279076106	8	All	test
+17	Aspell with Jaro-Winkler	90	0.9945152279076106	8	All	test
+18	Aspell with Jaro-Winkler	100	0.9945152279076106	8	All	test
+19	Aspell with Jaro-Winkler	200	0.9945152279076106	8	All	test
+20	Aspell with Jaro-Winkler	300	0.9945152279076106	8	All	test
+21	Aspell with Jaro-Winkler	400	0.9945152279076106	8	All	test
+22	Aspell with Jaro-Winkler	500	0.9945152279076106	8	All	test
+23	ConvNet (binary)	1	0.8875374761515399	8	All	test
+24	ConvNet (binary)	2	0.9697465249386754	8	All	test
+25	ConvNet (binary)	3	0.9891319160534205	8	All	test
+26	ConvNet (binary)	4	0.9951621695284819	8	All	test
+27	ConvNet (binary)	5	0.9983646770237122	8	All	test
+28	ConvNet (binary)	6	0.9991142000545108	8	All	test
+29	ConvNet (binary)	7	0.9994208231125647	8	All	test
+30	ConvNet (binary)	8	0.9994889615699101	8	All	test
+31	ConvNet (binary)	9	0.9995911692559281	8	All	test
+32	ConvNet (binary)	10	0.9996252384846007	8	All	test
+33	ConvNet (binary)	20	0.9996593077132734	8	All	test
+34	ConvNet (binary)	30	0.9996593077132734	8	All	test
+35	ConvNet (binary)	40	0.9996593077132734	8	All	test
+36	ConvNet (binary)	50	0.9996593077132734	8	All	test
+37	ConvNet (binary)	60	0.9996593077132734	8	All	test
+38	ConvNet (binary)	70	0.9996593077132734	8	All	test
+39	ConvNet (binary)	80	0.9996593077132734	8	All	test
+40	ConvNet (binary)	90	0.9996593077132734	8	All	test
+41	ConvNet (binary)	100	0.9996593077132734	8	All	test
+42	ConvNet (binary)	200	0.9996593077132734	8	All	test
+43	ConvNet (binary)	300	0.9996593077132734	8	All	test
+44	ConvNet (binary)	400	0.9996593077132734	8	All	test
+45	ConvNet (binary)	500	0.9996593077132734	8	All	test
+0	Aspell with Jaro-Winkler	1	0.796326240217321	9	All	test
+1	Aspell with Jaro-Winkler	2	0.8818640450164931	9	All	test
+2	Aspell with Jaro-Winkler	3	0.9591229545307548	9	All	test
+3	Aspell with Jaro-Winkler	4	0.9790117068753639	9	All	test
+4	Aspell with Jaro-Winkler	5	0.9886165189832482	9	All	test
+5	Aspell with Jaro-Winkler	6	0.9914947286721428	9	All	test
+6	Aspell with Jaro-Winkler	7	0.9932087187115969	9	All	test
+7	Aspell with Jaro-Winkler	8	0.9939525257098506	9	All	test
+8	Aspell with Jaro-Winkler	9	0.9943405989263308	9	All	test
+9	Aspell with Jaro-Winkler	10	0.9944052777957442	9	All	test
+10	Aspell with Jaro-Winkler	20	0.9945022960998642	9	All	test
+11	Aspell with Jaro-Winkler	30	0.9945022960998642	9	All	test
+12	Aspell with Jaro-Winkler	40	0.9945022960998642	9	All	test
+13	Aspell with Jaro-Winkler	50	0.9945022960998642	9	All	test
+14	Aspell with Jaro-Winkler	60	0.9945022960998642	9	All	test
+15	Aspell with Jaro-Winkler	70	0.9945022960998642	9	All	test
+16	Aspell with Jaro-Winkler	80	0.9945022960998642	9	All	test
+17	Aspell with Jaro-Winkler	90	0.9945022960998642	9	All	test
+18	Aspell with Jaro-Winkler	100	0.9945022960998642	9	All	test
+19	Aspell with Jaro-Winkler	200	0.9945022960998642	9	All	test
+20	Aspell with Jaro-Winkler	300	0.9945022960998642	9	All	test
+21	Aspell with Jaro-Winkler	400	0.9945022960998642	9	All	test
+22	Aspell with Jaro-Winkler	500	0.9945022960998642	9	All	test
+23	ConvNet (binary)	1	0.929985123860035	9	All	test
+24	ConvNet (binary)	2	0.9842506952978461	9	All	test
+25	ConvNet (binary)	3	0.995019727055171	9	All	test
+26	ConvNet (binary)	4	0.998383028264666	9	All	test
+27	ConvNet (binary)	5	0.9993532113058664	9	All	test
+28	ConvNet (binary)	6	0.9996442662182266	9	All	test
+29	ConvNet (binary)	7	0.9999676605652933	9	All	test
+30	ConvNet (binary)	8	0.9999676605652933	9	All	test
+31	ConvNet (binary)	9	1.0	9	All	test
+32	ConvNet (binary)	10	1.0	9	All	test
+33	ConvNet (binary)	20	1.0	9	All	test
+34	ConvNet (binary)	30	1.0	9	All	test
+35	ConvNet (binary)	40	1.0	9	All	test
+36	ConvNet (binary)	50	1.0	9	All	test
+37	ConvNet (binary)	60	1.0	9	All	test
+38	ConvNet (binary)	70	1.0	9	All	test
+39	ConvNet (binary)	80	1.0	9	All	test
+40	ConvNet (binary)	90	1.0	9	All	test
+41	ConvNet (binary)	100	1.0	9	All	test
+42	ConvNet (binary)	200	1.0	9	All	test
+43	ConvNet (binary)	300	1.0	9	All	test
+44	ConvNet (binary)	400	1.0	9	All	test
+45	ConvNet (binary)	500	1.0	9	All	test
+0	Aspell with Jaro-Winkler	1	0.8359846407021393	10	All	test
+1	Aspell with Jaro-Winkler	2	0.9134668129456939	10	All	test
+2	Aspell with Jaro-Winkler	3	0.9727098189797038	10	All	test
+3	Aspell with Jaro-Winkler	4	0.9869720241360395	10	All	test
+4	Aspell with Jaro-Winkler	5	0.9933831596269885	10	All	test
+5	Aspell with Jaro-Winkler	6	0.9947888096544159	10	All	test
+6	Aspell with Jaro-Winkler	7	0.9951316511245201	10	All	test
+7	Aspell with Jaro-Winkler	8	0.9953373560065826	10	All	test
+8	Aspell with Jaro-Winkler	9	0.995371640153593	10	All	test
+9	Aspell with Jaro-Winkler	10	0.995371640153593	10	All	test
+10	Aspell with Jaro-Winkler	20	0.9954059243006034	10	All	test
+11	Aspell with Jaro-Winkler	30	0.9954059243006034	10	All	test
+12	Aspell with Jaro-Winkler	40	0.9954059243006034	10	All	test
+13	Aspell with Jaro-Winkler	50	0.9954059243006034	10	All	test
+14	Aspell with Jaro-Winkler	60	0.9954059243006034	10	All	test
+15	Aspell with Jaro-Winkler	70	0.9954059243006034	10	All	test
+16	Aspell with Jaro-Winkler	80	0.9954059243006034	10	All	test
+17	Aspell with Jaro-Winkler	90	0.9954059243006034	10	All	test
+18	Aspell with Jaro-Winkler	100	0.9954059243006034	10	All	test
+19	Aspell with Jaro-Winkler	200	0.9954059243006034	10	All	test
+20	Aspell with Jaro-Winkler	300	0.9954059243006034	10	All	test
+21	Aspell with Jaro-Winkler	400	0.9954059243006034	10	All	test
+22	Aspell with Jaro-Winkler	500	0.9954059243006034	10	All	test
+23	ConvNet (binary)	1	0.9527221612726275	10	All	test
+24	ConvNet (binary)	2	0.9891319253976961	10	All	test
+25	ConvNet (binary)	3	0.9967087218869994	10	All	test
+26	ConvNet (binary)	4	0.9992800329127811	10	All	test
+27	ConvNet (binary)	5	0.9996571585298958	10	All	test
+28	ConvNet (binary)	6	0.9999314317059792	10	All	test
+29	ConvNet (binary)	7	0.9999314317059792	10	All	test
+30	ConvNet (binary)	8	0.9999314317059792	10	All	test
+31	ConvNet (binary)	9	0.9999314317059792	10	All	test
+32	ConvNet (binary)	10	0.9999314317059792	10	All	test
+33	ConvNet (binary)	20	0.9999314317059792	10	All	test
+34	ConvNet (binary)	30	0.9999314317059792	10	All	test
+35	ConvNet (binary)	40	0.9999314317059792	10	All	test
+36	ConvNet (binary)	50	0.9999314317059792	10	All	test
+37	ConvNet (binary)	60	0.9999314317059792	10	All	test
+38	ConvNet (binary)	70	0.9999314317059792	10	All	test
+39	ConvNet (binary)	80	0.9999314317059792	10	All	test
+40	ConvNet (binary)	90	0.9999314317059792	10	All	test
+41	ConvNet (binary)	100	0.9999314317059792	10	All	test
+42	ConvNet (binary)	200	0.9999314317059792	10	All	test
+43	ConvNet (binary)	300	0.9999314317059792	10	All	test
+44	ConvNet (binary)	400	0.9999314317059792	10	All	test
+45	ConvNet (binary)	500	0.9999314317059792	10	All	test
+0	Aspell with Jaro-Winkler	1	0.8777945293990954	11	All	test
+1	Aspell with Jaro-Winkler	2	0.9414602627611458	11	All	test
+2	Aspell with Jaro-Winkler	3	0.9838897264699548	11	All	test
+3	Aspell with Jaro-Winkler	4	0.9921171656256731	11	All	test
+4	Aspell with Jaro-Winkler	5	0.9948740038768038	11	All	test
+5	Aspell with Jaro-Winkler	6	0.9958647426233039	11	All	test
+6	Aspell with Jaro-Winkler	7	0.9961231962093474	11	All	test
+7	Aspell with Jaro-Winkler	8	0.9962093474046952	11	All	test
+8	Aspell with Jaro-Winkler	9	0.9962524230023692	11	All	test
+9	Aspell with Jaro-Winkler	10	0.9962524230023692	11	All	test
+10	Aspell with Jaro-Winkler	20	0.9962524230023692	11	All	test
+11	Aspell with Jaro-Winkler	30	0.9962524230023692	11	All	test
+12	Aspell with Jaro-Winkler	40	0.9962524230023692	11	All	test
+13	Aspell with Jaro-Winkler	50	0.9962524230023692	11	All	test
+14	Aspell with Jaro-Winkler	60	0.9962524230023692	11	All	test
+15	Aspell with Jaro-Winkler	70	0.9962524230023692	11	All	test
+16	Aspell with Jaro-Winkler	80	0.9962524230023692	11	All	test
+17	Aspell with Jaro-Winkler	90	0.9962524230023692	11	All	test
+18	Aspell with Jaro-Winkler	100	0.9962524230023692	11	All	test
+19	Aspell with Jaro-Winkler	200	0.9962524230023692	11	All	test
+20	Aspell with Jaro-Winkler	300	0.9962524230023692	11	All	test
+21	Aspell with Jaro-Winkler	400	0.9962524230023692	11	All	test
+22	Aspell with Jaro-Winkler	500	0.9962524230023692	11	All	test
+23	ConvNet (binary)	1	0.9623056046181019	11	All	test
+24	ConvNet (binary)	2	0.993322707103778	11	All	test
+25	ConvNet (binary)	3	0.9980614310946453	11	All	test
+26	ConvNet (binary)	4	0.9995261276009133	11	All	test
+27	ConvNet (binary)	5	0.9998707620729763	11	All	test
+28	ConvNet (binary)	6	0.9999569206909921	11	All	test
+29	ConvNet (binary)	7	1.0	11	All	test
+30	ConvNet (binary)	8	1.0	11	All	test
+31	ConvNet (binary)	9	1.0	11	All	test
+32	ConvNet (binary)	10	1.0	11	All	test
+33	ConvNet (binary)	20	1.0	11	All	test
+34	ConvNet (binary)	30	1.0	11	All	test
+35	ConvNet (binary)	40	1.0	11	All	test
+36	ConvNet (binary)	50	1.0	11	All	test
+37	ConvNet (binary)	60	1.0	11	All	test
+38	ConvNet (binary)	70	1.0	11	All	test
+39	ConvNet (binary)	80	1.0	11	All	test
+40	ConvNet (binary)	90	1.0	11	All	test
+41	ConvNet (binary)	100	1.0	11	All	test
+42	ConvNet (binary)	200	1.0	11	All	test
+43	ConvNet (binary)	300	1.0	11	All	test
+44	ConvNet (binary)	400	1.0	11	All	test
+45	ConvNet (binary)	500	1.0	11	All	test
+0	Aspell with Jaro-Winkler	1	0.8943446363583848	12	All	test
+1	Aspell with Jaro-Winkler	2	0.9489342036855178	12	All	test
+2	Aspell with Jaro-Winkler	3	0.9872913176592918	12	All	test
+3	Aspell with Jaro-Winkler	4	0.993472358615909	12	All	test
+4	Aspell with Jaro-Winkler	5	0.9956097279186644	12	All	test
+5	Aspell with Jaro-Winkler	6	0.9961873952977875	12	All	test
+6	Aspell with Jaro-Winkler	7	0.9963606955115245	12	All	test
+7	Aspell with Jaro-Winkler	8	0.9964762289873491	12	All	test
+8	Aspell with Jaro-Winkler	9	0.9964762289873491	12	All	test
+9	Aspell with Jaro-Winkler	10	0.9964762289873491	12	All	test
+10	Aspell with Jaro-Winkler	20	0.9964762289873491	12	All	test
+11	Aspell with Jaro-Winkler	30	0.9964762289873491	12	All	test
+12	Aspell with Jaro-Winkler	40	0.9964762289873491	12	All	test
+13	Aspell with Jaro-Winkler	50	0.9964762289873491	12	All	test
+14	Aspell with Jaro-Winkler	60	0.9964762289873491	12	All	test
+15	Aspell with Jaro-Winkler	70	0.9964762289873491	12	All	test
+16	Aspell with Jaro-Winkler	80	0.9964762289873491	12	All	test
+17	Aspell with Jaro-Winkler	90	0.9964762289873491	12	All	test
+18	Aspell with Jaro-Winkler	100	0.9964762289873491	12	All	test
+19	Aspell with Jaro-Winkler	200	0.9964762289873491	12	All	test
+20	Aspell with Jaro-Winkler	300	0.9964762289873491	12	All	test
+21	Aspell with Jaro-Winkler	400	0.9964762289873491	12	All	test
+22	Aspell with Jaro-Winkler	500	0.9964762289873491	12	All	test
+23	ConvNet (binary)	1	0.9707700306163711	12	All	test
+24	ConvNet (binary)	2	0.9952053607532783	12	All	test
+25	ConvNet (binary)	3	0.9989024319796661	12	All	test
+26	ConvNet (binary)	4	0.9997689330483508	12	All	test
+27	ConvNet (binary)	5	1.0	12	All	test
+28	ConvNet (binary)	6	1.0	12	All	test
+29	ConvNet (binary)	7	1.0	12	All	test
+30	ConvNet (binary)	8	1.0	12	All	test
+31	ConvNet (binary)	9	1.0	12	All	test
+32	ConvNet (binary)	10	1.0	12	All	test
+33	ConvNet (binary)	20	1.0	12	All	test
+34	ConvNet (binary)	30	1.0	12	All	test
+35	ConvNet (binary)	40	1.0	12	All	test
+36	ConvNet (binary)	50	1.0	12	All	test
+37	ConvNet (binary)	60	1.0	12	All	test
+38	ConvNet (binary)	70	1.0	12	All	test
+39	ConvNet (binary)	80	1.0	12	All	test
+40	ConvNet (binary)	90	1.0	12	All	test
+41	ConvNet (binary)	100	1.0	12	All	test
+42	ConvNet (binary)	200	1.0	12	All	test
+43	ConvNet (binary)	300	1.0	12	All	test
+44	ConvNet (binary)	400	1.0	12	All	test
+45	ConvNet (binary)	500	1.0	12	All	test
+0	Aspell with Jaro-Winkler	1	0.9089382017505083	13	All	test
+1	Aspell with Jaro-Winkler	2	0.960657766775705	13	All	test
+2	Aspell with Jaro-Winkler	3	0.9911590487136416	13	All	test
+3	Aspell with Jaro-Winkler	4	0.9949606577667757	13	All	test
+4	Aspell with Jaro-Winkler	5	0.9963752099725931	13	All	test
+5	Aspell with Jaro-Winkler	6	0.9969056670497746	13	All	test
+6	Aspell with Jaro-Winkler	7	0.9969056670497746	13	All	test
+7	Aspell with Jaro-Winkler	8	0.9969056670497746	13	All	test
+8	Aspell with Jaro-Winkler	9	0.9969056670497746	13	All	test
+9	Aspell with Jaro-Winkler	10	0.9969056670497746	13	All	test
+10	Aspell with Jaro-Winkler	20	0.9969056670497746	13	All	test
+11	Aspell with Jaro-Winkler	30	0.9969056670497746	13	All	test
+12	Aspell with Jaro-Winkler	40	0.9969056670497746	13	All	test
+13	Aspell with Jaro-Winkler	50	0.9969056670497746	13	All	test
+14	Aspell with Jaro-Winkler	60	0.9969056670497746	13	All	test
+15	Aspell with Jaro-Winkler	70	0.9969056670497746	13	All	test
+16	Aspell with Jaro-Winkler	80	0.9969056670497746	13	All	test
+17	Aspell with Jaro-Winkler	90	0.9969056670497746	13	All	test
+18	Aspell with Jaro-Winkler	100	0.9969056670497746	13	All	test
+19	Aspell with Jaro-Winkler	200	0.9969056670497746	13	All	test
+20	Aspell with Jaro-Winkler	300	0.9969056670497746	13	All	test
+21	Aspell with Jaro-Winkler	400	0.9969056670497746	13	All	test
+22	Aspell with Jaro-Winkler	500	0.9969056670497746	13	All	test
+23	ConvNet (binary)	1	0.9766598886040138	13	All	test
+24	ConvNet (binary)	2	0.9965520289983202	13	All	test
+25	ConvNet (binary)	3	0.9990274953585006	13	All	test
+26	ConvNet (binary)	4	0.9998231809742728	13	All	test
+27	ConvNet (binary)	5	1.0	13	All	test
+28	ConvNet (binary)	6	1.0	13	All	test
+29	ConvNet (binary)	7	1.0	13	All	test
+30	ConvNet (binary)	8	1.0	13	All	test
+31	ConvNet (binary)	9	1.0	13	All	test
+32	ConvNet (binary)	10	1.0	13	All	test
+33	ConvNet (binary)	20	1.0	13	All	test
+34	ConvNet (binary)	30	1.0	13	All	test
+35	ConvNet (binary)	40	1.0	13	All	test
+36	ConvNet (binary)	50	1.0	13	All	test
+37	ConvNet (binary)	60	1.0	13	All	test
+38	ConvNet (binary)	70	1.0	13	All	test
+39	ConvNet (binary)	80	1.0	13	All	test
+40	ConvNet (binary)	90	1.0	13	All	test
+41	ConvNet (binary)	100	1.0	13	All	test
+42	ConvNet (binary)	200	1.0	13	All	test
+43	ConvNet (binary)	300	1.0	13	All	test
+44	ConvNet (binary)	400	1.0	13	All	test
+45	ConvNet (binary)	500	1.0	13	All	test
+0	Aspell with Jaro-Winkler	1	0.9063320688648964	14	All	test
+1	Aspell with Jaro-Winkler	2	0.9613364458710242	14	All	test
+2	Aspell with Jaro-Winkler	3	0.9912459877443829	14	All	test
+3	Aspell with Jaro-Winkler	4	0.9953311934636708	14	All	test
+4	Aspell with Jaro-Winkler	5	0.9960606944849723	14	All	test
+5	Aspell with Jaro-Winkler	6	0.9960606944849723	14	All	test
+6	Aspell with Jaro-Winkler	7	0.9960606944849723	14	All	test
+7	Aspell with Jaro-Winkler	8	0.9960606944849723	14	All	test
+8	Aspell with Jaro-Winkler	9	0.9960606944849723	14	All	test
+9	Aspell with Jaro-Winkler	10	0.9960606944849723	14	All	test
+10	Aspell with Jaro-Winkler	20	0.9960606944849723	14	All	test
+11	Aspell with Jaro-Winkler	30	0.9960606944849723	14	All	test
+12	Aspell with Jaro-Winkler	40	0.9960606944849723	14	All	test
+13	Aspell with Jaro-Winkler	50	0.9960606944849723	14	All	test
+14	Aspell with Jaro-Winkler	60	0.9960606944849723	14	All	test
+15	Aspell with Jaro-Winkler	70	0.9960606944849723	14	All	test
+16	Aspell with Jaro-Winkler	80	0.9960606944849723	14	All	test
+17	Aspell with Jaro-Winkler	90	0.9960606944849723	14	All	test
+18	Aspell with Jaro-Winkler	100	0.9960606944849723	14	All	test
+19	Aspell with Jaro-Winkler	200	0.9960606944849723	14	All	test
+20	Aspell with Jaro-Winkler	300	0.9960606944849723	14	All	test
+21	Aspell with Jaro-Winkler	400	0.9960606944849723	14	All	test
+22	Aspell with Jaro-Winkler	500	0.9960606944849723	14	All	test
+23	ConvNet (binary)	1	0.9804493726291217	14	All	test
+24	ConvNet (binary)	2	0.9970819959147943	14	All	test
+25	ConvNet (binary)	3	0.9994163991829589	14	All	test
+26	ConvNet (binary)	4	0.9997081995914794	14	All	test
+27	ConvNet (binary)	5	0.9997081995914794	14	All	test
+28	ConvNet (binary)	6	1.0	14	All	test
+29	ConvNet (binary)	7	1.0	14	All	test
+30	ConvNet (binary)	8	1.0	14	All	test
+31	ConvNet (binary)	9	1.0	14	All	test
+32	ConvNet (binary)	10	1.0	14	All	test
+33	ConvNet (binary)	20	1.0	14	All	test
+34	ConvNet (binary)	30	1.0	14	All	test
+35	ConvNet (binary)	40	1.0	14	All	test
+36	ConvNet (binary)	50	1.0	14	All	test
+37	ConvNet (binary)	60	1.0	14	All	test
+38	ConvNet (binary)	70	1.0	14	All	test
+39	ConvNet (binary)	80	1.0	14	All	test
+40	ConvNet (binary)	90	1.0	14	All	test
+41	ConvNet (binary)	100	1.0	14	All	test
+42	ConvNet (binary)	200	1.0	14	All	test
+43	ConvNet (binary)	300	1.0	14	All	test
+44	ConvNet (binary)	400	1.0	14	All	test
+45	ConvNet (binary)	500	1.0	14	All	test
+0	Aspell with Jaro-Winkler	1	0.9185912240184757	15	All	test
+1	Aspell with Jaro-Winkler	2	0.9679561200923787	15	All	test
+2	Aspell with Jaro-Winkler	3	0.9942263279445728	15	All	test
+3	Aspell with Jaro-Winkler	4	0.996824480369515	15	All	test
+4	Aspell with Jaro-Winkler	5	0.9976905311778291	15	All	test
+5	Aspell with Jaro-Winkler	6	0.9982678983833718	15	All	test
+6	Aspell with Jaro-Winkler	7	0.9982678983833718	15	All	test
+7	Aspell with Jaro-Winkler	8	0.9982678983833718	15	All	test
+8	Aspell with Jaro-Winkler	9	0.9982678983833718	15	All	test
+9	Aspell with Jaro-Winkler	10	0.9982678983833718	15	All	test
+10	Aspell with Jaro-Winkler	20	0.9982678983833718	15	All	test
+11	Aspell with Jaro-Winkler	30	0.9982678983833718	15	All	test
+12	Aspell with Jaro-Winkler	40	0.9982678983833718	15	All	test
+13	Aspell with Jaro-Winkler	50	0.9982678983833718	15	All	test
+14	Aspell with Jaro-Winkler	60	0.9982678983833718	15	All	test
+15	Aspell with Jaro-Winkler	70	0.9982678983833718	15	All	test
+16	Aspell with Jaro-Winkler	80	0.9982678983833718	15	All	test
+17	Aspell with Jaro-Winkler	90	0.9982678983833718	15	All	test
+18	Aspell with Jaro-Winkler	100	0.9982678983833718	15	All	test
+19	Aspell with Jaro-Winkler	200	0.9982678983833718	15	All	test
+20	Aspell with Jaro-Winkler	300	0.9982678983833718	15	All	test
+21	Aspell with Jaro-Winkler	400	0.9982678983833718	15	All	test
+22	Aspell with Jaro-Winkler	500	0.9982678983833718	15	All	test
+23	ConvNet (binary)	1	0.9821016166281755	15	All	test
+24	ConvNet (binary)	2	0.9974018475750578	15	All	test
+25	ConvNet (binary)	3	0.9988452655889145	15	All	test
+26	ConvNet (binary)	4	0.9994226327944573	15	All	test
+27	ConvNet (binary)	5	1.0	15	All	test
+28	ConvNet (binary)	6	1.0	15	All	test
+29	ConvNet (binary)	7	1.0	15	All	test
+30	ConvNet (binary)	8	1.0	15	All	test
+31	ConvNet (binary)	9	1.0	15	All	test
+32	ConvNet (binary)	10	1.0	15	All	test
+33	ConvNet (binary)	20	1.0	15	All	test
+34	ConvNet (binary)	30	1.0	15	All	test
+35	ConvNet (binary)	40	1.0	15	All	test
+36	ConvNet (binary)	50	1.0	15	All	test
+37	ConvNet (binary)	60	1.0	15	All	test
+38	ConvNet (binary)	70	1.0	15	All	test
+39	ConvNet (binary)	80	1.0	15	All	test
+40	ConvNet (binary)	90	1.0	15	All	test
+41	ConvNet (binary)	100	1.0	15	All	test
+42	ConvNet (binary)	200	1.0	15	All	test
+43	ConvNet (binary)	300	1.0	15	All	test
+44	ConvNet (binary)	400	1.0	15	All	test
+45	ConvNet (binary)	500	1.0	15	All	test
+0	Aspell with Jaro-Winkler	1	0.929776810016331	16	All	test
+1	Aspell with Jaro-Winkler	2	0.9722373434948285	16	All	test
+2	Aspell with Jaro-Winkler	3	0.9940119760479041	16	All	test
+3	Aspell with Jaro-Winkler	4	0.9956450734893849	16	All	test
+4	Aspell with Jaro-Winkler	5	0.9972781709308656	16	All	test
+5	Aspell with Jaro-Winkler	6	0.9972781709308656	16	All	test
+6	Aspell with Jaro-Winkler	7	0.9972781709308656	16	All	test
+7	Aspell with Jaro-Winkler	8	0.9972781709308656	16	All	test
+8	Aspell with Jaro-Winkler	9	0.9972781709308656	16	All	test
+9	Aspell with Jaro-Winkler	10	0.9972781709308656	16	All	test
+10	Aspell with Jaro-Winkler	20	0.9972781709308656	16	All	test
+11	Aspell with Jaro-Winkler	30	0.9972781709308656	16	All	test
+12	Aspell with Jaro-Winkler	40	0.9972781709308656	16	All	test
+13	Aspell with Jaro-Winkler	50	0.9972781709308656	16	All	test
+14	Aspell with Jaro-Winkler	60	0.9972781709308656	16	All	test
+15	Aspell with Jaro-Winkler	70	0.9972781709308656	16	All	test
+16	Aspell with Jaro-Winkler	80	0.9972781709308656	16	All	test
+17	Aspell with Jaro-Winkler	90	0.9972781709308656	16	All	test
+18	Aspell with Jaro-Winkler	100	0.9972781709308656	16	All	test
+19	Aspell with Jaro-Winkler	200	0.9972781709308656	16	All	test
+20	Aspell with Jaro-Winkler	300	0.9972781709308656	16	All	test
+21	Aspell with Jaro-Winkler	400	0.9972781709308656	16	All	test
+22	Aspell with Jaro-Winkler	500	0.9972781709308656	16	All	test
+23	ConvNet (binary)	1	0.9891126837234622	16	All	test
+24	ConvNet (binary)	2	0.9989112683723462	16	All	test
+25	ConvNet (binary)	3	1.0	16	All	test
+26	ConvNet (binary)	4	1.0	16	All	test
+27	ConvNet (binary)	5	1.0	16	All	test
+28	ConvNet (binary)	6	1.0	16	All	test
+29	ConvNet (binary)	7	1.0	16	All	test
+30	ConvNet (binary)	8	1.0	16	All	test
+31	ConvNet (binary)	9	1.0	16	All	test
+32	ConvNet (binary)	10	1.0	16	All	test
+33	ConvNet (binary)	20	1.0	16	All	test
+34	ConvNet (binary)	30	1.0	16	All	test
+35	ConvNet (binary)	40	1.0	16	All	test
+36	ConvNet (binary)	50	1.0	16	All	test
+37	ConvNet (binary)	60	1.0	16	All	test
+38	ConvNet (binary)	70	1.0	16	All	test
+39	ConvNet (binary)	80	1.0	16	All	test
+40	ConvNet (binary)	90	1.0	16	All	test
+41	ConvNet (binary)	100	1.0	16	All	test
+42	ConvNet (binary)	200	1.0	16	All	test
+43	ConvNet (binary)	300	1.0	16	All	test
+44	ConvNet (binary)	400	1.0	16	All	test
+45	ConvNet (binary)	500	1.0	16	All	test
+0	Aspell with Jaro-Winkler	1	0.9362808842652796	17	All	test
+1	Aspell with Jaro-Winkler	2	0.9674902470741222	17	All	test
+2	Aspell with Jaro-Winkler	3	0.9908972691807543	17	All	test
+3	Aspell with Jaro-Winkler	4	0.9947984395318595	17	All	test
+4	Aspell with Jaro-Winkler	5	0.9960988296488946	17	All	test
+5	Aspell with Jaro-Winkler	6	0.9960988296488946	17	All	test
+6	Aspell with Jaro-Winkler	7	0.9960988296488946	17	All	test
+7	Aspell with Jaro-Winkler	8	0.9960988296488946	17	All	test
+8	Aspell with Jaro-Winkler	9	0.9960988296488946	17	All	test
+9	Aspell with Jaro-Winkler	10	0.9960988296488946	17	All	test
+10	Aspell with Jaro-Winkler	20	0.9960988296488946	17	All	test
+11	Aspell with Jaro-Winkler	30	0.9960988296488946	17	All	test
+12	Aspell with Jaro-Winkler	40	0.9960988296488946	17	All	test
+13	Aspell with Jaro-Winkler	50	0.9960988296488946	17	All	test
+14	Aspell with Jaro-Winkler	60	0.9960988296488946	17	All	test
+15	Aspell with Jaro-Winkler	70	0.9960988296488946	17	All	test
+16	Aspell with Jaro-Winkler	80	0.9960988296488946	17	All	test
+17	Aspell with Jaro-Winkler	90	0.9960988296488946	17	All	test
+18	Aspell with Jaro-Winkler	100	0.9960988296488946	17	All	test
+19	Aspell with Jaro-Winkler	200	0.9960988296488946	17	All	test
+20	Aspell with Jaro-Winkler	300	0.9960988296488946	17	All	test
+21	Aspell with Jaro-Winkler	400	0.9960988296488946	17	All	test
+22	Aspell with Jaro-Winkler	500	0.9960988296488946	17	All	test
+23	ConvNet (binary)	1	0.988296488946684	17	All	test
+24	ConvNet (binary)	2	0.9986996098829649	17	All	test
+25	ConvNet (binary)	3	1.0	17	All	test
+26	ConvNet (binary)	4	1.0	17	All	test
+27	ConvNet (binary)	5	1.0	17	All	test
+28	ConvNet (binary)	6	1.0	17	All	test
+29	ConvNet (binary)	7	1.0	17	All	test
+30	ConvNet (binary)	8	1.0	17	All	test
+31	ConvNet (binary)	9	1.0	17	All	test
+32	ConvNet (binary)	10	1.0	17	All	test
+33	ConvNet (binary)	20	1.0	17	All	test
+34	ConvNet (binary)	30	1.0	17	All	test
+35	ConvNet (binary)	40	1.0	17	All	test
+36	ConvNet (binary)	50	1.0	17	All	test
+37	ConvNet (binary)	60	1.0	17	All	test
+38	ConvNet (binary)	70	1.0	17	All	test
+39	ConvNet (binary)	80	1.0	17	All	test
+40	ConvNet (binary)	90	1.0	17	All	test
+41	ConvNet (binary)	100	1.0	17	All	test
+42	ConvNet (binary)	200	1.0	17	All	test
+43	ConvNet (binary)	300	1.0	17	All	test
+44	ConvNet (binary)	400	1.0	17	All	test
+45	ConvNet (binary)	500	1.0	17	All	test
+0	Aspell with Jaro-Winkler	1	0.9189944134078212	18	All	test
+1	Aspell with Jaro-Winkler	2	0.9748603351955307	18	All	test
+2	Aspell with Jaro-Winkler	3	0.994413407821229	18	All	test
+3	Aspell with Jaro-Winkler	4	0.994413407821229	18	All	test
+4	Aspell with Jaro-Winkler	5	0.994413407821229	18	All	test
+5	Aspell with Jaro-Winkler	6	0.994413407821229	18	All	test
+6	Aspell with Jaro-Winkler	7	0.994413407821229	18	All	test
+7	Aspell with Jaro-Winkler	8	0.994413407821229	18	All	test
+8	Aspell with Jaro-Winkler	9	0.994413407821229	18	All	test
+9	Aspell with Jaro-Winkler	10	0.994413407821229	18	All	test
+10	Aspell with Jaro-Winkler	20	0.994413407821229	18	All	test
+11	Aspell with Jaro-Winkler	30	0.994413407821229	18	All	test
+12	Aspell with Jaro-Winkler	40	0.994413407821229	18	All	test
+13	Aspell with Jaro-Winkler	50	0.994413407821229	18	All	test
+14	Aspell with Jaro-Winkler	60	0.994413407821229	18	All	test
+15	Aspell with Jaro-Winkler	70	0.994413407821229	18	All	test
+16	Aspell with Jaro-Winkler	80	0.994413407821229	18	All	test
+17	Aspell with Jaro-Winkler	90	0.994413407821229	18	All	test
+18	Aspell with Jaro-Winkler	100	0.994413407821229	18	All	test
+19	Aspell with Jaro-Winkler	200	0.994413407821229	18	All	test
+20	Aspell with Jaro-Winkler	300	0.994413407821229	18	All	test
+21	Aspell with Jaro-Winkler	400	0.994413407821229	18	All	test
+22	Aspell with Jaro-Winkler	500	0.994413407821229	18	All	test
+23	ConvNet (binary)	1	0.9916201117318436	18	All	test
+24	ConvNet (binary)	2	0.9972067039106145	18	All	test
+25	ConvNet (binary)	3	1.0	18	All	test
+26	ConvNet (binary)	4	1.0	18	All	test
+27	ConvNet (binary)	5	1.0	18	All	test
+28	ConvNet (binary)	6	1.0	18	All	test
+29	ConvNet (binary)	7	1.0	18	All	test
+30	ConvNet (binary)	8	1.0	18	All	test
+31	ConvNet (binary)	9	1.0	18	All	test
+32	ConvNet (binary)	10	1.0	18	All	test
+33	ConvNet (binary)	20	1.0	18	All	test
+34	ConvNet (binary)	30	1.0	18	All	test
+35	ConvNet (binary)	40	1.0	18	All	test
+36	ConvNet (binary)	50	1.0	18	All	test
+37	ConvNet (binary)	60	1.0	18	All	test
+38	ConvNet (binary)	70	1.0	18	All	test
+39	ConvNet (binary)	80	1.0	18	All	test
+40	ConvNet (binary)	90	1.0	18	All	test
+41	ConvNet (binary)	100	1.0	18	All	test
+42	ConvNet (binary)	200	1.0	18	All	test
+43	ConvNet (binary)	300	1.0	18	All	test
+44	ConvNet (binary)	400	1.0	18	All	test
+45	ConvNet (binary)	500	1.0	18	All	test
+0	Aspell with Jaro-Winkler	1	0.9065420560747663	19	All	test
+1	Aspell with Jaro-Winkler	2	0.9532710280373832	19	All	test
+2	Aspell with Jaro-Winkler	3	0.9906542056074766	19	All	test
+3	Aspell with Jaro-Winkler	4	0.9906542056074766	19	All	test
+4	Aspell with Jaro-Winkler	5	0.9906542056074766	19	All	test
+5	Aspell with Jaro-Winkler	6	0.9906542056074766	19	All	test
+6	Aspell with Jaro-Winkler	7	0.9906542056074766	19	All	test
+7	Aspell with Jaro-Winkler	8	0.9906542056074766	19	All	test
+8	Aspell with Jaro-Winkler	9	0.9906542056074766	19	All	test
+9	Aspell with Jaro-Winkler	10	0.9906542056074766	19	All	test
+10	Aspell with Jaro-Winkler	20	0.9906542056074766	19	All	test
+11	Aspell with Jaro-Winkler	30	0.9906542056074766	19	All	test
+12	Aspell with Jaro-Winkler	40	0.9906542056074766	19	All	test
+13	Aspell with Jaro-Winkler	50	0.9906542056074766	19	All	test
+14	Aspell with Jaro-Winkler	60	0.9906542056074766	19	All	test
+15	Aspell with Jaro-Winkler	70	0.9906542056074766	19	All	test
+16	Aspell with Jaro-Winkler	80	0.9906542056074766	19	All	test
+17	Aspell with Jaro-Winkler	90	0.9906542056074766	19	All	test
+18	Aspell with Jaro-Winkler	100	0.9906542056074766	19	All	test
+19	Aspell with Jaro-Winkler	200	0.9906542056074766	19	All	test
+20	Aspell with Jaro-Winkler	300	0.9906542056074766	19	All	test
+21	Aspell with Jaro-Winkler	400	0.9906542056074766	19	All	test
+22	Aspell with Jaro-Winkler	500	0.9906542056074766	19	All	test
+23	ConvNet (binary)	1	1.0	19	All	test
+24	ConvNet (binary)	2	1.0	19	All	test
+25	ConvNet (binary)	3	1.0	19	All	test
+26	ConvNet (binary)	4	1.0	19	All	test
+27	ConvNet (binary)	5	1.0	19	All	test
+28	ConvNet (binary)	6	1.0	19	All	test
+29	ConvNet (binary)	7	1.0	19	All	test
+30	ConvNet (binary)	8	1.0	19	All	test
+31	ConvNet (binary)	9	1.0	19	All	test
+32	ConvNet (binary)	10	1.0	19	All	test
+33	ConvNet (binary)	20	1.0	19	All	test
+34	ConvNet (binary)	30	1.0	19	All	test
+35	ConvNet (binary)	40	1.0	19	All	test
+36	ConvNet (binary)	50	1.0	19	All	test
+37	ConvNet (binary)	60	1.0	19	All	test
+38	ConvNet (binary)	70	1.0	19	All	test
+39	ConvNet (binary)	80	1.0	19	All	test
+40	ConvNet (binary)	90	1.0	19	All	test
+41	ConvNet (binary)	100	1.0	19	All	test
+42	ConvNet (binary)	200	1.0	19	All	test
+43	ConvNet (binary)	300	1.0	19	All	test
+44	ConvNet (binary)	400	1.0	19	All	test
+45	ConvNet (binary)	500	1.0	19	All	test
+0	Aspell with Jaro-Winkler	1	0.9242424242424242	20	All	test
+1	Aspell with Jaro-Winkler	2	0.9545454545454546	20	All	test
+2	Aspell with Jaro-Winkler	3	0.9848484848484849	20	All	test
+3	Aspell with Jaro-Winkler	4	0.9848484848484849	20	All	test
+4	Aspell with Jaro-Winkler	5	0.9848484848484849	20	All	test
+5	Aspell with Jaro-Winkler	6	0.9848484848484849	20	All	test
+6	Aspell with Jaro-Winkler	7	0.9848484848484849	20	All	test
+7	Aspell with Jaro-Winkler	8	0.9848484848484849	20	All	test
+8	Aspell with Jaro-Winkler	9	0.9848484848484849	20	All	test
+9	Aspell with Jaro-Winkler	10	0.9848484848484849	20	All	test
+10	Aspell with Jaro-Winkler	20	0.9848484848484849	20	All	test
+11	Aspell with Jaro-Winkler	30	0.9848484848484849	20	All	test
+12	Aspell with Jaro-Winkler	40	0.9848484848484849	20	All	test
+13	Aspell with Jaro-Winkler	50	0.9848484848484849	20	All	test
+14	Aspell with Jaro-Winkler	60	0.9848484848484849	20	All	test
+15	Aspell with Jaro-Winkler	70	0.9848484848484849	20	All	test
+16	Aspell with Jaro-Winkler	80	0.9848484848484849	20	All	test
+17	Aspell with Jaro-Winkler	90	0.9848484848484849	20	All	test
+18	Aspell with Jaro-Winkler	100	0.9848484848484849	20	All	test
+19	Aspell with Jaro-Winkler	200	0.9848484848484849	20	All	test
+20	Aspell with Jaro-Winkler	300	0.9848484848484849	20	All	test
+21	Aspell with Jaro-Winkler	400	0.9848484848484849	20	All	test
+22	Aspell with Jaro-Winkler	500	0.9848484848484849	20	All	test
+23	ConvNet (binary)	1	1.0	20	All	test
+24	ConvNet (binary)	2	1.0	20	All	test
+25	ConvNet (binary)	3	1.0	20	All	test
+26	ConvNet (binary)	4	1.0	20	All	test
+27	ConvNet (binary)	5	1.0	20	All	test
+28	ConvNet (binary)	6	1.0	20	All	test
+29	ConvNet (binary)	7	1.0	20	All	test
+30	ConvNet (binary)	8	1.0	20	All	test
+31	ConvNet (binary)	9	1.0	20	All	test
+32	ConvNet (binary)	10	1.0	20	All	test
+33	ConvNet (binary)	20	1.0	20	All	test
+34	ConvNet (binary)	30	1.0	20	All	test
+35	ConvNet (binary)	40	1.0	20	All	test
+36	ConvNet (binary)	50	1.0	20	All	test
+37	ConvNet (binary)	60	1.0	20	All	test
+38	ConvNet (binary)	70	1.0	20	All	test
+39	ConvNet (binary)	80	1.0	20	All	test
+40	ConvNet (binary)	90	1.0	20	All	test
+41	ConvNet (binary)	100	1.0	20	All	test
+42	ConvNet (binary)	200	1.0	20	All	test
+43	ConvNet (binary)	300	1.0	20	All	test
+44	ConvNet (binary)	400	1.0	20	All	test
+45	ConvNet (binary)	500	1.0	20	All	test
+0	Aspell with Jaro-Winkler	1	0.8947368421052632	21	All	test
+1	Aspell with Jaro-Winkler	2	0.8947368421052632	21	All	test
+2	Aspell with Jaro-Winkler	3	0.9473684210526315	21	All	test
+3	Aspell with Jaro-Winkler	4	0.9473684210526315	21	All	test
+4	Aspell with Jaro-Winkler	5	0.9473684210526315	21	All	test
+5	Aspell with Jaro-Winkler	6	0.9473684210526315	21	All	test
+6	Aspell with Jaro-Winkler	7	0.9473684210526315	21	All	test
+7	Aspell with Jaro-Winkler	8	0.9473684210526315	21	All	test
+8	Aspell with Jaro-Winkler	9	0.9473684210526315	21	All	test
+9	Aspell with Jaro-Winkler	10	0.9473684210526315	21	All	test
+10	Aspell with Jaro-Winkler	20	0.9473684210526315	21	All	test
+11	Aspell with Jaro-Winkler	30	0.9473684210526315	21	All	test
+12	Aspell with Jaro-Winkler	40	0.9473684210526315	21	All	test
+13	Aspell with Jaro-Winkler	50	0.9473684210526315	21	All	test
+14	Aspell with Jaro-Winkler	60	0.9473684210526315	21	All	test
+15	Aspell with Jaro-Winkler	70	0.9473684210526315	21	All	test
+16	Aspell with Jaro-Winkler	80	0.9473684210526315	21	All	test
+17	Aspell with Jaro-Winkler	90	0.9473684210526315	21	All	test
+18	Aspell with Jaro-Winkler	100	0.9473684210526315	21	All	test
+19	Aspell with Jaro-Winkler	200	0.9473684210526315	21	All	test
+20	Aspell with Jaro-Winkler	300	0.9473684210526315	21	All	test
+21	Aspell with Jaro-Winkler	400	0.9473684210526315	21	All	test
+22	Aspell with Jaro-Winkler	500	0.9473684210526315	21	All	test
+23	ConvNet (binary)	1	1.0	21	All	test
+24	ConvNet (binary)	2	1.0	21	All	test
+25	ConvNet (binary)	3	1.0	21	All	test
+26	ConvNet (binary)	4	1.0	21	All	test
+27	ConvNet (binary)	5	1.0	21	All	test
+28	ConvNet (binary)	6	1.0	21	All	test
+29	ConvNet (binary)	7	1.0	21	All	test
+30	ConvNet (binary)	8	1.0	21	All	test
+31	ConvNet (binary)	9	1.0	21	All	test
+32	ConvNet (binary)	10	1.0	21	All	test
+33	ConvNet (binary)	20	1.0	21	All	test
+34	ConvNet (binary)	30	1.0	21	All	test
+35	ConvNet (binary)	40	1.0	21	All	test
+36	ConvNet (binary)	50	1.0	21	All	test
+37	ConvNet (binary)	60	1.0	21	All	test
+38	ConvNet (binary)	70	1.0	21	All	test
+39	ConvNet (binary)	80	1.0	21	All	test
+40	ConvNet (binary)	90	1.0	21	All	test
+41	ConvNet (binary)	100	1.0	21	All	test
+42	ConvNet (binary)	200	1.0	21	All	test
+43	ConvNet (binary)	300	1.0	21	All	test
+44	ConvNet (binary)	400	1.0	21	All	test
+45	ConvNet (binary)	500	1.0	21	All	test
+0	Aspell with Jaro-Winkler	1	0.9583333333333334	22	All	test
+1	Aspell with Jaro-Winkler	2	0.9583333333333334	22	All	test
+2	Aspell with Jaro-Winkler	3	1.0	22	All	test
+3	Aspell with Jaro-Winkler	4	1.0	22	All	test
+4	Aspell with Jaro-Winkler	5	1.0	22	All	test
+5	Aspell with Jaro-Winkler	6	1.0	22	All	test
+6	Aspell with Jaro-Winkler	7	1.0	22	All	test
+7	Aspell with Jaro-Winkler	8	1.0	22	All	test
+8	Aspell with Jaro-Winkler	9	1.0	22	All	test
+9	Aspell with Jaro-Winkler	10	1.0	22	All	test
+10	Aspell with Jaro-Winkler	20	1.0	22	All	test
+11	Aspell with Jaro-Winkler	30	1.0	22	All	test
+12	Aspell with Jaro-Winkler	40	1.0	22	All	test
+13	Aspell with Jaro-Winkler	50	1.0	22	All	test
+14	Aspell with Jaro-Winkler	60	1.0	22	All	test
+15	Aspell with Jaro-Winkler	70	1.0	22	All	test
+16	Aspell with Jaro-Winkler	80	1.0	22	All	test
+17	Aspell with Jaro-Winkler	90	1.0	22	All	test
+18	Aspell with Jaro-Winkler	100	1.0	22	All	test
+19	Aspell with Jaro-Winkler	200	1.0	22	All	test
+20	Aspell with Jaro-Winkler	300	1.0	22	All	test
+21	Aspell with Jaro-Winkler	400	1.0	22	All	test
+22	Aspell with Jaro-Winkler	500	1.0	22	All	test
+23	ConvNet (binary)	1	1.0	22	All	test
+24	ConvNet (binary)	2	1.0	22	All	test
+25	ConvNet (binary)	3	1.0	22	All	test
+26	ConvNet (binary)	4	1.0	22	All	test
+27	ConvNet (binary)	5	1.0	22	All	test
+28	ConvNet (binary)	6	1.0	22	All	test
+29	ConvNet (binary)	7	1.0	22	All	test
+30	ConvNet (binary)	8	1.0	22	All	test
+31	ConvNet (binary)	9	1.0	22	All	test
+32	ConvNet (binary)	10	1.0	22	All	test
+33	ConvNet (binary)	20	1.0	22	All	test
+34	ConvNet (binary)	30	1.0	22	All	test
+35	ConvNet (binary)	40	1.0	22	All	test
+36	ConvNet (binary)	50	1.0	22	All	test
+37	ConvNet (binary)	60	1.0	22	All	test
+38	ConvNet (binary)	70	1.0	22	All	test
+39	ConvNet (binary)	80	1.0	22	All	test
+40	ConvNet (binary)	90	1.0	22	All	test
+41	ConvNet (binary)	100	1.0	22	All	test
+42	ConvNet (binary)	200	1.0	22	All	test
+43	ConvNet (binary)	300	1.0	22	All	test
+44	ConvNet (binary)	400	1.0	22	All	test
+45	ConvNet (binary)	500	1.0	22	All	test
+0	Aspell with Jaro-Winkler	1	1.0	23	All	test
+1	Aspell with Jaro-Winkler	2	1.0	23	All	test
+2	Aspell with Jaro-Winkler	3	1.0	23	All	test
+3	Aspell with Jaro-Winkler	4	1.0	23	All	test
+4	Aspell with Jaro-Winkler	5	1.0	23	All	test
+5	Aspell with Jaro-Winkler	6	1.0	23	All	test
+6	Aspell with Jaro-Winkler	7	1.0	23	All	test
+7	Aspell with Jaro-Winkler	8	1.0	23	All	test
+8	Aspell with Jaro-Winkler	9	1.0	23	All	test
+9	Aspell with Jaro-Winkler	10	1.0	23	All	test
+10	Aspell with Jaro-Winkler	20	1.0	23	All	test
+11	Aspell with Jaro-Winkler	30	1.0	23	All	test
+12	Aspell with Jaro-Winkler	40	1.0	23	All	test
+13	Aspell with Jaro-Winkler	50	1.0	23	All	test
+14	Aspell with Jaro-Winkler	60	1.0	23	All	test
+15	Aspell with Jaro-Winkler	70	1.0	23	All	test
+16	Aspell with Jaro-Winkler	80	1.0	23	All	test
+17	Aspell with Jaro-Winkler	90	1.0	23	All	test
+18	Aspell with Jaro-Winkler	100	1.0	23	All	test
+19	Aspell with Jaro-Winkler	200	1.0	23	All	test
+20	Aspell with Jaro-Winkler	300	1.0	23	All	test
+21	Aspell with Jaro-Winkler	400	1.0	23	All	test
+22	Aspell with Jaro-Winkler	500	1.0	23	All	test
+23	ConvNet (binary)	1	1.0	23	All	test
+24	ConvNet (binary)	2	1.0	23	All	test
+25	ConvNet (binary)	3	1.0	23	All	test
+26	ConvNet (binary)	4	1.0	23	All	test
+27	ConvNet (binary)	5	1.0	23	All	test
+28	ConvNet (binary)	6	1.0	23	All	test
+29	ConvNet (binary)	7	1.0	23	All	test
+30	ConvNet (binary)	8	1.0	23	All	test
+31	ConvNet (binary)	9	1.0	23	All	test
+32	ConvNet (binary)	10	1.0	23	All	test
+33	ConvNet (binary)	20	1.0	23	All	test
+34	ConvNet (binary)	30	1.0	23	All	test
+35	ConvNet (binary)	40	1.0	23	All	test
+36	ConvNet (binary)	50	1.0	23	All	test
+37	ConvNet (binary)	60	1.0	23	All	test
+38	ConvNet (binary)	70	1.0	23	All	test
+39	ConvNet (binary)	80	1.0	23	All	test
+40	ConvNet (binary)	90	1.0	23	All	test
+41	ConvNet (binary)	100	1.0	23	All	test
+42	ConvNet (binary)	200	1.0	23	All	test
+43	ConvNet (binary)	300	1.0	23	All	test
+44	ConvNet (binary)	400	1.0	23	All	test
+45	ConvNet (binary)	500	1.0	23	All	test
+0	Aspell with Jaro-Winkler	1	1.0	24	All	test
+1	Aspell with Jaro-Winkler	2	1.0	24	All	test
+2	Aspell with Jaro-Winkler	3	1.0	24	All	test
+3	Aspell with Jaro-Winkler	4	1.0	24	All	test
+4	Aspell with Jaro-Winkler	5	1.0	24	All	test
+5	Aspell with Jaro-Winkler	6	1.0	24	All	test
+6	Aspell with Jaro-Winkler	7	1.0	24	All	test
+7	Aspell with Jaro-Winkler	8	1.0	24	All	test
+8	Aspell with Jaro-Winkler	9	1.0	24	All	test
+9	Aspell with Jaro-Winkler	10	1.0	24	All	test
+10	Aspell with Jaro-Winkler	20	1.0	24	All	test
+11	Aspell with Jaro-Winkler	30	1.0	24	All	test
+12	Aspell with Jaro-Winkler	40	1.0	24	All	test
+13	Aspell with Jaro-Winkler	50	1.0	24	All	test
+14	Aspell with Jaro-Winkler	60	1.0	24	All	test
+15	Aspell with Jaro-Winkler	70	1.0	24	All	test
+16	Aspell with Jaro-Winkler	80	1.0	24	All	test
+17	Aspell with Jaro-Winkler	90	1.0	24	All	test
+18	Aspell with Jaro-Winkler	100	1.0	24	All	test
+19	Aspell with Jaro-Winkler	200	1.0	24	All	test
+20	Aspell with Jaro-Winkler	300	1.0	24	All	test
+21	Aspell with Jaro-Winkler	400	1.0	24	All	test
+22	Aspell with Jaro-Winkler	500	1.0	24	All	test
+23	ConvNet (binary)	1	1.0	24	All	test
+24	ConvNet (binary)	2	1.0	24	All	test
+25	ConvNet (binary)	3	1.0	24	All	test
+26	ConvNet (binary)	4	1.0	24	All	test
+27	ConvNet (binary)	5	1.0	24	All	test
+28	ConvNet (binary)	6	1.0	24	All	test
+29	ConvNet (binary)	7	1.0	24	All	test
+30	ConvNet (binary)	8	1.0	24	All	test
+31	ConvNet (binary)	9	1.0	24	All	test
+32	ConvNet (binary)	10	1.0	24	All	test
+33	ConvNet (binary)	20	1.0	24	All	test
+34	ConvNet (binary)	30	1.0	24	All	test
+35	ConvNet (binary)	40	1.0	24	All	test
+36	ConvNet (binary)	50	1.0	24	All	test
+37	ConvNet (binary)	60	1.0	24	All	test
+38	ConvNet (binary)	70	1.0	24	All	test
+39	ConvNet (binary)	80	1.0	24	All	test
+40	ConvNet (binary)	90	1.0	24	All	test
+41	ConvNet (binary)	100	1.0	24	All	test
+42	ConvNet (binary)	200	1.0	24	All	test
+43	ConvNet (binary)	300	1.0	24	All	test
+44	ConvNet (binary)	400	1.0	24	All	test
+45	ConvNet (binary)	500	1.0	24	All	test
+0	Aspell with Jaro-Winkler	1	0.7735835835835836	-1	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.8704854854854854	-1	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9182032032032033	-1	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9438388388388388	-1	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9594594594594594	-1	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9701051051051051	-1	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9785735735735736	-1	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9846396396396396	-1	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9887887887887888	-1	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9915765765765766	-1	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9956206206206206	-1	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9956406406406406	-1	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9956406406406406	-1	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9956406406406406	-1	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9956406406406406	-1	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9956406406406406	-1	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9956406406406406	-1	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9956406406406406	-1	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9956406406406406	-1	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9956406406406406	-1	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9956406406406406	-1	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9956406406406406	-1	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9956406406406406	-1	No near-miss	test
+23	ConvNet (binary)	1	0.8993463594322436	-1	No near-miss	test
+24	ConvNet (binary)	2	0.9532842185341635	-1	No near-miss	test
+25	ConvNet (binary)	3	0.9697153210145943	-1	No near-miss	test
+26	ConvNet (binary)	4	0.9779984384697004	-1	No near-miss	test
+27	ConvNet (binary)	5	0.9832736081359732	-1	No near-miss	test
+28	ConvNet (binary)	6	0.9873225761246021	-1	No near-miss	test
+29	ConvNet (binary)	7	0.9904356269143761	-1	No near-miss	test
+30	ConvNet (binary)	8	0.9929530940321515	-1	No near-miss	test
+31	ConvNet (binary)	9	0.9950651638605834	-1	No near-miss	test
+32	ConvNet (binary)	10	0.9964715421112691	-1	No near-miss	test
+33	ConvNet (binary)	20	0.999739744950051	-1	No near-miss	test
+34	ConvNet (binary)	30	0.9997647694740847	-1	No near-miss	test
+35	ConvNet (binary)	40	0.9997647694740847	-1	No near-miss	test
+36	ConvNet (binary)	50	0.9997647694740847	-1	No near-miss	test
+37	ConvNet (binary)	60	0.9997647694740847	-1	No near-miss	test
+38	ConvNet (binary)	70	0.9997647694740847	-1	No near-miss	test
+39	ConvNet (binary)	80	0.9997647694740847	-1	No near-miss	test
+40	ConvNet (binary)	90	0.9997647694740847	-1	No near-miss	test
+41	ConvNet (binary)	100	0.9997647694740847	-1	No near-miss	test
+42	ConvNet (binary)	200	0.9997647694740847	-1	No near-miss	test
+43	ConvNet (binary)	300	0.9997647694740847	-1	No near-miss	test
+44	ConvNet (binary)	400	0.9997647694740847	-1	No near-miss	test
+45	ConvNet (binary)	500	0.9997647694740847	-1	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.26861702127659576	3	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.4015957446808511	3	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.5691489361702128	3	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.6436170212765957	3	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.7047872340425532	3	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.7526595744680851	3	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.800531914893617	3	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.8404255319148937	3	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.875	3	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9202127659574468	3	No near-miss	test
+10	Aspell with Jaro-Winkler	20	1.0	3	No near-miss	test
+11	Aspell with Jaro-Winkler	30	1.0	3	No near-miss	test
+12	Aspell with Jaro-Winkler	40	1.0	3	No near-miss	test
+13	Aspell with Jaro-Winkler	50	1.0	3	No near-miss	test
+14	Aspell with Jaro-Winkler	60	1.0	3	No near-miss	test
+15	Aspell with Jaro-Winkler	70	1.0	3	No near-miss	test
+16	Aspell with Jaro-Winkler	80	1.0	3	No near-miss	test
+17	Aspell with Jaro-Winkler	90	1.0	3	No near-miss	test
+18	Aspell with Jaro-Winkler	100	1.0	3	No near-miss	test
+19	Aspell with Jaro-Winkler	200	1.0	3	No near-miss	test
+20	Aspell with Jaro-Winkler	300	1.0	3	No near-miss	test
+21	Aspell with Jaro-Winkler	400	1.0	3	No near-miss	test
+22	Aspell with Jaro-Winkler	500	1.0	3	No near-miss	test
+23	ConvNet (binary)	1	0.19788918205804748	3	No near-miss	test
+24	ConvNet (binary)	2	0.316622691292876	3	No near-miss	test
+25	ConvNet (binary)	3	0.42744063324538256	3	No near-miss	test
+26	ConvNet (binary)	4	0.5145118733509235	3	No near-miss	test
+27	ConvNet (binary)	5	0.6015831134564644	3	No near-miss	test
+28	ConvNet (binary)	6	0.6807387862796834	3	No near-miss	test
+29	ConvNet (binary)	7	0.7361477572559367	3	No near-miss	test
+30	ConvNet (binary)	8	0.7862796833773087	3	No near-miss	test
+31	ConvNet (binary)	9	0.8496042216358839	3	No near-miss	test
+32	ConvNet (binary)	10	0.8891820580474934	3	No near-miss	test
+33	ConvNet (binary)	20	0.9973614775725593	3	No near-miss	test
+34	ConvNet (binary)	30	0.9973614775725593	3	No near-miss	test
+35	ConvNet (binary)	40	0.9973614775725593	3	No near-miss	test
+36	ConvNet (binary)	50	0.9973614775725593	3	No near-miss	test
+37	ConvNet (binary)	60	0.9973614775725593	3	No near-miss	test
+38	ConvNet (binary)	70	0.9973614775725593	3	No near-miss	test
+39	ConvNet (binary)	80	0.9973614775725593	3	No near-miss	test
+40	ConvNet (binary)	90	0.9973614775725593	3	No near-miss	test
+41	ConvNet (binary)	100	0.9973614775725593	3	No near-miss	test
+42	ConvNet (binary)	200	0.9973614775725593	3	No near-miss	test
+43	ConvNet (binary)	300	0.9973614775725593	3	No near-miss	test
+44	ConvNet (binary)	400	0.9973614775725593	3	No near-miss	test
+45	ConvNet (binary)	500	0.9973614775725593	3	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.30268199233716475	4	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.4482758620689655	4	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.5660919540229885	4	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.6743295019157088	4	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.7375478927203065	4	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.7897509578544061	4	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.8438697318007663	4	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.8845785440613027	4	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9224137931034483	4	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9482758620689655	4	No near-miss	test
+10	Aspell with Jaro-Winkler	20	1.0	4	No near-miss	test
+11	Aspell with Jaro-Winkler	30	1.0009578544061302	4	No near-miss	test
+12	Aspell with Jaro-Winkler	40	1.0009578544061302	4	No near-miss	test
+13	Aspell with Jaro-Winkler	50	1.0009578544061302	4	No near-miss	test
+14	Aspell with Jaro-Winkler	60	1.0009578544061302	4	No near-miss	test
+15	Aspell with Jaro-Winkler	70	1.0009578544061302	4	No near-miss	test
+16	Aspell with Jaro-Winkler	80	1.0009578544061302	4	No near-miss	test
+17	Aspell with Jaro-Winkler	90	1.0009578544061302	4	No near-miss	test
+18	Aspell with Jaro-Winkler	100	1.0009578544061302	4	No near-miss	test
+19	Aspell with Jaro-Winkler	200	1.0009578544061302	4	No near-miss	test
+20	Aspell with Jaro-Winkler	300	1.0009578544061302	4	No near-miss	test
+21	Aspell with Jaro-Winkler	400	1.0009578544061302	4	No near-miss	test
+22	Aspell with Jaro-Winkler	500	1.0009578544061302	4	No near-miss	test
+23	ConvNet (binary)	1	0.368546845124283	4	No near-miss	test
+24	ConvNet (binary)	2	0.5296367112810707	4	No near-miss	test
+25	ConvNet (binary)	3	0.6510516252390057	4	No near-miss	test
+26	ConvNet (binary)	4	0.734225621414914	4	No near-miss	test
+27	ConvNet (binary)	5	0.7829827915869981	4	No near-miss	test
+28	ConvNet (binary)	6	0.8288718929254302	4	No near-miss	test
+29	ConvNet (binary)	7	0.8604206500956023	4	No near-miss	test
+30	ConvNet (binary)	8	0.8972275334608031	4	No near-miss	test
+31	ConvNet (binary)	9	0.9230401529636711	4	No near-miss	test
+32	ConvNet (binary)	10	0.9392925430210325	4	No near-miss	test
+33	ConvNet (binary)	20	0.9990439770554493	4	No near-miss	test
+34	ConvNet (binary)	30	1.0	4	No near-miss	test
+35	ConvNet (binary)	40	1.0	4	No near-miss	test
+36	ConvNet (binary)	50	1.0	4	No near-miss	test
+37	ConvNet (binary)	60	1.0	4	No near-miss	test
+38	ConvNet (binary)	70	1.0	4	No near-miss	test
+39	ConvNet (binary)	80	1.0	4	No near-miss	test
+40	ConvNet (binary)	90	1.0	4	No near-miss	test
+41	ConvNet (binary)	100	1.0	4	No near-miss	test
+42	ConvNet (binary)	200	1.0	4	No near-miss	test
+43	ConvNet (binary)	300	1.0	4	No near-miss	test
+44	ConvNet (binary)	400	1.0	4	No near-miss	test
+45	ConvNet (binary)	500	1.0	4	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.44563843236409606	5	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.6080910240202275	5	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.7168141592920354	5	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.7936156763590392	5	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.8473451327433629	5	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.8889064475347661	5	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9206700379266751	5	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9446902654867256	5	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9627054361567636	5	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9781921618204804	5	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9998419721871049	5	No near-miss	test
+11	Aspell with Jaro-Winkler	30	1.0	5	No near-miss	test
+12	Aspell with Jaro-Winkler	40	1.0	5	No near-miss	test
+13	Aspell with Jaro-Winkler	50	1.0	5	No near-miss	test
+14	Aspell with Jaro-Winkler	60	1.0	5	No near-miss	test
+15	Aspell with Jaro-Winkler	70	1.0	5	No near-miss	test
+16	Aspell with Jaro-Winkler	80	1.0	5	No near-miss	test
+17	Aspell with Jaro-Winkler	90	1.0	5	No near-miss	test
+18	Aspell with Jaro-Winkler	100	1.0	5	No near-miss	test
+19	Aspell with Jaro-Winkler	200	1.0	5	No near-miss	test
+20	Aspell with Jaro-Winkler	300	1.0	5	No near-miss	test
+21	Aspell with Jaro-Winkler	400	1.0	5	No near-miss	test
+22	Aspell with Jaro-Winkler	500	1.0	5	No near-miss	test
+23	ConvNet (binary)	1	0.6064181217555451	5	No near-miss	test
+24	ConvNet (binary)	2	0.7597923548843795	5	No near-miss	test
+25	ConvNet (binary)	3	0.8244454931571495	5	No near-miss	test
+26	ConvNet (binary)	4	0.8636149126946673	5	No near-miss	test
+27	ConvNet (binary)	5	0.8900424728645587	5	No near-miss	test
+28	ConvNet (binary)	6	0.9109642913323895	5	No near-miss	test
+29	ConvNet (binary)	7	0.9299984269309423	5	No near-miss	test
+30	ConvNet (binary)	8	0.9443133553563001	5	No near-miss	test
+31	ConvNet (binary)	9	0.9611451942740287	5	No near-miss	test
+32	ConvNet (binary)	10	0.9734151329243353	5	No near-miss	test
+33	ConvNet (binary)	20	0.9987415447538147	5	No near-miss	test
+34	ConvNet (binary)	30	0.999056158565361	5	No near-miss	test
+35	ConvNet (binary)	40	0.999056158565361	5	No near-miss	test
+36	ConvNet (binary)	50	0.999056158565361	5	No near-miss	test
+37	ConvNet (binary)	60	0.999056158565361	5	No near-miss	test
+38	ConvNet (binary)	70	0.999056158565361	5	No near-miss	test
+39	ConvNet (binary)	80	0.999056158565361	5	No near-miss	test
+40	ConvNet (binary)	90	0.999056158565361	5	No near-miss	test
+41	ConvNet (binary)	100	0.999056158565361	5	No near-miss	test
+42	ConvNet (binary)	200	0.999056158565361	5	No near-miss	test
+43	ConvNet (binary)	300	0.999056158565361	5	No near-miss	test
+44	ConvNet (binary)	400	0.999056158565361	5	No near-miss	test
+45	ConvNet (binary)	500	0.999056158565361	5	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.5256969867642918	6	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.685229512813292	6	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.7810475922275415	6	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.8409602928752464	6	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.884821177133202	6	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9204449450858913	6	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9462123345536468	6	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9641650239369192	6	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9767671078569417	6	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9848634187552802	6	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9971134891579837	6	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9971134891579837	6	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9971134891579837	6	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9971134891579837	6	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9971134891579837	6	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9971134891579837	6	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9971134891579837	6	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9971134891579837	6	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9971134891579837	6	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9971134891579837	6	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9971134891579837	6	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9971134891579837	6	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9971134891579837	6	No near-miss	test
+23	ConvNet (binary)	1	0.7580894766460327	6	No near-miss	test
+24	ConvNet (binary)	2	0.8697945976364659	6	No near-miss	test
+25	ConvNet (binary)	3	0.9115081598199212	6	No near-miss	test
+26	ConvNet (binary)	4	0.9350028137310074	6	No near-miss	test
+27	ConvNet (binary)	5	0.9480866629150253	6	No near-miss	test
+28	ConvNet (binary)	6	0.9603263927968486	6	No near-miss	test
+29	ConvNet (binary)	7	0.9701041080472707	6	No near-miss	test
+30	ConvNet (binary)	8	0.9776308384918402	6	No near-miss	test
+31	ConvNet (binary)	9	0.9838210467079347	6	No near-miss	test
+32	ConvNet (binary)	10	0.988252673044457	6	No near-miss	test
+33	ConvNet (binary)	20	0.9990855374226224	6	No near-miss	test
+34	ConvNet (binary)	30	0.9990855374226224	6	No near-miss	test
+35	ConvNet (binary)	40	0.9990855374226224	6	No near-miss	test
+36	ConvNet (binary)	50	0.9990855374226224	6	No near-miss	test
+37	ConvNet (binary)	60	0.9990855374226224	6	No near-miss	test
+38	ConvNet (binary)	70	0.9990855374226224	6	No near-miss	test
+39	ConvNet (binary)	80	0.9990855374226224	6	No near-miss	test
+40	ConvNet (binary)	90	0.9990855374226224	6	No near-miss	test
+41	ConvNet (binary)	100	0.9990855374226224	6	No near-miss	test
+42	ConvNet (binary)	200	0.9990855374226224	6	No near-miss	test
+43	ConvNet (binary)	300	0.9990855374226224	6	No near-miss	test
+44	ConvNet (binary)	400	0.9990855374226224	6	No near-miss	test
+45	ConvNet (binary)	500	0.9990855374226224	6	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.6347964521264499	7	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.7778485330907436	7	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.8565385490106892	7	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9036615874459859	7	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9334091425972254	7	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9531498749147146	7	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9689788492153741	7	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.978712758699113	7	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9847623379576984	7	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9893108937912213	7	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.995224016374801	7	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9952695019331362	7	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9952695019331362	7	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9952695019331362	7	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9952695019331362	7	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9952695019331362	7	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9952695019331362	7	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9952695019331362	7	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9952695019331362	7	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9952695019331362	7	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9952695019331362	7	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9952695019331362	7	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9952695019331362	7	No near-miss	test
+23	ConvNet (binary)	1	0.8258792483734474	7	No near-miss	test
+24	ConvNet (binary)	2	0.9208335229082306	7	No near-miss	test
+25	ConvNet (binary)	3	0.949997725101233	7	No near-miss	test
+26	ConvNet (binary)	4	0.963556121752582	7	No near-miss	test
+27	ConvNet (binary)	5	0.9740206560808045	7	No near-miss	test
+28	ConvNet (binary)	6	0.9804813685790982	7	No near-miss	test
+29	ConvNet (binary)	7	0.9856226397925293	7	No near-miss	test
+30	ConvNet (binary)	8	0.9896264616224578	7	No near-miss	test
+31	ConvNet (binary)	9	0.9929478138222849	7	No near-miss	test
+32	ConvNet (binary)	10	0.9953592065153101	7	No near-miss	test
+33	ConvNet (binary)	20	0.9993175303698986	7	No near-miss	test
+34	ConvNet (binary)	30	0.9993175303698986	7	No near-miss	test
+35	ConvNet (binary)	40	0.9993175303698986	7	No near-miss	test
+36	ConvNet (binary)	50	0.9993175303698986	7	No near-miss	test
+37	ConvNet (binary)	60	0.9993175303698986	7	No near-miss	test
+38	ConvNet (binary)	70	0.9993175303698986	7	No near-miss	test
+39	ConvNet (binary)	80	0.9993175303698986	7	No near-miss	test
+40	ConvNet (binary)	90	0.9993175303698986	7	No near-miss	test
+41	ConvNet (binary)	100	0.9993175303698986	7	No near-miss	test
+42	ConvNet (binary)	200	0.9993175303698986	7	No near-miss	test
+43	ConvNet (binary)	300	0.9993175303698986	7	No near-miss	test
+44	ConvNet (binary)	400	0.9993175303698986	7	No near-miss	test
+45	ConvNet (binary)	500	0.9993175303698986	7	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.7151566757493188	8	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.8371594005449591	8	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9002724795640327	8	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9361376021798365	8	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9570504087193461	8	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.968732970027248	8	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9781675749318801	8	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9845367847411444	8	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9889986376021799	8	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9908378746594005	8	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9943119891008174	8	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9943119891008174	8	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9943119891008174	8	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9943119891008174	8	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9943119891008174	8	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9943119891008174	8	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9943119891008174	8	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9943119891008174	8	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9943119891008174	8	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9943119891008174	8	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9943119891008174	8	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9943119891008174	8	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9943119891008174	8	No near-miss	test
+23	ConvNet (binary)	1	0.8875374761515399	8	No near-miss	test
+24	ConvNet (binary)	2	0.9571409103297901	8	No near-miss	test
+25	ConvNet (binary)	3	0.9750272553829381	8	No near-miss	test
+26	ConvNet (binary)	4	0.9829994548923412	8	No near-miss	test
+27	ConvNet (binary)	5	0.98797356227855	8	No near-miss	test
+28	ConvNet (binary)	6	0.9914486236031617	8	No near-miss	test
+29	ConvNet (binary)	7	0.9943445080403379	8	No near-miss	test
+30	ConvNet (binary)	8	0.9963205233033524	8	No near-miss	test
+31	ConvNet (binary)	9	0.9973766693922049	8	No near-miss	test
+32	ConvNet (binary)	10	0.9981261924230035	8	No near-miss	test
+33	ConvNet (binary)	20	0.9996252384846007	8	No near-miss	test
+34	ConvNet (binary)	30	0.9996593077132734	8	No near-miss	test
+35	ConvNet (binary)	40	0.9996593077132734	8	No near-miss	test
+36	ConvNet (binary)	50	0.9996593077132734	8	No near-miss	test
+37	ConvNet (binary)	60	0.9996593077132734	8	No near-miss	test
+38	ConvNet (binary)	70	0.9996593077132734	8	No near-miss	test
+39	ConvNet (binary)	80	0.9996593077132734	8	No near-miss	test
+40	ConvNet (binary)	90	0.9996593077132734	8	No near-miss	test
+41	ConvNet (binary)	100	0.9996593077132734	8	No near-miss	test
+42	ConvNet (binary)	200	0.9996593077132734	8	No near-miss	test
+43	ConvNet (binary)	300	0.9996593077132734	8	No near-miss	test
+44	ConvNet (binary)	400	0.9996593077132734	8	No near-miss	test
+45	ConvNet (binary)	500	0.9996593077132734	8	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.8101637967240655	9	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9015604303298549	9	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9442703453623236	9	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9633961166930508	9	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9738959066972507	9	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9796465609149355	9	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9843310826091171	9	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9881433140567958	9	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9905986495654703	9	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9918263173198074	9	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9935062837204794	9	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9935062837204794	9	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9935062837204794	9	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9935062837204794	9	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9935062837204794	9	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9935062837204794	9	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9935062837204794	9	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9935062837204794	9	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9935062837204794	9	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9935062837204794	9	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9935062837204794	9	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9935062837204794	9	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9935062837204794	9	No near-miss	test
+23	ConvNet (binary)	1	0.929985123860035	9	No near-miss	test
+24	ConvNet (binary)	2	0.9759071211435224	9	No near-miss	test
+25	ConvNet (binary)	3	0.9869348683785008	9	No near-miss	test
+26	ConvNet (binary)	4	0.9917534441497963	9	No near-miss	test
+27	ConvNet (binary)	5	0.9944699566651575	9	No near-miss	test
+28	ConvNet (binary)	6	0.9965396804863851	9	No near-miss	test
+29	ConvNet (binary)	7	0.9973805057887588	9	No near-miss	test
+30	ConvNet (binary)	8	0.9983183493952525	9	No near-miss	test
+31	ConvNet (binary)	9	0.999094495828213	9	No near-miss	test
+32	ConvNet (binary)	10	0.999385550740573	9	No near-miss	test
+33	ConvNet (binary)	20	1.0	9	No near-miss	test
+34	ConvNet (binary)	30	1.0	9	No near-miss	test
+35	ConvNet (binary)	40	1.0	9	No near-miss	test
+36	ConvNet (binary)	50	1.0	9	No near-miss	test
+37	ConvNet (binary)	60	1.0	9	No near-miss	test
+38	ConvNet (binary)	70	1.0	9	No near-miss	test
+39	ConvNet (binary)	80	1.0	9	No near-miss	test
+40	ConvNet (binary)	90	1.0	9	No near-miss	test
+41	ConvNet (binary)	100	1.0	9	No near-miss	test
+42	ConvNet (binary)	200	1.0	9	No near-miss	test
+43	ConvNet (binary)	300	1.0	9	No near-miss	test
+44	ConvNet (binary)	400	1.0	9	No near-miss	test
+45	ConvNet (binary)	500	1.0	9	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.8457135022109484	10	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9270215610324615	10	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9601343708223358	10	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9750454187090803	10	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9819353511808865	10	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9857745175333357	10	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9889623967367086	10	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9916703801460255	10	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9928701196311658	10	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9939670243032941	10	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9952353203304425	10	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9952353203304425	10	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9952353203304425	10	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9952353203304425	10	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9952353203304425	10	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9952353203304425	10	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9952353203304425	10	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9952353203304425	10	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9952353203304425	10	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9952353203304425	10	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9952353203304425	10	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9952353203304425	10	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9952353203304425	10	No near-miss	test
+23	ConvNet (binary)	1	0.9527221612726275	10	No near-miss	test
+24	ConvNet (binary)	2	0.9841607240811848	10	No near-miss	test
+25	ConvNet (binary)	3	0.991806088864509	10	No near-miss	test
+26	ConvNet (binary)	4	0.9950287986834887	10	No near-miss	test
+27	ConvNet (binary)	5	0.9963315962698848	10	No near-miss	test
+28	ConvNet (binary)	6	0.9976001097092705	10	No near-miss	test
+29	ConvNet (binary)	7	0.998217224355458	10	No near-miss	test
+30	ConvNet (binary)	8	0.9989714755896874	10	No near-miss	test
+31	ConvNet (binary)	9	0.9993143170597916	10	No near-miss	test
+32	ConvNet (binary)	10	0.9995200219418541	10	No near-miss	test
+33	ConvNet (binary)	20	0.9999314317059792	10	No near-miss	test
+34	ConvNet (binary)	30	0.9999314317059792	10	No near-miss	test
+35	ConvNet (binary)	40	0.9999314317059792	10	No near-miss	test
+36	ConvNet (binary)	50	0.9999314317059792	10	No near-miss	test
+37	ConvNet (binary)	60	0.9999314317059792	10	No near-miss	test
+38	ConvNet (binary)	70	0.9999314317059792	10	No near-miss	test
+39	ConvNet (binary)	80	0.9999314317059792	10	No near-miss	test
+40	ConvNet (binary)	90	0.9999314317059792	10	No near-miss	test
+41	ConvNet (binary)	100	0.9999314317059792	10	No near-miss	test
+42	ConvNet (binary)	200	0.9999314317059792	10	No near-miss	test
+43	ConvNet (binary)	300	0.9999314317059792	10	No near-miss	test
+44	ConvNet (binary)	400	0.9999314317059792	10	No near-miss	test
+45	ConvNet (binary)	500	0.9999314317059792	10	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.8835156317285333	11	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.948454052191887	11	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.972784428559125	11	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9810955128757213	11	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9855740246318146	11	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9881577814141762	11	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9905262251313409	11	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9928516062354664	11	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9941865472396865	11	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9953061751787099	11	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9959521143743002	11	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9959521143743002	11	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9959521143743002	11	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9959521143743002	11	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9959521143743002	11	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9959521143743002	11	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9959521143743002	11	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9959521143743002	11	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9959521143743002	11	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9959521143743002	11	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9959521143743002	11	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9959521143743002	11	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9959521143743002	11	No near-miss	test
+23	ConvNet (binary)	1	0.9623056046181019	11	No near-miss	test
+24	ConvNet (binary)	2	0.9895748072200922	11	No near-miss	test
+25	ConvNet (binary)	3	0.9947874036100461	11	No near-miss	test
+26	ConvNet (binary)	4	0.9966828932063929	11	No near-miss	test
+27	ConvNet (binary)	5	0.9978891138586137	11	No near-miss	test
+28	ConvNet (binary)	6	0.9986214621117477	11	No near-miss	test
+29	ConvNet (binary)	7	0.9994399689828976	11	No near-miss	test
+30	ConvNet (binary)	8	0.9996122862189291	11	No near-miss	test
+31	ConvNet (binary)	9	0.9998707620729763	11	No near-miss	test
+32	ConvNet (binary)	10	0.9998707620729763	11	No near-miss	test
+33	ConvNet (binary)	20	1.0	11	No near-miss	test
+34	ConvNet (binary)	30	1.0	11	No near-miss	test
+35	ConvNet (binary)	40	1.0	11	No near-miss	test
+36	ConvNet (binary)	50	1.0	11	No near-miss	test
+37	ConvNet (binary)	60	1.0	11	No near-miss	test
+38	ConvNet (binary)	70	1.0	11	No near-miss	test
+39	ConvNet (binary)	80	1.0	11	No near-miss	test
+40	ConvNet (binary)	90	1.0	11	No near-miss	test
+41	ConvNet (binary)	100	1.0	11	No near-miss	test
+42	ConvNet (binary)	200	1.0	11	No near-miss	test
+43	ConvNet (binary)	300	1.0	11	No near-miss	test
+44	ConvNet (binary)	400	1.0	11	No near-miss	test
+45	ConvNet (binary)	500	1.0	11	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.8993121784867927	12	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9562453037396682	12	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9779781515519335	12	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9845673660482053	12	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9873995722790591	12	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9901739783827525	12	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9926015837234842	12	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9943355875382925	12	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9956071903358188	12	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9963585919889024	12	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9970521935148258	12	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9970521935148258	12	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9970521935148258	12	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9970521935148258	12	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9970521935148258	12	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9970521935148258	12	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9970521935148258	12	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9970521935148258	12	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9970521935148258	12	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9970521935148258	12	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9970521935148258	12	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9970521935148258	12	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9970521935148258	12	No near-miss	test
+23	ConvNet (binary)	1	0.9707700306163711	12	No near-miss	test
+24	ConvNet (binary)	2	0.9924325573334873	12	No near-miss	test
+25	ConvNet (binary)	3	0.9965339957252614	12	No near-miss	test
+26	ConvNet (binary)	4	0.9976315637455953	12	No near-miss	test
+27	ConvNet (binary)	5	0.9986713650280169	12	No near-miss	test
+28	ConvNet (binary)	6	0.9990757321934031	12	No near-miss	test
+29	ConvNet (binary)	7	0.9995378660967015	12	No near-miss	test
+30	ConvNet (binary)	8	0.9997111663104384	12	No near-miss	test
+31	ConvNet (binary)	9	0.9997689330483508	12	No near-miss	test
+32	ConvNet (binary)	10	0.9997689330483508	12	No near-miss	test
+33	ConvNet (binary)	20	1.0	12	No near-miss	test
+34	ConvNet (binary)	30	1.0	12	No near-miss	test
+35	ConvNet (binary)	40	1.0	12	No near-miss	test
+36	ConvNet (binary)	50	1.0	12	No near-miss	test
+37	ConvNet (binary)	60	1.0	12	No near-miss	test
+38	ConvNet (binary)	70	1.0	12	No near-miss	test
+39	ConvNet (binary)	80	1.0	12	No near-miss	test
+40	ConvNet (binary)	90	1.0	12	No near-miss	test
+41	ConvNet (binary)	100	1.0	12	No near-miss	test
+42	ConvNet (binary)	200	1.0	12	No near-miss	test
+43	ConvNet (binary)	300	1.0	12	No near-miss	test
+44	ConvNet (binary)	400	1.0	12	No near-miss	test
+45	ConvNet (binary)	500	1.0	12	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9134623884027225	13	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9658799611066914	13	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9825864050207725	13	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9875364624767966	13	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9900998850879519	13	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9927517015822505	13	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9940776098293999	13	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9952267303102625	13	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9958454874922655	13	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9962874569079819	13	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9967294263236984	13	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9967294263236984	13	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9967294263236984	13	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9967294263236984	13	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9967294263236984	13	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9967294263236984	13	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9967294263236984	13	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9967294263236984	13	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9967294263236984	13	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9967294263236984	13	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9967294263236984	13	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9967294263236984	13	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9967294263236984	13	No near-miss	test
+23	ConvNet (binary)	1	0.9766598886040138	13	No near-miss	test
+24	ConvNet (binary)	2	0.9938113340995491	13	No near-miss	test
+25	ConvNet (binary)	3	0.9964636194854566	13	No near-miss	test
+26	ConvNet (binary)	4	0.9977013526655468	13	No near-miss	test
+27	ConvNet (binary)	5	0.998939085845637	13	No near-miss	test
+28	ConvNet (binary)	6	0.9990274953585006	13	No near-miss	test
+29	ConvNet (binary)	7	0.9992927238970913	13	No near-miss	test
+30	ConvNet (binary)	8	0.9996463619485456	13	No near-miss	test
+31	ConvNet (binary)	9	0.9998231809742728	13	No near-miss	test
+32	ConvNet (binary)	10	0.9999115904871364	13	No near-miss	test
+33	ConvNet (binary)	20	1.0	13	No near-miss	test
+34	ConvNet (binary)	30	1.0	13	No near-miss	test
+35	ConvNet (binary)	40	1.0	13	No near-miss	test
+36	ConvNet (binary)	50	1.0	13	No near-miss	test
+37	ConvNet (binary)	60	1.0	13	No near-miss	test
+38	ConvNet (binary)	70	1.0	13	No near-miss	test
+39	ConvNet (binary)	80	1.0	13	No near-miss	test
+40	ConvNet (binary)	90	1.0	13	No near-miss	test
+41	ConvNet (binary)	100	1.0	13	No near-miss	test
+42	ConvNet (binary)	200	1.0	13	No near-miss	test
+43	ConvNet (binary)	300	1.0	13	No near-miss	test
+44	ConvNet (binary)	400	1.0	13	No near-miss	test
+45	ConvNet (binary)	500	1.0	13	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9137352211356007	14	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9706612173405342	14	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9840899138811853	14	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9889067289446796	14	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9906582980586776	14	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9927017953583418	14	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9943074003795066	14	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9948912567508393	14	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9957670413078382	14	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9960589694935046	14	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9964968617720041	14	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9964968617720041	14	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9964968617720041	14	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9964968617720041	14	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9964968617720041	14	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9964968617720041	14	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9964968617720041	14	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9964968617720041	14	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9964968617720041	14	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9964968617720041	14	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9964968617720041	14	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9964968617720041	14	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9964968617720041	14	No near-miss	test
+23	ConvNet (binary)	1	0.9804493726291217	14	No near-miss	test
+24	ConvNet (binary)	2	0.993872191421068	14	No near-miss	test
+25	ConvNet (binary)	3	0.9966442953020134	14	No near-miss	test
+26	ConvNet (binary)	4	0.9976655967318354	14	No near-miss	test
+27	ConvNet (binary)	5	0.9982491975488765	14	No near-miss	test
+28	ConvNet (binary)	6	0.998978698570178	14	No near-miss	test
+29	ConvNet (binary)	7	0.9994163991829589	14	No near-miss	test
+30	ConvNet (binary)	8	0.9994163991829589	14	No near-miss	test
+31	ConvNet (binary)	9	0.9997081995914794	14	No near-miss	test
+32	ConvNet (binary)	10	0.9997081995914794	14	No near-miss	test
+33	ConvNet (binary)	20	1.0	14	No near-miss	test
+34	ConvNet (binary)	30	1.0	14	No near-miss	test
+35	ConvNet (binary)	40	1.0	14	No near-miss	test
+36	ConvNet (binary)	50	1.0	14	No near-miss	test
+37	ConvNet (binary)	60	1.0	14	No near-miss	test
+38	ConvNet (binary)	70	1.0	14	No near-miss	test
+39	ConvNet (binary)	80	1.0	14	No near-miss	test
+40	ConvNet (binary)	90	1.0	14	No near-miss	test
+41	ConvNet (binary)	100	1.0	14	No near-miss	test
+42	ConvNet (binary)	200	1.0	14	No near-miss	test
+43	ConvNet (binary)	300	1.0	14	No near-miss	test
+44	ConvNet (binary)	400	1.0	14	No near-miss	test
+45	ConvNet (binary)	500	1.0	14	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9239884393063584	15	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9739884393063584	15	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9878612716763006	15	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9916184971098266	15	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9939306358381503	15	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9950867052023121	15	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9968208092485549	15	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9979768786127168	15	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9985549132947977	15	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9988439306358381	15	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.999421965317919	15	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.999421965317919	15	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.999421965317919	15	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.999421965317919	15	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.999421965317919	15	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.999421965317919	15	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.999421965317919	15	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.999421965317919	15	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.999421965317919	15	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.999421965317919	15	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.999421965317919	15	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.999421965317919	15	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.999421965317919	15	No near-miss	test
+23	ConvNet (binary)	1	0.9821016166281755	15	No near-miss	test
+24	ConvNet (binary)	2	0.995958429561201	15	No near-miss	test
+25	ConvNet (binary)	3	0.9976905311778291	15	No near-miss	test
+26	ConvNet (binary)	4	0.9988452655889145	15	No near-miss	test
+27	ConvNet (binary)	5	0.9997113163972287	15	No near-miss	test
+28	ConvNet (binary)	6	0.9997113163972287	15	No near-miss	test
+29	ConvNet (binary)	7	0.9997113163972287	15	No near-miss	test
+30	ConvNet (binary)	8	1.0	15	No near-miss	test
+31	ConvNet (binary)	9	1.0	15	No near-miss	test
+32	ConvNet (binary)	10	1.0	15	No near-miss	test
+33	ConvNet (binary)	20	1.0	15	No near-miss	test
+34	ConvNet (binary)	30	1.0	15	No near-miss	test
+35	ConvNet (binary)	40	1.0	15	No near-miss	test
+36	ConvNet (binary)	50	1.0	15	No near-miss	test
+37	ConvNet (binary)	60	1.0	15	No near-miss	test
+38	ConvNet (binary)	70	1.0	15	No near-miss	test
+39	ConvNet (binary)	80	1.0	15	No near-miss	test
+40	ConvNet (binary)	90	1.0	15	No near-miss	test
+41	ConvNet (binary)	100	1.0	15	No near-miss	test
+42	ConvNet (binary)	200	1.0	15	No near-miss	test
+43	ConvNet (binary)	300	1.0	15	No near-miss	test
+44	ConvNet (binary)	400	1.0	15	No near-miss	test
+45	ConvNet (binary)	500	1.0	15	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9336235038084875	16	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9766050054406964	16	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9874863982589771	16	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9891186071817193	16	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9918389553862894	16	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9940152339499456	16	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9945593035908596	16	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9951033732317737	16	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9951033732317737	16	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9961915125136017	16	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9967355821545157	16	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9967355821545157	16	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9967355821545157	16	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9967355821545157	16	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9967355821545157	16	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9967355821545157	16	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9967355821545157	16	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9967355821545157	16	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9967355821545157	16	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9967355821545157	16	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9967355821545157	16	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9967355821545157	16	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9967355821545157	16	No near-miss	test
+23	ConvNet (binary)	1	0.9891126837234622	16	No near-miss	test
+24	ConvNet (binary)	2	0.9967338051170387	16	No near-miss	test
+25	ConvNet (binary)	3	0.9989112683723462	16	No near-miss	test
+26	ConvNet (binary)	4	0.9994556341861731	16	No near-miss	test
+27	ConvNet (binary)	5	0.9994556341861731	16	No near-miss	test
+28	ConvNet (binary)	6	1.0	16	No near-miss	test
+29	ConvNet (binary)	7	1.0	16	No near-miss	test
+30	ConvNet (binary)	8	1.0	16	No near-miss	test
+31	ConvNet (binary)	9	1.0	16	No near-miss	test
+32	ConvNet (binary)	10	1.0	16	No near-miss	test
+33	ConvNet (binary)	20	1.0	16	No near-miss	test
+34	ConvNet (binary)	30	1.0	16	No near-miss	test
+35	ConvNet (binary)	40	1.0	16	No near-miss	test
+36	ConvNet (binary)	50	1.0	16	No near-miss	test
+37	ConvNet (binary)	60	1.0	16	No near-miss	test
+38	ConvNet (binary)	70	1.0	16	No near-miss	test
+39	ConvNet (binary)	80	1.0	16	No near-miss	test
+40	ConvNet (binary)	90	1.0	16	No near-miss	test
+41	ConvNet (binary)	100	1.0	16	No near-miss	test
+42	ConvNet (binary)	200	1.0	16	No near-miss	test
+43	ConvNet (binary)	300	1.0	16	No near-miss	test
+44	ConvNet (binary)	400	1.0	16	No near-miss	test
+45	ConvNet (binary)	500	1.0	16	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.94140625	17	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9765625	17	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9869791666666666	17	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9895833333333334	17	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9921875	17	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.99609375	17	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.99609375	17	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9973958333333334	17	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9973958333333334	17	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9973958333333334	17	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9973958333333334	17	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9973958333333334	17	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9973958333333334	17	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9973958333333334	17	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9973958333333334	17	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9973958333333334	17	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9973958333333334	17	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9973958333333334	17	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9973958333333334	17	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9973958333333334	17	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9973958333333334	17	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9973958333333334	17	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9973958333333334	17	No near-miss	test
+23	ConvNet (binary)	1	0.988296488946684	17	No near-miss	test
+24	ConvNet (binary)	2	0.9973992197659298	17	No near-miss	test
+25	ConvNet (binary)	3	0.9986996098829649	17	No near-miss	test
+26	ConvNet (binary)	4	1.0	17	No near-miss	test
+27	ConvNet (binary)	5	1.0	17	No near-miss	test
+28	ConvNet (binary)	6	1.0	17	No near-miss	test
+29	ConvNet (binary)	7	1.0	17	No near-miss	test
+30	ConvNet (binary)	8	1.0	17	No near-miss	test
+31	ConvNet (binary)	9	1.0	17	No near-miss	test
+32	ConvNet (binary)	10	1.0	17	No near-miss	test
+33	ConvNet (binary)	20	1.0	17	No near-miss	test
+34	ConvNet (binary)	30	1.0	17	No near-miss	test
+35	ConvNet (binary)	40	1.0	17	No near-miss	test
+36	ConvNet (binary)	50	1.0	17	No near-miss	test
+37	ConvNet (binary)	60	1.0	17	No near-miss	test
+38	ConvNet (binary)	70	1.0	17	No near-miss	test
+39	ConvNet (binary)	80	1.0	17	No near-miss	test
+40	ConvNet (binary)	90	1.0	17	No near-miss	test
+41	ConvNet (binary)	100	1.0	17	No near-miss	test
+42	ConvNet (binary)	200	1.0	17	No near-miss	test
+43	ConvNet (binary)	300	1.0	17	No near-miss	test
+44	ConvNet (binary)	400	1.0	17	No near-miss	test
+45	ConvNet (binary)	500	1.0	17	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9189944134078212	18	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9776536312849162	18	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9860335195530726	18	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9860335195530726	18	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9860335195530726	18	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9888268156424581	18	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9916201117318436	18	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9916201117318436	18	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.994413407821229	18	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.994413407821229	18	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.994413407821229	18	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.994413407821229	18	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.994413407821229	18	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.994413407821229	18	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.994413407821229	18	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.994413407821229	18	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.994413407821229	18	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.994413407821229	18	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.994413407821229	18	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.994413407821229	18	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.994413407821229	18	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.994413407821229	18	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.994413407821229	18	No near-miss	test
+23	ConvNet (binary)	1	0.9916201117318436	18	No near-miss	test
+24	ConvNet (binary)	2	0.9972067039106145	18	No near-miss	test
+25	ConvNet (binary)	3	1.0	18	No near-miss	test
+26	ConvNet (binary)	4	1.0	18	No near-miss	test
+27	ConvNet (binary)	5	1.0	18	No near-miss	test
+28	ConvNet (binary)	6	1.0	18	No near-miss	test
+29	ConvNet (binary)	7	1.0	18	No near-miss	test
+30	ConvNet (binary)	8	1.0	18	No near-miss	test
+31	ConvNet (binary)	9	1.0	18	No near-miss	test
+32	ConvNet (binary)	10	1.0	18	No near-miss	test
+33	ConvNet (binary)	20	1.0	18	No near-miss	test
+34	ConvNet (binary)	30	1.0	18	No near-miss	test
+35	ConvNet (binary)	40	1.0	18	No near-miss	test
+36	ConvNet (binary)	50	1.0	18	No near-miss	test
+37	ConvNet (binary)	60	1.0	18	No near-miss	test
+38	ConvNet (binary)	70	1.0	18	No near-miss	test
+39	ConvNet (binary)	80	1.0	18	No near-miss	test
+40	ConvNet (binary)	90	1.0	18	No near-miss	test
+41	ConvNet (binary)	100	1.0	18	No near-miss	test
+42	ConvNet (binary)	200	1.0	18	No near-miss	test
+43	ConvNet (binary)	300	1.0	18	No near-miss	test
+44	ConvNet (binary)	400	1.0	18	No near-miss	test
+45	ConvNet (binary)	500	1.0	18	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9065420560747663	19	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9626168224299065	19	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9906542056074766	19	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9906542056074766	19	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9906542056074766	19	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9906542056074766	19	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9906542056074766	19	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9906542056074766	19	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9906542056074766	19	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9906542056074766	19	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9906542056074766	19	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9906542056074766	19	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9906542056074766	19	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9906542056074766	19	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9906542056074766	19	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9906542056074766	19	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9906542056074766	19	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9906542056074766	19	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9906542056074766	19	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9906542056074766	19	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9906542056074766	19	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9906542056074766	19	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9906542056074766	19	No near-miss	test
+23	ConvNet (binary)	1	1.0	19	No near-miss	test
+24	ConvNet (binary)	2	1.0	19	No near-miss	test
+25	ConvNet (binary)	3	1.0	19	No near-miss	test
+26	ConvNet (binary)	4	1.0	19	No near-miss	test
+27	ConvNet (binary)	5	1.0	19	No near-miss	test
+28	ConvNet (binary)	6	1.0	19	No near-miss	test
+29	ConvNet (binary)	7	1.0	19	No near-miss	test
+30	ConvNet (binary)	8	1.0	19	No near-miss	test
+31	ConvNet (binary)	9	1.0	19	No near-miss	test
+32	ConvNet (binary)	10	1.0	19	No near-miss	test
+33	ConvNet (binary)	20	1.0	19	No near-miss	test
+34	ConvNet (binary)	30	1.0	19	No near-miss	test
+35	ConvNet (binary)	40	1.0	19	No near-miss	test
+36	ConvNet (binary)	50	1.0	19	No near-miss	test
+37	ConvNet (binary)	60	1.0	19	No near-miss	test
+38	ConvNet (binary)	70	1.0	19	No near-miss	test
+39	ConvNet (binary)	80	1.0	19	No near-miss	test
+40	ConvNet (binary)	90	1.0	19	No near-miss	test
+41	ConvNet (binary)	100	1.0	19	No near-miss	test
+42	ConvNet (binary)	200	1.0	19	No near-miss	test
+43	ConvNet (binary)	300	1.0	19	No near-miss	test
+44	ConvNet (binary)	400	1.0	19	No near-miss	test
+45	ConvNet (binary)	500	1.0	19	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9393939393939394	20	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9696969696969697	20	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9696969696969697	20	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9848484848484849	20	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9848484848484849	20	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9848484848484849	20	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9848484848484849	20	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9848484848484849	20	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9848484848484849	20	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9848484848484849	20	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9848484848484849	20	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9848484848484849	20	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9848484848484849	20	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9848484848484849	20	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9848484848484849	20	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9848484848484849	20	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9848484848484849	20	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9848484848484849	20	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9848484848484849	20	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9848484848484849	20	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9848484848484849	20	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9848484848484849	20	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9848484848484849	20	No near-miss	test
+23	ConvNet (binary)	1	1.0	20	No near-miss	test
+24	ConvNet (binary)	2	1.0	20	No near-miss	test
+25	ConvNet (binary)	3	1.0	20	No near-miss	test
+26	ConvNet (binary)	4	1.0	20	No near-miss	test
+27	ConvNet (binary)	5	1.0	20	No near-miss	test
+28	ConvNet (binary)	6	1.0	20	No near-miss	test
+29	ConvNet (binary)	7	1.0	20	No near-miss	test
+30	ConvNet (binary)	8	1.0	20	No near-miss	test
+31	ConvNet (binary)	9	1.0	20	No near-miss	test
+32	ConvNet (binary)	10	1.0	20	No near-miss	test
+33	ConvNet (binary)	20	1.0	20	No near-miss	test
+34	ConvNet (binary)	30	1.0	20	No near-miss	test
+35	ConvNet (binary)	40	1.0	20	No near-miss	test
+36	ConvNet (binary)	50	1.0	20	No near-miss	test
+37	ConvNet (binary)	60	1.0	20	No near-miss	test
+38	ConvNet (binary)	70	1.0	20	No near-miss	test
+39	ConvNet (binary)	80	1.0	20	No near-miss	test
+40	ConvNet (binary)	90	1.0	20	No near-miss	test
+41	ConvNet (binary)	100	1.0	20	No near-miss	test
+42	ConvNet (binary)	200	1.0	20	No near-miss	test
+43	ConvNet (binary)	300	1.0	20	No near-miss	test
+44	ConvNet (binary)	400	1.0	20	No near-miss	test
+45	ConvNet (binary)	500	1.0	20	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.8947368421052632	21	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9473684210526315	21	No near-miss	test
+2	Aspell with Jaro-Winkler	3	0.9473684210526315	21	No near-miss	test
+3	Aspell with Jaro-Winkler	4	0.9473684210526315	21	No near-miss	test
+4	Aspell with Jaro-Winkler	5	0.9473684210526315	21	No near-miss	test
+5	Aspell with Jaro-Winkler	6	0.9473684210526315	21	No near-miss	test
+6	Aspell with Jaro-Winkler	7	0.9473684210526315	21	No near-miss	test
+7	Aspell with Jaro-Winkler	8	0.9473684210526315	21	No near-miss	test
+8	Aspell with Jaro-Winkler	9	0.9473684210526315	21	No near-miss	test
+9	Aspell with Jaro-Winkler	10	0.9473684210526315	21	No near-miss	test
+10	Aspell with Jaro-Winkler	20	0.9473684210526315	21	No near-miss	test
+11	Aspell with Jaro-Winkler	30	0.9473684210526315	21	No near-miss	test
+12	Aspell with Jaro-Winkler	40	0.9473684210526315	21	No near-miss	test
+13	Aspell with Jaro-Winkler	50	0.9473684210526315	21	No near-miss	test
+14	Aspell with Jaro-Winkler	60	0.9473684210526315	21	No near-miss	test
+15	Aspell with Jaro-Winkler	70	0.9473684210526315	21	No near-miss	test
+16	Aspell with Jaro-Winkler	80	0.9473684210526315	21	No near-miss	test
+17	Aspell with Jaro-Winkler	90	0.9473684210526315	21	No near-miss	test
+18	Aspell with Jaro-Winkler	100	0.9473684210526315	21	No near-miss	test
+19	Aspell with Jaro-Winkler	200	0.9473684210526315	21	No near-miss	test
+20	Aspell with Jaro-Winkler	300	0.9473684210526315	21	No near-miss	test
+21	Aspell with Jaro-Winkler	400	0.9473684210526315	21	No near-miss	test
+22	Aspell with Jaro-Winkler	500	0.9473684210526315	21	No near-miss	test
+23	ConvNet (binary)	1	1.0	21	No near-miss	test
+24	ConvNet (binary)	2	1.0	21	No near-miss	test
+25	ConvNet (binary)	3	1.0	21	No near-miss	test
+26	ConvNet (binary)	4	1.0	21	No near-miss	test
+27	ConvNet (binary)	5	1.0	21	No near-miss	test
+28	ConvNet (binary)	6	1.0	21	No near-miss	test
+29	ConvNet (binary)	7	1.0	21	No near-miss	test
+30	ConvNet (binary)	8	1.0	21	No near-miss	test
+31	ConvNet (binary)	9	1.0	21	No near-miss	test
+32	ConvNet (binary)	10	1.0	21	No near-miss	test
+33	ConvNet (binary)	20	1.0	21	No near-miss	test
+34	ConvNet (binary)	30	1.0	21	No near-miss	test
+35	ConvNet (binary)	40	1.0	21	No near-miss	test
+36	ConvNet (binary)	50	1.0	21	No near-miss	test
+37	ConvNet (binary)	60	1.0	21	No near-miss	test
+38	ConvNet (binary)	70	1.0	21	No near-miss	test
+39	ConvNet (binary)	80	1.0	21	No near-miss	test
+40	ConvNet (binary)	90	1.0	21	No near-miss	test
+41	ConvNet (binary)	100	1.0	21	No near-miss	test
+42	ConvNet (binary)	200	1.0	21	No near-miss	test
+43	ConvNet (binary)	300	1.0	21	No near-miss	test
+44	ConvNet (binary)	400	1.0	21	No near-miss	test
+45	ConvNet (binary)	500	1.0	21	No near-miss	test
+0	Aspell with Jaro-Winkler	1	0.9583333333333334	22	No near-miss	test
+1	Aspell with Jaro-Winkler	2	0.9583333333333334	22	No near-miss	test
+2	Aspell with Jaro-Winkler	3	1.0	22	No near-miss	test
+3	Aspell with Jaro-Winkler	4	1.0	22	No near-miss	test
+4	Aspell with Jaro-Winkler	5	1.0	22	No near-miss	test
+5	Aspell with Jaro-Winkler	6	1.0	22	No near-miss	test
+6	Aspell with Jaro-Winkler	7	1.0	22	No near-miss	test
+7	Aspell with Jaro-Winkler	8	1.0	22	No near-miss	test
+8	Aspell with Jaro-Winkler	9	1.0	22	No near-miss	test
+9	Aspell with Jaro-Winkler	10	1.0	22	No near-miss	test
+10	Aspell with Jaro-Winkler	20	1.0	22	No near-miss	test
+11	Aspell with Jaro-Winkler	30	1.0	22	No near-miss	test
+12	Aspell with Jaro-Winkler	40	1.0	22	No near-miss	test
+13	Aspell with Jaro-Winkler	50	1.0	22	No near-miss	test
+14	Aspell with Jaro-Winkler	60	1.0	22	No near-miss	test
+15	Aspell with Jaro-Winkler	70	1.0	22	No near-miss	test
+16	Aspell with Jaro-Winkler	80	1.0	22	No near-miss	test
+17	Aspell with Jaro-Winkler	90	1.0	22	No near-miss	test
+18	Aspell with Jaro-Winkler	100	1.0	22	No near-miss	test
+19	Aspell with Jaro-Winkler	200	1.0	22	No near-miss	test
+20	Aspell with Jaro-Winkler	300	1.0	22	No near-miss	test
+21	Aspell with Jaro-Winkler	400	1.0	22	No near-miss	test
+22	Aspell with Jaro-Winkler	500	1.0	22	No near-miss	test
+23	ConvNet (binary)	1	1.0	22	No near-miss	test
+24	ConvNet (binary)	2	1.0	22	No near-miss	test
+25	ConvNet (binary)	3	1.0	22	No near-miss	test
+26	ConvNet (binary)	4	1.0	22	No near-miss	test
+27	ConvNet (binary)	5	1.0	22	No near-miss	test
+28	ConvNet (binary)	6	1.0	22	No near-miss	test
+29	ConvNet (binary)	7	1.0	22	No near-miss	test
+30	ConvNet (binary)	8	1.0	22	No near-miss	test
+31	ConvNet (binary)	9	1.0	22	No near-miss	test
+32	ConvNet (binary)	10	1.0	22	No near-miss	test
+33	ConvNet (binary)	20	1.0	22	No near-miss	test
+34	ConvNet (binary)	30	1.0	22	No near-miss	test
+35	ConvNet (binary)	40	1.0	22	No near-miss	test
+36	ConvNet (binary)	50	1.0	22	No near-miss	test
+37	ConvNet (binary)	60	1.0	22	No near-miss	test
+38	ConvNet (binary)	70	1.0	22	No near-miss	test
+39	ConvNet (binary)	80	1.0	22	No near-miss	test
+40	ConvNet (binary)	90	1.0	22	No near-miss	test
+41	ConvNet (binary)	100	1.0	22	No near-miss	test
+42	ConvNet (binary)	200	1.0	22	No near-miss	test
+43	ConvNet (binary)	300	1.0	22	No near-miss	test
+44	ConvNet (binary)	400	1.0	22	No near-miss	test
+45	ConvNet (binary)	500	1.0	22	No near-miss	test
+0	Aspell with Jaro-Winkler	1	1.0	23	No near-miss	test
+1	Aspell with Jaro-Winkler	2	1.0	23	No near-miss	test
+2	Aspell with Jaro-Winkler	3	1.0	23	No near-miss	test
+3	Aspell with Jaro-Winkler	4	1.0	23	No near-miss	test
+4	Aspell with Jaro-Winkler	5	1.0	23	No near-miss	test
+5	Aspell with Jaro-Winkler	6	1.0	23	No near-miss	test
+6	Aspell with Jaro-Winkler	7	1.0	23	No near-miss	test
+7	Aspell with Jaro-Winkler	8	1.0	23	No near-miss	test
+8	Aspell with Jaro-Winkler	9	1.0	23	No near-miss	test
+9	Aspell with Jaro-Winkler	10	1.0	23	No near-miss	test
+10	Aspell with Jaro-Winkler	20	1.0	23	No near-miss	test
+11	Aspell with Jaro-Winkler	30	1.0	23	No near-miss	test
+12	Aspell with Jaro-Winkler	40	1.0	23	No near-miss	test
+13	Aspell with Jaro-Winkler	50	1.0	23	No near-miss	test
+14	Aspell with Jaro-Winkler	60	1.0	23	No near-miss	test
+15	Aspell with Jaro-Winkler	70	1.0	23	No near-miss	test
+16	Aspell with Jaro-Winkler	80	1.0	23	No near-miss	test
+17	Aspell with Jaro-Winkler	90	1.0	23	No near-miss	test
+18	Aspell with Jaro-Winkler	100	1.0	23	No near-miss	test
+19	Aspell with Jaro-Winkler	200	1.0	23	No near-miss	test
+20	Aspell with Jaro-Winkler	300	1.0	23	No near-miss	test
+21	Aspell with Jaro-Winkler	400	1.0	23	No near-miss	test
+22	Aspell with Jaro-Winkler	500	1.0	23	No near-miss	test
+23	ConvNet (binary)	1	1.0	23	No near-miss	test
+24	ConvNet (binary)	2	1.0	23	No near-miss	test
+25	ConvNet (binary)	3	1.0	23	No near-miss	test
+26	ConvNet (binary)	4	1.0	23	No near-miss	test
+27	ConvNet (binary)	5	1.0	23	No near-miss	test
+28	ConvNet (binary)	6	1.0	23	No near-miss	test
+29	ConvNet (binary)	7	1.0	23	No near-miss	test
+30	ConvNet (binary)	8	1.0	23	No near-miss	test
+31	ConvNet (binary)	9	1.0	23	No near-miss	test
+32	ConvNet (binary)	10	1.0	23	No near-miss	test
+33	ConvNet (binary)	20	1.0	23	No near-miss	test
+34	ConvNet (binary)	30	1.0	23	No near-miss	test
+35	ConvNet (binary)	40	1.0	23	No near-miss	test
+36	ConvNet (binary)	50	1.0	23	No near-miss	test
+37	ConvNet (binary)	60	1.0	23	No near-miss	test
+38	ConvNet (binary)	70	1.0	23	No near-miss	test
+39	ConvNet (binary)	80	1.0	23	No near-miss	test
+40	ConvNet (binary)	90	1.0	23	No near-miss	test
+41	ConvNet (binary)	100	1.0	23	No near-miss	test
+42	ConvNet (binary)	200	1.0	23	No near-miss	test
+43	ConvNet (binary)	300	1.0	23	No near-miss	test
+44	ConvNet (binary)	400	1.0	23	No near-miss	test
+45	ConvNet (binary)	500	1.0	23	No near-miss	test
+0	Aspell with Jaro-Winkler	1	1.0	24	No near-miss	test
+1	Aspell with Jaro-Winkler	2	1.0	24	No near-miss	test
+2	Aspell with Jaro-Winkler	3	1.0	24	No near-miss	test
+3	Aspell with Jaro-Winkler	4	1.0	24	No near-miss	test
+4	Aspell with Jaro-Winkler	5	1.0	24	No near-miss	test
+5	Aspell with Jaro-Winkler	6	1.0	24	No near-miss	test
+6	Aspell with Jaro-Winkler	7	1.0	24	No near-miss	test
+7	Aspell with Jaro-Winkler	8	1.0	24	No near-miss	test
+8	Aspell with Jaro-Winkler	9	1.0	24	No near-miss	test
+9	Aspell with Jaro-Winkler	10	1.0	24	No near-miss	test
+10	Aspell with Jaro-Winkler	20	1.0	24	No near-miss	test
+11	Aspell with Jaro-Winkler	30	1.0	24	No near-miss	test
+12	Aspell with Jaro-Winkler	40	1.0	24	No near-miss	test
+13	Aspell with Jaro-Winkler	50	1.0	24	No near-miss	test
+14	Aspell with Jaro-Winkler	60	1.0	24	No near-miss	test
+15	Aspell with Jaro-Winkler	70	1.0	24	No near-miss	test
+16	Aspell with Jaro-Winkler	80	1.0	24	No near-miss	test
+17	Aspell with Jaro-Winkler	90	1.0	24	No near-miss	test
+18	Aspell with Jaro-Winkler	100	1.0	24	No near-miss	test
+19	Aspell with Jaro-Winkler	200	1.0	24	No near-miss	test
+20	Aspell with Jaro-Winkler	300	1.0	24	No near-miss	test
+21	Aspell with Jaro-Winkler	400	1.0	24	No near-miss	test
+22	Aspell with Jaro-Winkler	500	1.0	24	No near-miss	test
+23	ConvNet (binary)	1	1.0	24	No near-miss	test
+24	ConvNet (binary)	2	1.0	24	No near-miss	test
+25	ConvNet (binary)	3	1.0	24	No near-miss	test
+26	ConvNet (binary)	4	1.0	24	No near-miss	test
+27	ConvNet (binary)	5	1.0	24	No near-miss	test
+28	ConvNet (binary)	6	1.0	24	No near-miss	test
+29	ConvNet (binary)	7	1.0	24	No near-miss	test
+30	ConvNet (binary)	8	1.0	24	No near-miss	test
+31	ConvNet (binary)	9	1.0	24	No near-miss	test
+32	ConvNet (binary)	10	1.0	24	No near-miss	test
+33	ConvNet (binary)	20	1.0	24	No near-miss	test
+34	ConvNet (binary)	30	1.0	24	No near-miss	test
+35	ConvNet (binary)	40	1.0	24	No near-miss	test
+36	ConvNet (binary)	50	1.0	24	No near-miss	test
+37	ConvNet (binary)	60	1.0	24	No near-miss	test
+38	ConvNet (binary)	70	1.0	24	No near-miss	test
+39	ConvNet (binary)	80	1.0	24	No near-miss	test
+40	ConvNet (binary)	90	1.0	24	No near-miss	test
+41	ConvNet (binary)	100	1.0	24	No near-miss	test
+42	ConvNet (binary)	200	1.0	24	No near-miss	test
+43	ConvNet (binary)	300	1.0	24	No near-miss	test
+44	ConvNet (binary)	400	1.0	24	No near-miss	test
+45	ConvNet (binary)	500	1.0	24	No near-miss	test
