@@ -24,24 +24,36 @@
 #
 # * Repeat the analysis using the Mitton corpora.
 
+import sys
 import collections
 import json
 import numpy as np
 import pandas as pd
+
+import importlib
 
 import modeling.utils
 from spelling.mitton import evaluate_ranks
 from spelling.utils import build_progressbar as build_pbar
 import spelling.preprocess
 
-import models.binary.model as M
 import chapter05.data
 import chapter05.dataset
 
-def run_analysis(mode, model_dir='models/binary/train_binary_crossval_01/cos_10_100_10_000', csv_path='../chapter04/data/train.csv', random_state=17, model_weights='model.h5'):
+#import models.binary.model as M
+
+def load_model_module(model_dir):
+    sys.path.append('.')
+    model_module_path = model_dir.replace('/', '.') + '.model'
+    return importlib.import_module(model_module_path)
+
+def run_analysis(mode, model_dir='models/binary/d8bf93f8e71111e5a584fcaa149e39ea', csv_path='../chapter04/data/train.csv', random_state=17, model_weights='model.h5', ranks=[1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100,200,300,400,500]):
     # Load the model configuration, then load the entire data set and split
     # it into train, validation, and test.
     config = load_config(model_dir)
+
+    M = load_model_module(model_dir)
+
     df = M.load_data(csv_path, config['min_frequency'],
             config['min_length'], config['max_length'])
 
@@ -100,16 +112,28 @@ def run_analysis(mode, model_dir='models/binary/train_binary_crossval_01/cos_10_
     df_model_fmt.sort_values(['non_word', 'correct_word', 'suggestion'], inplace=True)
 
     dictionaries = {}
-    dictionaries['AspellJaroWinkler'] = df_sugg_fmt
-    dictionaries['Model'] = df_model_fmt
+    dictionaries['Aspell with Jaro-Winkler'] = df_sugg_fmt
+    dictionaries['ConvNet (binary)'] = df_model_fmt
 
-    ranks = evaluate_ranks(dictionaries,
-            ranks=[1,2,3,4,5,10,20,30,40,50])
+    ranks_df = compute_ranks(dictionaries, ranks)
+    ranks_df['Candidates'] = 'All'
+    ranks_df_no_near_miss = compute_ranks_no_near_miss(dictionaries, ranks)
+    ranks_df_no_near_miss['Candidates'] = 'No near-miss'
 
-    return df, df_sugg_fmt, df_model_fmt, results, ranks, model, model_cfg, \
-                { 
-                    'df_sugg': df_sugg
-                }
+    all_ranks_df = pd.concat([ranks_df, ranks_df_no_near_miss], axis=0)
+    all_ranks_df['Mode'] = mode
+
+    all_ranks_df.to_csv('ranks-%s.csv' % mode, sep='\t', encoding='utf8')
+    print('wrote ranks-%s.csv' % mode)
+
+    return {
+            'df': df,
+            'df_sugg': df_sugg_fmt,
+            'df_model': df_model_fmt,
+            'ranks': all_ranks_df,
+            'model': model,
+            'model_cfg': model_cfg
+            }
 
 def run_model(model, model_cfg, examples):
     test_results = collections.defaultdict(list)
@@ -281,6 +305,8 @@ def contains_space_or_hyphen(word):
 def remove_split_and_hyphenated_suggestions(df_sugg):
     df_sugg = df_sugg.copy()
 
+    df_sugg.suggestion_index = df_sugg.suggestion_index.astype(np.float)
+
     # Find the groups first, before setting the suggestion
     # index (i.e. the rank) of the space- or hyphen-containing
     # suggestions to NaN.
@@ -294,7 +320,7 @@ def remove_split_and_hyphenated_suggestions(df_sugg):
             contains_space_or_hyphen)
     mask_idx = np.where(exclude_from_candidate_list)[0]
     masked_sugg_idx = df_sugg.suggestion_index.values
-    masked_sugg_idx[mask_idx] = None
+    masked_sugg_idx[mask_idx] = np.nan
     df_sugg.suggestion_index = masked_sugg_idx
 
     groups = []
@@ -314,5 +340,47 @@ def remove_split_and_hyphenated_suggestions(df_sugg):
 
     pbar.finish()
 
-    return groups
-    #return pd.DataFrame(data=groups)
+    return pd.concat(groups, axis=0)
+
+
+def compute_ranks_no_near_miss(dictionaries, ranks):
+    """
+    Exclude from the dictionary candidate list any word with a space or
+    a hyphen in it.  This removes some of the bias the results we report
+    using generated corpora of errors, which by design never have a space
+    or a hyphen in the true corrections.
+    """
+    d = {}
+    for name,df in dictionaries.items():
+        df = df.copy()
+        d[name] = remove_split_and_hyphenated_suggestions(df)
+    return compute_ranks(d, ranks)
+
+def compute_ranks(dictionaries, ranks):
+    ranks_df = evaluate_ranks(dictionaries, ranks=ranks)
+    ranks_df['Non-word Length'] = -1
+    ranks_df_by_length = compute_accuracy_at_k_by_non_word_length(
+            dictionaries, ranks)
+    return pd.concat([ranks_df, ranks_df_by_length], axis=0)
+
+def compute_accuracy_at_k_by_non_word_length(dictionaries, ranks):
+    d = {}
+    start = 1000
+    end = 0
+    for name,df in dictionaries.items():
+        df = df.copy()
+        df['non_word_len'] = df.non_word.apply(len)
+        start = min(df.non_word_len.min(), start)
+        end = max(end, df.non_word_len.max())
+        d[name] = df
+
+    rank_dfs = []
+    for length in range(start, end+1):
+        d_word_len = {}
+        for name,df in d.items():
+            d_word_len[name] = df[df.non_word_len == length]
+        rank_df = spelling.mitton.evaluate_ranks(d_word_len, ranks=ranks)
+        rank_df['Non-word Length'] = length
+        rank_dfs.append(rank_df)
+
+    return pd.concat(rank_dfs, axis=0)
