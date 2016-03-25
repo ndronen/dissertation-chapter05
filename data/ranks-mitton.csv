@@ -1,0 +1,3820 @@
+Algorithm	Rank	Accuracy	Non-word Length	Corpus
+Aspell with Jaro-Winkler	1	0.672924488944514	-1	Wikipedia
+Aspell with Jaro-Winkler	2	0.7726324572382144	-1	Wikipedia
+Aspell with Jaro-Winkler	3	0.869837296620776	-1	Wikipedia
+Aspell with Jaro-Winkler	4	0.919482686691698	-1	Wikipedia
+Aspell with Jaro-Winkler	5	0.9403420942845223	-1	Wikipedia
+Aspell with Jaro-Winkler	6	0.9541093032957864	-1	Wikipedia
+Aspell with Jaro-Winkler	7	0.9586983729662077	-1	Wikipedia
+Aspell with Jaro-Winkler	8	0.9628702544847726	-1	Wikipedia
+Aspell with Jaro-Winkler	9	0.9637046307884856	-1	Wikipedia
+Aspell with Jaro-Winkler	10	0.9662077596996246	-1	Wikipedia
+Aspell with Jaro-Winkler	20	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	30	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	40	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	50	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	60	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	70	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	80	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	90	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	100	0.9707968293700459	-1	Wikipedia
+Aspell with Jaro-Winkler	1	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	2	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	3	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	4	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	5	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	6	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	7	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	8	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	9	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	10	0.0	2	Wikipedia
+Aspell with Jaro-Winkler	20	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	30	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	40	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	50	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	60	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	70	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	80	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	90	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	100	1.0	2	Wikipedia
+Aspell with Jaro-Winkler	1	0.2	3	Wikipedia
+Aspell with Jaro-Winkler	2	0.4	3	Wikipedia
+Aspell with Jaro-Winkler	3	0.4	3	Wikipedia
+Aspell with Jaro-Winkler	4	0.6	3	Wikipedia
+Aspell with Jaro-Winkler	5	0.6	3	Wikipedia
+Aspell with Jaro-Winkler	6	0.6	3	Wikipedia
+Aspell with Jaro-Winkler	7	0.6	3	Wikipedia
+Aspell with Jaro-Winkler	8	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	9	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	10	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	20	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	30	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	40	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	50	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	60	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	70	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	80	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	90	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	100	0.8	3	Wikipedia
+Aspell with Jaro-Winkler	1	0.5075757575757576	4	Wikipedia
+Aspell with Jaro-Winkler	2	0.6212121212121212	4	Wikipedia
+Aspell with Jaro-Winkler	3	0.7651515151515151	4	Wikipedia
+Aspell with Jaro-Winkler	4	0.8409090909090909	4	Wikipedia
+Aspell with Jaro-Winkler	5	0.8560606060606061	4	Wikipedia
+Aspell with Jaro-Winkler	6	0.8863636363636364	4	Wikipedia
+Aspell with Jaro-Winkler	7	0.8939393939393939	4	Wikipedia
+Aspell with Jaro-Winkler	8	0.9015151515151515	4	Wikipedia
+Aspell with Jaro-Winkler	9	0.9015151515151515	4	Wikipedia
+Aspell with Jaro-Winkler	10	0.9166666666666666	4	Wikipedia
+Aspell with Jaro-Winkler	20	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	30	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	40	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	50	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	60	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	70	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	80	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	90	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	100	0.9393939393939394	4	Wikipedia
+Aspell with Jaro-Winkler	1	0.44919786096256686	5	Wikipedia
+Aspell with Jaro-Winkler	2	0.6577540106951871	5	Wikipedia
+Aspell with Jaro-Winkler	3	0.7807486631016043	5	Wikipedia
+Aspell with Jaro-Winkler	4	0.8556149732620321	5	Wikipedia
+Aspell with Jaro-Winkler	5	0.9090909090909091	5	Wikipedia
+Aspell with Jaro-Winkler	6	0.9144385026737968	5	Wikipedia
+Aspell with Jaro-Winkler	7	0.9144385026737968	5	Wikipedia
+Aspell with Jaro-Winkler	8	0.9197860962566845	5	Wikipedia
+Aspell with Jaro-Winkler	9	0.9197860962566845	5	Wikipedia
+Aspell with Jaro-Winkler	10	0.93048128342246	5	Wikipedia
+Aspell with Jaro-Winkler	20	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	30	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	40	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	50	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	60	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	70	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	80	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	90	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	100	0.946524064171123	5	Wikipedia
+Aspell with Jaro-Winkler	1	0.5360824742268041	6	Wikipedia
+Aspell with Jaro-Winkler	2	0.6649484536082474	6	Wikipedia
+Aspell with Jaro-Winkler	3	0.7577319587628866	6	Wikipedia
+Aspell with Jaro-Winkler	4	0.8505154639175257	6	Wikipedia
+Aspell with Jaro-Winkler	5	0.8505154639175257	6	Wikipedia
+Aspell with Jaro-Winkler	6	0.8917525773195877	6	Wikipedia
+Aspell with Jaro-Winkler	7	0.9072164948453608	6	Wikipedia
+Aspell with Jaro-Winkler	8	0.9123711340206185	6	Wikipedia
+Aspell with Jaro-Winkler	9	0.9226804123711341	6	Wikipedia
+Aspell with Jaro-Winkler	10	0.9278350515463918	6	Wikipedia
+Aspell with Jaro-Winkler	20	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	30	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	40	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	50	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	60	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	70	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	80	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	90	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	100	0.9381443298969072	6	Wikipedia
+Aspell with Jaro-Winkler	1	0.5909090909090909	7	Wikipedia
+Aspell with Jaro-Winkler	2	0.7027972027972028	7	Wikipedia
+Aspell with Jaro-Winkler	3	0.8251748251748252	7	Wikipedia
+Aspell with Jaro-Winkler	4	0.8881118881118881	7	Wikipedia
+Aspell with Jaro-Winkler	5	0.9090909090909091	7	Wikipedia
+Aspell with Jaro-Winkler	6	0.9405594405594405	7	Wikipedia
+Aspell with Jaro-Winkler	7	0.951048951048951	7	Wikipedia
+Aspell with Jaro-Winkler	8	0.9615384615384616	7	Wikipedia
+Aspell with Jaro-Winkler	9	0.9615384615384616	7	Wikipedia
+Aspell with Jaro-Winkler	10	0.9615384615384616	7	Wikipedia
+Aspell with Jaro-Winkler	20	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	30	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	40	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	50	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	60	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	70	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	80	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	90	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	100	0.9685314685314685	7	Wikipedia
+Aspell with Jaro-Winkler	1	0.6988950276243094	8	Wikipedia
+Aspell with Jaro-Winkler	2	0.7845303867403315	8	Wikipedia
+Aspell with Jaro-Winkler	3	0.8812154696132597	8	Wikipedia
+Aspell with Jaro-Winkler	4	0.9281767955801105	8	Wikipedia
+Aspell with Jaro-Winkler	5	0.9502762430939227	8	Wikipedia
+Aspell with Jaro-Winkler	6	0.9613259668508287	8	Wikipedia
+Aspell with Jaro-Winkler	7	0.9640883977900553	8	Wikipedia
+Aspell with Jaro-Winkler	8	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	9	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	10	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	20	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	30	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	40	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	50	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	60	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	70	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	80	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	90	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	100	0.9696132596685083	8	Wikipedia
+Aspell with Jaro-Winkler	1	0.7193877551020408	9	Wikipedia
+Aspell with Jaro-Winkler	2	0.798469387755102	9	Wikipedia
+Aspell with Jaro-Winkler	3	0.8928571428571429	9	Wikipedia
+Aspell with Jaro-Winkler	4	0.9438775510204082	9	Wikipedia
+Aspell with Jaro-Winkler	5	0.9770408163265306	9	Wikipedia
+Aspell with Jaro-Winkler	6	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	7	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	8	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	9	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	10	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	20	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	30	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	40	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	50	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	60	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	70	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	80	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	90	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	100	0.9897959183673469	9	Wikipedia
+Aspell with Jaro-Winkler	1	0.7299703264094956	10	Wikipedia
+Aspell with Jaro-Winkler	2	0.8100890207715133	10	Wikipedia
+Aspell with Jaro-Winkler	3	0.9169139465875371	10	Wikipedia
+Aspell with Jaro-Winkler	4	0.9525222551928784	10	Wikipedia
+Aspell with Jaro-Winkler	5	0.9703264094955489	10	Wikipedia
+Aspell with Jaro-Winkler	6	0.973293768545994	10	Wikipedia
+Aspell with Jaro-Winkler	7	0.9762611275964391	10	Wikipedia
+Aspell with Jaro-Winkler	8	0.9792284866468842	10	Wikipedia
+Aspell with Jaro-Winkler	9	0.9792284866468842	10	Wikipedia
+Aspell with Jaro-Winkler	10	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	20	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	30	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	40	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	50	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	60	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	70	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	80	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	90	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	100	0.9821958456973294	10	Wikipedia
+Aspell with Jaro-Winkler	1	0.8127659574468085	11	Wikipedia
+Aspell with Jaro-Winkler	2	0.8978723404255319	11	Wikipedia
+Aspell with Jaro-Winkler	3	0.948936170212766	11	Wikipedia
+Aspell with Jaro-Winkler	4	0.9659574468085106	11	Wikipedia
+Aspell with Jaro-Winkler	5	0.9744680851063829	11	Wikipedia
+Aspell with Jaro-Winkler	6	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	7	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	8	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	9	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	10	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	20	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	30	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	40	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	50	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	60	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	70	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	80	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	90	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	100	0.9787234042553191	11	Wikipedia
+Aspell with Jaro-Winkler	1	0.8027210884353742	12	Wikipedia
+Aspell with Jaro-Winkler	2	0.8707482993197279	12	Wikipedia
+Aspell with Jaro-Winkler	3	0.9455782312925171	12	Wikipedia
+Aspell with Jaro-Winkler	4	0.9659863945578231	12	Wikipedia
+Aspell with Jaro-Winkler	5	0.9727891156462585	12	Wikipedia
+Aspell with Jaro-Winkler	6	0.9727891156462585	12	Wikipedia
+Aspell with Jaro-Winkler	7	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	8	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	9	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	10	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	20	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	30	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	40	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	50	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	60	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	70	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	80	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	90	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	100	0.9863945578231292	12	Wikipedia
+Aspell with Jaro-Winkler	1	0.8378378378378378	13	Wikipedia
+Aspell with Jaro-Winkler	2	0.918918918918919	13	Wikipedia
+Aspell with Jaro-Winkler	3	0.972972972972973	13	Wikipedia
+Aspell with Jaro-Winkler	4	0.9864864864864865	13	Wikipedia
+Aspell with Jaro-Winkler	5	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	6	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	7	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	8	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	9	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	10	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	20	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	30	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	40	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	50	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	60	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	70	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	80	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	90	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	100	1.0	13	Wikipedia
+Aspell with Jaro-Winkler	1	0.8333333333333334	14	Wikipedia
+Aspell with Jaro-Winkler	2	0.8333333333333334	14	Wikipedia
+Aspell with Jaro-Winkler	3	0.9	14	Wikipedia
+Aspell with Jaro-Winkler	4	0.9333333333333333	14	Wikipedia
+Aspell with Jaro-Winkler	5	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	6	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	7	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	8	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	9	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	10	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	20	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	30	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	40	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	50	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	60	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	70	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	80	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	90	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	100	0.9666666666666667	14	Wikipedia
+Aspell with Jaro-Winkler	1	0.8	15	Wikipedia
+Aspell with Jaro-Winkler	2	0.8	15	Wikipedia
+Aspell with Jaro-Winkler	3	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	4	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	5	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	6	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	7	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	8	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	9	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	10	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	20	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	30	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	40	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	50	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	60	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	70	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	80	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	90	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	100	0.9	15	Wikipedia
+Aspell with Jaro-Winkler	1	0.75	16	Wikipedia
+Aspell with Jaro-Winkler	2	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	3	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	4	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	5	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	6	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	7	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	8	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	9	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	10	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	20	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	30	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	40	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	50	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	60	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	70	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	80	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	90	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	100	1.0	16	Wikipedia
+Aspell with Jaro-Winkler	1	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	2	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	3	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	4	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	5	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	6	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	7	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	8	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	9	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	10	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	20	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	30	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	40	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	50	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	60	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	70	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	80	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	90	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	100	0.0	17	Wikipedia
+Aspell with Jaro-Winkler	1	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	2	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	3	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	4	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	5	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	6	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	7	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	8	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	9	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	10	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	20	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	30	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	40	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	50	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	60	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	70	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	80	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	90	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	100	0.0	18	Wikipedia
+Aspell with Jaro-Winkler	1	0.0	19	Wikipedia
+Aspell with Jaro-Winkler	2	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	3	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	4	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	5	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	6	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	7	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	8	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	9	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	10	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	20	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	30	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	40	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	50	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	60	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	70	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	80	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	90	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	100	1.0	19	Wikipedia
+Aspell with Jaro-Winkler	1	0.21865348980852378	-1	Holbrook
+Aspell with Jaro-Winkler	2	0.3390982087708462	-1	Holbrook
+Aspell with Jaro-Winkler	3	0.41877702285361335	-1	Holbrook
+Aspell with Jaro-Winkler	4	0.4768375540457072	-1	Holbrook
+Aspell with Jaro-Winkler	5	0.5169857936998147	-1	Holbrook
+Aspell with Jaro-Winkler	6	0.5491043854231007	-1	Holbrook
+Aspell with Jaro-Winkler	7	0.5701050030883261	-1	Holbrook
+Aspell with Jaro-Winkler	8	0.5886349598517604	-1	Holbrook
+Aspell with Jaro-Winkler	9	0.6077825818406424	-1	Holbrook
+Aspell with Jaro-Winkler	10	0.6170475602223595	-1	Holbrook
+Aspell with Jaro-Winkler	20	0.6571957998764669	-1	Holbrook
+Aspell with Jaro-Winkler	30	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	40	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	50	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	60	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	70	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	80	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	90	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	100	0.6627547869054973	-1	Holbrook
+Aspell with Jaro-Winkler	1	0.0	1	Holbrook
+Aspell with Jaro-Winkler	2	0.0	1	Holbrook
+Aspell with Jaro-Winkler	3	0.16666666666666666	1	Holbrook
+Aspell with Jaro-Winkler	4	0.3333333333333333	1	Holbrook
+Aspell with Jaro-Winkler	5	0.5	1	Holbrook
+Aspell with Jaro-Winkler	6	0.5	1	Holbrook
+Aspell with Jaro-Winkler	7	0.5	1	Holbrook
+Aspell with Jaro-Winkler	8	0.5	1	Holbrook
+Aspell with Jaro-Winkler	9	0.5	1	Holbrook
+Aspell with Jaro-Winkler	10	0.5	1	Holbrook
+Aspell with Jaro-Winkler	20	0.5	1	Holbrook
+Aspell with Jaro-Winkler	30	0.5	1	Holbrook
+Aspell with Jaro-Winkler	40	0.5	1	Holbrook
+Aspell with Jaro-Winkler	50	0.5	1	Holbrook
+Aspell with Jaro-Winkler	60	0.5	1	Holbrook
+Aspell with Jaro-Winkler	70	0.5	1	Holbrook
+Aspell with Jaro-Winkler	80	0.5	1	Holbrook
+Aspell with Jaro-Winkler	90	0.5	1	Holbrook
+Aspell with Jaro-Winkler	100	0.5	1	Holbrook
+Aspell with Jaro-Winkler	1	0.05084745762711865	2	Holbrook
+Aspell with Jaro-Winkler	2	0.11864406779661017	2	Holbrook
+Aspell with Jaro-Winkler	3	0.1694915254237288	2	Holbrook
+Aspell with Jaro-Winkler	4	0.22033898305084745	2	Holbrook
+Aspell with Jaro-Winkler	5	0.2711864406779661	2	Holbrook
+Aspell with Jaro-Winkler	6	0.3050847457627119	2	Holbrook
+Aspell with Jaro-Winkler	7	0.3050847457627119	2	Holbrook
+Aspell with Jaro-Winkler	8	0.3389830508474576	2	Holbrook
+Aspell with Jaro-Winkler	9	0.3559322033898305	2	Holbrook
+Aspell with Jaro-Winkler	10	0.3728813559322034	2	Holbrook
+Aspell with Jaro-Winkler	20	0.4745762711864407	2	Holbrook
+Aspell with Jaro-Winkler	30	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	40	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	50	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	60	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	70	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	80	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	90	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	100	0.5423728813559322	2	Holbrook
+Aspell with Jaro-Winkler	1	0.061855670103092786	3	Holbrook
+Aspell with Jaro-Winkler	2	0.17525773195876287	3	Holbrook
+Aspell with Jaro-Winkler	3	0.21649484536082475	3	Holbrook
+Aspell with Jaro-Winkler	4	0.28350515463917525	3	Holbrook
+Aspell with Jaro-Winkler	5	0.33505154639175255	3	Holbrook
+Aspell with Jaro-Winkler	6	0.36597938144329895	3	Holbrook
+Aspell with Jaro-Winkler	7	0.3865979381443299	3	Holbrook
+Aspell with Jaro-Winkler	8	0.41237113402061853	3	Holbrook
+Aspell with Jaro-Winkler	9	0.4381443298969072	3	Holbrook
+Aspell with Jaro-Winkler	10	0.4484536082474227	3	Holbrook
+Aspell with Jaro-Winkler	20	0.5876288659793815	3	Holbrook
+Aspell with Jaro-Winkler	30	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	40	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	50	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	60	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	70	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	80	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	90	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	100	0.6082474226804123	3	Holbrook
+Aspell with Jaro-Winkler	1	0.10933333333333334	4	Holbrook
+Aspell with Jaro-Winkler	2	0.232	4	Holbrook
+Aspell with Jaro-Winkler	3	0.272	4	Holbrook
+Aspell with Jaro-Winkler	4	0.3253333333333333	4	Holbrook
+Aspell with Jaro-Winkler	5	0.3546666666666667	4	Holbrook
+Aspell with Jaro-Winkler	6	0.4026666666666667	4	Holbrook
+Aspell with Jaro-Winkler	7	0.43466666666666665	4	Holbrook
+Aspell with Jaro-Winkler	8	0.4613333333333333	4	Holbrook
+Aspell with Jaro-Winkler	9	0.48533333333333334	4	Holbrook
+Aspell with Jaro-Winkler	10	0.5013333333333333	4	Holbrook
+Aspell with Jaro-Winkler	20	0.552	4	Holbrook
+Aspell with Jaro-Winkler	30	0.552	4	Holbrook
+Aspell with Jaro-Winkler	40	0.552	4	Holbrook
+Aspell with Jaro-Winkler	50	0.552	4	Holbrook
+Aspell with Jaro-Winkler	60	0.552	4	Holbrook
+Aspell with Jaro-Winkler	70	0.552	4	Holbrook
+Aspell with Jaro-Winkler	80	0.552	4	Holbrook
+Aspell with Jaro-Winkler	90	0.552	4	Holbrook
+Aspell with Jaro-Winkler	100	0.552	4	Holbrook
+Aspell with Jaro-Winkler	1	0.17543859649122806	5	Holbrook
+Aspell with Jaro-Winkler	2	0.31871345029239767	5	Holbrook
+Aspell with Jaro-Winkler	3	0.41228070175438597	5	Holbrook
+Aspell with Jaro-Winkler	4	0.4678362573099415	5	Holbrook
+Aspell with Jaro-Winkler	5	0.5175438596491229	5	Holbrook
+Aspell with Jaro-Winkler	6	0.543859649122807	5	Holbrook
+Aspell with Jaro-Winkler	7	0.5730994152046783	5	Holbrook
+Aspell with Jaro-Winkler	8	0.5964912280701754	5	Holbrook
+Aspell with Jaro-Winkler	9	0.631578947368421	5	Holbrook
+Aspell with Jaro-Winkler	10	0.6374269005847953	5	Holbrook
+Aspell with Jaro-Winkler	20	0.652046783625731	5	Holbrook
+Aspell with Jaro-Winkler	30	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	40	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	50	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	60	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	70	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	80	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	90	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	100	0.6549707602339181	5	Holbrook
+Aspell with Jaro-Winkler	1	0.30952380952380953	6	Holbrook
+Aspell with Jaro-Winkler	2	0.44841269841269843	6	Holbrook
+Aspell with Jaro-Winkler	3	0.5357142857142857	6	Holbrook
+Aspell with Jaro-Winkler	4	0.5833333333333334	6	Holbrook
+Aspell with Jaro-Winkler	5	0.6388888888888888	6	Holbrook
+Aspell with Jaro-Winkler	6	0.6706349206349206	6	Holbrook
+Aspell with Jaro-Winkler	7	0.6904761904761905	6	Holbrook
+Aspell with Jaro-Winkler	8	0.7023809523809523	6	Holbrook
+Aspell with Jaro-Winkler	9	0.7103174603174603	6	Holbrook
+Aspell with Jaro-Winkler	10	0.7182539682539683	6	Holbrook
+Aspell with Jaro-Winkler	20	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	30	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	40	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	50	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	60	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	70	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	80	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	90	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	100	0.7301587301587301	6	Holbrook
+Aspell with Jaro-Winkler	1	0.34831460674157305	7	Holbrook
+Aspell with Jaro-Winkler	2	0.4438202247191011	7	Holbrook
+Aspell with Jaro-Winkler	3	0.550561797752809	7	Holbrook
+Aspell with Jaro-Winkler	4	0.6348314606741573	7	Holbrook
+Aspell with Jaro-Winkler	5	0.6573033707865169	7	Holbrook
+Aspell with Jaro-Winkler	6	0.6797752808988764	7	Holbrook
+Aspell with Jaro-Winkler	7	0.6910112359550562	7	Holbrook
+Aspell with Jaro-Winkler	8	0.6966292134831461	7	Holbrook
+Aspell with Jaro-Winkler	9	0.7078651685393258	7	Holbrook
+Aspell with Jaro-Winkler	10	0.7078651685393258	7	Holbrook
+Aspell with Jaro-Winkler	20	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	30	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	40	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	50	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	60	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	70	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	80	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	90	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	100	0.7303370786516854	7	Holbrook
+Aspell with Jaro-Winkler	1	0.43478260869565216	8	Holbrook
+Aspell with Jaro-Winkler	2	0.4891304347826087	8	Holbrook
+Aspell with Jaro-Winkler	3	0.6413043478260869	8	Holbrook
+Aspell with Jaro-Winkler	4	0.6739130434782609	8	Holbrook
+Aspell with Jaro-Winkler	5	0.717391304347826	8	Holbrook
+Aspell with Jaro-Winkler	6	0.75	8	Holbrook
+Aspell with Jaro-Winkler	7	0.75	8	Holbrook
+Aspell with Jaro-Winkler	8	0.7608695652173914	8	Holbrook
+Aspell with Jaro-Winkler	9	0.7608695652173914	8	Holbrook
+Aspell with Jaro-Winkler	10	0.7717391304347826	8	Holbrook
+Aspell with Jaro-Winkler	20	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	30	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	40	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	50	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	60	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	70	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	80	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	90	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	100	0.782608695652174	8	Holbrook
+Aspell with Jaro-Winkler	1	0.4153846153846154	9	Holbrook
+Aspell with Jaro-Winkler	2	0.5384615384615384	9	Holbrook
+Aspell with Jaro-Winkler	3	0.7076923076923077	9	Holbrook
+Aspell with Jaro-Winkler	4	0.7846153846153846	9	Holbrook
+Aspell with Jaro-Winkler	5	0.7846153846153846	9	Holbrook
+Aspell with Jaro-Winkler	6	0.8	9	Holbrook
+Aspell with Jaro-Winkler	7	0.8153846153846154	9	Holbrook
+Aspell with Jaro-Winkler	8	0.8153846153846154	9	Holbrook
+Aspell with Jaro-Winkler	9	0.8153846153846154	9	Holbrook
+Aspell with Jaro-Winkler	10	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	20	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	30	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	40	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	50	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	60	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	70	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	80	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	90	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	100	0.8307692307692308	9	Holbrook
+Aspell with Jaro-Winkler	1	0.5833333333333334	10	Holbrook
+Aspell with Jaro-Winkler	2	0.75	10	Holbrook
+Aspell with Jaro-Winkler	3	0.8333333333333334	10	Holbrook
+Aspell with Jaro-Winkler	4	0.8888888888888888	10	Holbrook
+Aspell with Jaro-Winkler	5	0.8888888888888888	10	Holbrook
+Aspell with Jaro-Winkler	6	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	7	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	8	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	9	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	10	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	20	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	30	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	40	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	50	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	60	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	70	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	80	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	90	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	100	0.9166666666666666	10	Holbrook
+Aspell with Jaro-Winkler	1	0.38461538461538464	11	Holbrook
+Aspell with Jaro-Winkler	2	0.5384615384615384	11	Holbrook
+Aspell with Jaro-Winkler	3	0.6153846153846154	11	Holbrook
+Aspell with Jaro-Winkler	4	0.6923076923076923	11	Holbrook
+Aspell with Jaro-Winkler	5	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	6	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	7	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	8	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	9	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	10	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	20	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	30	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	40	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	50	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	60	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	70	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	80	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	90	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	100	0.7692307692307693	11	Holbrook
+Aspell with Jaro-Winkler	1	0.6	12	Holbrook
+Aspell with Jaro-Winkler	2	0.8	12	Holbrook
+Aspell with Jaro-Winkler	3	0.8	12	Holbrook
+Aspell with Jaro-Winkler	4	0.8	12	Holbrook
+Aspell with Jaro-Winkler	5	0.8	12	Holbrook
+Aspell with Jaro-Winkler	6	0.8	12	Holbrook
+Aspell with Jaro-Winkler	7	0.8	12	Holbrook
+Aspell with Jaro-Winkler	8	0.8	12	Holbrook
+Aspell with Jaro-Winkler	9	0.8	12	Holbrook
+Aspell with Jaro-Winkler	10	0.8	12	Holbrook
+Aspell with Jaro-Winkler	20	0.8	12	Holbrook
+Aspell with Jaro-Winkler	30	0.8	12	Holbrook
+Aspell with Jaro-Winkler	40	0.8	12	Holbrook
+Aspell with Jaro-Winkler	50	0.8	12	Holbrook
+Aspell with Jaro-Winkler	60	0.8	12	Holbrook
+Aspell with Jaro-Winkler	70	0.8	12	Holbrook
+Aspell with Jaro-Winkler	80	0.8	12	Holbrook
+Aspell with Jaro-Winkler	90	0.8	12	Holbrook
+Aspell with Jaro-Winkler	100	0.8	12	Holbrook
+Aspell with Jaro-Winkler	1	1.0	13	Holbrook
+Aspell with Jaro-Winkler	2	1.0	13	Holbrook
+Aspell with Jaro-Winkler	3	1.0	13	Holbrook
+Aspell with Jaro-Winkler	4	1.0	13	Holbrook
+Aspell with Jaro-Winkler	5	1.0	13	Holbrook
+Aspell with Jaro-Winkler	6	1.0	13	Holbrook
+Aspell with Jaro-Winkler	7	1.0	13	Holbrook
+Aspell with Jaro-Winkler	8	1.0	13	Holbrook
+Aspell with Jaro-Winkler	9	1.0	13	Holbrook
+Aspell with Jaro-Winkler	10	1.0	13	Holbrook
+Aspell with Jaro-Winkler	20	1.0	13	Holbrook
+Aspell with Jaro-Winkler	30	1.0	13	Holbrook
+Aspell with Jaro-Winkler	40	1.0	13	Holbrook
+Aspell with Jaro-Winkler	50	1.0	13	Holbrook
+Aspell with Jaro-Winkler	60	1.0	13	Holbrook
+Aspell with Jaro-Winkler	70	1.0	13	Holbrook
+Aspell with Jaro-Winkler	80	1.0	13	Holbrook
+Aspell with Jaro-Winkler	90	1.0	13	Holbrook
+Aspell with Jaro-Winkler	100	1.0	13	Holbrook
+Aspell with Jaro-Winkler	1	1.0	14	Holbrook
+Aspell with Jaro-Winkler	2	1.0	14	Holbrook
+Aspell with Jaro-Winkler	3	1.0	14	Holbrook
+Aspell with Jaro-Winkler	4	1.0	14	Holbrook
+Aspell with Jaro-Winkler	5	1.0	14	Holbrook
+Aspell with Jaro-Winkler	6	1.0	14	Holbrook
+Aspell with Jaro-Winkler	7	1.0	14	Holbrook
+Aspell with Jaro-Winkler	8	1.0	14	Holbrook
+Aspell with Jaro-Winkler	9	1.0	14	Holbrook
+Aspell with Jaro-Winkler	10	1.0	14	Holbrook
+Aspell with Jaro-Winkler	20	1.0	14	Holbrook
+Aspell with Jaro-Winkler	30	1.0	14	Holbrook
+Aspell with Jaro-Winkler	40	1.0	14	Holbrook
+Aspell with Jaro-Winkler	50	1.0	14	Holbrook
+Aspell with Jaro-Winkler	60	1.0	14	Holbrook
+Aspell with Jaro-Winkler	70	1.0	14	Holbrook
+Aspell with Jaro-Winkler	80	1.0	14	Holbrook
+Aspell with Jaro-Winkler	90	1.0	14	Holbrook
+Aspell with Jaro-Winkler	100	1.0	14	Holbrook
+Aspell with Jaro-Winkler	1	0.28278112167407327	-1	Birbeck
+Aspell with Jaro-Winkler	2	0.4001800078753445	-1	Birbeck
+Aspell with Jaro-Winkler	3	0.47696461720200256	-1	Birbeck
+Aspell with Jaro-Winkler	4	0.523879169713675	-1	Birbeck
+Aspell with Jaro-Winkler	5	0.5559993249704674	-1	Birbeck
+Aspell with Jaro-Winkler	6	0.5779659110086066	-1	Birbeck
+Aspell with Jaro-Winkler	7	0.5919165213478089	-1	Birbeck
+Aspell with Jaro-Winkler	8	0.6013106823423525	-1	Birbeck
+Aspell with Jaro-Winkler	9	0.6081172301288181	-1	Birbeck
+Aspell with Jaro-Winkler	10	0.6132362040839286	-1	Birbeck
+Aspell with Jaro-Winkler	20	0.6292681554818024	-1	Birbeck
+Aspell with Jaro-Winkler	30	0.6308150981605445	-1	Birbeck
+Aspell with Jaro-Winkler	40	0.6310963604657703	-1	Birbeck
+Aspell with Jaro-Winkler	50	0.6312369916183833	-1	Birbeck
+Aspell with Jaro-Winkler	60	0.6312651178489059	-1	Birbeck
+Aspell with Jaro-Winkler	70	0.6312932440794284	-1	Birbeck
+Aspell with Jaro-Winkler	80	0.6312932440794284	-1	Birbeck
+Aspell with Jaro-Winkler	90	0.6312932440794284	-1	Birbeck
+Aspell with Jaro-Winkler	100	0.6313213703099511	-1	Birbeck
+Aspell with Jaro-Winkler	1	0.0	1	Birbeck
+Aspell with Jaro-Winkler	2	0.04878048780487805	1	Birbeck
+Aspell with Jaro-Winkler	3	0.07317073170731707	1	Birbeck
+Aspell with Jaro-Winkler	4	0.12195121951219512	1	Birbeck
+Aspell with Jaro-Winkler	5	0.14634146341463414	1	Birbeck
+Aspell with Jaro-Winkler	6	0.14634146341463414	1	Birbeck
+Aspell with Jaro-Winkler	7	0.14634146341463414	1	Birbeck
+Aspell with Jaro-Winkler	8	0.14634146341463414	1	Birbeck
+Aspell with Jaro-Winkler	9	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	10	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	20	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	30	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	40	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	50	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	60	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	70	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	80	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	90	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	100	0.17073170731707318	1	Birbeck
+Aspell with Jaro-Winkler	1	0.02142857142857143	2	Birbeck
+Aspell with Jaro-Winkler	2	0.04642857142857143	2	Birbeck
+Aspell with Jaro-Winkler	3	0.06785714285714285	2	Birbeck
+Aspell with Jaro-Winkler	4	0.07857142857142857	2	Birbeck
+Aspell with Jaro-Winkler	5	0.1	2	Birbeck
+Aspell with Jaro-Winkler	6	0.12142857142857143	2	Birbeck
+Aspell with Jaro-Winkler	7	0.13214285714285715	2	Birbeck
+Aspell with Jaro-Winkler	8	0.15	2	Birbeck
+Aspell with Jaro-Winkler	9	0.175	2	Birbeck
+Aspell with Jaro-Winkler	10	0.18214285714285713	2	Birbeck
+Aspell with Jaro-Winkler	20	0.26785714285714285	2	Birbeck
+Aspell with Jaro-Winkler	30	0.3	2	Birbeck
+Aspell with Jaro-Winkler	40	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	50	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	60	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	70	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	80	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	90	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	100	0.30357142857142855	2	Birbeck
+Aspell with Jaro-Winkler	1	0.06468023255813954	3	Birbeck
+Aspell with Jaro-Winkler	2	0.12936046511627908	3	Birbeck
+Aspell with Jaro-Winkler	3	0.17151162790697674	3	Birbeck
+Aspell with Jaro-Winkler	4	0.2056686046511628	3	Birbeck
+Aspell with Jaro-Winkler	5	0.2311046511627907	3	Birbeck
+Aspell with Jaro-Winkler	6	0.25218023255813954	3	Birbeck
+Aspell with Jaro-Winkler	7	0.2805232558139535	3	Birbeck
+Aspell with Jaro-Winkler	8	0.3001453488372093	3	Birbeck
+Aspell with Jaro-Winkler	9	0.31468023255813954	3	Birbeck
+Aspell with Jaro-Winkler	10	0.32848837209302323	3	Birbeck
+Aspell with Jaro-Winkler	20	0.42950581395348836	3	Birbeck
+Aspell with Jaro-Winkler	30	0.44040697674418605	3	Birbeck
+Aspell with Jaro-Winkler	40	0.4418604651162791	3	Birbeck
+Aspell with Jaro-Winkler	50	0.4418604651162791	3	Birbeck
+Aspell with Jaro-Winkler	60	0.4418604651162791	3	Birbeck
+Aspell with Jaro-Winkler	70	0.4425872093023256	3	Birbeck
+Aspell with Jaro-Winkler	80	0.4425872093023256	3	Birbeck
+Aspell with Jaro-Winkler	90	0.4425872093023256	3	Birbeck
+Aspell with Jaro-Winkler	100	0.4425872093023256	3	Birbeck
+Aspell with Jaro-Winkler	1	0.09445648807680396	4	Birbeck
+Aspell with Jaro-Winkler	2	0.15980179622174048	4	Birbeck
+Aspell with Jaro-Winkler	3	0.19603592443480955	4	Birbeck
+Aspell with Jaro-Winkler	4	0.23288943945493962	4	Birbeck
+Aspell with Jaro-Winkler	5	0.2663363270362341	4	Birbeck
+Aspell with Jaro-Winkler	6	0.2957572003716321	4	Birbeck
+Aspell with Jaro-Winkler	7	0.32022297925054194	4	Birbeck
+Aspell with Jaro-Winkler	8	0.3459275317435739	4	Birbeck
+Aspell with Jaro-Winkler	9	0.36512852276246516	4	Birbeck
+Aspell with Jaro-Winkler	10	0.3868070610096005	4	Birbeck
+Aspell with Jaro-Winkler	20	0.4372870857850728	4	Birbeck
+Aspell with Jaro-Winkler	30	0.4397646330133168	4	Birbeck
+Aspell with Jaro-Winkler	40	0.4400743264168473	4	Birbeck
+Aspell with Jaro-Winkler	50	0.44038401982037784	4	Birbeck
+Aspell with Jaro-Winkler	60	0.44038401982037784	4	Birbeck
+Aspell with Jaro-Winkler	70	0.44038401982037784	4	Birbeck
+Aspell with Jaro-Winkler	80	0.44038401982037784	4	Birbeck
+Aspell with Jaro-Winkler	90	0.44038401982037784	4	Birbeck
+Aspell with Jaro-Winkler	100	0.44038401982037784	4	Birbeck
+Aspell with Jaro-Winkler	1	0.15990796663790624	5	Birbeck
+Aspell with Jaro-Winkler	2	0.22231809030773655	5	Birbeck
+Aspell with Jaro-Winkler	3	0.28846706931262583	5	Birbeck
+Aspell with Jaro-Winkler	4	0.3373597929249353	5	Birbeck
+Aspell with Jaro-Winkler	5	0.37647397181478287	5	Birbeck
+Aspell with Jaro-Winkler	6	0.4092608570606845	5	Birbeck
+Aspell with Jaro-Winkler	7	0.42565429968363533	5	Birbeck
+Aspell with Jaro-Winkler	8	0.4440609721023871	5	Birbeck
+Aspell with Jaro-Winkler	9	0.455565142364107	5	Birbeck
+Aspell with Jaro-Winkler	10	0.46534368708656887	5	Birbeck
+Aspell with Jaro-Winkler	20	0.4883520276100086	5	Birbeck
+Aspell with Jaro-Winkler	30	0.49122807017543857	5	Birbeck
+Aspell with Jaro-Winkler	40	0.4920908829450676	5	Birbeck
+Aspell with Jaro-Winkler	50	0.49324129997123956	5	Birbeck
+Aspell with Jaro-Winkler	60	0.49352890422778256	5	Birbeck
+Aspell with Jaro-Winkler	70	0.49352890422778256	5	Birbeck
+Aspell with Jaro-Winkler	80	0.49352890422778256	5	Birbeck
+Aspell with Jaro-Winkler	90	0.49352890422778256	5	Birbeck
+Aspell with Jaro-Winkler	100	0.49381650848432557	5	Birbeck
+Aspell with Jaro-Winkler	1	0.21664656212303982	6	Birbeck
+Aspell with Jaro-Winkler	2	0.2882991556091677	6	Birbeck
+Aspell with Jaro-Winkler	3	0.36743063932448733	6	Birbeck
+Aspell with Jaro-Winkler	4	0.42171290711700843	6	Birbeck
+Aspell with Jaro-Winkler	5	0.46031363088057903	6	Birbeck
+Aspell with Jaro-Winkler	6	0.48516284680337757	6	Birbeck
+Aspell with Jaro-Winkler	7	0.5018094089264173	6	Birbeck
+Aspell with Jaro-Winkler	8	0.5109770808202654	6	Birbeck
+Aspell with Jaro-Winkler	9	0.5191797346200241	6	Birbeck
+Aspell with Jaro-Winkler	10	0.5247285886610374	6	Birbeck
+Aspell with Jaro-Winkler	20	0.5430639324487334	6	Birbeck
+Aspell with Jaro-Winkler	30	0.5447527141133897	6	Birbeck
+Aspell with Jaro-Winkler	40	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	50	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	60	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	70	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	80	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	90	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	100	0.5454764776839566	6	Birbeck
+Aspell with Jaro-Winkler	1	0.2804957599478147	7	Birbeck
+Aspell with Jaro-Winkler	2	0.3618177864753207	7	Birbeck
+Aspell with Jaro-Winkler	3	0.44640139160687103	7	Birbeck
+Aspell with Jaro-Winkler	4	0.5007610350076104	7	Birbeck
+Aspell with Jaro-Winkler	5	0.5344640139160687	7	Birbeck
+Aspell with Jaro-Winkler	6	0.5601217656012176	7	Birbeck
+Aspell with Jaro-Winkler	7	0.5749075886062187	7	Birbeck
+Aspell with Jaro-Winkler	8	0.5855620787127637	7	Birbeck
+Aspell with Jaro-Winkler	9	0.5931724287888671	7	Birbeck
+Aspell with Jaro-Winkler	10	0.5970863231137203	7	Birbeck
+Aspell with Jaro-Winkler	20	0.6110023918243096	7	Birbeck
+Aspell with Jaro-Winkler	30	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	40	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	50	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	60	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	70	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	80	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	90	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	100	0.6118721461187214	7	Birbeck
+Aspell with Jaro-Winkler	1	0.32122093023255816	8	Birbeck
+Aspell with Jaro-Winkler	2	0.4312707641196013	8	Birbeck
+Aspell with Jaro-Winkler	3	0.5091362126245847	8	Birbeck
+Aspell with Jaro-Winkler	4	0.5577242524916943	8	Birbeck
+Aspell with Jaro-Winkler	5	0.5961378737541528	8	Birbeck
+Aspell with Jaro-Winkler	6	0.6183554817275747	8	Birbeck
+Aspell with Jaro-Winkler	7	0.6318521594684385	8	Birbeck
+Aspell with Jaro-Winkler	8	0.6382890365448505	8	Birbeck
+Aspell with Jaro-Winkler	9	0.6426495016611296	8	Birbeck
+Aspell with Jaro-Winkler	10	0.645141196013289	8	Birbeck
+Aspell with Jaro-Winkler	20	0.6486710963455149	8	Birbeck
+Aspell with Jaro-Winkler	30	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	40	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	50	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	60	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	70	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	80	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	90	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	100	0.6490863787375415	8	Birbeck
+Aspell with Jaro-Winkler	1	0.3614694948611415	9	Birbeck
+Aspell with Jaro-Winkler	2	0.5053575333479117	9	Birbeck
+Aspell with Jaro-Winkler	3	0.5928274655587142	9	Birbeck
+Aspell with Jaro-Winkler	4	0.6455280997157227	9	Birbeck
+Aspell with Jaro-Winkler	5	0.6767986004810846	9	Birbeck
+Aspell with Jaro-Winkler	6	0.6938552372621911	9	Birbeck
+Aspell with Jaro-Winkler	7	0.7006341570085283	9	Birbeck
+Aspell with Jaro-Winkler	8	0.7047889787885414	9	Birbeck
+Aspell with Jaro-Winkler	9	0.7074130767548655	9	Birbeck
+Aspell with Jaro-Winkler	10	0.7080691012464465	9	Birbeck
+Aspell with Jaro-Winkler	20	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	30	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	40	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	50	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	60	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	70	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	80	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	90	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	100	0.7087251257380276	9	Birbeck
+Aspell with Jaro-Winkler	1	0.3851440655564367	10	Birbeck
+Aspell with Jaro-Winkler	2	0.5485064763415279	10	Birbeck
+Aspell with Jaro-Winkler	3	0.6460481099656358	10	Birbeck
+Aspell with Jaro-Winkler	4	0.6917790113666402	10	Birbeck
+Aspell with Jaro-Winkler	5	0.7232355273592387	10	Birbeck
+Aspell with Jaro-Winkler	6	0.7420037007665874	10	Birbeck
+Aspell with Jaro-Winkler	7	0.7525773195876289	10	Birbeck
+Aspell with Jaro-Winkler	8	0.7549563838223632	10	Birbeck
+Aspell with Jaro-Winkler	9	0.7565424266455194	10	Birbeck
+Aspell with Jaro-Winkler	10	0.7568067671160454	10	Birbeck
+Aspell with Jaro-Winkler	20	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	30	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	40	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	50	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	60	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	70	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	80	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	90	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	100	0.7575997885276236	10	Birbeck
+Aspell with Jaro-Winkler	1	0.41178664677359195	11	Birbeck
+Aspell with Jaro-Winkler	2	0.6251398731816487	11	Birbeck
+Aspell with Jaro-Winkler	3	0.7191346512495338	11	Birbeck
+Aspell with Jaro-Winkler	4	0.7571801566579635	11	Birbeck
+Aspell with Jaro-Winkler	5	0.7788138754196196	11	Birbeck
+Aspell with Jaro-Winkler	6	0.7911227154046997	11	Birbeck
+Aspell with Jaro-Winkler	7	0.8008205893323387	11	Birbeck
+Aspell with Jaro-Winkler	8	0.803804550540843	11	Birbeck
+Aspell with Jaro-Winkler	9	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	10	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	20	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	30	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	40	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	50	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	60	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	70	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	80	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	90	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	100	0.804177545691906	11	Birbeck
+Aspell with Jaro-Winkler	1	0.4441340782122905	12	Birbeck
+Aspell with Jaro-Winkler	2	0.6871508379888268	12	Birbeck
+Aspell with Jaro-Winkler	3	0.7688547486033519	12	Birbeck
+Aspell with Jaro-Winkler	4	0.8135474860335196	12	Birbeck
+Aspell with Jaro-Winkler	5	0.8289106145251397	12	Birbeck
+Aspell with Jaro-Winkler	6	0.8421787709497207	12	Birbeck
+Aspell with Jaro-Winkler	7	0.8477653631284916	12	Birbeck
+Aspell with Jaro-Winkler	8	0.848463687150838	12	Birbeck
+Aspell with Jaro-Winkler	9	0.848463687150838	12	Birbeck
+Aspell with Jaro-Winkler	10	0.848463687150838	12	Birbeck
+Aspell with Jaro-Winkler	20	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	30	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	40	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	50	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	60	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	70	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	80	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	90	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	100	0.8491620111731844	12	Birbeck
+Aspell with Jaro-Winkler	1	0.45809248554913296	13	Birbeck
+Aspell with Jaro-Winkler	2	0.6661849710982659	13	Birbeck
+Aspell with Jaro-Winkler	3	0.7528901734104047	13	Birbeck
+Aspell with Jaro-Winkler	4	0.7933526011560693	13	Birbeck
+Aspell with Jaro-Winkler	5	0.8106936416184971	13	Birbeck
+Aspell with Jaro-Winkler	6	0.815028901734104	13	Birbeck
+Aspell with Jaro-Winkler	7	0.8251445086705202	13	Birbeck
+Aspell with Jaro-Winkler	8	0.8251445086705202	13	Birbeck
+Aspell with Jaro-Winkler	9	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	10	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	20	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	30	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	40	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	50	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	60	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	70	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	80	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	90	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	100	0.8265895953757225	13	Birbeck
+Aspell with Jaro-Winkler	1	0.43197278911564624	14	Birbeck
+Aspell with Jaro-Winkler	2	0.6972789115646258	14	Birbeck
+Aspell with Jaro-Winkler	3	0.7585034013605442	14	Birbeck
+Aspell with Jaro-Winkler	4	0.7653061224489796	14	Birbeck
+Aspell with Jaro-Winkler	5	0.7653061224489796	14	Birbeck
+Aspell with Jaro-Winkler	6	0.7789115646258503	14	Birbeck
+Aspell with Jaro-Winkler	7	0.7891156462585034	14	Birbeck
+Aspell with Jaro-Winkler	8	0.7891156462585034	14	Birbeck
+Aspell with Jaro-Winkler	9	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	10	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	20	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	30	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	40	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	50	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	60	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	70	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	80	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	90	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	100	0.7959183673469388	14	Birbeck
+Aspell with Jaro-Winkler	1	0.504950495049505	15	Birbeck
+Aspell with Jaro-Winkler	2	0.7227722772277227	15	Birbeck
+Aspell with Jaro-Winkler	3	0.7920792079207921	15	Birbeck
+Aspell with Jaro-Winkler	4	0.8613861386138614	15	Birbeck
+Aspell with Jaro-Winkler	5	0.8811881188118812	15	Birbeck
+Aspell with Jaro-Winkler	6	0.8910891089108911	15	Birbeck
+Aspell with Jaro-Winkler	7	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	8	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	9	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	10	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	20	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	30	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	40	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	50	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	60	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	70	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	80	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	90	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	100	0.900990099009901	15	Birbeck
+Aspell with Jaro-Winkler	1	0.5172413793103449	16	Birbeck
+Aspell with Jaro-Winkler	2	0.7241379310344828	16	Birbeck
+Aspell with Jaro-Winkler	3	0.8275862068965517	16	Birbeck
+Aspell with Jaro-Winkler	4	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	5	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	6	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	7	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	8	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	9	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	10	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	20	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	30	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	40	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	50	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	60	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	70	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	80	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	90	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	100	0.8620689655172413	16	Birbeck
+Aspell with Jaro-Winkler	1	0.6	17	Birbeck
+Aspell with Jaro-Winkler	2	0.8	17	Birbeck
+Aspell with Jaro-Winkler	3	0.8	17	Birbeck
+Aspell with Jaro-Winkler	4	0.8	17	Birbeck
+Aspell with Jaro-Winkler	5	0.8	17	Birbeck
+Aspell with Jaro-Winkler	6	0.8	17	Birbeck
+Aspell with Jaro-Winkler	7	0.8	17	Birbeck
+Aspell with Jaro-Winkler	8	0.8	17	Birbeck
+Aspell with Jaro-Winkler	9	0.8	17	Birbeck
+Aspell with Jaro-Winkler	10	0.8	17	Birbeck
+Aspell with Jaro-Winkler	20	0.8	17	Birbeck
+Aspell with Jaro-Winkler	30	0.8	17	Birbeck
+Aspell with Jaro-Winkler	40	0.8	17	Birbeck
+Aspell with Jaro-Winkler	50	0.8	17	Birbeck
+Aspell with Jaro-Winkler	60	0.8	17	Birbeck
+Aspell with Jaro-Winkler	70	0.8	17	Birbeck
+Aspell with Jaro-Winkler	80	0.8	17	Birbeck
+Aspell with Jaro-Winkler	90	0.8	17	Birbeck
+Aspell with Jaro-Winkler	100	0.8	17	Birbeck
+Aspell with Jaro-Winkler	1	0.0	18	Birbeck
+Aspell with Jaro-Winkler	2	0.0	18	Birbeck
+Aspell with Jaro-Winkler	3	0.0	18	Birbeck
+Aspell with Jaro-Winkler	4	0.0	18	Birbeck
+Aspell with Jaro-Winkler	5	0.0	18	Birbeck
+Aspell with Jaro-Winkler	6	0.0	18	Birbeck
+Aspell with Jaro-Winkler	7	0.0	18	Birbeck
+Aspell with Jaro-Winkler	8	0.0	18	Birbeck
+Aspell with Jaro-Winkler	9	0.0	18	Birbeck
+Aspell with Jaro-Winkler	10	0.0	18	Birbeck
+Aspell with Jaro-Winkler	20	0.0	18	Birbeck
+Aspell with Jaro-Winkler	30	0.0	18	Birbeck
+Aspell with Jaro-Winkler	40	0.0	18	Birbeck
+Aspell with Jaro-Winkler	50	0.0	18	Birbeck
+Aspell with Jaro-Winkler	60	0.0	18	Birbeck
+Aspell with Jaro-Winkler	70	0.0	18	Birbeck
+Aspell with Jaro-Winkler	80	0.0	18	Birbeck
+Aspell with Jaro-Winkler	90	0.0	18	Birbeck
+Aspell with Jaro-Winkler	100	0.0	18	Birbeck
+Aspell with Jaro-Winkler	1	0.4349514563106796	-1	Aspell
+Aspell with Jaro-Winkler	2	0.5825242718446602	-1	Aspell
+Aspell with Jaro-Winkler	3	0.6990291262135923	-1	Aspell
+Aspell with Jaro-Winkler	4	0.7728155339805826	-1	Aspell
+Aspell with Jaro-Winkler	5	0.8058252427184466	-1	Aspell
+Aspell with Jaro-Winkler	6	0.8349514563106796	-1	Aspell
+Aspell with Jaro-Winkler	7	0.858252427184466	-1	Aspell
+Aspell with Jaro-Winkler	8	0.8640776699029126	-1	Aspell
+Aspell with Jaro-Winkler	9	0.8718446601941747	-1	Aspell
+Aspell with Jaro-Winkler	10	0.8718446601941747	-1	Aspell
+Aspell with Jaro-Winkler	20	0.887378640776699	-1	Aspell
+Aspell with Jaro-Winkler	30	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	40	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	50	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	60	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	70	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	80	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	90	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	100	0.8893203883495145	-1	Aspell
+Aspell with Jaro-Winkler	1	0.2727272727272727	3	Aspell
+Aspell with Jaro-Winkler	2	0.2727272727272727	3	Aspell
+Aspell with Jaro-Winkler	3	0.2727272727272727	3	Aspell
+Aspell with Jaro-Winkler	4	0.45454545454545453	3	Aspell
+Aspell with Jaro-Winkler	5	0.5454545454545454	3	Aspell
+Aspell with Jaro-Winkler	6	0.6363636363636364	3	Aspell
+Aspell with Jaro-Winkler	7	0.6363636363636364	3	Aspell
+Aspell with Jaro-Winkler	8	0.6363636363636364	3	Aspell
+Aspell with Jaro-Winkler	9	0.6363636363636364	3	Aspell
+Aspell with Jaro-Winkler	10	0.6363636363636364	3	Aspell
+Aspell with Jaro-Winkler	20	0.8181818181818182	3	Aspell
+Aspell with Jaro-Winkler	30	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	40	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	50	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	60	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	70	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	80	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	90	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	100	0.9090909090909091	3	Aspell
+Aspell with Jaro-Winkler	1	0.22727272727272727	4	Aspell
+Aspell with Jaro-Winkler	2	0.4090909090909091	4	Aspell
+Aspell with Jaro-Winkler	3	0.45454545454545453	4	Aspell
+Aspell with Jaro-Winkler	4	0.5454545454545454	4	Aspell
+Aspell with Jaro-Winkler	5	0.5454545454545454	4	Aspell
+Aspell with Jaro-Winkler	6	0.6363636363636364	4	Aspell
+Aspell with Jaro-Winkler	7	0.6818181818181818	4	Aspell
+Aspell with Jaro-Winkler	8	0.6818181818181818	4	Aspell
+Aspell with Jaro-Winkler	9	0.7727272727272727	4	Aspell
+Aspell with Jaro-Winkler	10	0.7727272727272727	4	Aspell
+Aspell with Jaro-Winkler	20	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	30	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	40	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	50	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	60	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	70	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	80	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	90	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	100	0.9090909090909091	4	Aspell
+Aspell with Jaro-Winkler	1	0.3	5	Aspell
+Aspell with Jaro-Winkler	2	0.45	5	Aspell
+Aspell with Jaro-Winkler	3	0.5666666666666667	5	Aspell
+Aspell with Jaro-Winkler	4	0.6833333333333333	5	Aspell
+Aspell with Jaro-Winkler	5	0.7333333333333333	5	Aspell
+Aspell with Jaro-Winkler	6	0.8	5	Aspell
+Aspell with Jaro-Winkler	7	0.8333333333333334	5	Aspell
+Aspell with Jaro-Winkler	8	0.8666666666666667	5	Aspell
+Aspell with Jaro-Winkler	9	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	10	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	20	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	30	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	40	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	50	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	60	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	70	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	80	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	90	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	100	0.8833333333333333	5	Aspell
+Aspell with Jaro-Winkler	1	0.3333333333333333	6	Aspell
+Aspell with Jaro-Winkler	2	0.42105263157894735	6	Aspell
+Aspell with Jaro-Winkler	3	0.543859649122807	6	Aspell
+Aspell with Jaro-Winkler	4	0.6666666666666666	6	Aspell
+Aspell with Jaro-Winkler	5	0.7192982456140351	6	Aspell
+Aspell with Jaro-Winkler	6	0.7368421052631579	6	Aspell
+Aspell with Jaro-Winkler	7	0.7543859649122807	6	Aspell
+Aspell with Jaro-Winkler	8	0.7543859649122807	6	Aspell
+Aspell with Jaro-Winkler	9	0.7719298245614035	6	Aspell
+Aspell with Jaro-Winkler	10	0.7719298245614035	6	Aspell
+Aspell with Jaro-Winkler	20	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	30	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	40	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	50	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	60	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	70	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	80	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	90	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	100	0.8070175438596491	6	Aspell
+Aspell with Jaro-Winkler	1	0.3717948717948718	7	Aspell
+Aspell with Jaro-Winkler	2	0.5256410256410257	7	Aspell
+Aspell with Jaro-Winkler	3	0.6282051282051282	7	Aspell
+Aspell with Jaro-Winkler	4	0.7051282051282052	7	Aspell
+Aspell with Jaro-Winkler	5	0.7564102564102564	7	Aspell
+Aspell with Jaro-Winkler	6	0.7948717948717948	7	Aspell
+Aspell with Jaro-Winkler	7	0.8461538461538461	7	Aspell
+Aspell with Jaro-Winkler	8	0.8589743589743589	7	Aspell
+Aspell with Jaro-Winkler	9	0.8589743589743589	7	Aspell
+Aspell with Jaro-Winkler	10	0.8589743589743589	7	Aspell
+Aspell with Jaro-Winkler	20	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	30	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	40	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	50	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	60	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	70	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	80	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	90	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	100	0.8717948717948718	7	Aspell
+Aspell with Jaro-Winkler	1	0.5	8	Aspell
+Aspell with Jaro-Winkler	2	0.6388888888888888	8	Aspell
+Aspell with Jaro-Winkler	3	0.7361111111111112	8	Aspell
+Aspell with Jaro-Winkler	4	0.8055555555555556	8	Aspell
+Aspell with Jaro-Winkler	5	0.8194444444444444	8	Aspell
+Aspell with Jaro-Winkler	6	0.8472222222222222	8	Aspell
+Aspell with Jaro-Winkler	7	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	8	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	9	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	10	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	20	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	30	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	40	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	50	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	60	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	70	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	80	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	90	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	100	0.8611111111111112	8	Aspell
+Aspell with Jaro-Winkler	1	0.4838709677419355	9	Aspell
+Aspell with Jaro-Winkler	2	0.6129032258064516	9	Aspell
+Aspell with Jaro-Winkler	3	0.7419354838709677	9	Aspell
+Aspell with Jaro-Winkler	4	0.8387096774193549	9	Aspell
+Aspell with Jaro-Winkler	5	0.8870967741935484	9	Aspell
+Aspell with Jaro-Winkler	6	0.9032258064516129	9	Aspell
+Aspell with Jaro-Winkler	7	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	8	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	9	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	10	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	20	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	30	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	40	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	50	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	60	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	70	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	80	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	90	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	100	0.9354838709677419	9	Aspell
+Aspell with Jaro-Winkler	1	0.6615384615384615	10	Aspell
+Aspell with Jaro-Winkler	2	0.7538461538461538	10	Aspell
+Aspell with Jaro-Winkler	3	0.9230769230769231	10	Aspell
+Aspell with Jaro-Winkler	4	0.9230769230769231	10	Aspell
+Aspell with Jaro-Winkler	5	0.9230769230769231	10	Aspell
+Aspell with Jaro-Winkler	6	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	7	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	8	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	9	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	10	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	20	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	30	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	40	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	50	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	60	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	70	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	80	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	90	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	100	0.9384615384615385	10	Aspell
+Aspell with Jaro-Winkler	1	0.4	11	Aspell
+Aspell with Jaro-Winkler	2	0.6666666666666666	11	Aspell
+Aspell with Jaro-Winkler	3	0.8222222222222222	11	Aspell
+Aspell with Jaro-Winkler	4	0.8444444444444444	11	Aspell
+Aspell with Jaro-Winkler	5	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	6	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	7	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	8	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	9	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	10	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	20	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	30	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	40	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	50	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	60	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	70	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	80	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	90	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	100	0.8666666666666667	11	Aspell
+Aspell with Jaro-Winkler	1	0.5185185185185185	12	Aspell
+Aspell with Jaro-Winkler	2	0.7777777777777778	12	Aspell
+Aspell with Jaro-Winkler	3	0.8518518518518519	12	Aspell
+Aspell with Jaro-Winkler	4	0.8888888888888888	12	Aspell
+Aspell with Jaro-Winkler	5	0.9259259259259259	12	Aspell
+Aspell with Jaro-Winkler	6	0.9259259259259259	12	Aspell
+Aspell with Jaro-Winkler	7	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	8	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	9	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	10	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	20	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	30	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	40	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	50	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	60	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	70	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	80	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	90	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	100	0.9629629629629629	12	Aspell
+Aspell with Jaro-Winkler	1	0.5833333333333334	13	Aspell
+Aspell with Jaro-Winkler	2	0.75	13	Aspell
+Aspell with Jaro-Winkler	3	0.8333333333333334	13	Aspell
+Aspell with Jaro-Winkler	4	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	5	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	6	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	7	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	8	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	9	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	10	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	20	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	30	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	40	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	50	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	60	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	70	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	80	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	90	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	100	0.9166666666666666	13	Aspell
+Aspell with Jaro-Winkler	1	0.3333333333333333	14	Aspell
+Aspell with Jaro-Winkler	2	0.6666666666666666	14	Aspell
+Aspell with Jaro-Winkler	3	1.0	14	Aspell
+Aspell with Jaro-Winkler	4	1.0	14	Aspell
+Aspell with Jaro-Winkler	5	1.0	14	Aspell
+Aspell with Jaro-Winkler	6	1.0	14	Aspell
+Aspell with Jaro-Winkler	7	1.0	14	Aspell
+Aspell with Jaro-Winkler	8	1.0	14	Aspell
+Aspell with Jaro-Winkler	9	1.0	14	Aspell
+Aspell with Jaro-Winkler	10	1.0	14	Aspell
+Aspell with Jaro-Winkler	20	1.0	14	Aspell
+Aspell with Jaro-Winkler	30	1.0	14	Aspell
+Aspell with Jaro-Winkler	40	1.0	14	Aspell
+Aspell with Jaro-Winkler	50	1.0	14	Aspell
+Aspell with Jaro-Winkler	60	1.0	14	Aspell
+Aspell with Jaro-Winkler	70	1.0	14	Aspell
+Aspell with Jaro-Winkler	80	1.0	14	Aspell
+Aspell with Jaro-Winkler	90	1.0	14	Aspell
+Aspell with Jaro-Winkler	100	1.0	14	Aspell
+Aspell with Jaro-Winkler	1	1.0	15	Aspell
+Aspell with Jaro-Winkler	2	1.0	15	Aspell
+Aspell with Jaro-Winkler	3	1.0	15	Aspell
+Aspell with Jaro-Winkler	4	1.0	15	Aspell
+Aspell with Jaro-Winkler	5	1.0	15	Aspell
+Aspell with Jaro-Winkler	6	1.0	15	Aspell
+Aspell with Jaro-Winkler	7	1.0	15	Aspell
+Aspell with Jaro-Winkler	8	1.0	15	Aspell
+Aspell with Jaro-Winkler	9	1.0	15	Aspell
+Aspell with Jaro-Winkler	10	1.0	15	Aspell
+Aspell with Jaro-Winkler	20	1.0	15	Aspell
+Aspell with Jaro-Winkler	30	1.0	15	Aspell
+Aspell with Jaro-Winkler	40	1.0	15	Aspell
+Aspell with Jaro-Winkler	50	1.0	15	Aspell
+Aspell with Jaro-Winkler	60	1.0	15	Aspell
+Aspell with Jaro-Winkler	70	1.0	15	Aspell
+Aspell with Jaro-Winkler	80	1.0	15	Aspell
+Aspell with Jaro-Winkler	90	1.0	15	Aspell
+Aspell with Jaro-Winkler	100	1.0	15	Aspell
+Random Forest	1	0.36021188934667453	-1	Holbrook
+Random Forest	2	0.4526191877575044	-1	Holbrook
+Random Forest	3	0.4961742201294879	-1	Holbrook
+Random Forest	4	0.5155974102413184	-1	Holbrook
+Random Forest	5	0.5279576221306651	-1	Holbrook
+Random Forest	6	0.5426721600941731	-1	Holbrook
+Random Forest	7	0.5550323719835197	-1	Holbrook
+Random Forest	8	0.5626839317245439	-1	Holbrook
+Random Forest	9	0.5750441436138906	-1	Holbrook
+Random Forest	10	0.5838728663919953	-1	Holbrook
+Random Forest	20	0.6409652736904061	-1	Holbrook
+Random Forest	30	0.6409652736904061	-1	Holbrook
+Random Forest	40	0.6409652736904061	-1	Holbrook
+Random Forest	50	0.6409652736904061	-1	Holbrook
+Random Forest	60	0.6409652736904061	-1	Holbrook
+Random Forest	70	0.6409652736904061	-1	Holbrook
+Random Forest	80	0.6409652736904061	-1	Holbrook
+Random Forest	90	0.6409652736904061	-1	Holbrook
+Random Forest	100	0.6409652736904061	-1	Holbrook
+Random Forest	1	0.3333333333333333	1	Holbrook
+Random Forest	2	0.3333333333333333	1	Holbrook
+Random Forest	3	0.5	1	Holbrook
+Random Forest	4	0.5	1	Holbrook
+Random Forest	5	0.5	1	Holbrook
+Random Forest	6	0.5	1	Holbrook
+Random Forest	7	0.5	1	Holbrook
+Random Forest	8	0.5	1	Holbrook
+Random Forest	9	0.5	1	Holbrook
+Random Forest	10	0.5	1	Holbrook
+Random Forest	20	0.5	1	Holbrook
+Random Forest	30	0.5	1	Holbrook
+Random Forest	40	0.5	1	Holbrook
+Random Forest	50	0.5	1	Holbrook
+Random Forest	60	0.5	1	Holbrook
+Random Forest	70	0.5	1	Holbrook
+Random Forest	80	0.5	1	Holbrook
+Random Forest	90	0.5	1	Holbrook
+Random Forest	100	0.5	1	Holbrook
+Random Forest	1	0.09523809523809523	2	Holbrook
+Random Forest	2	0.15873015873015872	2	Holbrook
+Random Forest	3	0.2222222222222222	2	Holbrook
+Random Forest	4	0.23809523809523808	2	Holbrook
+Random Forest	5	0.23809523809523808	2	Holbrook
+Random Forest	6	0.23809523809523808	2	Holbrook
+Random Forest	7	0.25396825396825395	2	Holbrook
+Random Forest	8	0.25396825396825395	2	Holbrook
+Random Forest	9	0.31746031746031744	2	Holbrook
+Random Forest	10	0.3333333333333333	2	Holbrook
+Random Forest	20	0.5238095238095238	2	Holbrook
+Random Forest	30	0.5238095238095238	2	Holbrook
+Random Forest	40	0.5238095238095238	2	Holbrook
+Random Forest	50	0.5238095238095238	2	Holbrook
+Random Forest	60	0.5238095238095238	2	Holbrook
+Random Forest	70	0.5238095238095238	2	Holbrook
+Random Forest	80	0.5238095238095238	2	Holbrook
+Random Forest	90	0.5238095238095238	2	Holbrook
+Random Forest	100	0.5238095238095238	2	Holbrook
+Random Forest	1	0.16990291262135923	3	Holbrook
+Random Forest	2	0.3058252427184466	3	Holbrook
+Random Forest	3	0.3640776699029126	3	Holbrook
+Random Forest	4	0.4029126213592233	3	Holbrook
+Random Forest	5	0.4029126213592233	3	Holbrook
+Random Forest	6	0.4029126213592233	3	Holbrook
+Random Forest	7	0.42718446601941745	3	Holbrook
+Random Forest	8	0.4368932038834951	3	Holbrook
+Random Forest	9	0.4563106796116505	3	Holbrook
+Random Forest	10	0.470873786407767	3	Holbrook
+Random Forest	20	0.5631067961165048	3	Holbrook
+Random Forest	30	0.5631067961165048	3	Holbrook
+Random Forest	40	0.5631067961165048	3	Holbrook
+Random Forest	50	0.5631067961165048	3	Holbrook
+Random Forest	60	0.5631067961165048	3	Holbrook
+Random Forest	70	0.5631067961165048	3	Holbrook
+Random Forest	80	0.5631067961165048	3	Holbrook
+Random Forest	90	0.5631067961165048	3	Holbrook
+Random Forest	100	0.5631067961165048	3	Holbrook
+Random Forest	1	0.23857868020304568	4	Holbrook
+Random Forest	2	0.3096446700507614	4	Holbrook
+Random Forest	3	0.3680203045685279	4	Holbrook
+Random Forest	4	0.37817258883248733	4	Holbrook
+Random Forest	5	0.38578680203045684	4	Holbrook
+Random Forest	6	0.39847715736040606	4	Holbrook
+Random Forest	7	0.4086294416243655	4	Holbrook
+Random Forest	8	0.41624365482233505	4	Holbrook
+Random Forest	9	0.43147208121827413	4	Holbrook
+Random Forest	10	0.44416243654822335	4	Holbrook
+Random Forest	20	0.5355329949238579	4	Holbrook
+Random Forest	30	0.5355329949238579	4	Holbrook
+Random Forest	40	0.5355329949238579	4	Holbrook
+Random Forest	50	0.5355329949238579	4	Holbrook
+Random Forest	60	0.5355329949238579	4	Holbrook
+Random Forest	70	0.5355329949238579	4	Holbrook
+Random Forest	80	0.5355329949238579	4	Holbrook
+Random Forest	90	0.5355329949238579	4	Holbrook
+Random Forest	100	0.5355329949238579	4	Holbrook
+Random Forest	1	0.3742857142857143	5	Holbrook
+Random Forest	2	0.47714285714285715	5	Holbrook
+Random Forest	3	0.5085714285714286	5	Holbrook
+Random Forest	4	0.5285714285714286	5	Holbrook
+Random Forest	5	0.5371428571428571	5	Holbrook
+Random Forest	6	0.56	5	Holbrook
+Random Forest	7	0.5685714285714286	5	Holbrook
+Random Forest	8	0.5742857142857143	5	Holbrook
+Random Forest	9	0.5857142857142857	5	Holbrook
+Random Forest	10	0.6	5	Holbrook
+Random Forest	20	0.6514285714285715	5	Holbrook
+Random Forest	30	0.6514285714285715	5	Holbrook
+Random Forest	40	0.6514285714285715	5	Holbrook
+Random Forest	50	0.6514285714285715	5	Holbrook
+Random Forest	60	0.6514285714285715	5	Holbrook
+Random Forest	70	0.6514285714285715	5	Holbrook
+Random Forest	80	0.6514285714285715	5	Holbrook
+Random Forest	90	0.6514285714285715	5	Holbrook
+Random Forest	100	0.6514285714285715	5	Holbrook
+Random Forest	1	0.44274809160305345	6	Holbrook
+Random Forest	2	0.5419847328244275	6	Holbrook
+Random Forest	3	0.5801526717557252	6	Holbrook
+Random Forest	4	0.5992366412213741	6	Holbrook
+Random Forest	5	0.6221374045801527	6	Holbrook
+Random Forest	6	0.6412213740458015	6	Holbrook
+Random Forest	7	0.6526717557251909	6	Holbrook
+Random Forest	8	0.6679389312977099	6	Holbrook
+Random Forest	9	0.6755725190839694	6	Holbrook
+Random Forest	10	0.6793893129770993	6	Holbrook
+Random Forest	20	0.7061068702290076	6	Holbrook
+Random Forest	30	0.7061068702290076	6	Holbrook
+Random Forest	40	0.7061068702290076	6	Holbrook
+Random Forest	50	0.7061068702290076	6	Holbrook
+Random Forest	60	0.7061068702290076	6	Holbrook
+Random Forest	70	0.7061068702290076	6	Holbrook
+Random Forest	80	0.7061068702290076	6	Holbrook
+Random Forest	90	0.7061068702290076	6	Holbrook
+Random Forest	100	0.7061068702290076	6	Holbrook
+Random Forest	1	0.4540540540540541	7	Holbrook
+Random Forest	2	0.5567567567567567	7	Holbrook
+Random Forest	3	0.5837837837837838	7	Holbrook
+Random Forest	4	0.6162162162162163	7	Holbrook
+Random Forest	5	0.6378378378378379	7	Holbrook
+Random Forest	6	0.6486486486486487	7	Holbrook
+Random Forest	7	0.6594594594594595	7	Holbrook
+Random Forest	8	0.6702702702702703	7	Holbrook
+Random Forest	9	0.6756756756756757	7	Holbrook
+Random Forest	10	0.6756756756756757	7	Holbrook
+Random Forest	20	0.6918918918918919	7	Holbrook
+Random Forest	30	0.6918918918918919	7	Holbrook
+Random Forest	40	0.6918918918918919	7	Holbrook
+Random Forest	50	0.6918918918918919	7	Holbrook
+Random Forest	60	0.6918918918918919	7	Holbrook
+Random Forest	70	0.6918918918918919	7	Holbrook
+Random Forest	80	0.6918918918918919	7	Holbrook
+Random Forest	90	0.6918918918918919	7	Holbrook
+Random Forest	100	0.6918918918918919	7	Holbrook
+Random Forest	1	0.5757575757575758	8	Holbrook
+Random Forest	2	0.6363636363636364	8	Holbrook
+Random Forest	3	0.6767676767676768	8	Holbrook
+Random Forest	4	0.6767676767676768	8	Holbrook
+Random Forest	5	0.6868686868686869	8	Holbrook
+Random Forest	6	0.7171717171717171	8	Holbrook
+Random Forest	7	0.7272727272727273	8	Holbrook
+Random Forest	8	0.7272727272727273	8	Holbrook
+Random Forest	9	0.7272727272727273	8	Holbrook
+Random Forest	10	0.7272727272727273	8	Holbrook
+Random Forest	20	0.7474747474747475	8	Holbrook
+Random Forest	30	0.7474747474747475	8	Holbrook
+Random Forest	40	0.7474747474747475	8	Holbrook
+Random Forest	50	0.7474747474747475	8	Holbrook
+Random Forest	60	0.7474747474747475	8	Holbrook
+Random Forest	70	0.7474747474747475	8	Holbrook
+Random Forest	80	0.7474747474747475	8	Holbrook
+Random Forest	90	0.7474747474747475	8	Holbrook
+Random Forest	100	0.7474747474747475	8	Holbrook
+Random Forest	1	0.6176470588235294	9	Holbrook
+Random Forest	2	0.7058823529411765	9	Holbrook
+Random Forest	3	0.7205882352941176	9	Holbrook
+Random Forest	4	0.7352941176470589	9	Holbrook
+Random Forest	5	0.7647058823529411	9	Holbrook
+Random Forest	6	0.7941176470588235	9	Holbrook
+Random Forest	7	0.8088235294117647	9	Holbrook
+Random Forest	8	0.8088235294117647	9	Holbrook
+Random Forest	9	0.8088235294117647	9	Holbrook
+Random Forest	10	0.8088235294117647	9	Holbrook
+Random Forest	20	0.8088235294117647	9	Holbrook
+Random Forest	30	0.8088235294117647	9	Holbrook
+Random Forest	40	0.8088235294117647	9	Holbrook
+Random Forest	50	0.8088235294117647	9	Holbrook
+Random Forest	60	0.8088235294117647	9	Holbrook
+Random Forest	70	0.8088235294117647	9	Holbrook
+Random Forest	80	0.8088235294117647	9	Holbrook
+Random Forest	90	0.8088235294117647	9	Holbrook
+Random Forest	100	0.8088235294117647	9	Holbrook
+Random Forest	1	0.7948717948717948	10	Holbrook
+Random Forest	2	0.8717948717948718	10	Holbrook
+Random Forest	3	0.8717948717948718	10	Holbrook
+Random Forest	4	0.8974358974358975	10	Holbrook
+Random Forest	5	0.9230769230769231	10	Holbrook
+Random Forest	6	0.9230769230769231	10	Holbrook
+Random Forest	7	0.9230769230769231	10	Holbrook
+Random Forest	8	0.9230769230769231	10	Holbrook
+Random Forest	9	0.9230769230769231	10	Holbrook
+Random Forest	10	0.9230769230769231	10	Holbrook
+Random Forest	20	0.9230769230769231	10	Holbrook
+Random Forest	30	0.9230769230769231	10	Holbrook
+Random Forest	40	0.9230769230769231	10	Holbrook
+Random Forest	50	0.9230769230769231	10	Holbrook
+Random Forest	60	0.9230769230769231	10	Holbrook
+Random Forest	70	0.9230769230769231	10	Holbrook
+Random Forest	80	0.9230769230769231	10	Holbrook
+Random Forest	90	0.9230769230769231	10	Holbrook
+Random Forest	100	0.9230769230769231	10	Holbrook
+Random Forest	1	0.6	11	Holbrook
+Random Forest	2	0.6666666666666666	11	Holbrook
+Random Forest	3	0.6666666666666666	11	Holbrook
+Random Forest	4	0.6666666666666666	11	Holbrook
+Random Forest	5	0.7333333333333333	11	Holbrook
+Random Forest	6	0.7333333333333333	11	Holbrook
+Random Forest	7	0.7333333333333333	11	Holbrook
+Random Forest	8	0.7333333333333333	11	Holbrook
+Random Forest	9	0.7333333333333333	11	Holbrook
+Random Forest	10	0.7333333333333333	11	Holbrook
+Random Forest	20	0.7333333333333333	11	Holbrook
+Random Forest	30	0.7333333333333333	11	Holbrook
+Random Forest	40	0.7333333333333333	11	Holbrook
+Random Forest	50	0.7333333333333333	11	Holbrook
+Random Forest	60	0.7333333333333333	11	Holbrook
+Random Forest	70	0.7333333333333333	11	Holbrook
+Random Forest	80	0.7333333333333333	11	Holbrook
+Random Forest	90	0.7333333333333333	11	Holbrook
+Random Forest	100	0.7333333333333333	11	Holbrook
+Random Forest	1	0.3	12	Holbrook
+Random Forest	2	0.3	12	Holbrook
+Random Forest	3	0.6	12	Holbrook
+Random Forest	4	0.6	12	Holbrook
+Random Forest	5	0.6	12	Holbrook
+Random Forest	6	0.6	12	Holbrook
+Random Forest	7	0.7	12	Holbrook
+Random Forest	8	0.7	12	Holbrook
+Random Forest	9	0.7	12	Holbrook
+Random Forest	10	0.7	12	Holbrook
+Random Forest	20	0.7	12	Holbrook
+Random Forest	30	0.7	12	Holbrook
+Random Forest	40	0.7	12	Holbrook
+Random Forest	50	0.7	12	Holbrook
+Random Forest	60	0.7	12	Holbrook
+Random Forest	70	0.7	12	Holbrook
+Random Forest	80	0.7	12	Holbrook
+Random Forest	90	0.7	12	Holbrook
+Random Forest	100	0.7	12	Holbrook
+Random Forest	1	1.0	13	Holbrook
+Random Forest	2	1.0	13	Holbrook
+Random Forest	3	1.0	13	Holbrook
+Random Forest	4	1.0	13	Holbrook
+Random Forest	5	1.0	13	Holbrook
+Random Forest	6	1.0	13	Holbrook
+Random Forest	7	1.0	13	Holbrook
+Random Forest	8	1.0	13	Holbrook
+Random Forest	9	1.0	13	Holbrook
+Random Forest	10	1.0	13	Holbrook
+Random Forest	20	1.0	13	Holbrook
+Random Forest	30	1.0	13	Holbrook
+Random Forest	40	1.0	13	Holbrook
+Random Forest	50	1.0	13	Holbrook
+Random Forest	60	1.0	13	Holbrook
+Random Forest	70	1.0	13	Holbrook
+Random Forest	80	1.0	13	Holbrook
+Random Forest	90	1.0	13	Holbrook
+Random Forest	100	1.0	13	Holbrook
+Random Forest	1	1.0	14	Holbrook
+Random Forest	2	1.0	14	Holbrook
+Random Forest	3	1.0	14	Holbrook
+Random Forest	4	1.0	14	Holbrook
+Random Forest	5	1.0	14	Holbrook
+Random Forest	6	1.0	14	Holbrook
+Random Forest	7	1.0	14	Holbrook
+Random Forest	8	1.0	14	Holbrook
+Random Forest	9	1.0	14	Holbrook
+Random Forest	10	1.0	14	Holbrook
+Random Forest	20	1.0	14	Holbrook
+Random Forest	30	1.0	14	Holbrook
+Random Forest	40	1.0	14	Holbrook
+Random Forest	50	1.0	14	Holbrook
+Random Forest	60	1.0	14	Holbrook
+Random Forest	70	1.0	14	Holbrook
+Random Forest	80	1.0	14	Holbrook
+Random Forest	90	1.0	14	Holbrook
+Random Forest	100	1.0	14	Holbrook
+Random Forest	1	0.8204269568857262	-1	Wikipedia
+Random Forest	2	0.9012138970280452	-1	Wikipedia
+Random Forest	3	0.9217245709501883	-1	Wikipedia
+Random Forest	4	0.9309334449560486	-1	Wikipedia
+Random Forest	5	0.9380493930514859	-1	Wikipedia
+Random Forest	6	0.9460025115110925	-1	Wikipedia
+Random Forest	7	0.9522812892423608	-1	Wikipedia
+Random Forest	8	0.9573043114273755	-1	Wikipedia
+Random Forest	9	0.9593972373377982	-1	Wikipedia
+Random Forest	10	0.9631645039765593	-1	Wikipedia
+Random Forest	20	0.9711176224361657	-1	Wikipedia
+Random Forest	30	0.9711176224361657	-1	Wikipedia
+Random Forest	40	0.9711176224361657	-1	Wikipedia
+Random Forest	50	0.9711176224361657	-1	Wikipedia
+Random Forest	60	0.9711176224361657	-1	Wikipedia
+Random Forest	70	0.9711176224361657	-1	Wikipedia
+Random Forest	80	0.9711176224361657	-1	Wikipedia
+Random Forest	90	0.9711176224361657	-1	Wikipedia
+Random Forest	100	0.9711176224361657	-1	Wikipedia
+Random Forest	1	1.0	2	Wikipedia
+Random Forest	2	1.0	2	Wikipedia
+Random Forest	3	1.0	2	Wikipedia
+Random Forest	4	1.0	2	Wikipedia
+Random Forest	5	1.0	2	Wikipedia
+Random Forest	6	1.0	2	Wikipedia
+Random Forest	7	1.0	2	Wikipedia
+Random Forest	8	1.0	2	Wikipedia
+Random Forest	9	1.0	2	Wikipedia
+Random Forest	10	1.0	2	Wikipedia
+Random Forest	20	1.0	2	Wikipedia
+Random Forest	30	1.0	2	Wikipedia
+Random Forest	40	1.0	2	Wikipedia
+Random Forest	50	1.0	2	Wikipedia
+Random Forest	60	1.0	2	Wikipedia
+Random Forest	70	1.0	2	Wikipedia
+Random Forest	80	1.0	2	Wikipedia
+Random Forest	90	1.0	2	Wikipedia
+Random Forest	100	1.0	2	Wikipedia
+Random Forest	1	0.4	3	Wikipedia
+Random Forest	2	0.4	3	Wikipedia
+Random Forest	3	0.4	3	Wikipedia
+Random Forest	4	0.4	3	Wikipedia
+Random Forest	5	0.4	3	Wikipedia
+Random Forest	6	0.4	3	Wikipedia
+Random Forest	7	0.4	3	Wikipedia
+Random Forest	8	0.4	3	Wikipedia
+Random Forest	9	0.6	3	Wikipedia
+Random Forest	10	0.6	3	Wikipedia
+Random Forest	20	0.8	3	Wikipedia
+Random Forest	30	0.8	3	Wikipedia
+Random Forest	40	0.8	3	Wikipedia
+Random Forest	50	0.8	3	Wikipedia
+Random Forest	60	0.8	3	Wikipedia
+Random Forest	70	0.8	3	Wikipedia
+Random Forest	80	0.8	3	Wikipedia
+Random Forest	90	0.8	3	Wikipedia
+Random Forest	100	0.8	3	Wikipedia
+Random Forest	1	0.6439393939393939	4	Wikipedia
+Random Forest	2	0.7575757575757576	4	Wikipedia
+Random Forest	3	0.8106060606060606	4	Wikipedia
+Random Forest	4	0.8257575757575758	4	Wikipedia
+Random Forest	5	0.8409090909090909	4	Wikipedia
+Random Forest	6	0.8484848484848485	4	Wikipedia
+Random Forest	7	0.8560606060606061	4	Wikipedia
+Random Forest	8	0.8636363636363636	4	Wikipedia
+Random Forest	9	0.8636363636363636	4	Wikipedia
+Random Forest	10	0.8712121212121212	4	Wikipedia
+Random Forest	20	0.9166666666666666	4	Wikipedia
+Random Forest	30	0.9166666666666666	4	Wikipedia
+Random Forest	40	0.9166666666666666	4	Wikipedia
+Random Forest	50	0.9166666666666666	4	Wikipedia
+Random Forest	60	0.9166666666666666	4	Wikipedia
+Random Forest	70	0.9166666666666666	4	Wikipedia
+Random Forest	80	0.9166666666666666	4	Wikipedia
+Random Forest	90	0.9166666666666666	4	Wikipedia
+Random Forest	100	0.9166666666666666	4	Wikipedia
+Random Forest	1	0.5882352941176471	5	Wikipedia
+Random Forest	2	0.7112299465240641	5	Wikipedia
+Random Forest	3	0.7700534759358288	5	Wikipedia
+Random Forest	4	0.8074866310160428	5	Wikipedia
+Random Forest	5	0.839572192513369	5	Wikipedia
+Random Forest	6	0.8502673796791443	5	Wikipedia
+Random Forest	7	0.8716577540106952	5	Wikipedia
+Random Forest	8	0.8983957219251337	5	Wikipedia
+Random Forest	9	0.9037433155080213	5	Wikipedia
+Random Forest	10	0.9358288770053476	5	Wikipedia
+Random Forest	20	0.946524064171123	5	Wikipedia
+Random Forest	30	0.946524064171123	5	Wikipedia
+Random Forest	40	0.946524064171123	5	Wikipedia
+Random Forest	50	0.946524064171123	5	Wikipedia
+Random Forest	60	0.946524064171123	5	Wikipedia
+Random Forest	70	0.946524064171123	5	Wikipedia
+Random Forest	80	0.946524064171123	5	Wikipedia
+Random Forest	90	0.946524064171123	5	Wikipedia
+Random Forest	100	0.946524064171123	5	Wikipedia
+Random Forest	1	0.7025641025641025	6	Wikipedia
+Random Forest	2	0.7948717948717948	6	Wikipedia
+Random Forest	3	0.8205128205128205	6	Wikipedia
+Random Forest	4	0.8461538461538461	6	Wikipedia
+Random Forest	5	0.8666666666666667	6	Wikipedia
+Random Forest	6	0.8717948717948718	6	Wikipedia
+Random Forest	7	0.882051282051282	6	Wikipedia
+Random Forest	8	0.8974358974358975	6	Wikipedia
+Random Forest	9	0.8974358974358975	6	Wikipedia
+Random Forest	10	0.9076923076923077	6	Wikipedia
+Random Forest	20	0.9230769230769231	6	Wikipedia
+Random Forest	30	0.9230769230769231	6	Wikipedia
+Random Forest	40	0.9230769230769231	6	Wikipedia
+Random Forest	50	0.9230769230769231	6	Wikipedia
+Random Forest	60	0.9230769230769231	6	Wikipedia
+Random Forest	70	0.9230769230769231	6	Wikipedia
+Random Forest	80	0.9230769230769231	6	Wikipedia
+Random Forest	90	0.9230769230769231	6	Wikipedia
+Random Forest	100	0.9230769230769231	6	Wikipedia
+Random Forest	1	0.7816901408450704	7	Wikipedia
+Random Forest	2	0.8943661971830986	7	Wikipedia
+Random Forest	3	0.9225352112676056	7	Wikipedia
+Random Forest	4	0.9330985915492958	7	Wikipedia
+Random Forest	5	0.9366197183098591	7	Wikipedia
+Random Forest	6	0.9471830985915493	7	Wikipedia
+Random Forest	7	0.9577464788732394	7	Wikipedia
+Random Forest	8	0.9612676056338029	7	Wikipedia
+Random Forest	9	0.9647887323943662	7	Wikipedia
+Random Forest	10	0.9647887323943662	7	Wikipedia
+Random Forest	20	0.9753521126760564	7	Wikipedia
+Random Forest	30	0.9753521126760564	7	Wikipedia
+Random Forest	40	0.9753521126760564	7	Wikipedia
+Random Forest	50	0.9753521126760564	7	Wikipedia
+Random Forest	60	0.9753521126760564	7	Wikipedia
+Random Forest	70	0.9753521126760564	7	Wikipedia
+Random Forest	80	0.9753521126760564	7	Wikipedia
+Random Forest	90	0.9753521126760564	7	Wikipedia
+Random Forest	100	0.9753521126760564	7	Wikipedia
+Random Forest	1	0.8571428571428571	8	Wikipedia
+Random Forest	2	0.9243697478991597	8	Wikipedia
+Random Forest	3	0.9467787114845938	8	Wikipedia
+Random Forest	4	0.9551820728291317	8	Wikipedia
+Random Forest	5	0.957983193277311	8	Wikipedia
+Random Forest	6	0.9663865546218487	8	Wikipedia
+Random Forest	7	0.9719887955182073	8	Wikipedia
+Random Forest	8	0.9719887955182073	8	Wikipedia
+Random Forest	9	0.9719887955182073	8	Wikipedia
+Random Forest	10	0.9719887955182073	8	Wikipedia
+Random Forest	20	0.9803921568627451	8	Wikipedia
+Random Forest	30	0.9803921568627451	8	Wikipedia
+Random Forest	40	0.9803921568627451	8	Wikipedia
+Random Forest	50	0.9803921568627451	8	Wikipedia
+Random Forest	60	0.9803921568627451	8	Wikipedia
+Random Forest	70	0.9803921568627451	8	Wikipedia
+Random Forest	80	0.9803921568627451	8	Wikipedia
+Random Forest	90	0.9803921568627451	8	Wikipedia
+Random Forest	100	0.9803921568627451	8	Wikipedia
+Random Forest	1	0.8778625954198473	9	Wikipedia
+Random Forest	2	0.9516539440203562	9	Wikipedia
+Random Forest	3	0.9592875318066157	9	Wikipedia
+Random Forest	4	0.9643765903307888	9	Wikipedia
+Random Forest	5	0.9643765903307888	9	Wikipedia
+Random Forest	6	0.9796437659033079	9	Wikipedia
+Random Forest	7	0.9821882951653944	9	Wikipedia
+Random Forest	8	0.9872773536895675	9	Wikipedia
+Random Forest	9	0.989821882951654	9	Wikipedia
+Random Forest	10	0.989821882951654	9	Wikipedia
+Random Forest	20	0.989821882951654	9	Wikipedia
+Random Forest	30	0.989821882951654	9	Wikipedia
+Random Forest	40	0.989821882951654	9	Wikipedia
+Random Forest	50	0.989821882951654	9	Wikipedia
+Random Forest	60	0.989821882951654	9	Wikipedia
+Random Forest	70	0.989821882951654	9	Wikipedia
+Random Forest	80	0.989821882951654	9	Wikipedia
+Random Forest	90	0.989821882951654	9	Wikipedia
+Random Forest	100	0.989821882951654	9	Wikipedia
+Random Forest	1	0.8823529411764706	10	Wikipedia
+Random Forest	2	0.9529411764705882	10	Wikipedia
+Random Forest	3	0.961764705882353	10	Wikipedia
+Random Forest	4	0.961764705882353	10	Wikipedia
+Random Forest	5	0.9647058823529412	10	Wikipedia
+Random Forest	6	0.9705882352941176	10	Wikipedia
+Random Forest	7	0.9735294117647059	10	Wikipedia
+Random Forest	8	0.9735294117647059	10	Wikipedia
+Random Forest	9	0.9764705882352941	10	Wikipedia
+Random Forest	10	0.9764705882352941	10	Wikipedia
+Random Forest	20	0.9794117647058823	10	Wikipedia
+Random Forest	30	0.9794117647058823	10	Wikipedia
+Random Forest	40	0.9794117647058823	10	Wikipedia
+Random Forest	50	0.9794117647058823	10	Wikipedia
+Random Forest	60	0.9794117647058823	10	Wikipedia
+Random Forest	70	0.9794117647058823	10	Wikipedia
+Random Forest	80	0.9794117647058823	10	Wikipedia
+Random Forest	90	0.9794117647058823	10	Wikipedia
+Random Forest	100	0.9794117647058823	10	Wikipedia
+Random Forest	1	0.9227467811158798	11	Wikipedia
+Random Forest	2	0.9699570815450643	11	Wikipedia
+Random Forest	3	0.9742489270386266	11	Wikipedia
+Random Forest	4	0.9742489270386266	11	Wikipedia
+Random Forest	5	0.9828326180257511	11	Wikipedia
+Random Forest	6	0.9828326180257511	11	Wikipedia
+Random Forest	7	0.9828326180257511	11	Wikipedia
+Random Forest	8	0.9828326180257511	11	Wikipedia
+Random Forest	9	0.9828326180257511	11	Wikipedia
+Random Forest	10	0.9828326180257511	11	Wikipedia
+Random Forest	20	0.9828326180257511	11	Wikipedia
+Random Forest	30	0.9828326180257511	11	Wikipedia
+Random Forest	40	0.9828326180257511	11	Wikipedia
+Random Forest	50	0.9828326180257511	11	Wikipedia
+Random Forest	60	0.9828326180257511	11	Wikipedia
+Random Forest	70	0.9828326180257511	11	Wikipedia
+Random Forest	80	0.9828326180257511	11	Wikipedia
+Random Forest	90	0.9828326180257511	11	Wikipedia
+Random Forest	100	0.9828326180257511	11	Wikipedia
+Random Forest	1	0.9241379310344827	12	Wikipedia
+Random Forest	2	0.9862068965517241	12	Wikipedia
+Random Forest	3	0.9862068965517241	12	Wikipedia
+Random Forest	4	0.9862068965517241	12	Wikipedia
+Random Forest	5	0.9862068965517241	12	Wikipedia
+Random Forest	6	0.9862068965517241	12	Wikipedia
+Random Forest	7	0.993103448275862	12	Wikipedia
+Random Forest	8	0.993103448275862	12	Wikipedia
+Random Forest	9	0.993103448275862	12	Wikipedia
+Random Forest	10	0.993103448275862	12	Wikipedia
+Random Forest	20	0.993103448275862	12	Wikipedia
+Random Forest	30	0.993103448275862	12	Wikipedia
+Random Forest	40	0.993103448275862	12	Wikipedia
+Random Forest	50	0.993103448275862	12	Wikipedia
+Random Forest	60	0.993103448275862	12	Wikipedia
+Random Forest	70	0.993103448275862	12	Wikipedia
+Random Forest	80	0.993103448275862	12	Wikipedia
+Random Forest	90	0.993103448275862	12	Wikipedia
+Random Forest	100	0.993103448275862	12	Wikipedia
+Random Forest	1	0.9054054054054054	13	Wikipedia
+Random Forest	2	0.972972972972973	13	Wikipedia
+Random Forest	3	0.9864864864864865	13	Wikipedia
+Random Forest	4	0.9864864864864865	13	Wikipedia
+Random Forest	5	0.9864864864864865	13	Wikipedia
+Random Forest	6	0.9864864864864865	13	Wikipedia
+Random Forest	7	0.9864864864864865	13	Wikipedia
+Random Forest	8	0.9864864864864865	13	Wikipedia
+Random Forest	9	0.9864864864864865	13	Wikipedia
+Random Forest	10	0.9864864864864865	13	Wikipedia
+Random Forest	20	0.9864864864864865	13	Wikipedia
+Random Forest	30	0.9864864864864865	13	Wikipedia
+Random Forest	40	0.9864864864864865	13	Wikipedia
+Random Forest	50	0.9864864864864865	13	Wikipedia
+Random Forest	60	0.9864864864864865	13	Wikipedia
+Random Forest	70	0.9864864864864865	13	Wikipedia
+Random Forest	80	0.9864864864864865	13	Wikipedia
+Random Forest	90	0.9864864864864865	13	Wikipedia
+Random Forest	100	0.9864864864864865	13	Wikipedia
+Random Forest	1	0.7666666666666667	14	Wikipedia
+Random Forest	2	0.8666666666666667	14	Wikipedia
+Random Forest	3	0.9333333333333333	14	Wikipedia
+Random Forest	4	0.9333333333333333	14	Wikipedia
+Random Forest	5	0.9333333333333333	14	Wikipedia
+Random Forest	6	0.9666666666666667	14	Wikipedia
+Random Forest	7	0.9666666666666667	14	Wikipedia
+Random Forest	8	0.9666666666666667	14	Wikipedia
+Random Forest	9	0.9666666666666667	14	Wikipedia
+Random Forest	10	0.9666666666666667	14	Wikipedia
+Random Forest	20	0.9666666666666667	14	Wikipedia
+Random Forest	30	0.9666666666666667	14	Wikipedia
+Random Forest	40	0.9666666666666667	14	Wikipedia
+Random Forest	50	0.9666666666666667	14	Wikipedia
+Random Forest	60	0.9666666666666667	14	Wikipedia
+Random Forest	70	0.9666666666666667	14	Wikipedia
+Random Forest	80	0.9666666666666667	14	Wikipedia
+Random Forest	90	0.9666666666666667	14	Wikipedia
+Random Forest	100	0.9666666666666667	14	Wikipedia
+Random Forest	1	1.0	15	Wikipedia
+Random Forest	2	1.0	15	Wikipedia
+Random Forest	3	1.0	15	Wikipedia
+Random Forest	4	1.0	15	Wikipedia
+Random Forest	5	1.0	15	Wikipedia
+Random Forest	6	1.0	15	Wikipedia
+Random Forest	7	1.0	15	Wikipedia
+Random Forest	8	1.0	15	Wikipedia
+Random Forest	9	1.0	15	Wikipedia
+Random Forest	10	1.0	15	Wikipedia
+Random Forest	20	1.0	15	Wikipedia
+Random Forest	30	1.0	15	Wikipedia
+Random Forest	40	1.0	15	Wikipedia
+Random Forest	50	1.0	15	Wikipedia
+Random Forest	60	1.0	15	Wikipedia
+Random Forest	70	1.0	15	Wikipedia
+Random Forest	80	1.0	15	Wikipedia
+Random Forest	90	1.0	15	Wikipedia
+Random Forest	100	1.0	15	Wikipedia
+Random Forest	1	1.0	16	Wikipedia
+Random Forest	2	1.0	16	Wikipedia
+Random Forest	3	1.0	16	Wikipedia
+Random Forest	4	1.0	16	Wikipedia
+Random Forest	5	1.0	16	Wikipedia
+Random Forest	6	1.0	16	Wikipedia
+Random Forest	7	1.0	16	Wikipedia
+Random Forest	8	1.0	16	Wikipedia
+Random Forest	9	1.0	16	Wikipedia
+Random Forest	10	1.0	16	Wikipedia
+Random Forest	20	1.0	16	Wikipedia
+Random Forest	30	1.0	16	Wikipedia
+Random Forest	40	1.0	16	Wikipedia
+Random Forest	50	1.0	16	Wikipedia
+Random Forest	60	1.0	16	Wikipedia
+Random Forest	70	1.0	16	Wikipedia
+Random Forest	80	1.0	16	Wikipedia
+Random Forest	90	1.0	16	Wikipedia
+Random Forest	100	1.0	16	Wikipedia
+Random Forest	1	0.0	17	Wikipedia
+Random Forest	2	0.0	17	Wikipedia
+Random Forest	3	0.0	17	Wikipedia
+Random Forest	4	0.0	17	Wikipedia
+Random Forest	5	0.0	17	Wikipedia
+Random Forest	6	0.0	17	Wikipedia
+Random Forest	7	0.0	17	Wikipedia
+Random Forest	8	0.0	17	Wikipedia
+Random Forest	9	0.0	17	Wikipedia
+Random Forest	10	0.0	17	Wikipedia
+Random Forest	20	0.0	17	Wikipedia
+Random Forest	30	0.0	17	Wikipedia
+Random Forest	40	0.0	17	Wikipedia
+Random Forest	50	0.0	17	Wikipedia
+Random Forest	60	0.0	17	Wikipedia
+Random Forest	70	0.0	17	Wikipedia
+Random Forest	80	0.0	17	Wikipedia
+Random Forest	90	0.0	17	Wikipedia
+Random Forest	100	0.0	17	Wikipedia
+Random Forest	1	0.0	18	Wikipedia
+Random Forest	2	0.0	18	Wikipedia
+Random Forest	3	0.0	18	Wikipedia
+Random Forest	4	0.0	18	Wikipedia
+Random Forest	5	0.0	18	Wikipedia
+Random Forest	6	0.0	18	Wikipedia
+Random Forest	7	0.0	18	Wikipedia
+Random Forest	8	0.0	18	Wikipedia
+Random Forest	9	0.0	18	Wikipedia
+Random Forest	10	0.0	18	Wikipedia
+Random Forest	20	0.0	18	Wikipedia
+Random Forest	30	0.0	18	Wikipedia
+Random Forest	40	0.0	18	Wikipedia
+Random Forest	50	0.0	18	Wikipedia
+Random Forest	60	0.0	18	Wikipedia
+Random Forest	70	0.0	18	Wikipedia
+Random Forest	80	0.0	18	Wikipedia
+Random Forest	90	0.0	18	Wikipedia
+Random Forest	100	0.0	18	Wikipedia
+Random Forest	1	1.0	19	Wikipedia
+Random Forest	2	1.0	19	Wikipedia
+Random Forest	3	1.0	19	Wikipedia
+Random Forest	4	1.0	19	Wikipedia
+Random Forest	5	1.0	19	Wikipedia
+Random Forest	6	1.0	19	Wikipedia
+Random Forest	7	1.0	19	Wikipedia
+Random Forest	8	1.0	19	Wikipedia
+Random Forest	9	1.0	19	Wikipedia
+Random Forest	10	1.0	19	Wikipedia
+Random Forest	20	1.0	19	Wikipedia
+Random Forest	30	1.0	19	Wikipedia
+Random Forest	40	1.0	19	Wikipedia
+Random Forest	50	1.0	19	Wikipedia
+Random Forest	60	1.0	19	Wikipedia
+Random Forest	70	1.0	19	Wikipedia
+Random Forest	80	1.0	19	Wikipedia
+Random Forest	90	1.0	19	Wikipedia
+Random Forest	100	1.0	19	Wikipedia
+Random Forest	1	0.39094199848472094	-1	Birbeck
+Random Forest	2	0.4647136403176474	-1	Birbeck
+Random Forest	3	0.49959311951062096	-1	Birbeck
+Random Forest	4	0.5217891517243315	-1	Birbeck
+Random Forest	5	0.5387939501080338	-1	Birbeck
+Random Forest	6	0.5692398350029464	-1	Birbeck
+Random Forest	7	0.5774055055139321	-1	Birbeck
+Random Forest	8	0.5816707354715605	-1	Birbeck
+Random Forest	9	0.5859920868759997	-1	Birbeck
+Random Forest	10	0.5892751915144372	-1	Birbeck
+Random Forest	20	0.6036142211746219	-1	Birbeck
+Random Forest	30	0.6036142211746219	-1	Birbeck
+Random Forest	40	0.6036142211746219	-1	Birbeck
+Random Forest	50	0.6036142211746219	-1	Birbeck
+Random Forest	60	0.6036142211746219	-1	Birbeck
+Random Forest	70	0.6036142211746219	-1	Birbeck
+Random Forest	80	0.6036142211746219	-1	Birbeck
+Random Forest	90	0.6036142211746219	-1	Birbeck
+Random Forest	100	0.6036142211746219	-1	Birbeck
+Random Forest	1	0.024390243902439025	1	Birbeck
+Random Forest	2	0.0975609756097561	1	Birbeck
+Random Forest	3	0.14634146341463414	1	Birbeck
+Random Forest	4	0.14634146341463414	1	Birbeck
+Random Forest	5	0.14634146341463414	1	Birbeck
+Random Forest	6	0.14634146341463414	1	Birbeck
+Random Forest	7	0.14634146341463414	1	Birbeck
+Random Forest	8	0.14634146341463414	1	Birbeck
+Random Forest	9	0.14634146341463414	1	Birbeck
+Random Forest	10	0.14634146341463414	1	Birbeck
+Random Forest	20	0.17073170731707318	1	Birbeck
+Random Forest	30	0.17073170731707318	1	Birbeck
+Random Forest	40	0.17073170731707318	1	Birbeck
+Random Forest	50	0.17073170731707318	1	Birbeck
+Random Forest	60	0.17073170731707318	1	Birbeck
+Random Forest	70	0.17073170731707318	1	Birbeck
+Random Forest	80	0.17073170731707318	1	Birbeck
+Random Forest	90	0.17073170731707318	1	Birbeck
+Random Forest	100	0.17073170731707318	1	Birbeck
+Random Forest	1	0.10357142857142858	2	Birbeck
+Random Forest	2	0.16785714285714284	2	Birbeck
+Random Forest	3	0.18571428571428572	2	Birbeck
+Random Forest	4	0.2	2	Birbeck
+Random Forest	5	0.21071428571428572	2	Birbeck
+Random Forest	6	0.21428571428571427	2	Birbeck
+Random Forest	7	0.21428571428571427	2	Birbeck
+Random Forest	8	0.21428571428571427	2	Birbeck
+Random Forest	9	0.23214285714285715	2	Birbeck
+Random Forest	10	0.24285714285714285	2	Birbeck
+Random Forest	20	0.26785714285714285	2	Birbeck
+Random Forest	30	0.26785714285714285	2	Birbeck
+Random Forest	40	0.26785714285714285	2	Birbeck
+Random Forest	50	0.26785714285714285	2	Birbeck
+Random Forest	60	0.26785714285714285	2	Birbeck
+Random Forest	70	0.26785714285714285	2	Birbeck
+Random Forest	80	0.26785714285714285	2	Birbeck
+Random Forest	90	0.26785714285714285	2	Birbeck
+Random Forest	100	0.26785714285714285	2	Birbeck
+Random Forest	1	0.12246376811594203	3	Birbeck
+Random Forest	2	0.1855072463768116	3	Birbeck
+Random Forest	3	0.22971014492753622	3	Birbeck
+Random Forest	4	0.2514492753623188	3	Birbeck
+Random Forest	5	0.2688405797101449	3	Birbeck
+Random Forest	6	0.2855072463768116	3	Birbeck
+Random Forest	7	0.2956521739130435	3	Birbeck
+Random Forest	8	0.3065217391304348	3	Birbeck
+Random Forest	9	0.322463768115942	3	Birbeck
+Random Forest	10	0.3391304347826087	3	Birbeck
+Random Forest	20	0.42028985507246375	3	Birbeck
+Random Forest	30	0.42028985507246375	3	Birbeck
+Random Forest	40	0.42028985507246375	3	Birbeck
+Random Forest	50	0.42028985507246375	3	Birbeck
+Random Forest	60	0.42028985507246375	3	Birbeck
+Random Forest	70	0.42028985507246375	3	Birbeck
+Random Forest	80	0.42028985507246375	3	Birbeck
+Random Forest	90	0.42028985507246375	3	Birbeck
+Random Forest	100	0.42028985507246375	3	Birbeck
+Random Forest	1	0.1518987341772152	4	Birbeck
+Random Forest	2	0.22692188947205927	4	Birbeck
+Random Forest	3	0.26582278481012656	4	Birbeck
+Random Forest	4	0.2892868169188021	4	Birbeck
+Random Forest	5	0.302562519296079	4	Birbeck
+Random Forest	6	0.3152207471441803	4	Birbeck
+Random Forest	7	0.3257178141401667	4	Birbeck
+Random Forest	8	0.33806730472368013	4	Birbeck
+Random Forest	9	0.35226921889472057	4	Birbeck
+Random Forest	10	0.366471133065761	4	Birbeck
+Random Forest	20	0.4322321704229701	4	Birbeck
+Random Forest	30	0.4322321704229701	4	Birbeck
+Random Forest	40	0.4322321704229701	4	Birbeck
+Random Forest	50	0.4322321704229701	4	Birbeck
+Random Forest	60	0.4322321704229701	4	Birbeck
+Random Forest	70	0.4322321704229701	4	Birbeck
+Random Forest	80	0.4322321704229701	4	Birbeck
+Random Forest	90	0.4322321704229701	4	Birbeck
+Random Forest	100	0.4322321704229701	4	Birbeck
+Random Forest	1	0.25806451612903225	5	Birbeck
+Random Forest	2	0.3257208107336569	5	Birbeck
+Random Forest	3	0.3625463888095918	5	Birbeck
+Random Forest	4	0.3893805309734513	5	Birbeck
+Random Forest	5	0.40707964601769914	5	Birbeck
+Random Forest	6	0.41792749072223806	5	Birbeck
+Random Forest	7	0.42848986582928916	5	Birbeck
+Random Forest	8	0.43163003140165573	5	Birbeck
+Random Forest	9	0.43762489294890095	5	Birbeck
+Random Forest	10	0.44390522409363403	5	Birbeck
+Random Forest	20	0.47245218384242077	5	Birbeck
+Random Forest	30	0.47245218384242077	5	Birbeck
+Random Forest	40	0.47245218384242077	5	Birbeck
+Random Forest	50	0.47245218384242077	5	Birbeck
+Random Forest	60	0.47245218384242077	5	Birbeck
+Random Forest	70	0.47245218384242077	5	Birbeck
+Random Forest	80	0.47245218384242077	5	Birbeck
+Random Forest	90	0.47245218384242077	5	Birbeck
+Random Forest	100	0.47245218384242077	5	Birbeck
+Random Forest	1	0.3108433734939759	6	Birbeck
+Random Forest	2	0.3836144578313253	6	Birbeck
+Random Forest	3	0.4207228915662651	6	Birbeck
+Random Forest	4	0.43855421686746987	6	Birbeck
+Random Forest	5	0.4508433734939759	6	Birbeck
+Random Forest	6	0.464578313253012	6	Birbeck
+Random Forest	7	0.4763855421686747	6	Birbeck
+Random Forest	8	0.4836144578313253	6	Birbeck
+Random Forest	9	0.4903614457831325	6	Birbeck
+Random Forest	10	0.49301204819277106	6	Birbeck
+Random Forest	20	0.5065060240963856	6	Birbeck
+Random Forest	30	0.5065060240963856	6	Birbeck
+Random Forest	40	0.5065060240963856	6	Birbeck
+Random Forest	50	0.5065060240963856	6	Birbeck
+Random Forest	60	0.5065060240963856	6	Birbeck
+Random Forest	70	0.5065060240963856	6	Birbeck
+Random Forest	80	0.5065060240963856	6	Birbeck
+Random Forest	90	0.5065060240963856	6	Birbeck
+Random Forest	100	0.5065060240963856	6	Birbeck
+Random Forest	1	0.3743466898954704	7	Birbeck
+Random Forest	2	0.4496951219512195	7	Birbeck
+Random Forest	3	0.4886759581881533	7	Birbeck
+Random Forest	4	0.5108885017421603	7	Birbeck
+Random Forest	5	0.5285278745644599	7	Birbeck
+Random Forest	6	0.5511759581881533	7	Birbeck
+Random Forest	7	0.5609756097560976	7	Birbeck
+Random Forest	8	0.5655487804878049	7	Birbeck
+Random Forest	9	0.5692508710801394	7	Birbeck
+Random Forest	10	0.5705574912891986	7	Birbeck
+Random Forest	20	0.5742595818815331	7	Birbeck
+Random Forest	30	0.5742595818815331	7	Birbeck
+Random Forest	40	0.5742595818815331	7	Birbeck
+Random Forest	50	0.5742595818815331	7	Birbeck
+Random Forest	60	0.5742595818815331	7	Birbeck
+Random Forest	70	0.5742595818815331	7	Birbeck
+Random Forest	80	0.5742595818815331	7	Birbeck
+Random Forest	90	0.5742595818815331	7	Birbeck
+Random Forest	100	0.5742595818815331	7	Birbeck
+Random Forest	1	0.4271743653766126	8	Birbeck
+Random Forest	2	0.5024968789013733	8	Birbeck
+Random Forest	3	0.5359966708281315	8	Birbeck
+Random Forest	4	0.5561797752808989	8	Birbeck
+Random Forest	5	0.5722014148980441	8	Birbeck
+Random Forest	6	0.605076987099459	8	Birbeck
+Random Forest	7	0.6117353308364545	8	Birbeck
+Random Forest	8	0.6156887224302955	8	Birbeck
+Random Forest	9	0.6175613816063255	8	Birbeck
+Random Forest	10	0.6179775280898876	8	Birbeck
+Random Forest	20	0.6190178942987932	8	Birbeck
+Random Forest	30	0.6190178942987932	8	Birbeck
+Random Forest	40	0.6190178942987932	8	Birbeck
+Random Forest	50	0.6190178942987932	8	Birbeck
+Random Forest	60	0.6190178942987932	8	Birbeck
+Random Forest	70	0.6190178942987932	8	Birbeck
+Random Forest	80	0.6190178942987932	8	Birbeck
+Random Forest	90	0.6190178942987932	8	Birbeck
+Random Forest	100	0.6190178942987932	8	Birbeck
+Random Forest	1	0.4764409379793995	9	Birbeck
+Random Forest	2	0.5509533201840894	9	Birbeck
+Random Forest	3	0.5855796625027394	9	Birbeck
+Random Forest	4	0.611439842209073	9	Birbeck
+Random Forest	5	0.6324786324786325	9	Birbeck
+Random Forest	6	0.6721455182993644	9	Birbeck
+Random Forest	7	0.6776243699320622	9	Birbeck
+Random Forest	8	0.6787201402586018	9	Birbeck
+Random Forest	9	0.6789392943239098	9	Birbeck
+Random Forest	10	0.6793776024545255	9	Birbeck
+Random Forest	20	0.6793776024545255	9	Birbeck
+Random Forest	30	0.6793776024545255	9	Birbeck
+Random Forest	40	0.6793776024545255	9	Birbeck
+Random Forest	50	0.6793776024545255	9	Birbeck
+Random Forest	60	0.6793776024545255	9	Birbeck
+Random Forest	70	0.6793776024545255	9	Birbeck
+Random Forest	80	0.6793776024545255	9	Birbeck
+Random Forest	90	0.6793776024545255	9	Birbeck
+Random Forest	100	0.6793776024545255	9	Birbeck
+Random Forest	1	0.523117569352708	10	Birbeck
+Random Forest	2	0.602113606340819	10	Birbeck
+Random Forest	3	0.6319682959048877	10	Birbeck
+Random Forest	4	0.6533685601056803	10	Birbeck
+Random Forest	5	0.6742404227212682	10	Birbeck
+Random Forest	6	0.7220607661822985	10	Birbeck
+Random Forest	7	0.727344782034346	10	Birbeck
+Random Forest	8	0.7278731836195509	10	Birbeck
+Random Forest	9	0.7284015852047556	10	Birbeck
+Random Forest	10	0.7289299867899603	10	Birbeck
+Random Forest	20	0.7289299867899603	10	Birbeck
+Random Forest	30	0.7289299867899603	10	Birbeck
+Random Forest	40	0.7289299867899603	10	Birbeck
+Random Forest	50	0.7289299867899603	10	Birbeck
+Random Forest	60	0.7289299867899603	10	Birbeck
+Random Forest	70	0.7289299867899603	10	Birbeck
+Random Forest	80	0.7289299867899603	10	Birbeck
+Random Forest	90	0.7289299867899603	10	Birbeck
+Random Forest	100	0.7289299867899603	10	Birbeck
+Random Forest	1	0.5698884758364312	11	Birbeck
+Random Forest	2	0.6505576208178439	11	Birbeck
+Random Forest	3	0.6840148698884758	11	Birbeck
+Random Forest	4	0.7052044609665428	11	Birbeck
+Random Forest	5	0.7197026022304833	11	Birbeck
+Random Forest	6	0.7776951672862453	11	Birbeck
+Random Forest	7	0.7825278810408922	11	Birbeck
+Random Forest	8	0.7836431226765799	11	Birbeck
+Random Forest	9	0.7836431226765799	11	Birbeck
+Random Forest	10	0.7836431226765799	11	Birbeck
+Random Forest	20	0.7836431226765799	11	Birbeck
+Random Forest	30	0.7836431226765799	11	Birbeck
+Random Forest	40	0.7836431226765799	11	Birbeck
+Random Forest	50	0.7836431226765799	11	Birbeck
+Random Forest	60	0.7836431226765799	11	Birbeck
+Random Forest	70	0.7836431226765799	11	Birbeck
+Random Forest	80	0.7836431226765799	11	Birbeck
+Random Forest	90	0.7836431226765799	11	Birbeck
+Random Forest	100	0.7836431226765799	11	Birbeck
+Random Forest	1	0.5994494150034412	12	Birbeck
+Random Forest	2	0.6689607708189952	12	Birbeck
+Random Forest	3	0.6964900206469373	12	Birbeck
+Random Forest	4	0.7212663454920853	12	Birbeck
+Random Forest	5	0.7439779766001376	12	Birbeck
+Random Forest	6	0.8072952512044047	12	Birbeck
+Random Forest	7	0.8155540261527874	12	Birbeck
+Random Forest	8	0.8189951823812801	12	Birbeck
+Random Forest	9	0.8203716448726772	12	Birbeck
+Random Forest	10	0.8203716448726772	12	Birbeck
+Random Forest	20	0.8203716448726772	12	Birbeck
+Random Forest	30	0.8203716448726772	12	Birbeck
+Random Forest	40	0.8203716448726772	12	Birbeck
+Random Forest	50	0.8203716448726772	12	Birbeck
+Random Forest	60	0.8203716448726772	12	Birbeck
+Random Forest	70	0.8203716448726772	12	Birbeck
+Random Forest	80	0.8203716448726772	12	Birbeck
+Random Forest	90	0.8203716448726772	12	Birbeck
+Random Forest	100	0.8203716448726772	12	Birbeck
+Random Forest	1	0.6288951841359773	13	Birbeck
+Random Forest	2	0.6954674220963173	13	Birbeck
+Random Forest	3	0.7152974504249292	13	Birbeck
+Random Forest	4	0.7280453257790368	13	Birbeck
+Random Forest	5	0.7492917847025495	13	Birbeck
+Random Forest	6	0.7932011331444759	13	Birbeck
+Random Forest	7	0.8016997167138811	13	Birbeck
+Random Forest	8	0.8016997167138811	13	Birbeck
+Random Forest	9	0.8031161473087819	13	Birbeck
+Random Forest	10	0.8031161473087819	13	Birbeck
+Random Forest	20	0.8031161473087819	13	Birbeck
+Random Forest	30	0.8031161473087819	13	Birbeck
+Random Forest	40	0.8031161473087819	13	Birbeck
+Random Forest	50	0.8031161473087819	13	Birbeck
+Random Forest	60	0.8031161473087819	13	Birbeck
+Random Forest	70	0.8031161473087819	13	Birbeck
+Random Forest	80	0.8031161473087819	13	Birbeck
+Random Forest	90	0.8031161473087819	13	Birbeck
+Random Forest	100	0.8031161473087819	13	Birbeck
+Random Forest	1	0.5784313725490197	14	Birbeck
+Random Forest	2	0.6405228758169934	14	Birbeck
+Random Forest	3	0.6601307189542484	14	Birbeck
+Random Forest	4	0.6928104575163399	14	Birbeck
+Random Forest	5	0.6993464052287581	14	Birbeck
+Random Forest	6	0.7549019607843137	14	Birbeck
+Random Forest	7	0.7647058823529411	14	Birbeck
+Random Forest	8	0.7679738562091504	14	Birbeck
+Random Forest	9	0.7679738562091504	14	Birbeck
+Random Forest	10	0.7679738562091504	14	Birbeck
+Random Forest	20	0.7679738562091504	14	Birbeck
+Random Forest	30	0.7679738562091504	14	Birbeck
+Random Forest	40	0.7679738562091504	14	Birbeck
+Random Forest	50	0.7679738562091504	14	Birbeck
+Random Forest	60	0.7679738562091504	14	Birbeck
+Random Forest	70	0.7679738562091504	14	Birbeck
+Random Forest	80	0.7679738562091504	14	Birbeck
+Random Forest	90	0.7679738562091504	14	Birbeck
+Random Forest	100	0.7679738562091504	14	Birbeck
+Random Forest	1	0.6857142857142857	15	Birbeck
+Random Forest	2	0.7428571428571429	15	Birbeck
+Random Forest	3	0.7904761904761904	15	Birbeck
+Random Forest	4	0.8	15	Birbeck
+Random Forest	5	0.8	15	Birbeck
+Random Forest	6	0.8380952380952381	15	Birbeck
+Random Forest	7	0.8476190476190476	15	Birbeck
+Random Forest	8	0.8476190476190476	15	Birbeck
+Random Forest	9	0.8476190476190476	15	Birbeck
+Random Forest	10	0.8476190476190476	15	Birbeck
+Random Forest	20	0.8476190476190476	15	Birbeck
+Random Forest	30	0.8476190476190476	15	Birbeck
+Random Forest	40	0.8476190476190476	15	Birbeck
+Random Forest	50	0.8476190476190476	15	Birbeck
+Random Forest	60	0.8476190476190476	15	Birbeck
+Random Forest	70	0.8476190476190476	15	Birbeck
+Random Forest	80	0.8476190476190476	15	Birbeck
+Random Forest	90	0.8476190476190476	15	Birbeck
+Random Forest	100	0.8476190476190476	15	Birbeck
+Random Forest	1	0.625	16	Birbeck
+Random Forest	2	0.6875	16	Birbeck
+Random Forest	3	0.6875	16	Birbeck
+Random Forest	4	0.75	16	Birbeck
+Random Forest	5	0.78125	16	Birbeck
+Random Forest	6	0.8125	16	Birbeck
+Random Forest	7	0.8125	16	Birbeck
+Random Forest	8	0.8125	16	Birbeck
+Random Forest	9	0.8125	16	Birbeck
+Random Forest	10	0.8125	16	Birbeck
+Random Forest	20	0.8125	16	Birbeck
+Random Forest	30	0.8125	16	Birbeck
+Random Forest	40	0.8125	16	Birbeck
+Random Forest	50	0.8125	16	Birbeck
+Random Forest	60	0.8125	16	Birbeck
+Random Forest	70	0.8125	16	Birbeck
+Random Forest	80	0.8125	16	Birbeck
+Random Forest	90	0.8125	16	Birbeck
+Random Forest	100	0.8125	16	Birbeck
+Random Forest	1	0.8	17	Birbeck
+Random Forest	2	0.8	17	Birbeck
+Random Forest	3	0.8	17	Birbeck
+Random Forest	4	0.8	17	Birbeck
+Random Forest	5	0.8	17	Birbeck
+Random Forest	6	0.8	17	Birbeck
+Random Forest	7	0.8	17	Birbeck
+Random Forest	8	0.8	17	Birbeck
+Random Forest	9	0.8	17	Birbeck
+Random Forest	10	0.8	17	Birbeck
+Random Forest	20	0.8	17	Birbeck
+Random Forest	30	0.8	17	Birbeck
+Random Forest	40	0.8	17	Birbeck
+Random Forest	50	0.8	17	Birbeck
+Random Forest	60	0.8	17	Birbeck
+Random Forest	70	0.8	17	Birbeck
+Random Forest	80	0.8	17	Birbeck
+Random Forest	90	0.8	17	Birbeck
+Random Forest	100	0.8	17	Birbeck
+Random Forest	1	0.0	18	Birbeck
+Random Forest	2	0.0	18	Birbeck
+Random Forest	3	0.0	18	Birbeck
+Random Forest	4	0.0	18	Birbeck
+Random Forest	5	0.0	18	Birbeck
+Random Forest	6	0.0	18	Birbeck
+Random Forest	7	0.0	18	Birbeck
+Random Forest	8	0.0	18	Birbeck
+Random Forest	9	0.0	18	Birbeck
+Random Forest	10	0.0	18	Birbeck
+Random Forest	20	0.0	18	Birbeck
+Random Forest	30	0.0	18	Birbeck
+Random Forest	40	0.0	18	Birbeck
+Random Forest	50	0.0	18	Birbeck
+Random Forest	60	0.0	18	Birbeck
+Random Forest	70	0.0	18	Birbeck
+Random Forest	80	0.0	18	Birbeck
+Random Forest	90	0.0	18	Birbeck
+Random Forest	100	0.0	18	Birbeck
+Random Forest	1	0.6418786692759295	-1	Aspell
+Random Forest	2	0.7338551859099804	-1	Aspell
+Random Forest	3	0.7808219178082192	-1	Aspell
+Random Forest	4	0.7945205479452054	-1	Aspell
+Random Forest	5	0.8043052837573386	-1	Aspell
+Random Forest	6	0.821917808219178	-1	Aspell
+Random Forest	7	0.8297455968688845	-1	Aspell
+Random Forest	8	0.837573385518591	-1	Aspell
+Random Forest	9	0.8512720156555773	-1	Aspell
+Random Forest	10	0.8532289628180039	-1	Aspell
+Random Forest	20	0.8767123287671232	-1	Aspell
+Random Forest	30	0.8767123287671232	-1	Aspell
+Random Forest	40	0.8767123287671232	-1	Aspell
+Random Forest	50	0.8767123287671232	-1	Aspell
+Random Forest	60	0.8767123287671232	-1	Aspell
+Random Forest	70	0.8767123287671232	-1	Aspell
+Random Forest	80	0.8767123287671232	-1	Aspell
+Random Forest	90	0.8767123287671232	-1	Aspell
+Random Forest	100	0.8767123287671232	-1	Aspell
+Random Forest	1	0.25	3	Aspell
+Random Forest	2	0.3333333333333333	3	Aspell
+Random Forest	3	0.5833333333333334	3	Aspell
+Random Forest	4	0.5833333333333334	3	Aspell
+Random Forest	5	0.5833333333333334	3	Aspell
+Random Forest	6	0.5833333333333334	3	Aspell
+Random Forest	7	0.5833333333333334	3	Aspell
+Random Forest	8	0.5833333333333334	3	Aspell
+Random Forest	9	0.5833333333333334	3	Aspell
+Random Forest	10	0.5833333333333334	3	Aspell
+Random Forest	20	0.9166666666666666	3	Aspell
+Random Forest	30	0.9166666666666666	3	Aspell
+Random Forest	40	0.9166666666666666	3	Aspell
+Random Forest	50	0.9166666666666666	3	Aspell
+Random Forest	60	0.9166666666666666	3	Aspell
+Random Forest	70	0.9166666666666666	3	Aspell
+Random Forest	80	0.9166666666666666	3	Aspell
+Random Forest	90	0.9166666666666666	3	Aspell
+Random Forest	100	0.9166666666666666	3	Aspell
+Random Forest	1	0.5	4	Aspell
+Random Forest	2	0.5454545454545454	4	Aspell
+Random Forest	3	0.5454545454545454	4	Aspell
+Random Forest	4	0.5454545454545454	4	Aspell
+Random Forest	5	0.5454545454545454	4	Aspell
+Random Forest	6	0.5454545454545454	4	Aspell
+Random Forest	7	0.5454545454545454	4	Aspell
+Random Forest	8	0.5454545454545454	4	Aspell
+Random Forest	9	0.5909090909090909	4	Aspell
+Random Forest	10	0.5909090909090909	4	Aspell
+Random Forest	20	0.8181818181818182	4	Aspell
+Random Forest	30	0.8181818181818182	4	Aspell
+Random Forest	40	0.8181818181818182	4	Aspell
+Random Forest	50	0.8181818181818182	4	Aspell
+Random Forest	60	0.8181818181818182	4	Aspell
+Random Forest	70	0.8181818181818182	4	Aspell
+Random Forest	80	0.8181818181818182	4	Aspell
+Random Forest	90	0.8181818181818182	4	Aspell
+Random Forest	100	0.8181818181818182	4	Aspell
+Random Forest	1	0.559322033898305	5	Aspell
+Random Forest	2	0.6440677966101694	5	Aspell
+Random Forest	3	0.7457627118644068	5	Aspell
+Random Forest	4	0.7627118644067796	5	Aspell
+Random Forest	5	0.7627118644067796	5	Aspell
+Random Forest	6	0.7627118644067796	5	Aspell
+Random Forest	7	0.7796610169491526	5	Aspell
+Random Forest	8	0.8135593220338984	5	Aspell
+Random Forest	9	0.864406779661017	5	Aspell
+Random Forest	10	0.864406779661017	5	Aspell
+Random Forest	20	0.8983050847457628	5	Aspell
+Random Forest	30	0.8983050847457628	5	Aspell
+Random Forest	40	0.8983050847457628	5	Aspell
+Random Forest	50	0.8983050847457628	5	Aspell
+Random Forest	60	0.8983050847457628	5	Aspell
+Random Forest	70	0.8983050847457628	5	Aspell
+Random Forest	80	0.8983050847457628	5	Aspell
+Random Forest	90	0.8983050847457628	5	Aspell
+Random Forest	100	0.8983050847457628	5	Aspell
+Random Forest	1	0.47368421052631576	6	Aspell
+Random Forest	2	0.5614035087719298	6	Aspell
+Random Forest	3	0.6140350877192983	6	Aspell
+Random Forest	4	0.631578947368421	6	Aspell
+Random Forest	5	0.6491228070175439	6	Aspell
+Random Forest	6	0.6666666666666666	6	Aspell
+Random Forest	7	0.6842105263157895	6	Aspell
+Random Forest	8	0.7017543859649122	6	Aspell
+Random Forest	9	0.7543859649122807	6	Aspell
+Random Forest	10	0.7543859649122807	6	Aspell
+Random Forest	20	0.7719298245614035	6	Aspell
+Random Forest	30	0.7719298245614035	6	Aspell
+Random Forest	40	0.7719298245614035	6	Aspell
+Random Forest	50	0.7719298245614035	6	Aspell
+Random Forest	60	0.7719298245614035	6	Aspell
+Random Forest	70	0.7719298245614035	6	Aspell
+Random Forest	80	0.7719298245614035	6	Aspell
+Random Forest	90	0.7719298245614035	6	Aspell
+Random Forest	100	0.7719298245614035	6	Aspell
+Random Forest	1	0.5584415584415584	7	Aspell
+Random Forest	2	0.6883116883116883	7	Aspell
+Random Forest	3	0.7402597402597403	7	Aspell
+Random Forest	4	0.7402597402597403	7	Aspell
+Random Forest	5	0.7402597402597403	7	Aspell
+Random Forest	6	0.7792207792207793	7	Aspell
+Random Forest	7	0.8051948051948052	7	Aspell
+Random Forest	8	0.8181818181818182	7	Aspell
+Random Forest	9	0.8181818181818182	7	Aspell
+Random Forest	10	0.8181818181818182	7	Aspell
+Random Forest	20	0.8181818181818182	7	Aspell
+Random Forest	30	0.8181818181818182	7	Aspell
+Random Forest	40	0.8181818181818182	7	Aspell
+Random Forest	50	0.8181818181818182	7	Aspell
+Random Forest	60	0.8181818181818182	7	Aspell
+Random Forest	70	0.8181818181818182	7	Aspell
+Random Forest	80	0.8181818181818182	7	Aspell
+Random Forest	90	0.8181818181818182	7	Aspell
+Random Forest	100	0.8181818181818182	7	Aspell
+Random Forest	1	0.6619718309859155	8	Aspell
+Random Forest	2	0.7887323943661971	8	Aspell
+Random Forest	3	0.8028169014084507	8	Aspell
+Random Forest	4	0.8309859154929577	8	Aspell
+Random Forest	5	0.8450704225352113	8	Aspell
+Random Forest	6	0.8591549295774648	8	Aspell
+Random Forest	7	0.8591549295774648	8	Aspell
+Random Forest	8	0.8591549295774648	8	Aspell
+Random Forest	9	0.8591549295774648	8	Aspell
+Random Forest	10	0.8732394366197183	8	Aspell
+Random Forest	20	0.8732394366197183	8	Aspell
+Random Forest	30	0.8732394366197183	8	Aspell
+Random Forest	40	0.8732394366197183	8	Aspell
+Random Forest	50	0.8732394366197183	8	Aspell
+Random Forest	60	0.8732394366197183	8	Aspell
+Random Forest	70	0.8732394366197183	8	Aspell
+Random Forest	80	0.8732394366197183	8	Aspell
+Random Forest	90	0.8732394366197183	8	Aspell
+Random Forest	100	0.8732394366197183	8	Aspell
+Random Forest	1	0.7666666666666667	9	Aspell
+Random Forest	2	0.9	9	Aspell
+Random Forest	3	0.9	9	Aspell
+Random Forest	4	0.9	9	Aspell
+Random Forest	5	0.9166666666666666	9	Aspell
+Random Forest	6	0.95	9	Aspell
+Random Forest	7	0.95	9	Aspell
+Random Forest	8	0.95	9	Aspell
+Random Forest	9	0.95	9	Aspell
+Random Forest	10	0.95	9	Aspell
+Random Forest	20	0.95	9	Aspell
+Random Forest	30	0.95	9	Aspell
+Random Forest	40	0.95	9	Aspell
+Random Forest	50	0.95	9	Aspell
+Random Forest	60	0.95	9	Aspell
+Random Forest	70	0.95	9	Aspell
+Random Forest	80	0.95	9	Aspell
+Random Forest	90	0.95	9	Aspell
+Random Forest	100	0.95	9	Aspell
+Random Forest	1	0.8	10	Aspell
+Random Forest	2	0.8615384615384616	10	Aspell
+Random Forest	3	0.8923076923076924	10	Aspell
+Random Forest	4	0.9230769230769231	10	Aspell
+Random Forest	5	0.9230769230769231	10	Aspell
+Random Forest	6	0.9230769230769231	10	Aspell
+Random Forest	7	0.9230769230769231	10	Aspell
+Random Forest	8	0.9230769230769231	10	Aspell
+Random Forest	9	0.9230769230769231	10	Aspell
+Random Forest	10	0.9230769230769231	10	Aspell
+Random Forest	20	0.9230769230769231	10	Aspell
+Random Forest	30	0.9230769230769231	10	Aspell
+Random Forest	40	0.9230769230769231	10	Aspell
+Random Forest	50	0.9230769230769231	10	Aspell
+Random Forest	60	0.9230769230769231	10	Aspell
+Random Forest	70	0.9230769230769231	10	Aspell
+Random Forest	80	0.9230769230769231	10	Aspell
+Random Forest	90	0.9230769230769231	10	Aspell
+Random Forest	100	0.9230769230769231	10	Aspell
+Random Forest	1	0.7333333333333333	11	Aspell
+Random Forest	2	0.7777777777777778	11	Aspell
+Random Forest	3	0.8222222222222222	11	Aspell
+Random Forest	4	0.8222222222222222	11	Aspell
+Random Forest	5	0.8444444444444444	11	Aspell
+Random Forest	6	0.8666666666666667	11	Aspell
+Random Forest	7	0.8666666666666667	11	Aspell
+Random Forest	8	0.8666666666666667	11	Aspell
+Random Forest	9	0.8666666666666667	11	Aspell
+Random Forest	10	0.8666666666666667	11	Aspell
+Random Forest	20	0.8666666666666667	11	Aspell
+Random Forest	30	0.8666666666666667	11	Aspell
+Random Forest	40	0.8666666666666667	11	Aspell
+Random Forest	50	0.8666666666666667	11	Aspell
+Random Forest	60	0.8666666666666667	11	Aspell
+Random Forest	70	0.8666666666666667	11	Aspell
+Random Forest	80	0.8666666666666667	11	Aspell
+Random Forest	90	0.8666666666666667	11	Aspell
+Random Forest	100	0.8666666666666667	11	Aspell
+Random Forest	1	0.7777777777777778	12	Aspell
+Random Forest	2	0.8518518518518519	12	Aspell
+Random Forest	3	0.9259259259259259	12	Aspell
+Random Forest	4	0.9259259259259259	12	Aspell
+Random Forest	5	0.9629629629629629	12	Aspell
+Random Forest	6	0.9629629629629629	12	Aspell
+Random Forest	7	0.9629629629629629	12	Aspell
+Random Forest	8	0.9629629629629629	12	Aspell
+Random Forest	9	0.9629629629629629	12	Aspell
+Random Forest	10	0.9629629629629629	12	Aspell
+Random Forest	20	0.9629629629629629	12	Aspell
+Random Forest	30	0.9629629629629629	12	Aspell
+Random Forest	40	0.9629629629629629	12	Aspell
+Random Forest	50	0.9629629629629629	12	Aspell
+Random Forest	60	0.9629629629629629	12	Aspell
+Random Forest	70	0.9629629629629629	12	Aspell
+Random Forest	80	0.9629629629629629	12	Aspell
+Random Forest	90	0.9629629629629629	12	Aspell
+Random Forest	100	0.9629629629629629	12	Aspell
+Random Forest	1	0.75	13	Aspell
+Random Forest	2	0.75	13	Aspell
+Random Forest	3	0.8333333333333334	13	Aspell
+Random Forest	4	0.8333333333333334	13	Aspell
+Random Forest	5	0.8333333333333334	13	Aspell
+Random Forest	6	0.9166666666666666	13	Aspell
+Random Forest	7	0.9166666666666666	13	Aspell
+Random Forest	8	0.9166666666666666	13	Aspell
+Random Forest	9	0.9166666666666666	13	Aspell
+Random Forest	10	0.9166666666666666	13	Aspell
+Random Forest	20	0.9166666666666666	13	Aspell
+Random Forest	30	0.9166666666666666	13	Aspell
+Random Forest	40	0.9166666666666666	13	Aspell
+Random Forest	50	0.9166666666666666	13	Aspell
+Random Forest	60	0.9166666666666666	13	Aspell
+Random Forest	70	0.9166666666666666	13	Aspell
+Random Forest	80	0.9166666666666666	13	Aspell
+Random Forest	90	0.9166666666666666	13	Aspell
+Random Forest	100	0.9166666666666666	13	Aspell
+Random Forest	1	0.6666666666666666	14	Aspell
+Random Forest	2	0.6666666666666666	14	Aspell
+Random Forest	3	0.6666666666666666	14	Aspell
+Random Forest	4	1.0	14	Aspell
+Random Forest	5	1.0	14	Aspell
+Random Forest	6	1.0	14	Aspell
+Random Forest	7	1.0	14	Aspell
+Random Forest	8	1.0	14	Aspell
+Random Forest	9	1.0	14	Aspell
+Random Forest	10	1.0	14	Aspell
+Random Forest	20	1.0	14	Aspell
+Random Forest	30	1.0	14	Aspell
+Random Forest	40	1.0	14	Aspell
+Random Forest	50	1.0	14	Aspell
+Random Forest	60	1.0	14	Aspell
+Random Forest	70	1.0	14	Aspell
+Random Forest	80	1.0	14	Aspell
+Random Forest	90	1.0	14	Aspell
+Random Forest	100	1.0	14	Aspell
+Random Forest	1	1.0	15	Aspell
+Random Forest	2	1.0	15	Aspell
+Random Forest	3	1.0	15	Aspell
+Random Forest	4	1.0	15	Aspell
+Random Forest	5	1.0	15	Aspell
+Random Forest	6	1.0	15	Aspell
+Random Forest	7	1.0	15	Aspell
+Random Forest	8	1.0	15	Aspell
+Random Forest	9	1.0	15	Aspell
+Random Forest	10	1.0	15	Aspell
+Random Forest	20	1.0	15	Aspell
+Random Forest	30	1.0	15	Aspell
+Random Forest	40	1.0	15	Aspell
+Random Forest	50	1.0	15	Aspell
+Random Forest	60	1.0	15	Aspell
+Random Forest	70	1.0	15	Aspell
+Random Forest	80	1.0	15	Aspell
+Random Forest	90	1.0	15	Aspell
+Random Forest	100	1.0	15	Aspell
+ConvNet (binary)	1	0.48022598870056504	-1	Aspell
+ConvNet (binary)	2	0.664783427495292	-1	Aspell
+ConvNet (binary)	3	0.7269303201506592	-1	Aspell
+ConvNet (binary)	4	0.7740112994350282	-1	Aspell
+ConvNet (binary)	5	0.8022598870056498	-1	Aspell
+ConvNet (binary)	6	0.8154425612052729	-1	Aspell
+ConvNet (binary)	7	0.8323917137476461	-1	Aspell
+ConvNet (binary)	8	0.8474576271186439	-1	Aspell
+ConvNet (binary)	9	0.8587570621468926	-1	Aspell
+ConvNet (binary)	10	0.8625235404896422	-1	Aspell
+ConvNet (binary)	20	0.8832391713747646	-1	Aspell
+ConvNet (binary)	30	0.8870056497175142	-1	Aspell
+ConvNet (binary)	40	0.8870056497175142	-1	Aspell
+ConvNet (binary)	50	0.8870056497175142	-1	Aspell
+ConvNet (binary)	60	0.8870056497175142	-1	Aspell
+ConvNet (binary)	70	0.8870056497175142	-1	Aspell
+ConvNet (binary)	80	0.8870056497175142	-1	Aspell
+ConvNet (binary)	90	0.8870056497175142	-1	Aspell
+ConvNet (binary)	100	0.8870056497175142	-1	Aspell
+ConvNet (binary)	1	0.0	3	Aspell
+ConvNet (binary)	2	0.16666666666666666	3	Aspell
+ConvNet (binary)	3	0.25	3	Aspell
+ConvNet (binary)	4	0.3333333333333333	3	Aspell
+ConvNet (binary)	5	0.4166666666666667	3	Aspell
+ConvNet (binary)	6	0.4166666666666667	3	Aspell
+ConvNet (binary)	7	0.5	3	Aspell
+ConvNet (binary)	8	0.5833333333333334	3	Aspell
+ConvNet (binary)	9	0.5833333333333334	3	Aspell
+ConvNet (binary)	10	0.5833333333333334	3	Aspell
+ConvNet (binary)	20	0.8333333333333334	3	Aspell
+ConvNet (binary)	30	0.9166666666666666	3	Aspell
+ConvNet (binary)	40	0.9166666666666666	3	Aspell
+ConvNet (binary)	50	0.9166666666666666	3	Aspell
+ConvNet (binary)	60	0.9166666666666666	3	Aspell
+ConvNet (binary)	70	0.9166666666666666	3	Aspell
+ConvNet (binary)	80	0.9166666666666666	3	Aspell
+ConvNet (binary)	90	0.9166666666666666	3	Aspell
+ConvNet (binary)	100	0.9166666666666666	3	Aspell
+ConvNet (binary)	1	0.13043478260869565	4	Aspell
+ConvNet (binary)	2	0.21739130434782608	4	Aspell
+ConvNet (binary)	3	0.2608695652173913	4	Aspell
+ConvNet (binary)	4	0.43478260869565216	4	Aspell
+ConvNet (binary)	5	0.6086956521739131	4	Aspell
+ConvNet (binary)	6	0.6956521739130435	4	Aspell
+ConvNet (binary)	7	0.6956521739130435	4	Aspell
+ConvNet (binary)	8	0.7391304347826086	4	Aspell
+ConvNet (binary)	9	0.7826086956521741	4	Aspell
+ConvNet (binary)	10	0.8260869565217391	4	Aspell
+ConvNet (binary)	20	0.9130434782608696	4	Aspell
+ConvNet (binary)	30	0.9130434782608696	4	Aspell
+ConvNet (binary)	40	0.9130434782608696	4	Aspell
+ConvNet (binary)	50	0.9130434782608696	4	Aspell
+ConvNet (binary)	60	0.9130434782608696	4	Aspell
+ConvNet (binary)	70	0.9130434782608696	4	Aspell
+ConvNet (binary)	80	0.9130434782608696	4	Aspell
+ConvNet (binary)	90	0.9130434782608696	4	Aspell
+ConvNet (binary)	100	0.9130434782608696	4	Aspell
+ConvNet (binary)	1	0.3064516129032258	5	Aspell
+ConvNet (binary)	2	0.532258064516129	5	Aspell
+ConvNet (binary)	3	0.5967741935483871	5	Aspell
+ConvNet (binary)	4	0.6612903225806451	5	Aspell
+ConvNet (binary)	5	0.7096774193548387	5	Aspell
+ConvNet (binary)	6	0.7258064516129032	5	Aspell
+ConvNet (binary)	7	0.7903225806451613	5	Aspell
+ConvNet (binary)	8	0.7903225806451613	5	Aspell
+ConvNet (binary)	9	0.8387096774193549	5	Aspell
+ConvNet (binary)	10	0.8387096774193549	5	Aspell
+ConvNet (binary)	20	0.8709677419354839	5	Aspell
+ConvNet (binary)	30	0.8870967741935484	5	Aspell
+ConvNet (binary)	40	0.8870967741935484	5	Aspell
+ConvNet (binary)	50	0.8870967741935484	5	Aspell
+ConvNet (binary)	60	0.8870967741935484	5	Aspell
+ConvNet (binary)	70	0.8870967741935484	5	Aspell
+ConvNet (binary)	80	0.8870967741935484	5	Aspell
+ConvNet (binary)	90	0.8870967741935484	5	Aspell
+ConvNet (binary)	100	0.8870967741935484	5	Aspell
+ConvNet (binary)	1	0.459016393442623	6	Aspell
+ConvNet (binary)	2	0.639344262295082	6	Aspell
+ConvNet (binary)	3	0.6885245901639344	6	Aspell
+ConvNet (binary)	4	0.7049180327868853	6	Aspell
+ConvNet (binary)	5	0.7049180327868853	6	Aspell
+ConvNet (binary)	6	0.7213114754098361	6	Aspell
+ConvNet (binary)	7	0.7377049180327869	6	Aspell
+ConvNet (binary)	8	0.7377049180327869	6	Aspell
+ConvNet (binary)	9	0.7540983606557377	6	Aspell
+ConvNet (binary)	10	0.7540983606557377	6	Aspell
+ConvNet (binary)	20	0.8032786885245902	6	Aspell
+ConvNet (binary)	30	0.8032786885245902	6	Aspell
+ConvNet (binary)	40	0.8032786885245902	6	Aspell
+ConvNet (binary)	50	0.8032786885245902	6	Aspell
+ConvNet (binary)	60	0.8032786885245902	6	Aspell
+ConvNet (binary)	70	0.8032786885245902	6	Aspell
+ConvNet (binary)	80	0.8032786885245902	6	Aspell
+ConvNet (binary)	90	0.8032786885245902	6	Aspell
+ConvNet (binary)	100	0.8032786885245902	6	Aspell
+ConvNet (binary)	1	0.4375	7	Aspell
+ConvNet (binary)	2	0.6125	7	Aspell
+ConvNet (binary)	3	0.7375	7	Aspell
+ConvNet (binary)	4	0.7625	7	Aspell
+ConvNet (binary)	5	0.8	7	Aspell
+ConvNet (binary)	6	0.8	7	Aspell
+ConvNet (binary)	7	0.8	7	Aspell
+ConvNet (binary)	8	0.825	7	Aspell
+ConvNet (binary)	9	0.8375	7	Aspell
+ConvNet (binary)	10	0.85	7	Aspell
+ConvNet (binary)	20	0.8625	7	Aspell
+ConvNet (binary)	30	0.8625	7	Aspell
+ConvNet (binary)	40	0.8625	7	Aspell
+ConvNet (binary)	50	0.8625	7	Aspell
+ConvNet (binary)	60	0.8625	7	Aspell
+ConvNet (binary)	70	0.8625	7	Aspell
+ConvNet (binary)	80	0.8625	7	Aspell
+ConvNet (binary)	90	0.8625	7	Aspell
+ConvNet (binary)	100	0.8625	7	Aspell
+ConvNet (binary)	1	0.581081081081081	8	Aspell
+ConvNet (binary)	2	0.7162162162162162	8	Aspell
+ConvNet (binary)	3	0.7837837837837838	8	Aspell
+ConvNet (binary)	4	0.8243243243243243	8	Aspell
+ConvNet (binary)	5	0.8378378378378378	8	Aspell
+ConvNet (binary)	6	0.8513513513513513	8	Aspell
+ConvNet (binary)	7	0.8513513513513513	8	Aspell
+ConvNet (binary)	8	0.8513513513513513	8	Aspell
+ConvNet (binary)	9	0.8513513513513513	8	Aspell
+ConvNet (binary)	10	0.8513513513513513	8	Aspell
+ConvNet (binary)	20	0.8513513513513513	8	Aspell
+ConvNet (binary)	30	0.8513513513513513	8	Aspell
+ConvNet (binary)	40	0.8513513513513513	8	Aspell
+ConvNet (binary)	50	0.8513513513513513	8	Aspell
+ConvNet (binary)	60	0.8513513513513513	8	Aspell
+ConvNet (binary)	70	0.8513513513513513	8	Aspell
+ConvNet (binary)	80	0.8513513513513513	8	Aspell
+ConvNet (binary)	90	0.8513513513513513	8	Aspell
+ConvNet (binary)	100	0.8513513513513513	8	Aspell
+ConvNet (binary)	1	0.6129032258064516	9	Aspell
+ConvNet (binary)	2	0.7741935483870968	9	Aspell
+ConvNet (binary)	3	0.8387096774193549	9	Aspell
+ConvNet (binary)	4	0.9032258064516128	9	Aspell
+ConvNet (binary)	5	0.9032258064516128	9	Aspell
+ConvNet (binary)	6	0.9193548387096774	9	Aspell
+ConvNet (binary)	7	0.935483870967742	9	Aspell
+ConvNet (binary)	8	0.935483870967742	9	Aspell
+ConvNet (binary)	9	0.935483870967742	9	Aspell
+ConvNet (binary)	10	0.935483870967742	9	Aspell
+ConvNet (binary)	20	0.935483870967742	9	Aspell
+ConvNet (binary)	30	0.935483870967742	9	Aspell
+ConvNet (binary)	40	0.935483870967742	9	Aspell
+ConvNet (binary)	50	0.935483870967742	9	Aspell
+ConvNet (binary)	60	0.935483870967742	9	Aspell
+ConvNet (binary)	70	0.935483870967742	9	Aspell
+ConvNet (binary)	80	0.935483870967742	9	Aspell
+ConvNet (binary)	90	0.935483870967742	9	Aspell
+ConvNet (binary)	100	0.935483870967742	9	Aspell
+ConvNet (binary)	1	0.6176470588235294	10	Aspell
+ConvNet (binary)	2	0.7941176470588235	10	Aspell
+ConvNet (binary)	3	0.8529411764705882	10	Aspell
+ConvNet (binary)	4	0.8823529411764706	10	Aspell
+ConvNet (binary)	5	0.8823529411764706	10	Aspell
+ConvNet (binary)	6	0.8970588235294118	10	Aspell
+ConvNet (binary)	7	0.8970588235294118	10	Aspell
+ConvNet (binary)	8	0.9411764705882352	10	Aspell
+ConvNet (binary)	9	0.9411764705882352	10	Aspell
+ConvNet (binary)	10	0.9411764705882352	10	Aspell
+ConvNet (binary)	20	0.9411764705882352	10	Aspell
+ConvNet (binary)	30	0.9411764705882352	10	Aspell
+ConvNet (binary)	40	0.9411764705882352	10	Aspell
+ConvNet (binary)	50	0.9411764705882352	10	Aspell
+ConvNet (binary)	60	0.9411764705882352	10	Aspell
+ConvNet (binary)	70	0.9411764705882352	10	Aspell
+ConvNet (binary)	80	0.9411764705882352	10	Aspell
+ConvNet (binary)	90	0.9411764705882352	10	Aspell
+ConvNet (binary)	100	0.9411764705882352	10	Aspell
+ConvNet (binary)	1	0.4782608695652174	11	Aspell
+ConvNet (binary)	2	0.7173913043478259	11	Aspell
+ConvNet (binary)	3	0.7391304347826086	11	Aspell
+ConvNet (binary)	4	0.7826086956521741	11	Aspell
+ConvNet (binary)	5	0.8260869565217391	11	Aspell
+ConvNet (binary)	6	0.8260869565217391	11	Aspell
+ConvNet (binary)	7	0.8478260869565217	11	Aspell
+ConvNet (binary)	8	0.8695652173913043	11	Aspell
+ConvNet (binary)	9	0.8695652173913043	11	Aspell
+ConvNet (binary)	10	0.8695652173913043	11	Aspell
+ConvNet (binary)	20	0.8695652173913043	11	Aspell
+ConvNet (binary)	30	0.8695652173913043	11	Aspell
+ConvNet (binary)	40	0.8695652173913043	11	Aspell
+ConvNet (binary)	50	0.8695652173913043	11	Aspell
+ConvNet (binary)	60	0.8695652173913043	11	Aspell
+ConvNet (binary)	70	0.8695652173913043	11	Aspell
+ConvNet (binary)	80	0.8695652173913043	11	Aspell
+ConvNet (binary)	90	0.8695652173913043	11	Aspell
+ConvNet (binary)	100	0.8695652173913043	11	Aspell
+ConvNet (binary)	1	0.5555555555555556	12	Aspell
+ConvNet (binary)	2	0.8518518518518519	12	Aspell
+ConvNet (binary)	3	0.8518518518518519	12	Aspell
+ConvNet (binary)	4	0.925925925925926	12	Aspell
+ConvNet (binary)	5	0.925925925925926	12	Aspell
+ConvNet (binary)	6	0.925925925925926	12	Aspell
+ConvNet (binary)	7	0.9629629629629628	12	Aspell
+ConvNet (binary)	8	0.9629629629629628	12	Aspell
+ConvNet (binary)	9	0.9629629629629628	12	Aspell
+ConvNet (binary)	10	0.9629629629629628	12	Aspell
+ConvNet (binary)	20	0.9629629629629628	12	Aspell
+ConvNet (binary)	30	0.9629629629629628	12	Aspell
+ConvNet (binary)	40	0.9629629629629628	12	Aspell
+ConvNet (binary)	50	0.9629629629629628	12	Aspell
+ConvNet (binary)	60	0.9629629629629628	12	Aspell
+ConvNet (binary)	70	0.9629629629629628	12	Aspell
+ConvNet (binary)	80	0.9629629629629628	12	Aspell
+ConvNet (binary)	90	0.9629629629629628	12	Aspell
+ConvNet (binary)	100	0.9629629629629628	12	Aspell
+ConvNet (binary)	1	0.5833333333333334	13	Aspell
+ConvNet (binary)	2	0.8333333333333334	13	Aspell
+ConvNet (binary)	3	0.8333333333333334	13	Aspell
+ConvNet (binary)	4	0.8333333333333334	13	Aspell
+ConvNet (binary)	5	0.9166666666666666	13	Aspell
+ConvNet (binary)	6	0.9166666666666666	13	Aspell
+ConvNet (binary)	7	0.9166666666666666	13	Aspell
+ConvNet (binary)	8	0.9166666666666666	13	Aspell
+ConvNet (binary)	9	0.9166666666666666	13	Aspell
+ConvNet (binary)	10	0.9166666666666666	13	Aspell
+ConvNet (binary)	20	0.9166666666666666	13	Aspell
+ConvNet (binary)	30	0.9166666666666666	13	Aspell
+ConvNet (binary)	40	0.9166666666666666	13	Aspell
+ConvNet (binary)	50	0.9166666666666666	13	Aspell
+ConvNet (binary)	60	0.9166666666666666	13	Aspell
+ConvNet (binary)	70	0.9166666666666666	13	Aspell
+ConvNet (binary)	80	0.9166666666666666	13	Aspell
+ConvNet (binary)	90	0.9166666666666666	13	Aspell
+ConvNet (binary)	100	0.9166666666666666	13	Aspell
+ConvNet (binary)	1	0.6666666666666666	14	Aspell
+ConvNet (binary)	2	1.0	14	Aspell
+ConvNet (binary)	3	1.0	14	Aspell
+ConvNet (binary)	4	1.0	14	Aspell
+ConvNet (binary)	5	1.0	14	Aspell
+ConvNet (binary)	6	1.0	14	Aspell
+ConvNet (binary)	7	1.0	14	Aspell
+ConvNet (binary)	8	1.0	14	Aspell
+ConvNet (binary)	9	1.0	14	Aspell
+ConvNet (binary)	10	1.0	14	Aspell
+ConvNet (binary)	20	1.0	14	Aspell
+ConvNet (binary)	30	1.0	14	Aspell
+ConvNet (binary)	40	1.0	14	Aspell
+ConvNet (binary)	50	1.0	14	Aspell
+ConvNet (binary)	60	1.0	14	Aspell
+ConvNet (binary)	70	1.0	14	Aspell
+ConvNet (binary)	80	1.0	14	Aspell
+ConvNet (binary)	90	1.0	14	Aspell
+ConvNet (binary)	100	1.0	14	Aspell
+ConvNet (binary)	1	1.0	15	Aspell
+ConvNet (binary)	2	1.0	15	Aspell
+ConvNet (binary)	3	1.0	15	Aspell
+ConvNet (binary)	4	1.0	15	Aspell
+ConvNet (binary)	5	1.0	15	Aspell
+ConvNet (binary)	6	1.0	15	Aspell
+ConvNet (binary)	7	1.0	15	Aspell
+ConvNet (binary)	8	1.0	15	Aspell
+ConvNet (binary)	9	1.0	15	Aspell
+ConvNet (binary)	10	1.0	15	Aspell
+ConvNet (binary)	20	1.0	15	Aspell
+ConvNet (binary)	30	1.0	15	Aspell
+ConvNet (binary)	40	1.0	15	Aspell
+ConvNet (binary)	50	1.0	15	Aspell
+ConvNet (binary)	60	1.0	15	Aspell
+ConvNet (binary)	70	1.0	15	Aspell
+ConvNet (binary)	80	1.0	15	Aspell
+ConvNet (binary)	90	1.0	15	Aspell
+ConvNet (binary)	100	1.0	15	Aspell
+ConvNet (binary)	1	0.7177189409368635	-1	Wikipedia
+ConvNet (binary)	2	0.8501018329938901	-1	Wikipedia
+ConvNet (binary)	3	0.894908350305499	-1	Wikipedia
+ConvNet (binary)	4	0.9107942973523422	-1	Wikipedia
+ConvNet (binary)	5	0.920570264765784	-1	Wikipedia
+ConvNet (binary)	6	0.929938900203666	-1	Wikipedia
+ConvNet (binary)	7	0.9372708757637476	-1	Wikipedia
+ConvNet (binary)	8	0.940936863543788	-1	Wikipedia
+ConvNet (binary)	9	0.9441955193482688	-1	Wikipedia
+ConvNet (binary)	10	0.9466395112016294	-1	Wikipedia
+ConvNet (binary)	20	0.9576374745417516	-1	Wikipedia
+ConvNet (binary)	30	0.9588594704684318	-1	Wikipedia
+ConvNet (binary)	40	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	50	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	60	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	70	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	80	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	90	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	100	0.959674134419552	-1	Wikipedia
+ConvNet (binary)	1	0.0	2	Wikipedia
+ConvNet (binary)	2	0.0	2	Wikipedia
+ConvNet (binary)	3	0.0	2	Wikipedia
+ConvNet (binary)	4	0.0	2	Wikipedia
+ConvNet (binary)	5	0.0	2	Wikipedia
+ConvNet (binary)	6	0.0	2	Wikipedia
+ConvNet (binary)	7	0.0	2	Wikipedia
+ConvNet (binary)	8	0.0	2	Wikipedia
+ConvNet (binary)	9	0.0	2	Wikipedia
+ConvNet (binary)	10	0.0	2	Wikipedia
+ConvNet (binary)	20	1.0	2	Wikipedia
+ConvNet (binary)	30	1.0	2	Wikipedia
+ConvNet (binary)	40	1.0	2	Wikipedia
+ConvNet (binary)	50	1.0	2	Wikipedia
+ConvNet (binary)	60	1.0	2	Wikipedia
+ConvNet (binary)	70	1.0	2	Wikipedia
+ConvNet (binary)	80	1.0	2	Wikipedia
+ConvNet (binary)	90	1.0	2	Wikipedia
+ConvNet (binary)	100	1.0	2	Wikipedia
+ConvNet (binary)	1	0.0	3	Wikipedia
+ConvNet (binary)	2	0.2	3	Wikipedia
+ConvNet (binary)	3	0.2	3	Wikipedia
+ConvNet (binary)	4	0.2	3	Wikipedia
+ConvNet (binary)	5	0.2	3	Wikipedia
+ConvNet (binary)	6	0.2	3	Wikipedia
+ConvNet (binary)	7	0.4	3	Wikipedia
+ConvNet (binary)	8	0.4	3	Wikipedia
+ConvNet (binary)	9	0.4	3	Wikipedia
+ConvNet (binary)	10	0.6	3	Wikipedia
+ConvNet (binary)	20	0.8	3	Wikipedia
+ConvNet (binary)	30	0.8	3	Wikipedia
+ConvNet (binary)	40	0.8	3	Wikipedia
+ConvNet (binary)	50	0.8	3	Wikipedia
+ConvNet (binary)	60	0.8	3	Wikipedia
+ConvNet (binary)	70	0.8	3	Wikipedia
+ConvNet (binary)	80	0.8	3	Wikipedia
+ConvNet (binary)	90	0.8	3	Wikipedia
+ConvNet (binary)	100	0.8	3	Wikipedia
+ConvNet (binary)	1	0.27611940298507465	4	Wikipedia
+ConvNet (binary)	2	0.4626865671641791	4	Wikipedia
+ConvNet (binary)	3	0.5298507462686567	4	Wikipedia
+ConvNet (binary)	4	0.6044776119402985	4	Wikipedia
+ConvNet (binary)	5	0.6865671641791045	4	Wikipedia
+ConvNet (binary)	6	0.7238805970149254	4	Wikipedia
+ConvNet (binary)	7	0.753731343283582	4	Wikipedia
+ConvNet (binary)	8	0.7910447761194029	4	Wikipedia
+ConvNet (binary)	9	0.8059701492537313	4	Wikipedia
+ConvNet (binary)	10	0.8134328358208955	4	Wikipedia
+ConvNet (binary)	20	0.8955223880597015	4	Wikipedia
+ConvNet (binary)	30	0.9179104477611941	4	Wikipedia
+ConvNet (binary)	40	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	50	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	60	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	70	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	80	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	90	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	100	0.9328358208955224	4	Wikipedia
+ConvNet (binary)	1	0.3298429319371728	5	Wikipedia
+ConvNet (binary)	2	0.5602094240837696	5	Wikipedia
+ConvNet (binary)	3	0.7225130890052356	5	Wikipedia
+ConvNet (binary)	4	0.7801047120418848	5	Wikipedia
+ConvNet (binary)	5	0.8010471204188482	5	Wikipedia
+ConvNet (binary)	6	0.8219895287958116	5	Wikipedia
+ConvNet (binary)	7	0.8586387434554974	5	Wikipedia
+ConvNet (binary)	8	0.8691099476439791	5	Wikipedia
+ConvNet (binary)	9	0.8795811518324608	5	Wikipedia
+ConvNet (binary)	10	0.8900523560209425	5	Wikipedia
+ConvNet (binary)	20	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	30	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	40	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	50	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	60	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	70	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	80	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	90	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	100	0.9319371727748692	5	Wikipedia
+ConvNet (binary)	1	0.527363184079602	6	Wikipedia
+ConvNet (binary)	2	0.7313432835820896	6	Wikipedia
+ConvNet (binary)	3	0.8159203980099502	6	Wikipedia
+ConvNet (binary)	4	0.8557213930348259	6	Wikipedia
+ConvNet (binary)	5	0.8656716417910447	6	Wikipedia
+ConvNet (binary)	6	0.8905472636815921	6	Wikipedia
+ConvNet (binary)	7	0.9004975124378108	6	Wikipedia
+ConvNet (binary)	8	0.9054726368159204	6	Wikipedia
+ConvNet (binary)	9	0.9054726368159204	6	Wikipedia
+ConvNet (binary)	10	0.9104477611940298	6	Wikipedia
+ConvNet (binary)	20	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	30	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	40	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	50	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	60	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	70	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	80	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	90	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	100	0.9203980099502488	6	Wikipedia
+ConvNet (binary)	1	0.6723549488054608	7	Wikipedia
+ConvNet (binary)	2	0.8395904436860068	7	Wikipedia
+ConvNet (binary)	3	0.89419795221843	7	Wikipedia
+ConvNet (binary)	4	0.9078498293515358	7	Wikipedia
+ConvNet (binary)	5	0.9180887372013652	7	Wikipedia
+ConvNet (binary)	6	0.9283276450511946	7	Wikipedia
+ConvNet (binary)	7	0.9351535836177476	7	Wikipedia
+ConvNet (binary)	8	0.9351535836177476	7	Wikipedia
+ConvNet (binary)	9	0.9419795221843004	7	Wikipedia
+ConvNet (binary)	10	0.9419795221843004	7	Wikipedia
+ConvNet (binary)	20	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	30	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	40	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	50	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	60	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	70	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	80	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	90	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	100	0.9522184300341296	7	Wikipedia
+ConvNet (binary)	1	0.779291553133515	8	Wikipedia
+ConvNet (binary)	2	0.9100817438692098	8	Wikipedia
+ConvNet (binary)	3	0.9455040871934604	8	Wikipedia
+ConvNet (binary)	4	0.9564032697547684	8	Wikipedia
+ConvNet (binary)	5	0.9564032697547684	8	Wikipedia
+ConvNet (binary)	6	0.9591280653950952	8	Wikipedia
+ConvNet (binary)	7	0.9618528610354224	8	Wikipedia
+ConvNet (binary)	8	0.9618528610354224	8	Wikipedia
+ConvNet (binary)	9	0.9618528610354224	8	Wikipedia
+ConvNet (binary)	10	0.9618528610354224	8	Wikipedia
+ConvNet (binary)	20	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	30	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	40	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	50	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	60	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	70	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	80	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	90	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	100	0.9645776566757494	8	Wikipedia
+ConvNet (binary)	1	0.8168316831683168	9	Wikipedia
+ConvNet (binary)	2	0.9232673267326732	9	Wikipedia
+ConvNet (binary)	3	0.9554455445544554	9	Wikipedia
+ConvNet (binary)	4	0.9554455445544554	9	Wikipedia
+ConvNet (binary)	5	0.957920792079208	9	Wikipedia
+ConvNet (binary)	6	0.9678217821782178	9	Wikipedia
+ConvNet (binary)	7	0.9702970297029704	9	Wikipedia
+ConvNet (binary)	8	0.9727722772277227	9	Wikipedia
+ConvNet (binary)	9	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	10	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	20	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	30	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	40	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	50	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	60	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	70	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	80	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	90	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	100	0.9752475247524752	9	Wikipedia
+ConvNet (binary)	1	0.8538681948424068	10	Wikipedia
+ConvNet (binary)	2	0.9455587392550144	10	Wikipedia
+ConvNet (binary)	3	0.9656160458452722	10	Wikipedia
+ConvNet (binary)	4	0.968481375358166	10	Wikipedia
+ConvNet (binary)	5	0.968481375358166	10	Wikipedia
+ConvNet (binary)	6	0.968481375358166	10	Wikipedia
+ConvNet (binary)	7	0.968481375358166	10	Wikipedia
+ConvNet (binary)	8	0.968481375358166	10	Wikipedia
+ConvNet (binary)	9	0.968481375358166	10	Wikipedia
+ConvNet (binary)	10	0.97134670487106	10	Wikipedia
+ConvNet (binary)	20	0.97134670487106	10	Wikipedia
+ConvNet (binary)	30	0.97134670487106	10	Wikipedia
+ConvNet (binary)	40	0.97134670487106	10	Wikipedia
+ConvNet (binary)	50	0.97134670487106	10	Wikipedia
+ConvNet (binary)	60	0.97134670487106	10	Wikipedia
+ConvNet (binary)	70	0.97134670487106	10	Wikipedia
+ConvNet (binary)	80	0.97134670487106	10	Wikipedia
+ConvNet (binary)	90	0.97134670487106	10	Wikipedia
+ConvNet (binary)	100	0.97134670487106	10	Wikipedia
+ConvNet (binary)	1	0.8541666666666666	11	Wikipedia
+ConvNet (binary)	2	0.95	11	Wikipedia
+ConvNet (binary)	3	0.9666666666666668	11	Wikipedia
+ConvNet (binary)	4	0.9708333333333332	11	Wikipedia
+ConvNet (binary)	5	0.975	11	Wikipedia
+ConvNet (binary)	6	0.975	11	Wikipedia
+ConvNet (binary)	7	0.975	11	Wikipedia
+ConvNet (binary)	8	0.975	11	Wikipedia
+ConvNet (binary)	9	0.975	11	Wikipedia
+ConvNet (binary)	10	0.975	11	Wikipedia
+ConvNet (binary)	20	0.975	11	Wikipedia
+ConvNet (binary)	30	0.975	11	Wikipedia
+ConvNet (binary)	40	0.975	11	Wikipedia
+ConvNet (binary)	50	0.975	11	Wikipedia
+ConvNet (binary)	60	0.975	11	Wikipedia
+ConvNet (binary)	70	0.975	11	Wikipedia
+ConvNet (binary)	80	0.975	11	Wikipedia
+ConvNet (binary)	90	0.975	11	Wikipedia
+ConvNet (binary)	100	0.975	11	Wikipedia
+ConvNet (binary)	1	0.87248322147651	12	Wikipedia
+ConvNet (binary)	2	0.9664429530201344	12	Wikipedia
+ConvNet (binary)	3	0.9664429530201344	12	Wikipedia
+ConvNet (binary)	4	0.9664429530201344	12	Wikipedia
+ConvNet (binary)	5	0.9731543624161074	12	Wikipedia
+ConvNet (binary)	6	0.9731543624161074	12	Wikipedia
+ConvNet (binary)	7	0.9731543624161074	12	Wikipedia
+ConvNet (binary)	8	0.9731543624161074	12	Wikipedia
+ConvNet (binary)	9	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	10	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	20	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	30	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	40	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	50	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	60	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	70	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	80	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	90	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	100	0.9798657718120806	12	Wikipedia
+ConvNet (binary)	1	0.9466666666666668	13	Wikipedia
+ConvNet (binary)	2	0.9733333333333334	13	Wikipedia
+ConvNet (binary)	3	0.9733333333333334	13	Wikipedia
+ConvNet (binary)	4	0.9733333333333334	13	Wikipedia
+ConvNet (binary)	5	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	6	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	7	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	8	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	9	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	10	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	20	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	30	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	40	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	50	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	60	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	70	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	80	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	90	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	100	0.9866666666666668	13	Wikipedia
+ConvNet (binary)	1	0.9032258064516128	14	Wikipedia
+ConvNet (binary)	2	0.9032258064516128	14	Wikipedia
+ConvNet (binary)	3	0.9032258064516128	14	Wikipedia
+ConvNet (binary)	4	0.9032258064516128	14	Wikipedia
+ConvNet (binary)	5	0.9032258064516128	14	Wikipedia
+ConvNet (binary)	6	0.935483870967742	14	Wikipedia
+ConvNet (binary)	7	0.935483870967742	14	Wikipedia
+ConvNet (binary)	8	0.935483870967742	14	Wikipedia
+ConvNet (binary)	9	0.935483870967742	14	Wikipedia
+ConvNet (binary)	10	0.935483870967742	14	Wikipedia
+ConvNet (binary)	20	0.935483870967742	14	Wikipedia
+ConvNet (binary)	30	0.935483870967742	14	Wikipedia
+ConvNet (binary)	40	0.935483870967742	14	Wikipedia
+ConvNet (binary)	50	0.935483870967742	14	Wikipedia
+ConvNet (binary)	60	0.935483870967742	14	Wikipedia
+ConvNet (binary)	70	0.935483870967742	14	Wikipedia
+ConvNet (binary)	80	0.935483870967742	14	Wikipedia
+ConvNet (binary)	90	0.935483870967742	14	Wikipedia
+ConvNet (binary)	100	0.935483870967742	14	Wikipedia
+ConvNet (binary)	1	0.8	15	Wikipedia
+ConvNet (binary)	2	0.9	15	Wikipedia
+ConvNet (binary)	3	0.9	15	Wikipedia
+ConvNet (binary)	4	0.9	15	Wikipedia
+ConvNet (binary)	5	0.9	15	Wikipedia
+ConvNet (binary)	6	0.9	15	Wikipedia
+ConvNet (binary)	7	0.9	15	Wikipedia
+ConvNet (binary)	8	0.9	15	Wikipedia
+ConvNet (binary)	9	0.9	15	Wikipedia
+ConvNet (binary)	10	0.9	15	Wikipedia
+ConvNet (binary)	20	0.9	15	Wikipedia
+ConvNet (binary)	30	0.9	15	Wikipedia
+ConvNet (binary)	40	0.9	15	Wikipedia
+ConvNet (binary)	50	0.9	15	Wikipedia
+ConvNet (binary)	60	0.9	15	Wikipedia
+ConvNet (binary)	70	0.9	15	Wikipedia
+ConvNet (binary)	80	0.9	15	Wikipedia
+ConvNet (binary)	90	0.9	15	Wikipedia
+ConvNet (binary)	100	0.9	15	Wikipedia
+ConvNet (binary)	1	0.75	16	Wikipedia
+ConvNet (binary)	2	1.0	16	Wikipedia
+ConvNet (binary)	3	1.0	16	Wikipedia
+ConvNet (binary)	4	1.0	16	Wikipedia
+ConvNet (binary)	5	1.0	16	Wikipedia
+ConvNet (binary)	6	1.0	16	Wikipedia
+ConvNet (binary)	7	1.0	16	Wikipedia
+ConvNet (binary)	8	1.0	16	Wikipedia
+ConvNet (binary)	9	1.0	16	Wikipedia
+ConvNet (binary)	10	1.0	16	Wikipedia
+ConvNet (binary)	20	1.0	16	Wikipedia
+ConvNet (binary)	30	1.0	16	Wikipedia
+ConvNet (binary)	40	1.0	16	Wikipedia
+ConvNet (binary)	50	1.0	16	Wikipedia
+ConvNet (binary)	60	1.0	16	Wikipedia
+ConvNet (binary)	70	1.0	16	Wikipedia
+ConvNet (binary)	80	1.0	16	Wikipedia
+ConvNet (binary)	90	1.0	16	Wikipedia
+ConvNet (binary)	100	1.0	16	Wikipedia
+ConvNet (binary)	1	0.0	17	Wikipedia
+ConvNet (binary)	2	0.0	17	Wikipedia
+ConvNet (binary)	3	0.0	17	Wikipedia
+ConvNet (binary)	4	0.0	17	Wikipedia
+ConvNet (binary)	5	0.0	17	Wikipedia
+ConvNet (binary)	6	0.0	17	Wikipedia
+ConvNet (binary)	7	0.0	17	Wikipedia
+ConvNet (binary)	8	0.0	17	Wikipedia
+ConvNet (binary)	9	0.0	17	Wikipedia
+ConvNet (binary)	10	0.0	17	Wikipedia
+ConvNet (binary)	20	0.0	17	Wikipedia
+ConvNet (binary)	30	0.0	17	Wikipedia
+ConvNet (binary)	40	0.0	17	Wikipedia
+ConvNet (binary)	50	0.0	17	Wikipedia
+ConvNet (binary)	60	0.0	17	Wikipedia
+ConvNet (binary)	70	0.0	17	Wikipedia
+ConvNet (binary)	80	0.0	17	Wikipedia
+ConvNet (binary)	90	0.0	17	Wikipedia
+ConvNet (binary)	100	0.0	17	Wikipedia
+ConvNet (binary)	1	0.0	18	Wikipedia
+ConvNet (binary)	2	0.0	18	Wikipedia
+ConvNet (binary)	3	0.0	18	Wikipedia
+ConvNet (binary)	4	0.0	18	Wikipedia
+ConvNet (binary)	5	0.0	18	Wikipedia
+ConvNet (binary)	6	0.0	18	Wikipedia
+ConvNet (binary)	7	0.0	18	Wikipedia
+ConvNet (binary)	8	0.0	18	Wikipedia
+ConvNet (binary)	9	0.0	18	Wikipedia
+ConvNet (binary)	10	0.0	18	Wikipedia
+ConvNet (binary)	20	0.0	18	Wikipedia
+ConvNet (binary)	30	0.0	18	Wikipedia
+ConvNet (binary)	40	0.0	18	Wikipedia
+ConvNet (binary)	50	0.0	18	Wikipedia
+ConvNet (binary)	60	0.0	18	Wikipedia
+ConvNet (binary)	70	0.0	18	Wikipedia
+ConvNet (binary)	80	0.0	18	Wikipedia
+ConvNet (binary)	90	0.0	18	Wikipedia
+ConvNet (binary)	100	0.0	18	Wikipedia
+ConvNet (binary)	1	0.0	19	Wikipedia
+ConvNet (binary)	2	1.0	19	Wikipedia
+ConvNet (binary)	3	1.0	19	Wikipedia
+ConvNet (binary)	4	1.0	19	Wikipedia
+ConvNet (binary)	5	1.0	19	Wikipedia
+ConvNet (binary)	6	1.0	19	Wikipedia
+ConvNet (binary)	7	1.0	19	Wikipedia
+ConvNet (binary)	8	1.0	19	Wikipedia
+ConvNet (binary)	9	1.0	19	Wikipedia
+ConvNet (binary)	10	1.0	19	Wikipedia
+ConvNet (binary)	20	1.0	19	Wikipedia
+ConvNet (binary)	30	1.0	19	Wikipedia
+ConvNet (binary)	40	1.0	19	Wikipedia
+ConvNet (binary)	50	1.0	19	Wikipedia
+ConvNet (binary)	60	1.0	19	Wikipedia
+ConvNet (binary)	70	1.0	19	Wikipedia
+ConvNet (binary)	80	1.0	19	Wikipedia
+ConvNet (binary)	90	1.0	19	Wikipedia
+ConvNet (binary)	100	1.0	19	Wikipedia
+ConvNet (binary)	1	0.3020230813937398	-1	Birbeck
+ConvNet (binary)	2	0.4386848587164088	-1	Birbeck
+ConvNet (binary)	3	0.4953643483795976	-1	Birbeck
+ConvNet (binary)	4	0.528768715578557	-1	Birbeck
+ConvNet (binary)	5	0.5525143220878421	-1	Birbeck
+ConvNet (binary)	6	0.5673484072731299	-1	Birbeck
+ConvNet (binary)	7	0.5781695403094125	-1	Birbeck
+ConvNet (binary)	8	0.5860570669471121	-1	Birbeck
+ConvNet (binary)	9	0.5927268701740791	-1	Birbeck
+ConvNet (binary)	10	0.5980405723300031	-1	Birbeck
+ConvNet (binary)	20	0.6207621841529903	-1	Birbeck
+ConvNet (binary)	30	0.6232806575706418	-1	Birbeck
+ConvNet (binary)	40	0.6238895192760081	-1	Birbeck
+ConvNet (binary)	50	0.6240278969363185	-1	Birbeck
+ConvNet (binary)	60	0.624138599064567	-1	Birbeck
+ConvNet (binary)	70	0.6241662745966291	-1	Birbeck
+ConvNet (binary)	80	0.6241662745966291	-1	Birbeck
+ConvNet (binary)	90	0.6241662745966291	-1	Birbeck
+ConvNet (binary)	100	0.6241662745966291	-1	Birbeck
+ConvNet (binary)	1	0.0	1	Birbeck
+ConvNet (binary)	2	0.0	1	Birbeck
+ConvNet (binary)	3	0.024390243902439025	1	Birbeck
+ConvNet (binary)	4	0.07317073170731707	1	Birbeck
+ConvNet (binary)	5	0.07317073170731707	1	Birbeck
+ConvNet (binary)	6	0.12195121951219512	1	Birbeck
+ConvNet (binary)	7	0.12195121951219512	1	Birbeck
+ConvNet (binary)	8	0.12195121951219512	1	Birbeck
+ConvNet (binary)	9	0.14634146341463414	1	Birbeck
+ConvNet (binary)	10	0.14634146341463414	1	Birbeck
+ConvNet (binary)	20	0.17073170731707318	1	Birbeck
+ConvNet (binary)	30	0.17073170731707318	1	Birbeck
+ConvNet (binary)	40	0.17073170731707318	1	Birbeck
+ConvNet (binary)	50	0.17073170731707318	1	Birbeck
+ConvNet (binary)	60	0.17073170731707318	1	Birbeck
+ConvNet (binary)	70	0.17073170731707318	1	Birbeck
+ConvNet (binary)	80	0.17073170731707318	1	Birbeck
+ConvNet (binary)	90	0.17073170731707318	1	Birbeck
+ConvNet (binary)	100	0.17073170731707318	1	Birbeck
+ConvNet (binary)	1	0.017793594306049824	2	Birbeck
+ConvNet (binary)	2	0.03202846975088968	2	Birbeck
+ConvNet (binary)	3	0.04270462633451957	2	Birbeck
+ConvNet (binary)	4	0.0604982206405694	2	Birbeck
+ConvNet (binary)	5	0.07473309608540925	2	Birbeck
+ConvNet (binary)	6	0.08185053380782918	2	Birbeck
+ConvNet (binary)	7	0.08896797153024913	2	Birbeck
+ConvNet (binary)	8	0.09252669039145907	2	Birbeck
+ConvNet (binary)	9	0.12455516014234876	2	Birbeck
+ConvNet (binary)	10	0.15302491103202848	2	Birbeck
+ConvNet (binary)	20	0.2633451957295373	2	Birbeck
+ConvNet (binary)	30	0.29537366548042704	2	Birbeck
+ConvNet (binary)	40	0.302491103202847	2	Birbeck
+ConvNet (binary)	50	0.302491103202847	2	Birbeck
+ConvNet (binary)	60	0.302491103202847	2	Birbeck
+ConvNet (binary)	70	0.302491103202847	2	Birbeck
+ConvNet (binary)	80	0.302491103202847	2	Birbeck
+ConvNet (binary)	90	0.302491103202847	2	Birbeck
+ConvNet (binary)	100	0.302491103202847	2	Birbeck
+ConvNet (binary)	1	0.020923520923520924	3	Birbeck
+ConvNet (binary)	2	0.06349206349206349	3	Birbeck
+ConvNet (binary)	3	0.09090909090909093	3	Birbeck
+ConvNet (binary)	4	0.11832611832611832	3	Birbeck
+ConvNet (binary)	5	0.14574314574314573	3	Birbeck
+ConvNet (binary)	6	0.17676767676767674	3	Birbeck
+ConvNet (binary)	7	0.20634920634920634	3	Birbeck
+ConvNet (binary)	8	0.23737373737373735	3	Birbeck
+ConvNet (binary)	9	0.26046176046176045	3	Birbeck
+ConvNet (binary)	10	0.28499278499278496	3	Birbeck
+ConvNet (binary)	20	0.411976911976912	3	Birbeck
+ConvNet (binary)	30	0.4365079365079365	3	Birbeck
+ConvNet (binary)	40	0.43867243867243866	3	Birbeck
+ConvNet (binary)	50	0.43867243867243866	3	Birbeck
+ConvNet (binary)	60	0.43867243867243866	3	Birbeck
+ConvNet (binary)	70	0.43867243867243866	3	Birbeck
+ConvNet (binary)	80	0.43867243867243866	3	Birbeck
+ConvNet (binary)	90	0.43867243867243866	3	Birbeck
+ConvNet (binary)	100	0.43867243867243866	3	Birbeck
+ConvNet (binary)	1	0.05329249617151608	4	Birbeck
+ConvNet (binary)	2	0.10811638591117917	4	Birbeck
+ConvNet (binary)	3	0.15222052067381314	4	Birbeck
+ConvNet (binary)	4	0.19234303215926493	4	Birbeck
+ConvNet (binary)	5	0.22879019908116385	4	Birbeck
+ConvNet (binary)	6	0.2563552833078101	4	Birbeck
+ConvNet (binary)	7	0.2833078101071976	4	Birbeck
+ConvNet (binary)	8	0.30627871362940273	4	Birbeck
+ConvNet (binary)	9	0.3249617151607963	4	Birbeck
+ConvNet (binary)	10	0.3439509954058193	4	Birbeck
+ConvNet (binary)	20	0.4330781010719755	4	Birbeck
+ConvNet (binary)	30	0.43828483920367534	4	Birbeck
+ConvNet (binary)	40	0.4392036753445636	4	Birbeck
+ConvNet (binary)	50	0.4392036753445636	4	Birbeck
+ConvNet (binary)	60	0.4392036753445636	4	Birbeck
+ConvNet (binary)	70	0.4395099540581929	4	Birbeck
+ConvNet (binary)	80	0.4395099540581929	4	Birbeck
+ConvNet (binary)	90	0.4395099540581929	4	Birbeck
+ConvNet (binary)	100	0.4395099540581929	4	Birbeck
+ConvNet (binary)	1	0.1315122500704027	5	Birbeck
+ConvNet (binary)	2	0.21684032666854408	5	Birbeck
+ConvNet (binary)	3	0.2773866516474233	5	Birbeck
+ConvNet (binary)	4	0.32441565756125035	5	Birbeck
+ConvNet (binary)	5	0.3565192903407491	5	Birbeck
+ConvNet (binary)	6	0.3793297662630245	5	Birbeck
+ConvNet (binary)	7	0.4021402421852999	5	Birbeck
+ConvNet (binary)	8	0.4173472261334835	5	Birbeck
+ConvNet (binary)	9	0.4314277668262461	5	Birbeck
+ConvNet (binary)	10	0.4410025344973247	5	Birbeck
+ConvNet (binary)	20	0.4795832159954943	5	Birbeck
+ConvNet (binary)	30	0.483807378203323	5	Birbeck
+ConvNet (binary)	40	0.4869050971557308	5	Birbeck
+ConvNet (binary)	50	0.488313151225007	5	Birbeck
+ConvNet (binary)	60	0.4894395944804281	5	Birbeck
+ConvNet (binary)	70	0.4894395944804281	5	Birbeck
+ConvNet (binary)	80	0.4894395944804281	5	Birbeck
+ConvNet (binary)	90	0.4894395944804281	5	Birbeck
+ConvNet (binary)	100	0.4894395944804281	5	Birbeck
+ConvNet (binary)	1	0.21243769285544745	6	Birbeck
+ConvNet (binary)	2	0.3232850700213625	6	Birbeck
+ConvNet (binary)	3	0.3880845003560408	6	Birbeck
+ConvNet (binary)	4	0.4293852361737479	6	Birbeck
+ConvNet (binary)	5	0.4595300261096606	6	Birbeck
+ConvNet (binary)	6	0.4754331830049846	6	Birbeck
+ConvNet (binary)	7	0.4880132921908379	6	Birbeck
+ConvNet (binary)	8	0.49798243531925	6	Birbeck
+ConvNet (binary)	9	0.5077142178969856	6	Birbeck
+ConvNet (binary)	10	0.5141229527652504	6	Birbeck
+ConvNet (binary)	20	0.5369095656301922	6	Birbeck
+ConvNet (binary)	30	0.5395205316876335	6	Birbeck
+ConvNet (binary)	40	0.5399952527889865	6	Birbeck
+ConvNet (binary)	50	0.5399952527889865	6	Birbeck
+ConvNet (binary)	60	0.5399952527889865	6	Birbeck
+ConvNet (binary)	70	0.5399952527889865	6	Birbeck
+ConvNet (binary)	80	0.5399952527889865	6	Birbeck
+ConvNet (binary)	90	0.5399952527889865	6	Birbeck
+ConvNet (binary)	100	0.5399952527889865	6	Birbeck
+ConvNet (binary)	1	0.30342612419700216	7	Birbeck
+ConvNet (binary)	2	0.415203426124197	7	Birbeck
+ConvNet (binary)	3	0.4830835117773019	7	Birbeck
+ConvNet (binary)	4	0.5237687366167023	7	Birbeck
+ConvNet (binary)	5	0.5524625267665952	7	Birbeck
+ConvNet (binary)	6	0.5683083511777302	7	Birbeck
+ConvNet (binary)	7	0.5775160599571735	7	Birbeck
+ConvNet (binary)	8	0.5850107066381156	7	Birbeck
+ConvNet (binary)	9	0.5899357601713062	7	Birbeck
+ConvNet (binary)	10	0.5931477516059958	7	Birbeck
+ConvNet (binary)	20	0.6040685224839399	7	Birbeck
+ConvNet (binary)	30	0.6051391862955032	7	Birbeck
+ConvNet (binary)	40	0.6053533190578159	7	Birbeck
+ConvNet (binary)	50	0.6053533190578159	7	Birbeck
+ConvNet (binary)	60	0.6053533190578159	7	Birbeck
+ConvNet (binary)	70	0.6053533190578159	7	Birbeck
+ConvNet (binary)	80	0.6053533190578159	7	Birbeck
+ConvNet (binary)	90	0.6053533190578159	7	Birbeck
+ConvNet (binary)	100	0.6053533190578159	7	Birbeck
+ConvNet (binary)	1	0.3684855916615573	8	Birbeck
+ConvNet (binary)	2	0.4998978132025342	8	Birbeck
+ConvNet (binary)	3	0.5567136725935009	8	Birbeck
+ConvNet (binary)	4	0.5867565910484366	8	Birbeck
+ConvNet (binary)	5	0.6096464336807684	8	Birbeck
+ConvNet (binary)	6	0.6231350909462497	8	Birbeck
+ConvNet (binary)	7	0.6313100347435111	8	Birbeck
+ConvNet (binary)	8	0.6347843858573472	8	Birbeck
+ConvNet (binary)	9	0.6372368689965257	8	Birbeck
+ConvNet (binary)	10	0.6382587369711833	8	Birbeck
+ConvNet (binary)	20	0.6413243408951563	8	Birbeck
+ConvNet (binary)	30	0.6413243408951563	8	Birbeck
+ConvNet (binary)	40	0.6413243408951563	8	Birbeck
+ConvNet (binary)	50	0.6413243408951563	8	Birbeck
+ConvNet (binary)	60	0.6413243408951563	8	Birbeck
+ConvNet (binary)	70	0.6413243408951563	8	Birbeck
+ConvNet (binary)	80	0.6413243408951563	8	Birbeck
+ConvNet (binary)	90	0.6413243408951563	8	Birbeck
+ConvNet (binary)	100	0.6413243408951563	8	Birbeck
+ConvNet (binary)	1	0.4139414802065404	9	Birbeck
+ConvNet (binary)	2	0.5755163511187608	9	Birbeck
+ConvNet (binary)	3	0.6374784853700516	9	Birbeck
+ConvNet (binary)	4	0.6660929432013769	9	Birbeck
+ConvNet (binary)	5	0.6826592082616179	9	Birbeck
+ConvNet (binary)	6	0.6925559380378657	9	Birbeck
+ConvNet (binary)	7	0.6959982788296041	9	Birbeck
+ConvNet (binary)	8	0.6975043029259896	9	Birbeck
+ConvNet (binary)	9	0.6979345955249571	9	Birbeck
+ConvNet (binary)	10	0.6985800344234079	9	Birbeck
+ConvNet (binary)	20	0.6990103270223752	9	Birbeck
+ConvNet (binary)	30	0.6990103270223752	9	Birbeck
+ConvNet (binary)	40	0.6990103270223752	9	Birbeck
+ConvNet (binary)	50	0.6990103270223752	9	Birbeck
+ConvNet (binary)	60	0.6990103270223752	9	Birbeck
+ConvNet (binary)	70	0.6990103270223752	9	Birbeck
+ConvNet (binary)	80	0.6990103270223752	9	Birbeck
+ConvNet (binary)	90	0.6990103270223752	9	Birbeck
+ConvNet (binary)	100	0.6990103270223752	9	Birbeck
+ConvNet (binary)	1	0.4395518499218343	10	Birbeck
+ConvNet (binary)	2	0.6284523189161021	10	Birbeck
+ConvNet (binary)	3	0.6881188118811881	10	Birbeck
+ConvNet (binary)	4	0.7159979155810318	10	Birbeck
+ConvNet (binary)	5	0.7324127149557061	10	Birbeck
+ConvNet (binary)	6	0.7407503908285565	10	Birbeck
+ConvNet (binary)	7	0.7441375716519021	10	Birbeck
+ConvNet (binary)	8	0.7459614382490881	10	Birbeck
+ConvNet (binary)	9	0.7475247524752475	10	Birbeck
+ConvNet (binary)	10	0.7475247524752475	10	Birbeck
+ConvNet (binary)	20	0.7496091714434602	10	Birbeck
+ConvNet (binary)	30	0.7496091714434602	10	Birbeck
+ConvNet (binary)	40	0.7496091714434602	10	Birbeck
+ConvNet (binary)	50	0.7496091714434602	10	Birbeck
+ConvNet (binary)	60	0.7496091714434602	10	Birbeck
+ConvNet (binary)	70	0.7496091714434602	10	Birbeck
+ConvNet (binary)	80	0.7496091714434602	10	Birbeck
+ConvNet (binary)	90	0.7496091714434602	10	Birbeck
+ConvNet (binary)	100	0.7496091714434602	10	Birbeck
+ConvNet (binary)	1	0.4568173465637633	11	Birbeck
+ConvNet (binary)	2	0.6876148474825432	11	Birbeck
+ConvNet (binary)	3	0.7394340316060272	11	Birbeck
+ConvNet (binary)	4	0.7636898199191474	11	Birbeck
+ConvNet (binary)	5	0.7813303932377802	11	Birbeck
+ConvNet (binary)	6	0.7875780962881294	11	Birbeck
+ConvNet (binary)	7	0.7901506798970966	11	Birbeck
+ConvNet (binary)	8	0.7905181918412348	11	Birbeck
+ConvNet (binary)	9	0.7908857037853729	11	Birbeck
+ConvNet (binary)	10	0.7916207276736494	11	Birbeck
+ConvNet (binary)	20	0.7934582873943403	11	Birbeck
+ConvNet (binary)	30	0.7934582873943403	11	Birbeck
+ConvNet (binary)	40	0.7934582873943403	11	Birbeck
+ConvNet (binary)	50	0.7934582873943403	11	Birbeck
+ConvNet (binary)	60	0.7934582873943403	11	Birbeck
+ConvNet (binary)	70	0.7934582873943403	11	Birbeck
+ConvNet (binary)	80	0.7934582873943403	11	Birbeck
+ConvNet (binary)	90	0.7934582873943403	11	Birbeck
+ConvNet (binary)	100	0.7934582873943403	11	Birbeck
+ConvNet (binary)	1	0.4863013698630137	12	Birbeck
+ConvNet (binary)	2	0.7397260273972602	12	Birbeck
+ConvNet (binary)	3	0.7958904109589041	12	Birbeck
+ConvNet (binary)	4	0.8143835616438356	12	Birbeck
+ConvNet (binary)	5	0.821917808219178	12	Birbeck
+ConvNet (binary)	6	0.8294520547945206	12	Birbeck
+ConvNet (binary)	7	0.8315068493150685	12	Birbeck
+ConvNet (binary)	8	0.8321917808219178	12	Birbeck
+ConvNet (binary)	9	0.8342465753424657	12	Birbeck
+ConvNet (binary)	10	0.8342465753424657	12	Birbeck
+ConvNet (binary)	20	0.8376712328767123	12	Birbeck
+ConvNet (binary)	30	0.8376712328767123	12	Birbeck
+ConvNet (binary)	40	0.8376712328767123	12	Birbeck
+ConvNet (binary)	50	0.8376712328767123	12	Birbeck
+ConvNet (binary)	60	0.8376712328767123	12	Birbeck
+ConvNet (binary)	70	0.8376712328767123	12	Birbeck
+ConvNet (binary)	80	0.8376712328767123	12	Birbeck
+ConvNet (binary)	90	0.8376712328767123	12	Birbeck
+ConvNet (binary)	100	0.8376712328767123	12	Birbeck
+ConvNet (binary)	1	0.4845505617977528	13	Birbeck
+ConvNet (binary)	2	0.7289325842696629	13	Birbeck
+ConvNet (binary)	3	0.7626404494382022	13	Birbeck
+ConvNet (binary)	4	0.7752808988764045	13	Birbeck
+ConvNet (binary)	5	0.7851123595505618	13	Birbeck
+ConvNet (binary)	6	0.7921348314606742	13	Birbeck
+ConvNet (binary)	7	0.797752808988764	13	Birbeck
+ConvNet (binary)	8	0.8005617977528091	13	Birbeck
+ConvNet (binary)	9	0.8005617977528091	13	Birbeck
+ConvNet (binary)	10	0.8033707865168539	13	Birbeck
+ConvNet (binary)	20	0.8061797752808989	13	Birbeck
+ConvNet (binary)	30	0.8061797752808989	13	Birbeck
+ConvNet (binary)	40	0.8061797752808989	13	Birbeck
+ConvNet (binary)	50	0.8061797752808989	13	Birbeck
+ConvNet (binary)	60	0.8061797752808989	13	Birbeck
+ConvNet (binary)	70	0.8061797752808989	13	Birbeck
+ConvNet (binary)	80	0.8061797752808989	13	Birbeck
+ConvNet (binary)	90	0.8061797752808989	13	Birbeck
+ConvNet (binary)	100	0.8061797752808989	13	Birbeck
+ConvNet (binary)	1	0.4495114006514658	14	Birbeck
+ConvNet (binary)	2	0.7003257328990228	14	Birbeck
+ConvNet (binary)	3	0.7361563517915309	14	Birbeck
+ConvNet (binary)	4	0.7524429967426708	14	Birbeck
+ConvNet (binary)	5	0.7654723127035831	14	Birbeck
+ConvNet (binary)	6	0.7654723127035831	14	Birbeck
+ConvNet (binary)	7	0.7654723127035831	14	Birbeck
+ConvNet (binary)	8	0.7654723127035831	14	Birbeck
+ConvNet (binary)	9	0.7654723127035831	14	Birbeck
+ConvNet (binary)	10	0.7654723127035831	14	Birbeck
+ConvNet (binary)	20	0.7687296416938111	14	Birbeck
+ConvNet (binary)	30	0.7687296416938111	14	Birbeck
+ConvNet (binary)	40	0.7687296416938111	14	Birbeck
+ConvNet (binary)	50	0.7687296416938111	14	Birbeck
+ConvNet (binary)	60	0.7687296416938111	14	Birbeck
+ConvNet (binary)	70	0.7687296416938111	14	Birbeck
+ConvNet (binary)	80	0.7687296416938111	14	Birbeck
+ConvNet (binary)	90	0.7687296416938111	14	Birbeck
+ConvNet (binary)	100	0.7687296416938111	14	Birbeck
+ConvNet (binary)	1	0.5233644859813084	15	Birbeck
+ConvNet (binary)	2	0.7850467289719626	15	Birbeck
+ConvNet (binary)	3	0.8037383177570093	15	Birbeck
+ConvNet (binary)	4	0.8598130841121495	15	Birbeck
+ConvNet (binary)	5	0.8598130841121495	15	Birbeck
+ConvNet (binary)	6	0.8598130841121495	15	Birbeck
+ConvNet (binary)	7	0.8598130841121495	15	Birbeck
+ConvNet (binary)	8	0.8598130841121495	15	Birbeck
+ConvNet (binary)	9	0.8598130841121495	15	Birbeck
+ConvNet (binary)	10	0.8598130841121495	15	Birbeck
+ConvNet (binary)	20	0.8598130841121495	15	Birbeck
+ConvNet (binary)	30	0.8598130841121495	15	Birbeck
+ConvNet (binary)	40	0.8598130841121495	15	Birbeck
+ConvNet (binary)	50	0.8598130841121495	15	Birbeck
+ConvNet (binary)	60	0.8598130841121495	15	Birbeck
+ConvNet (binary)	70	0.8598130841121495	15	Birbeck
+ConvNet (binary)	80	0.8598130841121495	15	Birbeck
+ConvNet (binary)	90	0.8598130841121495	15	Birbeck
+ConvNet (binary)	100	0.8598130841121495	15	Birbeck
+ConvNet (binary)	1	0.5	16	Birbeck
+ConvNet (binary)	2	0.7058823529411765	16	Birbeck
+ConvNet (binary)	3	0.7647058823529411	16	Birbeck
+ConvNet (binary)	4	0.7647058823529411	16	Birbeck
+ConvNet (binary)	5	0.7647058823529411	16	Birbeck
+ConvNet (binary)	6	0.7647058823529411	16	Birbeck
+ConvNet (binary)	7	0.7647058823529411	16	Birbeck
+ConvNet (binary)	8	0.7647058823529411	16	Birbeck
+ConvNet (binary)	9	0.7647058823529411	16	Birbeck
+ConvNet (binary)	10	0.7647058823529411	16	Birbeck
+ConvNet (binary)	20	0.7647058823529411	16	Birbeck
+ConvNet (binary)	30	0.7647058823529411	16	Birbeck
+ConvNet (binary)	40	0.7647058823529411	16	Birbeck
+ConvNet (binary)	50	0.7647058823529411	16	Birbeck
+ConvNet (binary)	60	0.7647058823529411	16	Birbeck
+ConvNet (binary)	70	0.7647058823529411	16	Birbeck
+ConvNet (binary)	80	0.7647058823529411	16	Birbeck
+ConvNet (binary)	90	0.7647058823529411	16	Birbeck
+ConvNet (binary)	100	0.7647058823529411	16	Birbeck
+ConvNet (binary)	1	0.6	17	Birbeck
+ConvNet (binary)	2	0.8	17	Birbeck
+ConvNet (binary)	3	0.8	17	Birbeck
+ConvNet (binary)	4	0.8	17	Birbeck
+ConvNet (binary)	5	0.8	17	Birbeck
+ConvNet (binary)	6	0.8	17	Birbeck
+ConvNet (binary)	7	0.8	17	Birbeck
+ConvNet (binary)	8	0.8	17	Birbeck
+ConvNet (binary)	9	0.8	17	Birbeck
+ConvNet (binary)	10	0.8	17	Birbeck
+ConvNet (binary)	20	0.8	17	Birbeck
+ConvNet (binary)	30	0.8	17	Birbeck
+ConvNet (binary)	40	0.8	17	Birbeck
+ConvNet (binary)	50	0.8	17	Birbeck
+ConvNet (binary)	60	0.8	17	Birbeck
+ConvNet (binary)	70	0.8	17	Birbeck
+ConvNet (binary)	80	0.8	17	Birbeck
+ConvNet (binary)	90	0.8	17	Birbeck
+ConvNet (binary)	100	0.8	17	Birbeck
+ConvNet (binary)	1	0.0	18	Birbeck
+ConvNet (binary)	2	0.0	18	Birbeck
+ConvNet (binary)	3	0.0	18	Birbeck
+ConvNet (binary)	4	0.0	18	Birbeck
+ConvNet (binary)	5	0.0	18	Birbeck
+ConvNet (binary)	6	0.0	18	Birbeck
+ConvNet (binary)	7	0.0	18	Birbeck
+ConvNet (binary)	8	0.0	18	Birbeck
+ConvNet (binary)	9	0.0	18	Birbeck
+ConvNet (binary)	10	0.0	18	Birbeck
+ConvNet (binary)	20	0.0	18	Birbeck
+ConvNet (binary)	30	0.0	18	Birbeck
+ConvNet (binary)	40	0.0	18	Birbeck
+ConvNet (binary)	50	0.0	18	Birbeck
+ConvNet (binary)	60	0.0	18	Birbeck
+ConvNet (binary)	70	0.0	18	Birbeck
+ConvNet (binary)	80	0.0	18	Birbeck
+ConvNet (binary)	90	0.0	18	Birbeck
+ConvNet (binary)	100	0.0	18	Birbeck
+ConvNet (binary)	1	0.176171654432524	-1	Holbrook
+ConvNet (binary)	2	0.26651609260304915	-1	Holbrook
+ConvNet (binary)	3	0.3303218520609825	-1	Holbrook
+ConvNet (binary)	4	0.37775268210050816	-1	Holbrook
+ConvNet (binary)	5	0.4150197628458498	-1	Holbrook
+ConvNet (binary)	6	0.44212309429700736	-1	Holbrook
+ConvNet (binary)	7	0.4675324675324675	-1	Holbrook
+ConvNet (binary)	8	0.489553924336533	-1	Holbrook
+ConvNet (binary)	9	0.5132693393562959	-1	Holbrook
+ConvNet (binary)	10	0.5324675324675324	-1	Holbrook
+ConvNet (binary)	20	0.6352343308865048	-1	Holbrook
+ConvNet (binary)	30	0.6453980801806889	-1	Holbrook
+ConvNet (binary)	40	0.6459627329192547	-1	Holbrook
+ConvNet (binary)	50	0.6459627329192547	-1	Holbrook
+ConvNet (binary)	60	0.6459627329192547	-1	Holbrook
+ConvNet (binary)	70	0.6459627329192547	-1	Holbrook
+ConvNet (binary)	80	0.6459627329192547	-1	Holbrook
+ConvNet (binary)	90	0.6465273856578204	-1	Holbrook
+ConvNet (binary)	100	0.6465273856578204	-1	Holbrook
+ConvNet (binary)	1	0.0	1	Holbrook
+ConvNet (binary)	2	0.0	1	Holbrook
+ConvNet (binary)	3	0.0	1	Holbrook
+ConvNet (binary)	4	0.16666666666666666	1	Holbrook
+ConvNet (binary)	5	0.3333333333333333	1	Holbrook
+ConvNet (binary)	6	0.5	1	Holbrook
+ConvNet (binary)	7	0.5	1	Holbrook
+ConvNet (binary)	8	0.5	1	Holbrook
+ConvNet (binary)	9	0.5	1	Holbrook
+ConvNet (binary)	10	0.5	1	Holbrook
+ConvNet (binary)	20	0.5	1	Holbrook
+ConvNet (binary)	30	0.5	1	Holbrook
+ConvNet (binary)	40	0.5	1	Holbrook
+ConvNet (binary)	50	0.5	1	Holbrook
+ConvNet (binary)	60	0.5	1	Holbrook
+ConvNet (binary)	70	0.5	1	Holbrook
+ConvNet (binary)	80	0.5	1	Holbrook
+ConvNet (binary)	90	0.5	1	Holbrook
+ConvNet (binary)	100	0.5	1	Holbrook
+ConvNet (binary)	1	0.0	2	Holbrook
+ConvNet (binary)	2	0.015873015873015872	2	Holbrook
+ConvNet (binary)	3	0.047619047619047616	2	Holbrook
+ConvNet (binary)	4	0.06349206349206349	2	Holbrook
+ConvNet (binary)	5	0.1111111111111111	2	Holbrook
+ConvNet (binary)	6	0.12698412698412698	2	Holbrook
+ConvNet (binary)	7	0.12698412698412698	2	Holbrook
+ConvNet (binary)	8	0.15873015873015872	2	Holbrook
+ConvNet (binary)	9	0.2222222222222222	2	Holbrook
+ConvNet (binary)	10	0.2380952380952381	2	Holbrook
+ConvNet (binary)	20	0.5238095238095238	2	Holbrook
+ConvNet (binary)	30	0.5396825396825397	2	Holbrook
+ConvNet (binary)	40	0.5396825396825397	2	Holbrook
+ConvNet (binary)	50	0.5396825396825397	2	Holbrook
+ConvNet (binary)	60	0.5396825396825397	2	Holbrook
+ConvNet (binary)	70	0.5396825396825397	2	Holbrook
+ConvNet (binary)	80	0.5396825396825397	2	Holbrook
+ConvNet (binary)	90	0.5396825396825397	2	Holbrook
+ConvNet (binary)	100	0.5396825396825397	2	Holbrook
+ConvNet (binary)	1	0.014563106796116504	3	Holbrook
+ConvNet (binary)	2	0.04854368932038835	3	Holbrook
+ConvNet (binary)	3	0.06310679611650485	3	Holbrook
+ConvNet (binary)	4	0.1116504854368932	3	Holbrook
+ConvNet (binary)	5	0.1407766990291262	3	Holbrook
+ConvNet (binary)	6	0.17475728155339804	3	Holbrook
+ConvNet (binary)	7	0.2184466019417476	3	Holbrook
+ConvNet (binary)	8	0.25728155339805825	3	Holbrook
+ConvNet (binary)	9	0.2961165048543689	3	Holbrook
+ConvNet (binary)	10	0.33495145631067963	3	Holbrook
+ConvNet (binary)	20	0.5631067961165048	3	Holbrook
+ConvNet (binary)	30	0.6067961165048543	3	Holbrook
+ConvNet (binary)	40	0.6067961165048543	3	Holbrook
+ConvNet (binary)	50	0.6067961165048543	3	Holbrook
+ConvNet (binary)	60	0.6067961165048543	3	Holbrook
+ConvNet (binary)	70	0.6067961165048543	3	Holbrook
+ConvNet (binary)	80	0.6067961165048543	3	Holbrook
+ConvNet (binary)	90	0.6067961165048543	3	Holbrook
+ConvNet (binary)	100	0.6067961165048543	3	Holbrook
+ConvNet (binary)	1	0.03258145363408521	4	Holbrook
+ConvNet (binary)	2	0.07017543859649122	4	Holbrook
+ConvNet (binary)	3	0.11278195488721805	4	Holbrook
+ConvNet (binary)	4	0.14786967418546365	4	Holbrook
+ConvNet (binary)	5	0.18796992481203006	4	Holbrook
+ConvNet (binary)	6	0.21804511278195488	4	Holbrook
+ConvNet (binary)	7	0.2531328320802005	4	Holbrook
+ConvNet (binary)	8	0.2807017543859649	4	Holbrook
+ConvNet (binary)	9	0.3157894736842105	4	Holbrook
+ConvNet (binary)	10	0.3483709273182957	4	Holbrook
+ConvNet (binary)	20	0.5388471177944862	4	Holbrook
+ConvNet (binary)	30	0.5463659147869674	4	Holbrook
+ConvNet (binary)	40	0.5463659147869674	4	Holbrook
+ConvNet (binary)	50	0.5463659147869674	4	Holbrook
+ConvNet (binary)	60	0.5463659147869674	4	Holbrook
+ConvNet (binary)	70	0.5463659147869674	4	Holbrook
+ConvNet (binary)	80	0.5463659147869674	4	Holbrook
+ConvNet (binary)	90	0.5463659147869674	4	Holbrook
+ConvNet (binary)	100	0.5463659147869674	4	Holbrook
+ConvNet (binary)	1	0.13008130081300814	5	Holbrook
+ConvNet (binary)	2	0.21680216802168026	5	Holbrook
+ConvNet (binary)	3	0.3008130081300813	5	Holbrook
+ConvNet (binary)	4	0.3685636856368564	5	Holbrook
+ConvNet (binary)	5	0.4119241192411924	5	Holbrook
+ConvNet (binary)	6	0.4471544715447153	5	Holbrook
+ConvNet (binary)	7	0.4769647696476965	5	Holbrook
+ConvNet (binary)	8	0.4986449864498645	5	Holbrook
+ConvNet (binary)	9	0.5230352303523035	5	Holbrook
+ConvNet (binary)	10	0.5447154471544715	5	Holbrook
+ConvNet (binary)	20	0.6205962059620597	5	Holbrook
+ConvNet (binary)	30	0.6341463414634146	5	Holbrook
+ConvNet (binary)	40	0.6368563685636857	5	Holbrook
+ConvNet (binary)	50	0.6368563685636857	5	Holbrook
+ConvNet (binary)	60	0.6368563685636857	5	Holbrook
+ConvNet (binary)	70	0.6368563685636857	5	Holbrook
+ConvNet (binary)	80	0.6368563685636857	5	Holbrook
+ConvNet (binary)	90	0.6395663956639567	5	Holbrook
+ConvNet (binary)	100	0.6395663956639567	5	Holbrook
+ConvNet (binary)	1	0.21532846715328466	6	Holbrook
+ConvNet (binary)	2	0.3722627737226277	6	Holbrook
+ConvNet (binary)	3	0.4671532846715328	6	Holbrook
+ConvNet (binary)	4	0.5328467153284672	6	Holbrook
+ConvNet (binary)	5	0.5766423357664233	6	Holbrook
+ConvNet (binary)	6	0.6131386861313869	6	Holbrook
+ConvNet (binary)	7	0.635036496350365	6	Holbrook
+ConvNet (binary)	8	0.6532846715328468	6	Holbrook
+ConvNet (binary)	9	0.6715328467153284	6	Holbrook
+ConvNet (binary)	10	0.6788321167883211	6	Holbrook
+ConvNet (binary)	20	0.7189781021897809	6	Holbrook
+ConvNet (binary)	30	0.7189781021897809	6	Holbrook
+ConvNet (binary)	40	0.7189781021897809	6	Holbrook
+ConvNet (binary)	50	0.7189781021897809	6	Holbrook
+ConvNet (binary)	60	0.7189781021897809	6	Holbrook
+ConvNet (binary)	70	0.7189781021897809	6	Holbrook
+ConvNet (binary)	80	0.7189781021897809	6	Holbrook
+ConvNet (binary)	90	0.7189781021897809	6	Holbrook
+ConvNet (binary)	100	0.7189781021897809	6	Holbrook
+ConvNet (binary)	1	0.32160804020100503	7	Holbrook
+ConvNet (binary)	2	0.4371859296482412	7	Holbrook
+ConvNet (binary)	3	0.5477386934673367	7	Holbrook
+ConvNet (binary)	4	0.5829145728643216	7	Holbrook
+ConvNet (binary)	5	0.6180904522613065	7	Holbrook
+ConvNet (binary)	6	0.6331658291457286	7	Holbrook
+ConvNet (binary)	7	0.6532663316582915	7	Holbrook
+ConvNet (binary)	8	0.6733668341708543	7	Holbrook
+ConvNet (binary)	9	0.6783919597989949	7	Holbrook
+ConvNet (binary)	10	0.6884422110552764	7	Holbrook
+ConvNet (binary)	20	0.6934673366834171	7	Holbrook
+ConvNet (binary)	30	0.6934673366834171	7	Holbrook
+ConvNet (binary)	40	0.6934673366834171	7	Holbrook
+ConvNet (binary)	50	0.6934673366834171	7	Holbrook
+ConvNet (binary)	60	0.6934673366834171	7	Holbrook
+ConvNet (binary)	70	0.6934673366834171	7	Holbrook
+ConvNet (binary)	80	0.6934673366834171	7	Holbrook
+ConvNet (binary)	90	0.6934673366834171	7	Holbrook
+ConvNet (binary)	100	0.6934673366834171	7	Holbrook
+ConvNet (binary)	1	0.4615384615384616	8	Holbrook
+ConvNet (binary)	2	0.6057692307692307	8	Holbrook
+ConvNet (binary)	3	0.6730769230769231	8	Holbrook
+ConvNet (binary)	4	0.7211538461538461	8	Holbrook
+ConvNet (binary)	5	0.7211538461538461	8	Holbrook
+ConvNet (binary)	6	0.7211538461538461	8	Holbrook
+ConvNet (binary)	7	0.7211538461538461	8	Holbrook
+ConvNet (binary)	8	0.7307692307692307	8	Holbrook
+ConvNet (binary)	9	0.7403846153846154	8	Holbrook
+ConvNet (binary)	10	0.7403846153846154	8	Holbrook
+ConvNet (binary)	20	0.75	8	Holbrook
+ConvNet (binary)	30	0.75	8	Holbrook
+ConvNet (binary)	40	0.75	8	Holbrook
+ConvNet (binary)	50	0.75	8	Holbrook
+ConvNet (binary)	60	0.75	8	Holbrook
+ConvNet (binary)	70	0.75	8	Holbrook
+ConvNet (binary)	80	0.75	8	Holbrook
+ConvNet (binary)	90	0.75	8	Holbrook
+ConvNet (binary)	100	0.75	8	Holbrook
+ConvNet (binary)	1	0.4556962025316456	9	Holbrook
+ConvNet (binary)	2	0.6329113924050633	9	Holbrook
+ConvNet (binary)	3	0.6582278481012658	9	Holbrook
+ConvNet (binary)	4	0.6835443037974683	9	Holbrook
+ConvNet (binary)	5	0.7215189873417721	9	Holbrook
+ConvNet (binary)	6	0.7215189873417721	9	Holbrook
+ConvNet (binary)	7	0.7341772151898734	9	Holbrook
+ConvNet (binary)	8	0.7341772151898734	9	Holbrook
+ConvNet (binary)	9	0.7341772151898734	9	Holbrook
+ConvNet (binary)	10	0.7341772151898734	9	Holbrook
+ConvNet (binary)	20	0.7341772151898734	9	Holbrook
+ConvNet (binary)	30	0.7341772151898734	9	Holbrook
+ConvNet (binary)	40	0.7341772151898734	9	Holbrook
+ConvNet (binary)	50	0.7341772151898734	9	Holbrook
+ConvNet (binary)	60	0.7341772151898734	9	Holbrook
+ConvNet (binary)	70	0.7341772151898734	9	Holbrook
+ConvNet (binary)	80	0.7341772151898734	9	Holbrook
+ConvNet (binary)	90	0.7341772151898734	9	Holbrook
+ConvNet (binary)	100	0.7341772151898734	9	Holbrook
+ConvNet (binary)	1	0.6341463414634146	10	Holbrook
+ConvNet (binary)	2	0.7804878048780488	10	Holbrook
+ConvNet (binary)	3	0.8292682926829268	10	Holbrook
+ConvNet (binary)	4	0.8536585365853658	10	Holbrook
+ConvNet (binary)	5	0.8780487804878049	10	Holbrook
+ConvNet (binary)	6	0.902439024390244	10	Holbrook
+ConvNet (binary)	7	0.902439024390244	10	Holbrook
+ConvNet (binary)	8	0.902439024390244	10	Holbrook
+ConvNet (binary)	9	0.902439024390244	10	Holbrook
+ConvNet (binary)	10	0.902439024390244	10	Holbrook
+ConvNet (binary)	20	0.902439024390244	10	Holbrook
+ConvNet (binary)	30	0.902439024390244	10	Holbrook
+ConvNet (binary)	40	0.902439024390244	10	Holbrook
+ConvNet (binary)	50	0.902439024390244	10	Holbrook
+ConvNet (binary)	60	0.902439024390244	10	Holbrook
+ConvNet (binary)	70	0.902439024390244	10	Holbrook
+ConvNet (binary)	80	0.902439024390244	10	Holbrook
+ConvNet (binary)	90	0.902439024390244	10	Holbrook
+ConvNet (binary)	100	0.902439024390244	10	Holbrook
+ConvNet (binary)	1	0.35294117647058826	11	Holbrook
+ConvNet (binary)	2	0.5294117647058824	11	Holbrook
+ConvNet (binary)	3	0.5882352941176471	11	Holbrook
+ConvNet (binary)	4	0.5882352941176471	11	Holbrook
+ConvNet (binary)	5	0.6470588235294118	11	Holbrook
+ConvNet (binary)	6	0.6470588235294118	11	Holbrook
+ConvNet (binary)	7	0.6470588235294118	11	Holbrook
+ConvNet (binary)	8	0.6470588235294118	11	Holbrook
+ConvNet (binary)	9	0.6470588235294118	11	Holbrook
+ConvNet (binary)	10	0.6470588235294118	11	Holbrook
+ConvNet (binary)	20	0.6470588235294118	11	Holbrook
+ConvNet (binary)	30	0.6470588235294118	11	Holbrook
+ConvNet (binary)	40	0.6470588235294118	11	Holbrook
+ConvNet (binary)	50	0.6470588235294118	11	Holbrook
+ConvNet (binary)	60	0.6470588235294118	11	Holbrook
+ConvNet (binary)	70	0.6470588235294118	11	Holbrook
+ConvNet (binary)	80	0.6470588235294118	11	Holbrook
+ConvNet (binary)	90	0.6470588235294118	11	Holbrook
+ConvNet (binary)	100	0.6470588235294118	11	Holbrook
+ConvNet (binary)	1	0.5833333333333334	12	Holbrook
+ConvNet (binary)	2	0.6666666666666666	12	Holbrook
+ConvNet (binary)	3	0.6666666666666666	12	Holbrook
+ConvNet (binary)	4	0.6666666666666666	12	Holbrook
+ConvNet (binary)	5	0.6666666666666666	12	Holbrook
+ConvNet (binary)	6	0.6666666666666666	12	Holbrook
+ConvNet (binary)	7	0.6666666666666666	12	Holbrook
+ConvNet (binary)	8	0.6666666666666666	12	Holbrook
+ConvNet (binary)	9	0.6666666666666666	12	Holbrook
+ConvNet (binary)	10	0.6666666666666666	12	Holbrook
+ConvNet (binary)	20	0.6666666666666666	12	Holbrook
+ConvNet (binary)	30	0.6666666666666666	12	Holbrook
+ConvNet (binary)	40	0.6666666666666666	12	Holbrook
+ConvNet (binary)	50	0.6666666666666666	12	Holbrook
+ConvNet (binary)	60	0.6666666666666666	12	Holbrook
+ConvNet (binary)	70	0.6666666666666666	12	Holbrook
+ConvNet (binary)	80	0.6666666666666666	12	Holbrook
+ConvNet (binary)	90	0.6666666666666666	12	Holbrook
+ConvNet (binary)	100	0.6666666666666666	12	Holbrook
+ConvNet (binary)	1	1.0	13	Holbrook
+ConvNet (binary)	2	1.0	13	Holbrook
+ConvNet (binary)	3	1.0	13	Holbrook
+ConvNet (binary)	4	1.0	13	Holbrook
+ConvNet (binary)	5	1.0	13	Holbrook
+ConvNet (binary)	6	1.0	13	Holbrook
+ConvNet (binary)	7	1.0	13	Holbrook
+ConvNet (binary)	8	1.0	13	Holbrook
+ConvNet (binary)	9	1.0	13	Holbrook
+ConvNet (binary)	10	1.0	13	Holbrook
+ConvNet (binary)	20	1.0	13	Holbrook
+ConvNet (binary)	30	1.0	13	Holbrook
+ConvNet (binary)	40	1.0	13	Holbrook
+ConvNet (binary)	50	1.0	13	Holbrook
+ConvNet (binary)	60	1.0	13	Holbrook
+ConvNet (binary)	70	1.0	13	Holbrook
+ConvNet (binary)	80	1.0	13	Holbrook
+ConvNet (binary)	90	1.0	13	Holbrook
+ConvNet (binary)	100	1.0	13	Holbrook
+ConvNet (binary)	1	1.0	14	Holbrook
+ConvNet (binary)	2	1.0	14	Holbrook
+ConvNet (binary)	3	1.0	14	Holbrook
+ConvNet (binary)	4	1.0	14	Holbrook
+ConvNet (binary)	5	1.0	14	Holbrook
+ConvNet (binary)	6	1.0	14	Holbrook
+ConvNet (binary)	7	1.0	14	Holbrook
+ConvNet (binary)	8	1.0	14	Holbrook
+ConvNet (binary)	9	1.0	14	Holbrook
+ConvNet (binary)	10	1.0	14	Holbrook
+ConvNet (binary)	20	1.0	14	Holbrook
+ConvNet (binary)	30	1.0	14	Holbrook
+ConvNet (binary)	40	1.0	14	Holbrook
+ConvNet (binary)	50	1.0	14	Holbrook
+ConvNet (binary)	60	1.0	14	Holbrook
+ConvNet (binary)	70	1.0	14	Holbrook
+ConvNet (binary)	80	1.0	14	Holbrook
+ConvNet (binary)	90	1.0	14	Holbrook
+ConvNet (binary)	100	1.0	14	Holbrook
