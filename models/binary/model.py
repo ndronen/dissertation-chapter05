@@ -1,5 +1,13 @@
 from chapter05.dataset import BinaryModelDatasetGenerator, BinaryModelRealWordDatasetGenerator
 
+# TODO:
+# Resume adding noise to the character embeddings of non-words.
+# Delete build_siamese.
+# Use sigmoid, tanh, or other activation function for the scalar
+# output of the cosine similarity of the non-word and real word.
+# The output of sigmoid or tanh should be scaled so that they
+# span the domain of those functions.
+
 import sys
 sys.setrecursionlimit(5000)
 import threading
@@ -37,11 +45,21 @@ class Identity(Layer):
 def add_bn_relu(graph, config, prev_layer):
     bn_name = prev_layer + '_bn'
     relu_name = prev_layer + '_relu'
+    do_name = prev_layer + 'do'
+
     if config.batch_normalization:
         graph.add_node(BatchNormalization(), name=bn_name, input=prev_layer)
         prev_layer = bn_name
+
     graph.add_node(Activation('relu'), name=relu_name, input=prev_layer)
-    return relu_name
+    prev_layer = relu_name
+
+    if config.dropout_conv_p > 0.:
+        graph.add_node(Dropout(config.dropout_conv_p),
+                name=do_name, input=prev_layer)
+        prev_layer = do_name
+
+    return prev_layer
 
 # Optionally add outputs to predict (1) jaro-winkler distance of
 # non-word and real word and (2) the rank of the real word in
@@ -56,10 +74,10 @@ def add_linear_output_mlp(graph, prev_layer, name, input_dim, n_hidden, batch_no
         if batch_normalization:
             mlp.add(BatchNormalization())
         #if i < 2:
-        mlp.add(Activation('tanh'))
+        mlp.add(Activation(config.activation))
     mlp.add(Dense(1))
-    #if batch_normalization:
-    #    mlp.add(BatchNormalization())
+    if batch_normalization:
+        mlp.add(BatchNormalization())
     graph.add_node(mlp, name=name+'_dense', input=prev_layer)
     graph.add_output(name=name, input=name+'_dense')
     loss[name] = "mean_squared_error"
@@ -76,6 +94,84 @@ def add_linear_output_layer(graph, prev_layer, name, batch_normalization, loss):
     loss[name] = "mean_squared_error"
 
 def build_model(config):
+    if config.siamese:
+        return build_siamese(config)
+    else:
+        return build_graph(config)
+
+def build_siamese(config):
+    np.random.seed(config.seed)
+
+    graph = Graph()
+
+    graph.add_input(config.non_word_input_name,
+            input_shape=(config.model_input_width,), dtype='int')
+    graph.add_input(config.candidate_word_input_name,
+            input_shape=(config.model_input_width,), dtype='int')
+
+    # The model comprises a convolutional and a fully-connected block.
+    model = Sequential()
+
+    # Convolutional block.
+    model.add(build_embedding_layer(config, input_width=config.model_input_width))
+    if config.dropout_embedding_p > 0.:
+        model.add(Dropout(config.dropout_embedding_p))
+    model.add(build_convolutional_layer(config))
+    if config.batch_normalization:
+        model.add(BatchNormalization())
+    model.add(Activation(config.activation))
+    model.add(build_pooling_layer(config, input_width=config.model_input_width))
+    model.add(Flatten())
+
+    # Fully-connected block.
+    for i,n_hidden in enumerate(config.fully_connected):
+        model.add(build_dense_layer(config, n_hidden=n_hidden))
+        if config.batch_normalization:
+            model.add(BatchNormalization())
+        model.add(Activation(config.activation))
+        if config.dropout_fc_p > 0.:
+            model.add(Dropout(config.dropout_fc_p))
+
+    # Put the model into the graph.
+    graph.add_shared_node(model,
+        inputs=[config.non_word_input_name, config.candidate_word_input_name],
+        outputs=['non_word_embedding', 'candidate_word_embedding'],
+        name="siamese")
+
+    if config.pool_merge_mode == 'cos':
+        dot_axes = ([1], [1])
+    else:
+        dot_axes = -1
+
+    # Output block.
+    graph.add_node(
+        Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
+        inputs=['non_word_embedding', 'candidate_word_embedding'],
+        merge_mode=config.pool_merge_mode, dot_axes=dot_axes,
+        name='softmax_linear')
+
+    prev_layer = 'softmax_linear'
+    if config.batch_normalization:
+        graph.add_node(BatchNormalization(),
+                input=prev_layer, name=prev_layer+'_bn')
+        prev_layer = prev_layer+'_bn'
+    graph.add_node(Activation('softmax'),
+            input=prev_layer, name='softmax')
+
+    graph.add_output(name=config.target_name, input='softmax')
+
+    load_weights(config, graph)
+
+    optimizer = build_optimizer(config)
+
+    lossdict = {}
+    lossdict[config.target_name] = config.loss
+
+    graph.compile(loss=lossdict, optimizer=optimizer)
+
+    return graph
+
+def build_graph(config):
     np.random.seed(config.seed)
 
     graph = Graph()
@@ -91,14 +187,22 @@ def build_model(config):
         inputs=[config.non_word_input_name, config.candidate_word_input_name],
         outputs=['non_word_embedding', 'candidate_word_embedding'])
 
+    non_word_prev_layer = 'non_word_embedding'
+
+    if config.dropout_embedding_p > 0.:
+        graph.add_node(Dropout(config.dropout_embedding_p),
+                name='non_word_embedding_do', input='non_word_embedding')
+        non_word_prev_layer = 'non_word_embedding_do'
+
+
     # Add noise only to non-words.
-    graph.add_node(GaussianNoise(config.gaussian_noise_sd),
-            name='non_word_noise', input='non_word_embedding')
+    #graph.add_node(GaussianNoise(config.gaussian_noise_sd),
+    #        name='non_word_noise', input='non_word_embedding')
 
     graph.add_shared_node(
             build_convolutional_layer(config),
             name='conv',
-            inputs=['non_word_noise', 'candidate_word_embedding'],
+            inputs=[non_word_prev_layer, 'candidate_word_embedding'],
             outputs=['non_word_conv', 'candidate_word_conv'])
 
     non_word_prev_layer = add_bn_relu(graph, config, 'non_word_conv')
@@ -133,10 +237,12 @@ def build_model(config):
             graph.add_node(BatchNormalization(), name=layer_name+'bn', input=prev_layer)
             prev_layer = layer_name+'bn'
         graph.add_node(Activation('relu'),
-                name=layer_name+'relu', input=prev_layer)
+            name=layer_name+'relu', input=prev_layer)
+        prev_layer=layer_name+'relu'
         if config.dropout_fc_p > 0.:
-            graph.add_node(Dropout(config.dropout_fc_p), name=layer_name+'do', input=layer_name+'relu')
+            graph.add_node(Dropout(config.dropout_fc_p), name=layer_name+'do', input=prev_layer)
             prev_layer = layer_name+'do'
+
     
     # Add sequence of residual blocks.
     for i in range(config.n_residual_blocks):
@@ -201,6 +307,9 @@ def build_model(config):
     lossdict[config.target_name] = config.loss
 
     for distance_name in config.distance_targets:
+        #add_linear_output_mlp(graph, ['non_word_flatten', 'candidate_word_flatten'],
+        #        distance_name+'_first',
+        #        config.fully_connected[-1], 10, config.batch_normalization, lossdict)
         add_linear_output_mlp(graph, 'dense00', distance_name+'_first',
                 config.fully_connected[-1], 10, config.batch_normalization, lossdict)
         add_linear_output_mlp(graph, last_dense_layer, distance_name+'_last',
@@ -245,7 +354,7 @@ class FakeGenerator(object):
             yield (d, sample_weights)
 
 class MetricsCallback(keras.callbacks.Callback):
-    def __init__(self, config, generator, n_samples, callbacks):
+    def __init__(self, config, generator, n_samples, callbacks, other_generators={}):
         self.__dict__.update(locals())
         del self.self
 
@@ -254,7 +363,7 @@ class MetricsCallback(keras.callbacks.Callback):
         for cb in self.callbacks:
             cb._set_model(model)
 
-    def on_epoch_end(self, epoch, logs={}):
+    def compute_metrics(self, generator, name, exhaustive, epoch, logs={}, do_callbacks=False):
         correct = []
         y = []
         y_hat = []
@@ -263,8 +372,9 @@ class MetricsCallback(keras.callbacks.Callback):
         y_hat_dictionary_binary = []
         counter = 0
         pbar = build_progressbar(self.n_samples)
-        print('\n')
-        g = self.generator.generate(exhaustive=True)
+        print('\n%s\n' % name)
+
+        g = generator.generate(exhaustive=exhaustive)
 
         while True:
             pbar.update(counter)
@@ -326,12 +436,13 @@ class MetricsCallback(keras.callbacks.Callback):
         pbar.finish()
 
         self.config.logger('\n')
-        self.config.logger('Dictionary binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
+        self.config.logger('Dictionary %s binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
                 (
+                    name,
                     sum(y_hat_dictionary_binary) / float(len(y_hat_dictionary_binary)),
                     accuracy_score(y, y_hat_dictionary),
-                    f1_score(y, y_hat_dictionary))
-                )
+                    f1_score(y, y_hat_dictionary)
+                ))
         self.config.logger('Dictionary confusion matrix')
         self.config.logger(confusion_matrix(y, y_hat_dictionary))
 
@@ -340,19 +451,29 @@ class MetricsCallback(keras.callbacks.Callback):
         model_f1 = f1_score(y, y_hat)
 
         self.config.logger('\n')
-        self.config.logger('ConvNet binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
-                (model_binary_accuracy, model_accuracy, model_f1))
+        self.config.logger('ConvNet %s binary accuracy %.04f accuracy %.04f F1 %0.4f' % 
+                (name, model_binary_accuracy, model_accuracy, model_f1))
         self.config.logger('ConvNet confusion matrix')
         self.config.logger(confusion_matrix(y, y_hat))
 
         self.config.logger('\n')
 
-        logs['f1'] = model_f1
-        for cb in self.callbacks:
-            cb.on_epoch_end(epoch, logs)
+        if do_callbacks:
+            logs['f1'] = model_f1
+            for cb in self.callbacks:
+                cb.on_epoch_end(epoch, logs)
 
 
-def build_callbacks(config, generator, n_samples):
+    def on_epoch_end(self, epoch, logs={}):
+        self.compute_metrics(self.generator, 'validation',
+                self.config.fixed_callback_validation_data,
+                epoch, logs, do_callbacks=True)
+
+        for name,(gen,exhaustive) in self.other_generators.items():
+            self.compute_metrics(gen, name, exhaustive,
+                    epoch, logs, do_callbacks=False)
+
+def build_callbacks(config, generator, n_samples, other_generators=None):
     # For this model, we want to monitor F1 for early stopping and
     # model checkpointing.  The way to do that is for the metrics callback
     # compute F1, put it in the logs dictionary that's passed to
@@ -371,12 +492,13 @@ def build_callbacks(config, generator, n_samples):
                 keras.callbacks.ModelCheckpoint(
                     monitor=config.callback_monitor,
                     mode=config.callback_monitor_mode,
-                    filepath=config.model_path + 'model.h5',
-                    save_best_only=True,
+                    filepath=config.model_path + config.model_checkpoint_file,
+                    save_best_only=config.save_best_only,
                     verbose=1))
 
     controller = MetricsCallback(config, generator, n_samples,
-            callbacks=controller_callbacks)
+            callbacks=controller_callbacks,
+            other_generators=other_generators)
 
     callbacks = []
     callbacks.append(controller)
@@ -392,6 +514,8 @@ def build_retriever(vocabulary):
         aspell_retriever = spelldict.AspellRetriever()
         edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
         retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
+        retriever = spelldict.CachingRetriever(retriever,
+                cache_dir='/localwork/ndronen/spelling/spelling_error_cache/')
         jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
         return spelldict.SortingRetriever(retriever, jaro_sorter)
 
@@ -419,7 +543,9 @@ def split_data(df, random_state=17, real_words_only=False):
         train_words = set(df_train.word)
         other_words = set(df_other.word)
         leaked_words = train_words.intersection(other_words)
+    print('df_other before removing leaked words %d' % len(df_other))
     df_other = df_other[~df_other.word.isin(leaked_words)]
+    print('df_other after removing leaked words %d' % len(df_other))
     df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=random_state)
 
     return df_train, df_valid, df_test
@@ -469,8 +595,8 @@ def fit(config):
                 max_candidates=config.max_candidates)
     
         validation_generator = BinaryModelDatasetGenerator(
-                df_valid.head(config.n_val_samples).word.tolist(),
-                df_valid.head(config.n_val_samples).real_word.tolist(),
+                df_valid.head(config.n_callback_val_samples).word.tolist(),
+                df_valid.head(config.n_callback_val_samples).real_word.tolist(),
                 build_retriever(vocabulary),
                 config.model_input_width,
                 config.sample_weight_exponent,
@@ -478,8 +604,17 @@ def fit(config):
                 max_candidates=config.max_candidates)
     
         validation_loss_generator = BinaryModelDatasetGenerator(
-                df_valid.head(config.n_val_samples).word.tolist(),
-                df_valid.head(config.n_val_samples).real_word.tolist(),
+                df_valid.head(config.n_loss_val_samples).word.tolist(),
+                df_valid.head(config.n_loss_val_samples).real_word.tolist(),
+                build_retriever(vocabulary),
+                config.model_input_width,
+                config.sample_weight_exponent,
+                distance_targets=config.distance_targets,
+                max_candidates=config.max_candidates)
+
+        test_generator = BinaryModelDatasetGenerator(
+                df_test.word.tolist(),
+                df_test.real_word.tolist(),
                 build_retriever(vocabulary),
                 config.model_input_width,
                 config.sample_weight_exponent,
@@ -488,10 +623,20 @@ def fit(config):
 
     graph = build_model(config)
 
+    if 'persistent' in config.mode:
+        with open(config.model_path + '/model.yaml', 'w') as f:
+            f.write(graph.to_yaml())
+            f.close()
+
     config.logger('model has %d parameters' % graph.count_params())
 
+    other_generators = {}
+    if config.run_test:
+        other_generators['test'] = (test_generator, True)
+
     callbacks = build_callbacks(config, validation_generator,
-            n_samples=config.n_val_samples)
+            n_samples=config.n_callback_val_samples,
+            other_generators=other_generators)
 
     verbose = 2 if 'background' in config.mode else 1
 
@@ -499,7 +644,7 @@ def fit(config):
             samples_per_epoch=config.samples_per_epoch,
             nb_epoch=config.n_epoch,
             nb_worker=config.n_worker,
-            validation_data=validation_loss_generator.generate(),
-            nb_val_samples=config.n_val_samples,
+            validation_data=validation_loss_generator.generate(exhaustive=config.fixed_loss_validation_data),
+            nb_val_samples=config.n_loss_val_samples,
             callbacks=callbacks,
             verbose=verbose)
