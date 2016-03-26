@@ -18,7 +18,11 @@
 
     "n_filters": 2000,
     "filter_width": 6,
-    "pool_merge_mode": "cos",
+    "char_merge_mode": "cos",
+    "char_merge_n_hidden": 1,
+    "char_merge_max_norm": 1,
+    "char_merge_act": "linear",
+    "scale_char_merge_output": false,
 
     "fully_connected": [100,100,100],
     "n_residual_blocks": 0,
@@ -35,7 +39,7 @@
 
     "dropout_embedding_p": 0.0,
     "dropout_conv_p": 0.0,
-    "dropout_fc_p": 0.5,
+    "dropout_fc_p": 0.0,
     "gaussian_noise_sd": 0.0,
 
     "mode": "transient",
