@@ -3,7 +3,7 @@
     "min_frequency": 0,
     "min_length": 3,
     "max_length": 25,
-    "non_word_csv": "../chapter04/data/train.csv",
+    "non_word_csv": "../chapter04/data/train-real-words.csv",
 
     "model_input_width": 28,
     "non_word_input_name": "non_word_input",
