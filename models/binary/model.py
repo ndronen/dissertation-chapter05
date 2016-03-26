@@ -1,12 +1,12 @@
 from chapter05.dataset import BinaryModelDatasetGenerator, BinaryModelRealWordDatasetGenerator
 
 # TODO:
-# Resume adding noise to the character embeddings of non-words.
-# Delete build_siamese.
 # Use sigmoid, tanh, or other activation function for the scalar
 # output of the cosine similarity of the non-word and real word.
 # The output of sigmoid or tanh should be scaled so that they
 # span the domain of those functions.
+# The output of sigmoid or tanh should be a direct input to the
+# softmax output.
 
 import sys
 sys.setrecursionlimit(5000)
@@ -19,7 +19,7 @@ from sklearn.cross_validation import train_test_split
 
 from keras.models import Sequential, Graph
 from keras.utils import np_utils
-from keras.layers.core import Dense, Dropout, Activation, Flatten, Layer
+from keras.layers.core import Dense, Dropout, Activation, Flatten, Layer, Lambda
 from keras.layers.normalization import BatchNormalization
 from keras.layers.noise import GaussianNoise
 from keras.constraints import maxnorm
@@ -94,84 +94,6 @@ def add_linear_output_layer(graph, prev_layer, name, batch_normalization, loss):
     loss[name] = "mean_squared_error"
 
 def build_model(config):
-    if config.siamese:
-        return build_siamese(config)
-    else:
-        return build_graph(config)
-
-def build_siamese(config):
-    np.random.seed(config.seed)
-
-    graph = Graph()
-
-    graph.add_input(config.non_word_input_name,
-            input_shape=(config.model_input_width,), dtype='int')
-    graph.add_input(config.candidate_word_input_name,
-            input_shape=(config.model_input_width,), dtype='int')
-
-    # The model comprises a convolutional and a fully-connected block.
-    model = Sequential()
-
-    # Convolutional block.
-    model.add(build_embedding_layer(config, input_width=config.model_input_width))
-    if config.dropout_embedding_p > 0.:
-        model.add(Dropout(config.dropout_embedding_p))
-    model.add(build_convolutional_layer(config))
-    if config.batch_normalization:
-        model.add(BatchNormalization())
-    model.add(Activation(config.activation))
-    model.add(build_pooling_layer(config, input_width=config.model_input_width))
-    model.add(Flatten())
-
-    # Fully-connected block.
-    for i,n_hidden in enumerate(config.fully_connected):
-        model.add(build_dense_layer(config, n_hidden=n_hidden))
-        if config.batch_normalization:
-            model.add(BatchNormalization())
-        model.add(Activation(config.activation))
-        if config.dropout_fc_p > 0.:
-            model.add(Dropout(config.dropout_fc_p))
-
-    # Put the model into the graph.
-    graph.add_shared_node(model,
-        inputs=[config.non_word_input_name, config.candidate_word_input_name],
-        outputs=['non_word_embedding', 'candidate_word_embedding'],
-        name="siamese")
-
-    if config.pool_merge_mode == 'cos':
-        dot_axes = ([1], [1])
-    else:
-        dot_axes = -1
-
-    # Output block.
-    graph.add_node(
-        Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
-        inputs=['non_word_embedding', 'candidate_word_embedding'],
-        merge_mode=config.pool_merge_mode, dot_axes=dot_axes,
-        name='softmax_linear')
-
-    prev_layer = 'softmax_linear'
-    if config.batch_normalization:
-        graph.add_node(BatchNormalization(),
-                input=prev_layer, name=prev_layer+'_bn')
-        prev_layer = prev_layer+'_bn'
-    graph.add_node(Activation('softmax'),
-            input=prev_layer, name='softmax')
-
-    graph.add_output(name=config.target_name, input='softmax')
-
-    load_weights(config, graph)
-
-    optimizer = build_optimizer(config)
-
-    lossdict = {}
-    lossdict[config.target_name] = config.loss
-
-    graph.compile(loss=lossdict, optimizer=optimizer)
-
-    return graph
-
-def build_graph(config):
     np.random.seed(config.seed)
 
     graph = Graph()
@@ -194,10 +116,11 @@ def build_graph(config):
                 name='non_word_embedding_do', input='non_word_embedding')
         non_word_prev_layer = 'non_word_embedding_do'
 
-
     # Add noise only to non-words.
-    #graph.add_node(GaussianNoise(config.gaussian_noise_sd),
-    #        name='non_word_noise', input='non_word_embedding')
+    if config.gaussian_noise_sd > 0.:
+        graph.add_node(GaussianNoise(config.gaussian_noise_sd),
+            name='non_word_embedding_noise', input=non_word_prev_layer)
+        non_word_prev_layer = 'non_word_embedding_noise'
 
     graph.add_shared_node(
             build_convolutional_layer(config),
@@ -215,23 +138,39 @@ def build_graph(config):
             name='candidate_word_pool', input=candidate_word_prev_layer)
     graph.add_node(Flatten(), name='candidate_word_flatten', input='candidate_word_pool')
 
-    # Add some number of fully-connected layers without skip connections.
-    prev_layer = None
-
-    if config.pool_merge_mode == 'cos':
+    # Compute similarity of the non-word and candidate.
+    if config.char_merge_mode == 'cos':
         dot_axes = ([1], [1])
     else:
         dot_axes = -1
 
+    char_merge_layer = Dense(config.char_merge_n_hidden,
+        W_constraint=maxnorm(config.char_merge_max_norm))
+    graph.add_node(char_merge_layer,
+        name='char_merge',
+        inputs=['non_word_flatten', 'candidate_word_flatten'],
+        merge_mode=config.char_merge_mode,
+        dot_axes=dot_axes)
+
+    prev_char_layer = 'char_merge'
+    if config.scale_char_merge_output:
+        if config.char_merge_act == "sigmoid":
+            lambda_layer = Lambda(lambda x: 12.*x-6.)
+        elif config.char_merge_act == "tanh":
+            lambda_layer = Lambda(lambda x: 6.*x-3.)
+        else:
+            lambda_layer = Lambda(lambda x: x)
+        graph.add_node(lambda_layer,
+            name='char_merge_scale', input='char_merge')
+        prev_char_layer = 'char_merge_scale'
+
+    # Add some number of fully-connected layers without skip connections.
+    prev_layer = prev_char_layer
+
     for i,n_hidden in enumerate(config.fully_connected):
         layer_name = 'dense%02d' % i
         l = build_dense_layer(config, n_hidden=n_hidden)
-        if i == 0:
-            graph.add_node(l, name=layer_name,
-                inputs=['non_word_flatten', 'candidate_word_flatten'],
-                merge_mode=config.pool_merge_mode, dot_axes=dot_axes)
-        else:
-            graph.add_node(l, name=layer_name, input=prev_layer)
+        graph.add_node(l, name=layer_name, input=prev_layer)
         prev_layer = layer_name
         if config.batch_normalization:
             graph.add_node(BatchNormalization(), name=layer_name+'bn', input=prev_layer)
@@ -243,7 +182,6 @@ def build_graph(config):
             graph.add_node(Dropout(config.dropout_fc_p), name=layer_name+'do', input=prev_layer)
             prev_layer = layer_name+'do'
 
-    
     # Add sequence of residual blocks.
     for i in range(config.n_residual_blocks):
         # Add a fixed number of layers per residual block.
@@ -285,16 +223,12 @@ def build_graph(config):
 
     # Add softmax for binary prediction of whether the real word input
     # is the true correction for the non-word input.
-    if len(config.fully_connected) == 0:
-        graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
-                name='softmax',
-                inputs=['non_word_flatten', 'candidate_word_flatten'],
-                merge_mode=config.pool_merge_mode,
-                dot_axes=dot_axes)
-    else:
-        graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
-                name='softmax', input=prev_layer)
+    graph.add_node(Dense(2, W_constraint=maxnorm(config.softmax_max_norm)),
+            name='softmax',
+            inputs=[prev_char_layer, prev_layer],
+            merge_mode='concat')
     prev_layer = 'softmax'
+
     if config.batch_normalization:
         graph.add_node(BatchNormalization(), 
                 name='softmax_bn', input='softmax')
