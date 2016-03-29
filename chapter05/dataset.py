@@ -13,50 +13,19 @@ import traceback
 class DatasetGenerator(object):
     pass
 
-class MulticlassModelDatasetGenerator(DatasetGenerator):
-    """
-    non_words : list of unicode
-        Non-word spelling errors.
-    corrections : list of unicode
-        The corrections for the non-words.
-    targets : list of int
-        The target variables of the corrections.
-    model_input_width : int
-        The width of the character matrix in which the non-words and
-        real words are embedded.
-    n_classes : int
-        The number of classes in the data set.
-    noise_word_target : int
-        The target variable of out-of-vocabulary (OOV) words.  When this
-        parameter is greater than -1, a random noise training example
-        is generated for each real training example.  The length of the
-        training example is the same as the real training example.
-        The edit distance from a noise word to the nearest word in the
-        dictionary must be at least 2 for a word up to four characters
-        and half of the characters for longer words.
-    retriever : dict
-        A mapping from non-words to possible replacements.  See the
-        retriever implementations in spelling.dictionary.  The retriever
-        is used to find words in the dictionary that are close to noise
-        words, which in turn ensures that the noise words are not too 
-        similar to known words.
-    random_state : int or numpy.random.RandomState
-        The state of the random number generator.
-    """
-    def __init__(self, non_words, corrections, targets, model_input_width, n_classes, noise_word_target=-1, retriever=None, batch_size=128, random_state=1, use_correct_word_as_non_word_example=False):
+class MulticlassMLPDatasetGenerator(DatasetGenerator):
+    def __init__(self, non_words, corrections, targets, n_classes, count_vectorizer, retriever=None, batch_size=128, random_state=1):
         self.__dict__.update(locals())
         del self.self
 
         assert len(non_words) > 0
         assert len(non_words) == len(corrections)
-        assert noise_word_target < 0 or retriever is not None
 
         self.non_words = np.array(non_words)
         self.corrections = np.array(corrections)
         self.targets = np.array(targets)
 
         self.random_state = check_random_state(random_state)
-        self.generate_noise = self.noise_word_target > -1 
 
     def generate(self, exhaustive=False, train=False):
         if exhaustive:
@@ -97,6 +66,125 @@ class MulticlassModelDatasetGenerator(DatasetGenerator):
             targets = [targets]
 
         non_word_inputs = ['^'+nw+'$' for nw in non_words]
+        non_word_matrix = self.count_vectorizer.transform(non_word_inputs).todense()
+
+        multiclass_correction_targets = np_utils.to_categorical(
+                targets, self.n_classes)
+
+        """
+        if train is False:
+            print('non_word', np.array(non_words)[non_word_kept].shape)
+            print('non_word_input', non_word_matrix[non_word_kept].shape)
+            print('correct_word', np.array(corrections)[non_word_kept].shape)
+            print('multiclass_correction_target', multiclass_correction_targets[non_word_kept].shape)
+        """
+
+        return {
+                'non_word': np.array(non_words),
+                'non_word_input': np.log(1 + non_word_matrix),
+                'correct_word': np.array(corrections),
+                'multiclass_correction_target': multiclass_correction_targets
+                }
+
+
+class MulticlassModelDatasetGenerator(DatasetGenerator):
+    """
+    non_words : list of unicode
+        Non-word spelling errors.
+    corrections : list of unicode
+        The corrections for the non-words.
+    targets : list of int
+        The target variables of the corrections.
+    model_input_width : int
+        The width of the character matrix in which the non-words and
+        real words are embedded.
+    n_classes : int
+        The number of classes in the data set.
+    noise_word_target : int
+        The target variable of out-of-vocabulary (OOV) words.  When this
+        parameter is greater than -1, a random noise training example
+        is generated for each real training example.  The length of the
+        training example is the same as the real training example.
+        The edit distance from a noise word to the nearest word in the
+        dictionary must be at least 2 for a word up to four characters
+        and half of the characters for longer words.
+    retriever : dict
+        A mapping from non-words to possible replacements.  See the
+        retriever implementations in spelling.dictionary.  The retriever
+        is used to find words in the dictionary that are close to noise
+        words, which in turn ensures that the noise words are not too 
+        similar to known words.
+    random_state : int or numpy.random.RandomState
+        The state of the random number generator.
+    """
+    def __init__(self, non_words, corrections, targets, model_input_width, n_classes, noise_word_target=-1, retriever=None, batch_size=128, random_state=1, use_correct_word_as_non_word_example=False, n_noise_words=5):
+        self.__dict__.update(locals())
+        del self.self
+
+        assert len(non_words) > 0
+        assert len(non_words) == len(corrections)
+        assert noise_word_target < 0 or retriever is not None
+
+        self.non_words = np.array(non_words)
+        self.corrections = np.array(corrections)
+        self.correction_set = set(corrections)
+        self.targets = np.array(targets)
+
+        self.random_state = check_random_state(random_state)
+        self.generate_noise = self.noise_word_target > -1 
+        if self.generate_noise:
+            assert n_noise_words > 0
+            if n_noise_words < 1:
+                self.n_noise_words = int(n_noise_words * batch_size)
+            else:
+                self.n_noise_words = n_noise_words
+
+    def generate(self, exhaustive=False, train=False):
+        if exhaustive:
+            for i in range(len(self.non_words)):
+                try:
+                    n = self.generate_next(i, train)
+                    if n is not None:
+                        yield n
+                except Exception as e:
+                    print(e, type(e))
+                    (t, val, tb) = sys.exc_info()
+                    traceback.print_tb(tb)
+                    raise e
+        else:
+            while 1:
+                try:
+                    i = self.random_state.choice(len(self.non_words), size=self.batch_size)
+                    n = self.generate_next(i, train)
+                    if n is not None:
+                        yield n
+                except Exception as e:
+                    print(e, type(e))
+                    (t, val, tb) = sys.exc_info()
+                    traceback.print_tb(tb)
+                    raise e
+
+    def generate_next(self, i, train=False):
+        # This non-word is a spelling error that corrects to a known word.
+        non_words = self.non_words[i].tolist()
+        corrections = self.corrections[i].tolist()
+        targets = self.targets[i].tolist()
+
+        if isinstance(non_words, str):
+            non_words = [non_words]
+        if isinstance(corrections, str):
+            corrections = [corrections]
+        if isinstance(targets, int):
+            targets = [targets]
+
+        if self.generate_noise:
+            noise_non_words, noise_corrections, noise_targets = \
+                    self.generate_noise_words(non_words)
+            non_words.extend(noise_non_words)
+            corrections.extend(noise_corrections)
+            targets.extend(noise_targets)
+
+        non_word_inputs = ['^'+nw+'$' for nw in non_words]
         non_word_matrix, non_word_kept = spelling.preprocess.build_char_matrix(
                 non_word_inputs, width=self.model_input_width)
 
@@ -123,7 +211,7 @@ class MulticlassModelDatasetGenerator(DatasetGenerator):
 
     def generate_noise_words(self, non_words):
         # A noise word is far enough from any known word that it
-        # should only correct the "unknown word" target.  The rule
+        # should only correct to the "unknown word" target.  The rule
         # is that the edit distance must be at least three for a
         # word up to four characters and at least half the characters 
         # for any longer word.
@@ -136,29 +224,41 @@ class MulticlassModelDatasetGenerator(DatasetGenerator):
             noise_corrections.append("UNKNOWNWORD")
             noise_targets.append(self.noise_word_target)
 
-        for i,non_word in enumerate(non_words.copy()):
+        non_words = self.random_state.choice(non_words,
+                size=self.n_noise_words)
+
+        for i,non_word in enumerate(non_words):
             if len(non_word) == 1:
                 continue
 
+            n_tries = 0
             while True:
+                if n_tries > 5:
+                    break
+                n_tries += 1
+
                 noise_word_chars = self.random_state.choice(
                         list(string.ascii_lowercase),
                         size=len(non_word))
                 noise_word = ''.join(noise_word_chars)
+                if noise_word in self.correction_set:
+                    # Assume that the corrections set consists of the
+                    # entire vocabulary.
+                    continue
                 candidates = self.retriever[noise_word]
                 closest = [spelling.features.distance(
                     c, noise_word, 'levenshtein_distance') for c in candidates]
+
+                if noise_word in candidates:
+                    # We already know that the noise word is not a real word,
+                    # so if it's in the candidate list, then its presence is
+                    # an artifact of the retriever implementation.
+                    closest.pop(0)
+                    candidates.pop(0)
+
                 if len(candidates) == 0:
                     use_this_noise_word(noise_word)
                     break
-                elif len(candidates) == 1 and noise_word in candidates:
-                    if isinstance(self.retriever, spelling.dictionary.EditDistanceRetriever):
-                        use_this_noise_word(noise_word)
-                        break
-                    else:
-                        continue
-                elif noise_word in candidates:
-                    continue
                 else:
                     if len(non_word) <= 4:
                         min_distance = 2
@@ -502,9 +602,6 @@ class BinaryModelDatasetGenerator(DatasetGenerator):
                 'candidate_rank_last': 2*sample_weights[mask]
                 }
 
-        #sample_weights[sample_weights > 1] = sample_weights[sample_weights > 1]**2
-        #print('sample_weights %s' % ', '.join([str(x) for x in sample_weights]))
-
         non_words = None
         candidate_words = None
 
@@ -524,10 +621,9 @@ class BinaryModelDatasetGenerator(DatasetGenerator):
 
             # We want the model to learn to predict the edit distance
             # equally well for all examples.
-            sample_weight_dict[name] = np.ones(len(idx))
+            #sample_weight_dict[name] = np.ones(len(idx))
+            sample_weight_dict[name] = sample_weights[mask]
 
-        #print('data_dict', list(data_dict.keys()),
-        #        'sample_weight_dict', list(sample_weight_dict.keys()))
         return (data_dict, sample_weight_dict)
 
 class BinaryModelRealWordDatasetGenerator(DatasetGenerator):

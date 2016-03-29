@@ -8,6 +8,7 @@ from spelling.utils import build_progressbar
 
 import sys
 sys.setrecursionlimit(5000)
+import threading
 
 import numpy as np
 import pandas as pd
@@ -27,7 +28,7 @@ from modeling.builders import (build_embedding_layer,
     build_hierarchical_softmax_layer)
 from modeling.utils import balanced_class_weights
 
-from spelling.dictionary import AspellRetriever, EditDistanceRetriever
+import spelling.dictionary as spelldict
 
 class Identity(Layer):
     def get_output(self, train):
@@ -51,20 +52,27 @@ def build_model(config, n_classes):
             input_shape=(config.model_input_width,), dtype='int')
     graph.add_node(build_embedding_layer(config, input_width=config.model_input_width),
             name='non_word_embedding', input=config.non_word_input_name)
-    graph.add_node(build_convolutional_layer(config), name='non_word_conv', input='non_word_embedding')
+    conv = build_convolutional_layer(config)
+    conv.trainable = config.train_filters
+    graph.add_node(conv, name='non_word_conv', input='non_word_embedding')
     non_word_prev_layer = add_bn_relu(graph, config, 'non_word_conv')
     graph.add_node(build_pooling_layer(config, input_width=config.model_input_width),
             name='non_word_pool', input=non_word_prev_layer)
     graph.add_node(Flatten(), name='non_word_flatten', input='non_word_pool')
-    graph.add_node(GaussianNoise(0.01), name="non_word_noise", input="non_word_flatten")
+    prev_layer = 'non_word_flatten'
+    if config.gaussian_noise_sd > 0.:
+        print('gaussian noise %.02f' % config.gaussian_noise_sd)
+        graph.add_node(GaussianNoise(config.gaussian_noise_sd),
+                name="non_word_noise", input="non_word_flatten")
+        prev_layer = 'non_word_noise'
 
     # Add some number of fully-connected layers without skip connections.
-    prev_layer = 'non_word_noise'
     last_dense_layer = None
     for i,n_hidden in enumerate(config.fully_connected):
         layer_name = 'dense%02d' %i
-        #l = build_dense_layer(config, n_hidden=n_hidden)
-        l = Dense(n_hidden, init=config.dense_init, W_constraint=maxnorm(config.dense_max_norm))
+        l = Dense(n_hidden,
+                init=config.dense_init,
+                W_constraint=maxnorm(config.dense_max_norm))
         graph.add_node(l, name=layer_name, input=prev_layer)
         prev_layer = layer_name
         if config.batch_normalization:
@@ -92,7 +100,8 @@ def build_model(config, n_classes):
         for layer_num in range(n_layers_per_residual_block):
             layer_name = 'h%s%02d' % (block_name, layer_num)
     
-            l = Dense(config.n_hidden_residual, init=config.dense_init,
+            l = Dense(config.n_hidden_residual,
+                    init=config.dense_init,
                     W_constraint=maxnorm(config.residual_max_norm))
             graph.add_node(l, name=layer_name, input=prev_layer)
             prev_layer = layer_name
@@ -116,8 +125,9 @@ def build_model(config, n_classes):
         graph.add_node(build_hierarchical_softmax_layer(config),
             name='softmax', input=prev_layer)
     else:
-        graph.add_node(Dense(n_classes, init=config.dense_init,
-            W_constraint=maxnorm(config.softmax_max_norm)),
+        graph.add_node(Dense(n_classes,
+                init=config.dense_init,
+                W_constraint=maxnorm(config.softmax_max_norm)),
             name='softmax', input=prev_layer)
         prev_layer = 'softmax'
         if config.batch_normalization:
@@ -265,6 +275,19 @@ def build_callbacks(config, generator, n_samples, dictionary, target_map, pool):
 
     return callbacks
 
+retriever_lock = threading.Lock()
+
+# Retrievers
+def build_retriever(vocabulary):
+    with retriever_lock:
+        aspell_retriever = spelldict.AspellRetriever()
+        edit_distance_retriever = spelldict.EditDistanceRetriever(vocabulary)
+        retriever = spelldict.RetrieverCollection([aspell_retriever, edit_distance_retriever])
+        retriever = spelldict.CachingRetriever(retriever,
+            cache_dir='/localwork/ndronen/spelling/spelling_error_cache/')
+        jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
+        return spelldict.SortingRetriever(retriever, jaro_sorter)
+
 def fit(config, callbacks=[]):
     df = pd.read_csv(config.non_word_csv, sep='\t', encoding='utf8')
     vocabulary = df.real_word.unique().tolist()
@@ -277,12 +300,13 @@ def fit(config, callbacks=[]):
     mask = (df.frequency >= config.min_frequency) & (df.len >= config.min_length) & (df.len <= config.max_length)
     df = df[mask]
     print(len(df), len(df.multiclass_correction_target.unique()))
+    print('word frequencies %d %d' % (df.frequency.min(), df.frequency.max()))
+    print('word lengths %d %d' % (df.len.min(), df.len.max()))
+    print(df.sort_values('len').head(1).word)
 
+    target_vocabulary = vocabulary + ["UNKNOWNWORD"]
     le = LabelEncoder()
-    le.fit(df.real_word)
-
-    fast_retriever = AspellRetriever()
-    #slow_retriever = EditDistanceRetriever(vocabulary)
+    le.fit(target_vocabulary)
 
     df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
     train_words = set(df_train.word)
@@ -294,8 +318,9 @@ def fit(config, callbacks=[]):
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
 
     train_targets = le.transform(df_train.real_word).tolist()
-    noise_word_target = max(train_targets) + 1
-    n_classes = noise_word_target + 1
+    noise_word_target = le.transform("UNKNOWNWORD")
+    print('noise word target', noise_word_target)
+    n_classes = len(target_vocabulary)
 
     target_map = dict(zip(df_train.real_word, train_targets))
     for word in vocabulary:
@@ -325,7 +350,7 @@ def fit(config, callbacks=[]):
             n_classes,
             batch_size=config.batch_size,
             noise_word_target=noise_word_target,
-            retriever=fast_retriever)
+            retriever=build_retriever(vocabulary))
     else:
         train_data = MulticlassModelDatasetGenerator(
             df_train.word.tolist(),
@@ -369,7 +394,7 @@ def fit(config, callbacks=[]):
     callbacks = build_callbacks(config,
             validation_data,
             n_samples=config.n_val_samples,
-            dictionary=fast_retriever,
+            dictionary=build_retriever(vocabulary),
             target_map=target_map,
             pool=pool)
 
@@ -379,8 +404,7 @@ def fit(config, callbacks=[]):
             samples_per_epoch=config.samples_per_epoch,
             nb_worker=config.n_worker,
             nb_epoch=config.n_epoch,
-            validation_data=validation_data.generate(train=False),
-            #validation_data=train_data.generate(train=False),
+            validation_data=validation_data.generate(),
             nb_val_samples=config.n_val_samples,
             callbacks=callbacks,
             class_weight=class_weight,
