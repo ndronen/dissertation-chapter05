@@ -519,7 +519,7 @@ class BinaryModelDatasetGenerator(DatasetGenerator):
         if len(candidates) <= 1:
             return None
 
-        candidates = candidates[0:self.max_candidates]
+        candidates = candidates[:self.max_candidates]
 
         targets = np.zeros((len(candidates),2), dtype=np.int64)
         for j, candidate in enumerate(candidates):
