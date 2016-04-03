@@ -30,6 +30,8 @@ from modeling.utils import balanced_class_weights
 
 import spelling.dictionary as spelldict
 
+UNKNOWN_WORD = "UNKNOWNWORD"
+
 class Identity(Layer):
     def get_output(self, train):
         return self.get_input(train)
@@ -288,12 +290,16 @@ def build_retriever(vocabulary):
         jaro_sorter = spelldict.DistanceSorter('jaro_winkler')
         return spelldict.SortingRetriever(retriever, jaro_sorter)
 
-def fit(config, callbacks=[]):
-    df = pd.read_csv(config.non_word_csv, sep='\t', encoding='utf8')
-    vocabulary = df.real_word.unique().tolist()
-    df = df[df.binary_target == 0]
+def load_data(config):
+    return pd.read_csv(config.non_word_csv, sep='\t', encoding='utf8')
 
-    # Select examples by frequency and length.
+def build_vocabulary(df):
+    return df.real_word.unique().tolist()
+
+def take_non_word_examples(df):
+    return df[df.binary_target == 0]
+
+def subset_non_words_by_length_and_freq(df, config):
     frequencies = df.multiclass_correction_target.value_counts().to_dict()
     df['frequency'] = df.multiclass_correction_target.apply(lambda x: frequencies[x])
     df['len'] = df.word.apply(len)
@@ -303,23 +309,45 @@ def fit(config, callbacks=[]):
     print('word frequencies %d %d' % (df.frequency.min(), df.frequency.max()))
     print('word lengths %d %d' % (df.len.min(), df.len.max()))
     print(df.sort_values('len').head(1).word)
+    return df
 
-    target_vocabulary = vocabulary + ["UNKNOWNWORD"]
+def build_target_vocabulary(vocabulary, config):
+    target_vocabulary = list(vocabulary)
+    target_vocabulary.append(UNKNOWN_WORD)
+    return target_vocabulary
+
+def build_label_encoder(target_vocabulary):
     le = LabelEncoder()
     le.fit(target_vocabulary)
+    return le
 
-    df_train, df_other = train_test_split(df, train_size=0.8, random_state=config.seed)
+def split_data(df, random_state, train_size=0.8):
+    df_train, df_other = train_test_split(df, train_size=0.8, random_state=random_state)
     train_words = set(df_train.word)
     other_words = set(df_other.word)
     leaked_words = train_words.intersection(other_words)
     df_other = df_other[~df_other.word.isin(leaked_words)]
-    df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=config.seed)
+    df_valid, df_test = train_test_split(df_other, train_size=0.5, random_state=random_state)
+    return df_train, df_valid, df_test
+
+def fit(config, callbacks=[]):
+    df = load_data(config)
+    vocabulary = build_vocabulary(df)
+    df = take_non_word_examples(df)
+
+    # Select examples by frequency and length.
+    df = subset_non_words_by_length_and_freq(df, config)
+
+    target_vocabulary = build_target_vocabulary(vocabulary, config)
+
+    le = build_label_encoder(target_vocabulary)
+
+    df_train, df_valid, df_test = split_data(df, config.seed)
 
     print('train %d validation %d test %d' % (len(df_train), len(df_valid), len(df_test)))
 
     train_targets = le.transform(df_train.real_word).tolist()
-    noise_word_target = le.transform("UNKNOWNWORD")
-    print('noise word target', noise_word_target)
+    noise_word_target = le.transform(UNKNOWN_WORD)
     n_classes = len(target_vocabulary)
 
     target_map = dict(zip(df_train.real_word, train_targets))
