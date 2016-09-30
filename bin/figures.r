@@ -140,10 +140,21 @@ plot_mitton_data_results <- function() {
     dev.off()
   }
 }
-plot_mitton_data_results()
+#plot_mitton_data_results()
 
-make_mitton_tables <- function() {
-  df <- read.csv("data/ranks-mitton.csv", sep="\t")
+make_mitton_tables <- function(csv_file="data/ranks-mitton.csv") {
+  df <- read.csv(csv_file, sep="\t")
   df <- prepare_df(df)
+  df <- arrange(df, Corpus, Rank, System)
+  df_out_names <- unique(df$System)
+  df_out <- filter(df, System == df_out_names[1])
+  df_out <- df_out[, c("Corpus", "Rank", "Non.word.Length")]
+  for (system in df_out_names) {
+    df_out[[system]] <- filter(df, System == system)$Accuracy
+  }
+  df_out <- filter(df_out, Non.word.Length == -1, Rank <= 5)
+  keep_columns <- c("Corpus", "Rank", df_out_names)
+  df_out <- df_out[, keep_columns]
+  print(xtable(df_out, type="latex", digits=2))
 }
 #make_mitton_tables()
